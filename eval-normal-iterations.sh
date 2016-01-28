@@ -15,4 +15,4 @@ do
 done > normal
 
 echo "Plotting"
-julia --depwarn=no normal_plot.jl
+#julia --depwarn=no normal_plot.jl
