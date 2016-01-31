@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{datatool}
+\usepackage{pgfplots}
+
+\DTLloaddb[noheader=false]{coordinates}{hist.dat}
+
+\begin{document}
+\begin{tikzpicture}
+	\def\m{1.4}
+	\def\d{0.3}
+\foreach \a in {0,10,20,...,100} {
+	\draw[gray,dashed] (0,{\a/10}) node[left,black] {\a} -- ({11.5*\m},{\a/10});
+}
+\DTLforeach*{coordinates}{\i=i, \I=I, \n=n} {
+	\draw[fill=black] ({(\i-\d)*\m},{\n/10}) -- ({(\i+\d)*\m},{\n/10}) --
+		({(\i+\d)*\m},0) -- ({(\i-\d)*\m},0) node[below,midway] {\I} -- cycle;
+}
+\node (xlabel) at ({5.5*\m},-1) {Average number of restorations per iteration};
+\node (ylabel) at (-1,5) [rotate=90] {Number of problems};
+\end{tikzpicture}
+\end{document}

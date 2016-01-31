@@ -1,13 +1,17 @@
-using Winston
-
 lines = readlines(open("normal"))
 n = length(lines)
-x = zeros(n)
-y = zeros(n)
-z = zeros(n)
-w = zeros(n)
+veq1 = zeros(n)
+veq0 = zeros(n)
+vgt1 = zeros(n)
+vle1 = zeros(n)
+avg = zeros(n)
 K = zeros(n)
 kgt1 = Int[]
+
+intervals = [round(i//5,1) for i = -1:10]
+push!(intervals, 100)
+
+d = 0
 
 for i = 1:n
   vline = split(lines[i])
@@ -15,102 +19,53 @@ for i = 1:n
   eq1 = parse(Int, vline[4])
   eq0 = parse(Int, vline[3]) - eq1
   gt1 = k - eq0 - eq1
+  avg[i] = parse(vline[5])
   if k > 1
     push!(kgt1, i)
   end
-  x[i] = eq1*100/k
-  y[i] = gt1*100/k
-  z[i] = (eq1+eq0)*100/k
-  w[i] = eq0*100/k
+  veq1[i] = round(eq1*100/k, d)
+  vgt1[i] = round(gt1*100/k, d)
+  vle1[i] = round((eq1+eq0)*100/k, d)
+  veq0[i] = round(eq0*100/k, d)
   K[i] = k
 end
 
-r = 3
-maxr = maximum(K)
+points = Tuple{Float64,Float64}[]
+hist2d = Int[]
+for i = kgt1
+  p = (veq1[i], veq0[i])
+  j = find(p .== points)
+  if length(j) > 0
+    j = j[1]
+    hist2d[j] += 1
+  else
+    push!(points, p)
+    push!(hist2d, 1)
+  end
+end
+
 minr = 0.5
 
-# Normal iterations per iteration
-p = FramedPlot()
-grid(p, true)
-for i = 1:n
-  R = max(K[i]*r/maxr, minr)
-  t = linspace(0, 2pi, ceil(20*R))
-  add(p, Curve(x[i]+cos(t)*R, y[i]+sin(t)*R))
+open("normal-0vs1-kgt1.dat","w") do f
+  write(f, "x,y,r\n")
+  for (i,point) in enumerate(points)
+    R = round(log(hist2d[i]+1)*0.5,3)
+    write(f, "$(point[1]),$(point[2]),$R\n")
+  end
 end
 
-for s = [20 40 60 80 100]
-  t = linspace(0, s, s)
-  add(p, Curve(t, s-t, linestyle="dashed"))
+open("hist.dat","w") do f
+  e, counts = hist(avg[kgt1], intervals)
+  counts[2] += counts[1]
+  write(f, "i,I,n\n")
+  for i = 2:length(counts)
+    if i == 2
+      name = "[0.0,0.2]"
+    elseif i == length(counts)
+      name = " > 2.0"
+    else
+      name = "($(intervals[i]),$(intervals[i+1])]"
+    end
+    write(f, "$(i-1),\"$name\",$(counts[i])\n")
+  end
 end
-setattr(p, "xlabel", "iterations with one restoration (%)")
-setattr(p, "ylabel", "iterations with more than one restoration (%)")
-savefig(p, "normal.png", "width", 1000, "height", 1000)
-
-p = FramedPlot()
-grid(p, true)
-for i = kgt1
-  R = max(K[i]*r/maxr, minr)
-  t = linspace(0, 2pi, ceil(20*R))
-  add(p, Curve(x[i]+cos(t)*R, y[i]+sin(t)*R))
-end
-
-for s = [20 40 60 80 100]
-  t = linspace(0, s, s)
-  add(p, Curve(t, s-t, linestyle="dashed"))
-end
-setattr(p, "xlabel", "iterations with one restoration (%)")
-setattr(p, "ylabel", "iterations with more than one restoration (%)")
-savefig(p, "normal-kgt1.png", "width", 1000, "height", 1000)
-
-p = FramedPlot()
-grid(p, true)
-for i = 1:n
-  R = max(K[i]*r/maxr, minr)
-  t = linspace(0, 2pi, ceil(20*R))
-  add(p, Curve(x[i]+cos(t)*R, w[i]+sin(t)*R))
-end
-
-for s = [20 40 60 80 100]
-  t = linspace(0, s, s)
-  add(p, Curve(t, s-t, linestyle="dashed"))
-end
-setattr(p, "xlabel", "iterations with one restoration (%)")
-setattr(p, "ylabel", "iterations with more than one restoration (%)")
-savefig(p, "normal-0vs1.png", "width", 1000, "height", 1000)
-
-p = FramedPlot()
-grid(p, true)
-for i = kgt1
-  R = max(K[i]*r/maxr, minr)
-  t = linspace(0, 2pi, ceil(20*R))
-  add(p, Curve(x[i]+cos(t)*R, w[i]+sin(t)*R))
-end
-
-for s = [20 40 60 80 100]
-  t = linspace(0, s, s)
-  add(p, Curve(t, s-t, linestyle="dashed"))
-end
-setattr(p, "xlabel", "iterations with one restoration (%)")
-setattr(p, "ylabel", "iterations with more than one restoration (%)")
-savefig(p, "normal-0vs1-kgt1.png", "width", 1000, "height", 1000)
-
-q = FramedPlot()
-grid(q, true)
-h = linspace(-0.01, 100.01, 11)
-H = [sum(h[i] .<= z .< h[i+1]) for i = 1:length(h)-1]
-Hx = [sum(h[i] .<= x .< h[i+1]) for i = 1:length(h)-1]
-for i = 1:length(H)
-  x = [h[i]; h[i+1]]
-  y = [1; 1]*H[i]
-  add(q, FillBelow(x, y, color="lightgray"))
-  add(q, Curve(x, y))
-end
-
-add(q, Curve([1;1]*h[1], [0 H[1]]))
-add(q, Curve([1;1]*h[end], [0 H[end]]))
-for i = 1:length(H)-1
-  add(q, Curve([1;1]*h[i+1], [H[i] H[i+1]]))
-end
-setattr(q, "xlabel", "iterations with one or less restorations (%)")
-setattr(q, "ylabel", "iterations")
-savefig(q, "normal-hist.png", "width", 640, "height", 480)

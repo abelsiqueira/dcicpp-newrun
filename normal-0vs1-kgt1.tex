@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{datatool}
+\usepackage{tikz}
+
+\DTLloaddb[noheader=false]{coordinates}{normal-0vs1-kgt1.dat}
+
+\begin{document}
+\begin{tikzpicture}
+\draw [-stealth] (-.2,0) -- (10.5,0);
+\draw [-stealth] (0,-.2) -- (0,10.5);
+\foreach \x in {20,40,...,100} {
+  \draw ({\x/10},-2pt) node[below] {\x} -- ({\x/10},2pt);
+  \draw (-2pt,{\x/10}) node[left] {\x} -- (2pt,{\x/10}); 
+	\draw[dashed] ({\x/10},0) -- (0,{\x/10});
+	\draw[dotted,gray] ({\x/10},0) -- ({\x/10},10);
+	\draw[dotted,gray] (0,{\x/10}) -- (10,{\x/10});
+}
+\DTLforeach*{coordinates}{\x=x, \y=y, \r=r}{
+	\draw ({\x/10},{\y/10}) circle[radius={\r/10}];
+}
+\node (xlabel) at (5,-1) {Iterations with exactly one restoration step (\%)};
+\node (ylabel) at (-1,5) [rotate=90] {Iterations with no restoration step (\%)};
+\end{tikzpicture}
+\end{document}

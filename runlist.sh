@@ -2,11 +2,13 @@
 
 [ -z "$1" ] && echo "Needs lists" && exit 1
 
-mkdir -p output
-rm -f output/*
-outdir=output
 olddir=$(pwd)
 list=$olddir/$1
+
+outdir=output-$(basename $list .list)
+mkdir -p $outdir
+rm -f $outdir/*
+outdir=$outdir
 cp $list $outdir/
 cp dcicpp.spc $outdir/
 
