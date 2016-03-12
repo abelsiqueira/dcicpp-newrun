@@ -5,6 +5,7 @@
 \usepackage{tikz}
 
 \DTLloaddb[noheader=false]{coordinates}{normal-0vs1-kgt1.dat}
+\DTLloaddb[noheader=false]{sizes}{sizes.dat}
 
 \begin{document}
 \begin{tikzpicture}
@@ -12,7 +13,7 @@
 \draw [-stealth] (0,-.2) -- (0,10.5);
 \foreach \x in {20,40,...,100} {
   \draw ({\x/10},-2pt) node[below] {\x} -- ({\x/10},2pt);
-  \draw (-2pt,{\x/10}) node[left] {\x} -- (2pt,{\x/10}); 
+  \draw (-2pt,{\x/10}) node[left] {\x} -- (2pt,{\x/10});
 	\draw[dashed] ({\x/10},0) -- (0,{\x/10});
 	\draw[dotted,gray] ({\x/10},0) -- ({\x/10},10);
 	\draw[dotted,gray] (0,{\x/10}) -- (10,{\x/10});
@@ -22,5 +23,10 @@
 }
 \node (xlabel) at (5,-1) {Iterations with exactly one restoration step (\%)};
 \node (ylabel) at (-1,5) [rotate=90] {Iterations with no restoration step (\%)};
+\draw[fill=white] (7.5,7.6) rectangle (9,9.8);
+\DTLforeach*{sizes}{\i=i, \x=x, \r=r}{
+  \draw (8,{10-\i/2}) circle[radius={\r/10}];
+  \node at (8.5,{10-\i/2}) {$\x$};
+}
 \end{tikzpicture}
 \end{document}

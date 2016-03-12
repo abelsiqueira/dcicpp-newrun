@@ -10,7 +10,7 @@
 \begin{tikzpicture}
 	\def\m{1.4}
 	\def\d{0.3}
-\foreach \a in {0,10,20,...,100} {
+\foreach \a in {0,10,20,...,110} {
 	\draw[gray,dashed] (0,{\a/10}) node[left,black] {\a} -- ({11.5*\m},{\a/10});
 }
 \DTLforeach*{coordinates}{\i=i, \I=I, \n=n} {

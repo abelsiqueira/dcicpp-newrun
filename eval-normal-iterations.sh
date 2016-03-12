@@ -8,13 +8,19 @@ do
   con=$(grep "Number of Con" $f | cut -f4 -d' ')
   [ -z "$con" -o "$con" == "0" ] && continue
   if grep Converged $f > /dev/null; then
-    k=$(grep "Number of Iterat" $f | cut -f5 -d' ')
-    le=$(grep "with <= 1" $f | cut -f8 -d' ')
-    eq=$(grep "with = 1" $f | cut -f8 -d' ')
-    avg=$(grep "Average" $f | cut -f7 -d' ')
-    echo "$f $k $le $eq $avg $c"
+    if grep nan $f > /dev/null; then
+      continue
+    fi
+    name=$(basename $f .out)
+    awk -v name=$name '/Number of Iterat/ {k = $5};
+      /with <= 1/ {le = $8};
+      /with = 1/ {eq = $8};
+      /Average/ {avg = $7};
+      END{print name, k, le, eq, avg};' $f
   fi
 done > normal
 
 echo "Plotting"
-#julia --depwarn=no normal_plot.jl
+julia --depwarn=no normal_plot.jl
+latexmk -pdf normal-0vs1-kgt1
+latexmk -pdf hist
