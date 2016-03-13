@@ -85,13 +85,16 @@ seq0 = sum(eq0[kgt1])
 seq1 = sum(eq1[kgt1])
 sgt1 = sum(gt1[kgt1])
 sk = sum(K[kgt1])
-println("Number of kgt1 points: $lkgt1")
-println("On 100%: $on100 ($(round(100*on100/lkgt1,2)))")
-println(" → Upper half: $on100left ($(round(100*on100left/on100,2)))")
-println("Below 80%: $below80 ($(round(100*below80/lkgt1,2)))")
-println("0 normal: $seq0 $sk ($(round(100*seq0/sk, 2)))")
-println("1 normal: $seq1 $sk ($(round(100*seq1/sk, 2)))")
-println("> 1 normal: $sgt1 $sk ($(round(100*sgt1/sk, 2)))")
+open("info","w") do f
+  write(f, "Number of kgt1 points: $lkgt1\n")
+  write(f, "On 100%: $on100 ($(round(100*on100/lkgt1,2)))\n")
+  write(f, " → Upper half: $on100left ($(round(100*on100left/on100,2)))\n")
+  write(f, "Below 80%: $below80 ($(round(100*below80/lkgt1,2)))\n")
+  write(f, "0 normal: $seq0 $sk ($(round(100*seq0/sk, 2)))\n")
+  write(f, "1 normal: $seq1 $sk ($(round(100*seq1/sk, 2)))\n")
+  write(f, "> 1 normal: $sgt1 $sk ($(round(100*sgt1/sk, 2)))\n")
+  write(f, "median of avg: $(median(avg[kgt1]))\n")
+end
 
 open("hist.dat","w") do f
   e, counts = hist(avg[kgt1], intervals)
