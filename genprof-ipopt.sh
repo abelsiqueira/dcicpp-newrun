@@ -26,7 +26,7 @@ do
     echo "$f d 1e20 1e20 1e20 1e20"
     continue
   fi
-  awk -v name=$f 'BEGIN{h=1e20; gp=1e20}; /Final f/ {f = $4};
+  awk -v name=$f 'BEGIN{f=1e20; h=1e20; gp=1e20}; /Objective../ {f = $3};
     /Constraint vio/ {h = $4}; /Dual infea/ {gp = $4};
     /Total CPU secs in IPOPT/ {t = $10};
     /Total CPU secs in NLP/ {t = t + $9};

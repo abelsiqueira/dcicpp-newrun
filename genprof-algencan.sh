@@ -23,7 +23,7 @@ col_dual: 6
 for f in $(cat $list)
 do
   if [ ! -f "$dir/$f.tabline" ]; then
-    echo "$f d 1e20 1e20 1e20"
+    echo "$f d 1e20 1e20 1e20 1e20"
     continue
   fi
   if [ ! -f "$dir/$f.out" -o "$(wc -c <$dir/$f.out)" -ge 500000 ]; then
