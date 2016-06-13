@@ -21,15 +21,15 @@ if [ ! -z "$genlist" ]; then
   julia samef.jl > lists/samef.list
 
   # Generate notsmall list
-  awk '{ if ($3 >= 0.01) print $1 }' *.prof | sort -u > lists/notsmall.list
+  #awk '{ if ($3 >= 0.01) print $1 }' *.prof | sort -u > lists/notsmall.list
 
   # fullrank combinations
-  for L in nolarge samef notsmall
+  for L in nolarge #samef notsmall
   do
     cat lists/{fullrank,$L}.list | sort | uniq -d > lists/fullrank_$L.list
   done
 
-  for L in samef notsmall
+  for L in samef #notsmall
   do
     cat lists/{fullrank_nolarge,$L}.list | sort | uniq -d > \
       lists/fullrank_nolarge_$L.list
