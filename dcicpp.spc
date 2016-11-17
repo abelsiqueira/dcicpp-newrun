@@ -1,3 +1,5 @@
+display_level 1
 max_time 30
-maxit 1000
-maxrest 1000
+maxrest 2000
+maxit 2000
+use_constraint_scaling 0
