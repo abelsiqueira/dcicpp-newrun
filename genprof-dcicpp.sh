@@ -3,7 +3,7 @@
 [ -z "$1" ] && echo "ERROR Need dir" && exit 1
 [ ! -d $1 ] && echo "ERROR $1 is not a dir" && exit 1
 
-list=cutest.list
+list=$(basename $1/*.list)
 dir=$1
 
 echo "---
@@ -16,7 +16,7 @@ col_primal: 5
 col_dual: 6
 ---" > dcicpp.prof
 
-for f in $(cat $list)
+for f in $(cat $dir/$list)
 do
   if [ -z "$(grep EXIT $dir/$f.out)" ]; then
     echo "$f d 1e20 1e20 1e20 1e20"
