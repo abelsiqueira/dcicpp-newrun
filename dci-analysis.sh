@@ -23,6 +23,7 @@ mv dci.prof $out/
 mv dcicpp.prof $out/
 
 cp $dci/$list1 $out/
+cp dci-paper.list $out/
 
 # Exceptions on DCI (AAt singular, increase nmax, etc.)
 cd $out
@@ -32,3 +33,4 @@ sort dci-fail.list $list1 | uniq -u > dci-good.list
 
 perprof --tikz -o perf dci.prof dcicpp.prof --semilog
 perprof --tikz -o perf-dci-good --subset dci-good.list dci.prof dcicpp.prof --semilog
+perprof --tikz -o perf-dci-paper-33 --subset dci-paper.list dci.prof dcicpp.prof --semilog

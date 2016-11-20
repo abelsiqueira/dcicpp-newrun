@@ -1,0 +1,4 @@
+max_cpu_time 300
+dual_inf_tol 1e-6
+constr_viol_tol 1e-6
+linear_solver ma57
