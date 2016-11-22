@@ -2,6 +2,7 @@
 
 [ -z "$1" ] && echo "Needs lists" && exit 1
 
+timelimit="300s"
 olddir=$(pwd)
 list=$olddir/$1
 
@@ -29,8 +30,8 @@ i=1
 for problem in $(cat $list)
 do
   printf "%4d/$N %8s :" $i $problem
-  #rundcicpp -D $problem &> $problem.out
-  rundcicppclean -D $problem &> $problem.out
+  timeout $timelimit rundcicpp -D $problem &> $problem.out
+  #rundcicppclean -D $problem &> $problem.out
   ef=$(grep EXIT $problem.out | cut -d: -f2)
   echo $ef
   i=$((i+1))

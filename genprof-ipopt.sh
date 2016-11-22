@@ -11,7 +11,7 @@ dir=$1
 # |gp| is col5
 
 echo "---
-algname: IpOpt
+algname: IPOpt
 col_name: 1
 col_exit: 2
 col_time: 3
@@ -26,10 +26,11 @@ do
     echo "$f d 1e20 1e20 1e20 1e20"
     continue
   fi
+#    /Total CPU secs in IPOPT/ {t = $10};
+#    /Total CPU secs in NLP/ {t = t + $9};
   awk -v name=$f 'BEGIN{f=1e20; h=1e20; gp=1e20}; /Objective../ {f = $3};
     /Constraint vio/ {h = $4}; /Dual infea/ {gp = $4};
-    /Total CPU secs in IPOPT/ {t = $10};
-    /Total CPU secs in NLP/ {t = t + $9};
+    /System Time/ {t = $4};
     END{ if (h < 1e-6 && gp < 1e-6) conv = "c"; else conv = "d";
     if (t == 0.0) t = 0.0005;
       print name, conv, t, f, h, gp }' $dir/$f.out

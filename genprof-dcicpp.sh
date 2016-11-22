@@ -21,9 +21,14 @@ do
   if [ -z "$(grep EXIT $dir/$f.out)" ]; then
     echo "$f d 1e20 1e20 1e20 1e20"
   else
-    sed 's/-nan/1e20/g' $dir/$f.out | sed 's/nan/1e20/g' | awk -v name=$f \
-      '/f\(x/ {f = $3}; /c\(x/ {h = $3 }; /g\(x/ {gp = $5}; /Elapsed Time/ {t = $4};
-      END{ if (h > 1e-6 || gp > 1e-6) conv="d"; else conv="c";
-        print name, conv, t, f, h, gp }'
+    if [ -z "$(grep 'After the preprocessing, there no variables' $dir/$f.out)" ]; then
+      sed 's/-nan/1e20/g' $dir/$f.out | sed 's/nan/1e20/g' | awk -v name=$f \
+        '/f\(x/ {f = $3}; /c\(x/ {h = $3 }; /g\(x/ {gp = $5}; /Elapsed Time/ {t = $4};
+        END{ if (h > 1e-6 || gp > 1e-6) conv="d"; else conv="c";
+          print name, conv, t, f, h, gp }'
+    else
+      awk -v name=$f '/f\(x/ {f = $3}; /Elapsed Time/ {t = $4};
+      END{ if (t == 0) { t = 0.0001 }; print name, "c", t, f, 0.0, 0.0 }' $dir/$f.out
+    fi
   fi
 done >> dcicpp.prof

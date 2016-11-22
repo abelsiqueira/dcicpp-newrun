@@ -26,14 +26,12 @@ do
     echo "$f d 1e20 1e20 1e20 1e20"
     continue
   fi
-  if [ ! -f "$dir/$f.out" -o "$(wc -c <$dir/$f.out)" -ge 500000 ]; then
-    time=$(awk '{if ($25 == 0.0) print 0.005; else print $25}' $dir/$f.tabline)
-  else
-    time=$(awk '/System/ { if ($4 == 0.0) print 0.0005; else print $4 }' $dir/$f.out)
-    if [ -z "$time" ]; then
-      time=$(awk '{if ($25 == 0.0) print 0.005; else print $25}' $dir/$f.tabline)
-    fi
-  fi
+
+#  # Algencan time precision is 0.00
+#  time=$(awk '{if ($25 == 0.0) print 0.005; else print $25}' $dir/$f.tabline)
+  time=$(awk '/Elapsed time/ { t = $3 };
+    END{ if (t == 0.0) { t = 0.00048828125 }; print t };' $dir/$f.out)
+
   sed 's/D/e/g' $dir/$f.tabline |  awk -v name=$f -v t=$time \
   '{ if ($2 < 1e-6 && $5 < 1e-6) conv="c"; else conv="d" };
     { print name, conv, t, $1, $2, $5 }' | sed 's/+200/e+20/g' |
