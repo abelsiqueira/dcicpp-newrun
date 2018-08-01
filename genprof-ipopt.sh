@@ -32,6 +32,6 @@ do
     /Constraint vio/ {h = $4}; /Dual infea/ {gp = $4};
     /System Time/ {t = $4};
     END{ if (h < 1e-6 && gp < 1e-6) conv = "c"; else conv = "d";
-    if (t == 0.0) t = 0.0005;
+    if (t == 0.0) t = 0.0001;
       print name, conv, t, f, h, gp }' $dir/$f.out
 done >> ipopt.prof

@@ -1,0 +1,8 @@
+Usados:
+
+DCICPP: 2016-11-21--08:31
+ALGENCAN: 2016-11-20--00-50
+IPOPT: 2016-11-20--19-56
+
+Info:
+No passado, tinha usado o fullrank.list. Agora o cholok é calculado sozinho.

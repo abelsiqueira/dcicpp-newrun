@@ -37,3 +37,5 @@ do
     { print name, conv, t, $1, $2, $5 }' | sed 's/+200/e+20/g' |
       sed 's/-Infinity/-1e20/g'
 done >> algencan.prof
+# Annoying -310
+sed -i 's/\([0-9]\)-310/\1e-310/g' algencan.prof
