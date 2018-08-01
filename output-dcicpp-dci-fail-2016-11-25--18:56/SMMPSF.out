@@ -1,0 +1,63 @@
+sifdecoder -A pc64.lnx.gfo  SMMPSF
+
+ Problem name: SMMPSF
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 240 linear equality constraints
+ There are 12 linear inequality constraints
+ There are 11 nonlinear inequality constraints
+ 
+ There are 720 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: SMMPSF  
+
+Number of Variables: 720
+Number of Constraints: 263
+             Equality: 240
+           has_inequality: 23
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 2.81247e+06
+|c(x)| = 38789.9
+|g(x) + J(x)'*y| = 92.7563
+|J(x)'c(x)| = 295670
+y offset = 0.235659
+Number of Iterations = 2
+Elapsed Time = 3.55786 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2125 (2118, 7)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):  20568 (2118, 18450)
+  Jacobian     (ccfsg):        6306
+  Hessian prod (*hprod):        223
+
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 12144
+Average number of restorations per normal iteration = 6072
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 3.69333

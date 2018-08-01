@@ -1,0 +1,96 @@
+sifdecoder -A pc64.lnx.gfo  STEENBRA
+
+ Problem name: STEENBRA
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 108 linear equality constraints
+ 
+ There are 432 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+ekpp/ek = 1.04121
+ekpp/ekp = 0.990716
+ekpp/ek = 0.989015
+ekpp/ekp = 0.998283
+ekpp/ek = 0.99981
+ekpp/ekp = 1.00153
+ekpp/ek = 0.962994
+ekpp/ekp = 0.961524
+ekpp/ek = 0.961388
+ekpp/ekp = 0.999859
+ekpp/ek = 0.996443
+ekpp/ekp = 0.996584
+ekpp/ek = 0.997689
+ekpp/ekp = 1.00111
+ekpp/ek = 1.00189
+ekpp/ekp = 1.00078
+ekpp/ek = 0.996324
+ekpp/ekp = 0.995546
+ekpp/ek = 1.00807
+ekpp/ekp = 1.01258
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+ekpp/ek = 0.984549
+ekpp/ekp = 0.972321
+ekpp/ek = 0.972143
+ekpp/ekp = 0.999816
+ekpp/ek = 0.998382
+ekpp/ekp = 0.998565
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 0.997874
+ekpp/ekp = 0.999308
+ekpp/ek = 0.979974
+ekpp/ekp = 0.980652
+ekpp/ek = 0.974543
+ekpp/ekp = 0.993771
+ekpp/ek = 0.993801
+ekpp/ekp = 1.00003
+ekpp/ek = 1
+ekpp/ekp = 0.999971
+Showing
+**********************************************************
+Problem name: STEENBRA
+
+Number of Variables: 432
+Number of Constraints: 108
+             Equality: 108
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 16960.4
+|c(x)| = 3.44514e-07
+|g(x) + J(x)'*y| = 2.85863e-07
+y offset = 0
+Number of Iterations = 21
+Elapsed Time = 0.015353 s
+Normal iterations = 1
+Average number of normal iterations = 0.047619
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 20
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 17
+Average number of restorations per normal iteration = 17
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.059999

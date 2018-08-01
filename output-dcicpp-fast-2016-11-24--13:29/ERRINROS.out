@@ -1,0 +1,114 @@
+sifdecoder -A pc64.lnx.gfo  ERRINROS
+
+ Problem name: ERRINROS
+
+ Double precision version will be formed
+
+ The objective function uses 49 linear groups
+ The objective function uses 49 nonlinear groups
+ 
+ There are 50 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.763749
+ekpp/ekp = 0.886751
+ekpp/ek = 0.800612
+ekpp/ekp = 0.90286
+ekpp/ek = 0.848932
+ekpp/ekp = 0.94027
+ekpp/ek = 0.904288
+ekpp/ekp = 0.961733
+ekpp/ek = 0.917951
+ekpp/ekp = 0.954476
+ekpp/ek = 0.952503
+ekpp/ekp = 0.997933
+ekpp/ek = 0.989136
+ekpp/ekp = 0.991185
+ekpp/ek = 0.948688
+ekpp/ekp = 0.957125
+ekpp/ek = 0.951415
+ekpp/ekp = 0.994035
+ekpp/ek = 0.981702
+ekpp/ekp = 0.987593
+ekpp/ek = 0.975647
+ekpp/ekp = 0.987904
+ekpp/ek = 0.985658
+ekpp/ekp = 0.997727
+ekpp/ek = 0.979471
+ekpp/ekp = 0.981702
+ekpp/ek = 0.982453
+ekpp/ekp = 1.00076
+ekpp/ek = 0.996157
+ekpp/ekp = 0.995396
+ekpp/ek = 0.993083
+ekpp/ekp = 0.997677
+ekpp/ek = 1.01089
+ekpp/ekp = 1.01324
+ekpp/ek = 1.06168
+ekpp/ekp = 1.04781
+ekpp/ek = 1.22032
+ekpp/ekp = 1.16464
+ekpp/ek = 1.27078
+ekpp/ekp = 1.09114
+ekpp/ek = 1.12323
+ekpp/ekp = 1.02941
+ekpp/ek = 1.10563
+ekpp/ekp = 1.07404
+ekpp/ek = 1.2786
+ekpp/ekp = 1.19046
+ekpp/ek = 1.3514
+ekpp/ekp = 1.13519
+ekpp/ek = 1.4262
+ekpp/ekp = 1.25636
+ekpp/ek = 1.25638
+ekpp/ekp = 1.00002
+ekpp/ek = 1.03279
+ekpp/ekp = 1.03277
+ekpp/ek = 1.11555
+ekpp/ekp = 1.08015
+ekpp/ek = 1.28345
+ekpp/ekp = 1.18821
+ekpp/ek = 1.18826
+ekpp/ekp = 1.00004
+ekpp/ek = 1.02509
+ekpp/ekp = 1.02505
+ekpp/ek = 1.08784
+ekpp/ekp = 1.06125
+ekpp/ek = 1.21554
+ekpp/ekp = 1.14538
+ekpp/ek = 1.1454
+ekpp/ekp = 1.00002
+Showing
+**********************************************************
+Problem name: ERRINROS
+
+Number of Variables: 50
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 39.923
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.09933e-07
+y offset = 0
+Number of Iterations = 37
+Elapsed Time = 0.00588489 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 37
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.023332

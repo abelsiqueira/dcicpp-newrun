@@ -1,0 +1,22 @@
+sifdecoder -A pc64.lnx.gfo  ZAMB2-8
+
+ Problem name: ZAMB2-8
+
+ Double precision version will be formed
+
+ The objective function uses 92 nonlinear groups
+ 
+ There are 48 nonlinear equality constraints
+ 
+ There are 132 variables bounded from below and above 
+ There are 6 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:14
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 6 variables
+Starting
+Solving
+Exception: f is nan

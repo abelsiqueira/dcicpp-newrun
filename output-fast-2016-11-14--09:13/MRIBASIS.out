@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  MRIBASIS
+
+ Problem name: MRIBASIS
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear equality constraint
+ There are 43 linear inequality constraints
+ There are 8 nonlinear equality constraints
+ There are 3 nonlinear inequality constraints
+ 
+ There are 24 variables bounded from below and above 
+ There are 12 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: MRIBASIS
+
+Number of Variables: 24
+Number of Constraints: 55
+             Equality: 9
+           has_inequality: 46
+
+EXIT: The Algorithm has Converged
+f(x) = 18.2179
+|c(x)| = 2.68736e-13
+|g(x) + J(x)'*y| = 5.9503e-07
+y offset = 3.44968e-12
+Number of Iterations = 4
+Elapsed Time = 0.0173876 s
+Normal iterations = 6
+Average number of normal iterations = 1.5
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 3
+Restorations = 156
+Average number of restorations per normal iteration = 26
+**********************************************************
+Setup time: 0
+Execution time: 0.069999

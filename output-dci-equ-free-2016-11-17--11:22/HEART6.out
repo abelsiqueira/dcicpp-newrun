@@ -1,0 +1,51 @@
+sifdecoder -A pc64.lnx.gfo -st   HEART6
+
+ Problem name: HEART6
+
+ Double precision version will be formed
+
+ 
+ There are 6 nonlinear equality constraints
+ 
+ There are 6 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO
+ |gp(xk)|/|gp(xck)| =                   Infinity
+
+ DCI Summary.
+
+ The restoration has failed.
+
+ Iterations     :            1
+ Steihaug's iter:            0
+ Restorations   :           50
+ Rejected steps :            0
+ Function evals.:            1
+ Constr.  evals.:         1174
+ Gradient evals.:            3
+ Jacobian evals.:          839
+ 2nd order Corr.:            0
+ BFGS iterations:          267
+ f(x)           :    0.0000000000000000     
+ ||h(x)||       :    1.2323475573339238E-013
+ ||gp(x)||      :    0.0000000000000000     
+ ||At*h||       :    1.0751638471131116E-009
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    0.0000000000000000     
+ rho            :    0.0000000000000000     
+ rhomax         :    121.20557188405159     
+ vdelta         :   0.12908368470201800     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    0.0000000000000000     
+ L(x) - L(xc)   :    1.0000000000000000E+100
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

@@ -1,0 +1,74 @@
+sifdecoder -A pc64.lnx.gfo  ENGVAL2
+
+ Problem name: ENGVAL2
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ The objective function uses 3 nonlinear groups
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.906043
+ekpp/ekp = 0.928708
+ekpp/ek = 0.591468
+ekpp/ekp = 0.636872
+ekpp/ek = 0.493801
+ekpp/ekp = 0.775354
+ekpp/ek = 0.796401
+ekpp/ekp = 1.02714
+ekpp/ek = 1.25814
+ekpp/ekp = 1.22489
+ekpp/ek = 1.37844
+ekpp/ekp = 1.12536
+ekpp/ek = 1.16183
+ekpp/ekp = 1.03241
+ekpp/ek = 1.04112
+ekpp/ekp = 1.00843
+ekpp/ek = 1.00857
+ekpp/ekp = 1.00014
+ekpp/ek = 1.00041
+ekpp/ekp = 1.00027
+ekpp/ek = 1.00147
+ekpp/ekp = 1.0012
+ekpp/ek = 1.00208
+ekpp/ekp = 1.00088
+ekpp/ek = 1.00102
+ekpp/ekp = 1.00014
+ekpp/ek = 1.00014
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: ENGVAL2 
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.44766e-10
+|c(x)| = 0
+|g(x) + J(x)'*y| = 2.78161e-08
+y offset = 0
+Number of Iterations = 17
+Elapsed Time = 0.000364065 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 17
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: -5.66244e-13

@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  BT7
+
+ Problem name: BT7
+
+ Double precision version will be formed
+
+ The objective function uses 2 nonlinear groups
+ 
+ There are 3 nonlinear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: BT7     
+
+Number of Variables: 5
+Number of Constraints: 3
+             Equality: 3
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 306.5
+|c(x)| = 1.17552e-10
+|g(x) + J(x)'*y| = 4.70013e-07
+y offset = 0
+Number of Iterations = 9
+Elapsed Time = 0.000473022 s
+Normal iterations = 5
+Average number of normal iterations = 0.555556
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 5
+Iterations with <= 1 normal iterations = 9
+**********************************************************
+Setup time: 0
+Execution time: 0.003333

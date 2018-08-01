@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  MANNE
+
+ Problem name: MANNE
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2000 linear inequality constraints
+ There are 2000 nonlinear inequality constraints
+ 
+ There are 4749 variables bounded only from below 
+ There are 1250 variables bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

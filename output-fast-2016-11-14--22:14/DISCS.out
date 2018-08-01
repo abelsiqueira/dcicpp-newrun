@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  DISCS
+
+ Problem name: DISCS
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 18 nonlinear equality constraints
+ There are 48 nonlinear inequality constraints
+ 
+ There are 21 free variables
+ There are 12 variables bounded only from below 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

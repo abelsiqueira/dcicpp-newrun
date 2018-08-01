@@ -1,0 +1,45 @@
+sifdecoder -A pc64.lnx.gfo  READING9
+
+ Problem name: READING9
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5000 nonlinear equality constraints
+ 
+ There are 5000 free variables
+ There are 5001 variables bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: READING9
+
+Number of Variables: 10001
+Number of Constraints: 5000
+             Equality: 5000
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -0.044361
+|c(x)| = 1.49748e-15
+|g(x) + J(x)'*y| = 1.11142e-13
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.176013 s
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = -1
+Restorations = 44
+Average number of restorations per normal iteration = 44
+**********************************************************
+Setup time: 0.153333
+Execution time: 0.306666

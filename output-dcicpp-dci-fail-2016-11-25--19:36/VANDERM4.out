@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  VANDERM4
+
+ Problem name: VANDERM4
+
+ Double precision version will be formed
+
+ 
+ There are 99 linear inequality constraints
+ There are 100 nonlinear equality constraints
+ 
+ There are 100 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719

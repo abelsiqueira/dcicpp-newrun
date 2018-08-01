@@ -1,0 +1,50 @@
+sifdecoder -A pc64.lnx.gfo  HATFLDA
+
+ Problem name: HATFLDA
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 3 nonlinear groups
+ 
+ There are 4 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.00571383
+ekpp/ekp = 0.13725
+ekpp/ek = 0.00075001
+ekpp/ekp = 0.00546455
+Showing
+**********************************************************
+Problem name: HATFLDA 
+
+Number of Variables: 4
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 3.63375e-12
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.1573e-07
+y offset = 0
+Number of Iterations = 5
+Elapsed Time = 0.000322819 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 5
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

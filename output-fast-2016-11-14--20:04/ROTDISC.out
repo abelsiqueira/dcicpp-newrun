@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  ROTDISC
+
+ Problem name: ROTDISC
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 360 linear equality constraints
+ There are 361 linear inequality constraints
+ There are 360 nonlinear equality constraints
+ 
+ There are 180 free variables
+ There is 1 variable bounded only from above 
+ There are 180 variables bounded only from below 
+ There are 531 variables bounded from below and above 
+ There are 13 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 13 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ROTDISC 
+
+Number of Variables: 892
+Number of Constraints: 1081
+             Equality: 720
+           has_inequality: 361
+
+EXIT: The Algorithm has Converged
+f(x) = 9.35027
+|c(x)| = 3.94688e-09
+|g(x) + J(x)'*y| = 8.06998e-07
+y offset = 1.49698e-05
+Number of Iterations = 4
+Elapsed Time = 0.735772 s
+Normal iterations = 3
+Average number of normal iterations = 0.75
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 453
+Average number of restorations per normal iteration = 151
+**********************************************************
+Done
+Setup time: 0.009999
+Execution time: 0.793334

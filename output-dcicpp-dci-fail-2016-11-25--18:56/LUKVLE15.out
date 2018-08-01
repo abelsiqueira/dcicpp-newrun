@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  LUKVLE15
+
+ Problem name: LUKVLE15
+
+ Double precision version will be formed
+
+ The objective function uses 9996 nonlinear groups
+ 
+ There are 7497 nonlinear equality constraints
+ 
+ There are 9997 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

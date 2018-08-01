@@ -1,0 +1,18 @@
+sifdecoder -A pc64.lnx.gfo  HATFLDE
+
+ Problem name: HATFLDE
+
+ Double precision version will be formed
+
+ The objective function uses 21 nonlinear groups
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: f is nan

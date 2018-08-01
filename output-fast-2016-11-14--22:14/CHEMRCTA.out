@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo  CHEMRCTA
+
+ Problem name: CHEMRCTA
+
+ Double precision version will be formed
+
+ 
+ There are 4 linear equality constraints
+ There are 4996 nonlinear equality constraints
+ 
+ There are 5000 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: CHEMRCTA
+
+Number of Variables: 5000
+Number of Constraints: 5000
+             Equality: 5000
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0
+|c(x)| = 8.1291e-09
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.172984 s
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 4
+Average number of restorations per normal iteration = 2
+**********************************************************
+Done
+Setup time: 0.076666
+Execution time: 0.29

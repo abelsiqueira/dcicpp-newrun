@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  CONT5-QP
+
+ Problem name: CONT5-QP
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 40200 linear equality constraints
+ 
+ There are 40400 variables bounded from below and above 
+ There are 201 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 201 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CONT5-QP
+
+Number of Variables: 40400
+Number of Constraints: 40200
+             Equality: 40200
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0630898
+|c(x)| = 9.80983e-08
+|g(x) + J(x)'*y| = 3.11042e-07
+|J(x)'c(x)| = 0.0126485
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 5.40871 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      60 (52, 8)
+  Gradient     (*ofg):            6
+  Constraints  (cfn, ccfsg):     77 (52, 25)
+  Jacobian     (ccfsg):           8
+  Hessian prod (*hprod):         47
+
+Normal iterations = 3
+Average number of normal iterations = 1.5
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 17
+Average number of restorations per normal iteration = 5
+**********************************************************
+Done
+Setup time: 0.4
+Execution time: 5.42

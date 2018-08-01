@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  MAKELA3
+
+ Problem name: MAKELA3
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 20 nonlinear inequality constraints
+ 
+ There are 21 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: MAKELA3 
+
+Number of Variables: 21
+Number of Constraints: 20
+             Equality: 0
+           has_inequality: 20
+
+EXIT: The Algorithm has Converged
+f(x) = 0.000405908
+|c(x)| = 1.11299e-07
+|g(x) + J(x)'*y| = 9.99268e-07
+|J(x)'c(x)| = 3.72682e-06
+y offset = 0
+Number of Iterations = 1547
+Elapsed Time = 0.125857 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    7125 (3672, 3453)
+  Gradient     (*ofg):         1906
+  Constraints  (cfn, ccfsg):   8358 (3672, 4686)
+  Jacobian     (ccfsg):        2547
+  Hessian prod (*hprod):       3937
+
+Normal iterations = 660
+Average number of normal iterations = 0.426632
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 888
+Iterations with 1  normal iteration  = 658
+Iterations with 2+ normal iterations = 1
+Restorations = 2139
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.376666

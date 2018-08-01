@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  LUKVLE7
+
+ Problem name: LUKVLE7
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 4 nonlinear equality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LUKVLE7 
+
+Number of Variables: 10000
+Number of Constraints: 4
+             Equality: 4
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -2164.98
+|c(x)| = 4.99838e-11
+|g(x) + J(x)'*y| = 8.75804e-07
+y offset = 0
+Number of Iterations = 211
+Elapsed Time = 39.8298 s
+Normal iterations = 198
+Average number of normal iterations = 0.938389
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 14
+Iterations with 1  normal iteration  = 196
+Iterations with 2+ normal iterations = 1
+Restorations = 205
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.136667
+Execution time: 39.9733

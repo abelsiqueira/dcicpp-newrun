@@ -1,0 +1,51 @@
+sifdecoder -A pc64.lnx.gfo  SPMSQRT
+
+ Problem name: SPMSQRT
+
+ Double precision version will be formed
+
+ 
+ There are 8329 nonlinear equality constraints
+ 
+ There are 4999 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Solving
+Showing
+**********************************************************
+Problem name: SPMSQRT 
+
+Number of Variables: 4999
+Number of Constraints: 8329
+             Equality: 8329
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0
+|c(x)| = 4.31003e-08
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.0697212 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10
+Average number of restorations per normal iteration = 5
+**********************************************************
+Done
+Setup time: 0.133334
+Execution time: 0.163333

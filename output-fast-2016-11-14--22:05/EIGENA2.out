@@ -1,0 +1,36 @@
+sifdecoder -A pc64.lnx.gfo  EIGENA2
+
+ Problem name: EIGENA2
+
+ Double precision version will be formed
+
+ The objective function uses 2500 nonlinear groups
+ 
+ There are 1275 nonlinear equality constraints
+ 
+ There are 2550 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: EIGENA2 
+
+Number of Variables: 2550
+Number of Constraints: 1275
+             Equality: 1275
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.93468e-28
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.88152e-19
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.398849 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 24174 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

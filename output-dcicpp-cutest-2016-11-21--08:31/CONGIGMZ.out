@@ -1,0 +1,48 @@
+sifdecoder -A pc64.lnx.gfo  CONGIGMZ
+
+ Problem name: CONGIGMZ
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 3 linear inequality constraints
+ There are 2 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CONGIGMZ
+
+Number of Variables: 3
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: The Algorithm has Converged
+f(x) = 28
+|c(x)| = 1.18644e-09
+|g(x) + J(x)'*y| = 4.15436e-07
+y offset = 0
+Number of Iterations = 4
+Elapsed Time = 0.00237489 s
+Normal iterations = 4
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 232
+Average number of restorations per normal iteration = 58
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.009999

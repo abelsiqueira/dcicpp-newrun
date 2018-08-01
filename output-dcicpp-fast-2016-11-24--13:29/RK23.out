@@ -1,0 +1,65 @@
+sifdecoder -A pc64.lnx.gfo  RK23
+
+ Problem name: RK23
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4 linear equality constraints
+ There are 7 nonlinear equality constraints
+ 
+ There are 11 free variables
+ There are 6 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.981323
+ekpp/ekp = 1.01101
+ekpp/ek = 1.01591
+ekpp/ekp = 1.00484
+ekpp/ek = 1.01729
+ekpp/ekp = 1.0124
+ekpp/ek = 1.01345
+ekpp/ekp = 1.00104
+ekpp/ek = 1.00161
+ekpp/ekp = 1.00057
+ekpp/ek = 1.00067
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00012
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00002
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: RK23    
+
+Number of Variables: 17
+Number of Constraints: 11
+             Equality: 11
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0833389
+|c(x)| = 1.79693e-07
+|g(x) + J(x)'*y| = 4.89769e-07
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.00825238 s
+Normal iterations = 10
+Average number of normal iterations = 0.909091
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 6
+Iterations with 2+ normal iterations = 2
+Restorations = 493
+Average number of restorations per normal iteration = 49
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.033333

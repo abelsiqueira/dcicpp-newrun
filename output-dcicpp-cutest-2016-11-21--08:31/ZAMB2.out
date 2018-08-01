@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  ZAMB2
+
+ Problem name: ZAMB2
+
+ Double precision version will be formed
+
+ The objective function uses 2528 nonlinear groups
+ 
+ There are 1440 nonlinear equality constraints
+ 
+ There are 3960 variables bounded from below and above 
+ There are 6 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 6 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ZAMB2   
+
+Number of Variables: 3960
+Number of Constraints: 1440
+             Equality: 1440
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -11.0657
+|c(x)| = 9.72794e-07
+|g(x) + J(x)'*y| = 9.90589e-07
+y offset = 0
+Number of Iterations = 430
+Elapsed Time = 17.3324 s
+Normal iterations = 164
+Average number of normal iterations = 0.381395
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 266
+Iterations with 1  normal iteration  = 164
+Iterations with 2+ normal iterations = 0
+Restorations = 9066
+Average number of restorations per normal iteration = 55
+**********************************************************
+Done
+Setup time: 0.083333
+Execution time: 17.5133

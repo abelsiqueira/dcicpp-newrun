@@ -1,0 +1,27 @@
+sifdecoder -A pc64.lnx.gfo  NET4
+
+ Problem name: NET4
+
+ Double precision version will be formed
+
+ The objective function uses 2448 nonlinear groups
+ 
+ There are 28080 linear equality constraints
+ There are 15840 linear inequality constraints
+ There are 28656 nonlinear equality constraints
+ There are 2448 nonlinear inequality constraints
+ 
+ There are 31680 free variables
+ There are 144 variables bounded only from above 
+ There are 29664 variables bounded from below and above 
+ There are 5328 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 13104 variables
+NOPE preprocessing removed 9361 contraints
+Starting
+Solving

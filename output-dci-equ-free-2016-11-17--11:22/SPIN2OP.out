@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo -st   SPIN2OP
+
+ Problem name: SPIN2OP
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 100 nonlinear equality constraints
+ 
+ There are 102 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.67699427947380153     
+ |gp(xk)|/|gp(xck)| =    83.020801599978512     
+ |gp(xk)|/|gp(xck)| =    1.6035954007762883E+017
+
+ DCI Summary.
+
+ The restoration has failed.
+
+ Iterations     :            3
+ Steihaug's iter:            2
+ Restorations   :           18
+ Rejected steps :            0
+ Function evals.:            3
+ Constr.  evals.:           23
+ Gradient evals.:            9
+ Jacobian evals.:           12
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    1.5803494128616087E-031
+ ||h(x)||       :    8.5209617139980764E-015
+ ||gp(x)||      :    3.8119931389256559E-030
+ ||At*h||       :    1.2886756346700794E-012
+ Elapsed time   :    2.34375000E-02
+
+ ||xnew - xc||  :    4.7530364249207082     
+ rho            :    2.0215685417479265E-026
+ rhomax         :    920.29920412966487     
+ vdelta         :    2.4357860701059790E-016
+ hdelta         :    1000000.0000000000     
+ L(x)           :  -0.48138028115967446     
+ L(x) - L(xc)   :  -0.11850961530092402     
+ L(xc)-L(x(k-1)):  -0.36287066585875044     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

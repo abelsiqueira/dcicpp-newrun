@@ -1,0 +1,32 @@
+sifdecoder -A pc64.lnx.gfo  HELIX
+
+ Problem name: HELIX
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 2 nonlinear groups
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: HELIX   
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.61325e-08
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.89142e-07
+y offset = 0
+Number of Iterations = 14
+Elapsed Time = 0.000285149 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 25025 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

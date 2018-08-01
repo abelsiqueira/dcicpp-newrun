@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  FLOSP2TM
+
+ Problem name: FLOSP2TM
+
+ Double precision version will be formed
+
+ 
+ There are 1922 linear equality constraints
+ There are 841 nonlinear equality constraints
+ 
+ There are 2763 free variables
+ There are 120 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+run_dcicpp: ../src/nope.c:367: findTrivialConstraints: Assertion `nope->linbndl[i] == 0' failed.
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240:  3175 Aborted                 (core dumped) ${EXEC}/run_${PACKAGE}

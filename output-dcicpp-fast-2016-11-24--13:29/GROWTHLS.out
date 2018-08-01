@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  GROWTHLS
+
+ Problem name: GROWTHLS
+
+ Double precision version will be formed
+
+ The objective function uses 12 nonlinear groups
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00008
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00013
+ekpp/ekp = 1.00008
+ekpp/ek = 1.00018
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00017
+ekpp/ekp = 1.00007
+ekpp/ek = 1.00008
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00002
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: GROWTHLS
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 12.4524
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.35396e-08
+y offset = 0
+Number of Iterations = 9
+Elapsed Time = 0.000414133 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 9
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

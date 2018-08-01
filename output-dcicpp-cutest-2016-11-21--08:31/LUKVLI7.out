@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  LUKVLI7
+
+ Problem name: LUKVLI7
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 4 nonlinear inequality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LUKVLI7 
+
+Number of Variables: 10000
+Number of Constraints: 4
+             Equality: 0
+           has_inequality: 4
+
+EXIT: The Algorithm has Converged
+f(x) = 1753.2
+|c(x)| = 6.90849e-07
+|g(x) + J(x)'*y| = 9.18146e-07
+y offset = 0
+Number of Iterations = 216
+Elapsed Time = 39.0474 s
+Normal iterations = 174
+Average number of normal iterations = 0.805556
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 44
+Iterations with 1  normal iteration  = 170
+Iterations with 2+ normal iterations = 2
+Restorations = 749
+Average number of restorations per normal iteration = 4
+**********************************************************
+Done
+Setup time: 0.136667
+Execution time: 39.1933

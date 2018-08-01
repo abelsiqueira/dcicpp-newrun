@@ -1,0 +1,86 @@
+ Solving problem: NCVXQP2   
+
+ ==============================================================================
+ This is ALGENCAN 3.1.0.
+ ALGENCAN, an Augmented Lagrangian method for nonlinear programming, is part of
+ the TANGO Project: Trustable Algorithms for Nonlinear General Optimization.
+ See http://www.ime.usp.br/~egbirgin/tango/ for details.
+ ==============================================================================
+
+ There are no strings to be processed in the array of parameters.
+
+ The specification file was found.
+
+ Processing specification file:
+
+ FEASIBILITY-TOLERANCE                                           1.00000000D-06
+ OPTIMALITY-TOLERANCE                                            1.00000000D-06
+ SAVE-STATISTICS-TABLE-LINE                   
+ ITERATIONS-OUTPUT-DETAIL                                                    10
+
+ Available HSL subroutines = NONE           
+
+ ALGENCAN PARAMETERS:
+
+ firstde                =                    T
+ seconde                =                    T
+ truehpr                =                    T
+ hptype in TN           =               TRUEHP
+ lsslvr in TR           =            NONE/NONE
+ lsslvr in NW           =            NONE/NONE
+ lsslvr in ACCPROC      =            NONE/NONE
+ innslvr                =                   TN
+ accproc                =                    F
+ rmfixv                 =                    T
+ slacks                 =                    F
+ scale                  =                    T
+ epsfeas                =           1.0000D-06
+ epsopt                 =           1.0000D-06
+ efstain                =           1.0000D-04
+ eostain                =           1.0000D-12
+ efacc                  =           1.0000D-04
+ eoacc                  =           1.0000D-04
+ iprint                 =                   10
+ ncomp                  =                    6
+
+ Specification filename =       'algencan.dat'
+ Output filename        =                   ''
+ Solution filename      =                   ''
+
+ Number of variables               :   10000
+ Number of equality constraints    :    5000
+ Number of inequality constraints  :       0
+ Number of bound constraints       :   20000
+ Number of fixed variables         :       0
+
+ There are no fixed variables to be removed.
+
+ Objective function scale factor   : 2.7D-05
+ Smallest constraints scale factor : 2.5D-01
+
+ Entry to ALGENCAN.
+ Number of variables  :   10000
+ Number of constraints:    5000
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+  0        -2.812D+07 3.D+00 -7.500D+02 1.D+00 1.D+00 1.D+00 5.D+00    0   0   0
+  1 3.D+00 -7.648D+09 2.D+01 -2.039D+05 6.D+00 6.D+00 4.D+00 7.D+00   10C  0   0
+  2 3.D+02 -5.952D+09 4.D-01 -1.587D+05 1.D-01 1.D-01 4.D-05 7.D-02  326C  0   0
+  3 3.D+02 -5.914D+09 3.D-01 -1.577D+05 8.D-02 8.D-02 4.D-08 8.D-03  408C  0   0
+  4 3.D+03 -5.914D+09 3.D-01 -1.577D+05 7.D-02 7.D-02 2.D-08 3.D-03  509C  0   0
+  5 3.D+04 -5.907D+09 2.D-01 -1.575D+05 6.D-02 6.D-02 1.D-06 5.D-04  716C  0   0
+  6 3.D+05 -5.846D+09 3.D-02 -1.559D+05 8.D-03 8.D-03 5.D-05 9.D-05 1236C  0   0
+  7 3.D+05 -5.840D+09 8.D-03 -1.557D+05 2.D-03 2.D-03 6.D-03 8.D-05 1402P  0   0
+  8 3.D+05 -5.838D+09 7.D-04 -1.557D+05 2.D-04 2.D-04 9.D-04 2.D-05 1511C  0   0
+  9 3.D+05 -5.838D+09 5.D-04 -1.557D+05 2.D-04 2.D-04 3.D-01 4.D-06 1570P  0   0
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+ 10 3.D+06 -5.838D+09 5.D-04 -1.557D+05 2.D-04 2.D-04 2.D-03 2.D-06 1642P  0   0
+ 11 3.D+07 -5.838D+09 2.D-04 -1.557D+05 5.D-05 5.D-05 4.D-01 7.D-07 1848P  0   0
+ 12 3.D+07 -5.838D+09 1.D-04 -1.557D+05 3.D-05 3.D-05 1.D+00 3.D-07 1929P  0   0
+ 13 3.D+08 -5.838D+09 4.D-05 -1.557D+05 1.D-05 1.D-05 3.D+00 3.D-08 2103P  0   0
+ 14 3.D+08 -5.838D+09 4.D-05 -1.557D+05 1.D-05 1.D-05 3.D+00 3.D-08 2114P  0   0
+ 15 3.D+09 -5.838D+09 1.D-05 -1.557D+05 4.D-06 4.D-06 1.D+01 9.D-09 2319P  0   0
+ 16 3.D+09 -5.838D+09 2.D-07 -1.557D+05 6.D-08 6.D-08 1.D+01 9.D-09 2363P  0   0

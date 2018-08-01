@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  OPTCNTRL
+
+ Problem name: OPTCNTRL
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 10 linear equality constraints
+ There are 10 nonlinear equality constraints
+ 
+ There are 9 free variables
+ There are 10 variables bounded only from below 
+ There are 10 variables bounded from below and above 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: OPTCNTRL
+
+Number of Variables: 29
+Number of Constraints: 20
+             Equality: 20
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 549.212
+|c(x)| = 0.00428298
+|g(x) + J(x)'*y| = 0.000158111
+|J(x)'c(x)| = 0.00146608
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.132402 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     201 (196, 5)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):  12195 (196, 11999)
+  Jacobian     (ccfsg):        1998
+  Hessian prod (*hprod):          1
+
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10001
+Average number of restorations per normal iteration = 5000
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.383332

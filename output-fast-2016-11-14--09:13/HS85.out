@@ -1,0 +1,44 @@
+sifdecoder -A pc64.lnx.gfo  HS85
+
+ Problem name: HS85
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear inequality constraint
+ There are 20 nonlinear inequality constraints
+ 
+ There are 5 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: HS85    
+
+Number of Variables: 5
+Number of Constraints: 21
+             Equality: 0
+           has_inequality: 21
+
+EXIT: The Algorithm has Converged
+f(x) = -1.7507
+|c(x)| = 2.91186e-11
+|g(x) + J(x)'*y| = 9.99994e-07
+y offset = 1.89708e-06
+Number of Iterations = 4239
+Elapsed Time = 6.54086 s
+Normal iterations = 968
+Average number of normal iterations = 0.228356
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 3271
+Iterations with 1  normal iteration  = 968
+Iterations with 2+ normal iterations = -3271
+Restorations = 968
+Average number of restorations per normal iteration = 1
+**********************************************************
+Setup time: 0.003333
+Execution time: 6.8

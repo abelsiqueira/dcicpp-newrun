@@ -1,0 +1,63 @@
+sifdecoder -A pc64.lnx.gfo  KIWCRESC
+
+ Problem name: KIWCRESC
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.270151
+ekpp/ekp = 0.440362
+ekpp/ek = 0.429984
+ekpp/ekp = 0.976431
+ekpp/ek = 0.976826
+ekpp/ekp = 1.0004
+ekpp/ek = 0.999378
+ekpp/ekp = 0.998974
+ekpp/ek = 0.999387
+ekpp/ekp = 1.00041
+ekpp/ek = 0.999982
+ekpp/ekp = 0.999569
+ekpp/ek = 0.999964
+ekpp/ekp = 1.0004
+ekpp/ek = 0.99996
+ekpp/ekp = 0.999564
+Showing
+**********************************************************
+Problem name: KIWCRESC
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 1.40303e-06
+|c(x)| = 9.43008e-07
+|g(x) + J(x)'*y| = 3.58303e-07
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.00217891 s
+Normal iterations = 10
+Average number of normal iterations = 0.909091
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 8
+Iterations with 2+ normal iterations = 1
+Restorations = 220
+Average number of restorations per normal iteration = 22
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006667

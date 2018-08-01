@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  LIN
+
+ Problem name: LIN
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear equality constraints
+ 
+ There are 4 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: LIN     
+
+Number of Variables: 4
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -0.0196063
+|c(x)| = 2.93867e-07
+|g(x) + J(x)'*y| = 5.71688e-08
+|J(x)'c(x)| = 2.43729e-06
+y offset = 0
+Number of Iterations = 13
+Elapsed Time = 0.000523806 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      46 (17, 29)
+  Gradient     (*ofg):           16
+  Constraints  (cfn, ccfsg):     35 (17, 18)
+  Jacobian     (ccfsg):          15
+  Hessian prod (*hprod):         24
+
+Normal iterations = 1
+Average number of normal iterations = 0.0769231
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 12
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 3
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: -5.66244e-13

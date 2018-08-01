@@ -1,0 +1,35 @@
+sifdecoder -A pc64.lnx.gfo  WOODS
+
+ Problem name: WOODS
+
+ Double precision version will be formed
+
+ The objective function uses 4001 linear groups
+ The objective function uses 2000 nonlinear groups
+ 
+ There are 4000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: WOODS   
+
+Number of Variables: 4000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.000777604
+|c(x)| = 0
+|g(x) + J(x)'*y| = 5.47508e-08
+y offset = 0
+Number of Iterations = 56
+Elapsed Time = 0.197025 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 15875 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

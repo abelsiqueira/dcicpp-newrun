@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  HS73
+
+ Problem name: HS73
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear equality constraint
+ There is 1 linear inequality constraint
+ There is 1 nonlinear inequality constraint
+ 
+ There are 4 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:43
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS73    
+
+Number of Variables: 4
+Number of Constraints: 3
+             Equality: 1
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 29.8944
+|c(x)| = 2.77556e-17
+|g(x) + J(x)'*y| = 3.71699e-08
+y offset = 0
+Number of Iterations = 15
+Elapsed Time = 0.00137186 s
+Normal iterations = 5
+Average number of normal iterations = 0.333333
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 10
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = 0
+Restorations = 87
+Average number of restorations per normal iteration = 17
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

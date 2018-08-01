@@ -1,0 +1,89 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELBF
+
+ Problem name: HIMMELBF
+
+ Double precision version will be formed
+
+ The objective function uses 7 nonlinear groups
+ 
+ There are 4 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00002
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00185
+ekpp/ekp = 1.00184
+ekpp/ek = 1.00356
+ekpp/ekp = 1.00171
+ekpp/ek = 1.00241
+ekpp/ekp = 1.0007
+ekpp/ek = 1.001
+ekpp/ekp = 1.0003
+ekpp/ek = 1.00054
+ekpp/ekp = 1.00024
+ekpp/ek = 1.00061
+ekpp/ekp = 1.00037
+ekpp/ek = 1.00048
+ekpp/ekp = 1.00011
+ekpp/ek = 1.0054
+ekpp/ekp = 1.00529
+ekpp/ek = 1.01013
+ekpp/ekp = 1.00482
+ekpp/ek = 1.00565
+ekpp/ekp = 1.00083
+ekpp/ek = 1.00276
+ekpp/ekp = 1.00193
+ekpp/ek = 1.00677
+ekpp/ekp = 1.00483
+ekpp/ek = 1.01689
+ekpp/ekp = 1.012
+ekpp/ek = 1.04199
+ekpp/ekp = 1.02963
+ekpp/ek = 1.04139
+ekpp/ekp = 1.01142
+ekpp/ek = 1.01594
+ekpp/ekp = 1.00446
+ekpp/ek = 1.0089
+ekpp/ekp = 1.00441
+ekpp/ek = 1.0155
+ekpp/ekp = 1.01104
+ekpp/ek = 1.01411
+ekpp/ekp = 1.00304
+ekpp/ek = 1.00372
+ekpp/ekp = 1.00069
+ekpp/ek = 1.00069
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: HIMMELBF
+
+Number of Variables: 4
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 318.629
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.34581e-08
+y offset = 0
+Number of Iterations = 25
+Elapsed Time = 0.000558853 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 25
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

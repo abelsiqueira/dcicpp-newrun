@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  HS35MOD
+
+ Problem name: HS35MOD
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear inequality constraint
+ 
+ There are 2 variables bounded only from below 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

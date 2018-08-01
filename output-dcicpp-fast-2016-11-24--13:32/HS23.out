@@ -1,0 +1,107 @@
+sifdecoder -A pc64.lnx.gfo  HS23
+
+ Problem name: HS23
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.819604
+ekpp/ekp = 0.862699
+ekpp/ek = 0.83491
+ekpp/ekp = 0.967788
+ekpp/ek = 0.884678
+ekpp/ekp = 0.914123
+ekpp/ek = 0.884436
+ekpp/ekp = 0.967525
+ekpp/ek = 0.882541
+ekpp/ekp = 0.912164
+ekpp/ek = 0.881917
+ekpp/ekp = 0.96684
+ekpp/ek = 0.879709
+ekpp/ekp = 0.909881
+ekpp/ek = 0.878894
+ekpp/ekp = 0.965944
+ekpp/ek = 0.876609
+ekpp/ekp = 0.907516
+ekpp/ek = 0.875715
+ekpp/ekp = 0.964959
+ekpp/ek = 0.873223
+ekpp/ekp = 0.904933
+ekpp/ek = 0.861363
+ekpp/ekp = 0.951853
+ekpp/ek = 0.824274
+ekpp/ekp = 0.865968
+ekpp/ek = 0.830983
+ekpp/ekp = 0.9596
+ekpp/ek = 0.853994
+ekpp/ekp = 0.889948
+ekpp/ek = 0.839568
+ekpp/ekp = 0.94339
+ekpp/ek = 0.794028
+ekpp/ekp = 0.841675
+ekpp/ek = 0.786658
+ekpp/ekp = 0.934634
+ekpp/ek = 0.762344
+ekpp/ekp = 0.815661
+ekpp/ek = 0.75172
+ekpp/ekp = 0.921608
+ekpp/ek = 0.715489
+ekpp/ekp = 0.776348
+ekpp/ek = 0.698906
+ekpp/ekp = 0.900248
+ekpp/ek = 0.638749
+ekpp/ekp = 0.709525
+ekpp/ek = 0.634222
+ekpp/ekp = 0.893868
+ekpp/ek = 0.619461
+ekpp/ekp = 0.693011
+ekpp/ek = 0.588184
+ekpp/ekp = 0.848737
+ekpp/ek = 0.459145
+ekpp/ekp = 0.540974
+ekpp/ek = 0.0162006
+ekpp/ekp = 0.0299471
+ekpp/ek = 0.00123522
+ekpp/ekp = 0.0412468
+ekpp/ek = 1.07182e-05
+ekpp/ekp = 0.000259854
+Showing
+**********************************************************
+Problem name: HS23    
+
+Number of Variables: 2
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: The Algorithm has Converged
+f(x) = 2
+|c(x)| = 1.84324e-07
+|g(x) + J(x)'*y| = 1.15295e-10
+y offset = 0
+Number of Iterations = 33
+Elapsed Time = 0.00160956 s
+Normal iterations = 19
+Average number of normal iterations = 0.575758
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 14
+Iterations with 1  normal iteration  = 19
+Iterations with 2+ normal iterations = 0
+Restorations = 24
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.006666

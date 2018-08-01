@@ -1,0 +1,82 @@
+sifdecoder -A pc64.lnx.gfo  ALLINITC
+
+ Problem name: ALLINITC
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ The objective function uses 10 nonlinear groups
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There is 1 free variable 
+ There is 1 variable bounded only from below 
+ There is 1 variable bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+ekpp/ek = 1.07151
+ekpp/ekp = 1.05048
+ekpp/ek = 1.1417
+ekpp/ekp = 1.08684
+ekpp/ek = 1.07044
+ekpp/ekp = 0.984915
+ekpp/ek = 0.867635
+ekpp/ekp = 0.880924
+ekpp/ek = 0.845723
+ekpp/ekp = 0.960041
+ekpp/ek = 0.900588
+ekpp/ekp = 0.938073
+ekpp/ek = 0.887396
+ekpp/ekp = 0.945978
+ekpp/ek = 1.2783
+ekpp/ekp = 1.3513
+ekpp/ek = 1.11345
+ekpp/ekp = 0.823985
+ekpp/ek = 0.771925
+ekpp/ekp = 0.936819
+ekpp/ek = 0.888776
+ekpp/ekp = 0.948716
+ekpp/ek = 0.928145
+ekpp/ekp = 0.978317
+ekpp/ek = 0.970821
+ekpp/ekp = 0.992338
+ekpp/ek = 0.989797
+ekpp/ekp = 0.997439
+ekpp/ek = 0.996766
+ekpp/ekp = 0.999326
+Showing
+**********************************************************
+Problem name: ALLINITC
+
+Number of Variables: 3
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 30.4692
+|c(x)| = 9.59192e-07
+|g(x) + J(x)'*y| = 2.16159e-07
+y offset = 0
+Number of Iterations = 18
+Elapsed Time = 0.00173926 s
+Normal iterations = 18
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 6
+Iterations with 2+ normal iterations = 6
+Restorations = 180
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.006666

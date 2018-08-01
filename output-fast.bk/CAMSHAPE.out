@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  CAMSHAPE
+
+ Problem name: CAMSHAPE
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 802 linear inequality constraints
+ There are 801 nonlinear inequality constraints
+ 
+ There are 800 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+Setup time: 0.019999
+Execution time: 0.173333

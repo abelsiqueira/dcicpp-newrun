@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo  DIXMAANB
+
+ Problem name: DIXMAANB
+
+ Double precision version will be formed
+
+ The objective function uses 4 nonlinear groups
+ 
+ There are 3000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.630697
+ekpp/ekp = 3.36885
+ekpp/ek = 7.86313
+ekpp/ekp = 2.33407
+ekpp/ek = 3.03561
+ekpp/ekp = 1.30057
+ekpp/ek = 1.31159
+ekpp/ekp = 1.00848
+Showing
+**********************************************************
+Problem name: DIXMAANB
+
+Number of Variables: 3000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.29257e-09
+y offset = 0
+Number of Iterations = 7
+Elapsed Time = 0.0309546 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.056666
+Execution time: 0.123334

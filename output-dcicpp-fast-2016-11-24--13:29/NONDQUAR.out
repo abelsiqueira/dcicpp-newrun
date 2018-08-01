@@ -1,0 +1,65 @@
+sifdecoder -A pc64.lnx.gfo  NONDQUAR
+
+ Problem name: NONDQUAR
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.999997
+ekpp/ekp = 1.00006
+ekpp/ek = 1.00029
+ekpp/ekp = 1.00022
+ekpp/ek = 1.00027
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00015
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00018
+ekpp/ekp = 1.00008
+ekpp/ek = 1.00032
+ekpp/ekp = 1.00024
+ekpp/ek = 1.00049
+ekpp/ekp = 1.00025
+ekpp/ek = 1.0005
+ekpp/ekp = 1.00025
+ekpp/ek = 1.00025
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999995
+ekpp/ekp = 0.999998
+Showing
+**********************************************************
+Problem name: NONDQUAR
+
+Number of Variables: 5000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.000527068
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.5547e-07
+y offset = 0
+Number of Iterations = 13
+Elapsed Time = 0.0726349 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 13
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.076666
+Execution time: 0.26

@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  GOULDQP2
+
+ Problem name: GOULDQP2
+
+ Double precision version will be formed
+
+ The objective function uses 9998 nonlinear groups
+ 
+ There are 9999 linear equality constraints
+ 
+ There are 19999 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: GOULDQP2
+
+Number of Variables: 19999
+Number of Constraints: 9999
+             Equality: 9999
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.60268e-12
+|c(x)| = 4.04535e-07
+|g(x) + J(x)'*y| = 1.47662e-19
+|J(x)'c(x)| = 6.95284e-310
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.0361125 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      10 (4, 6)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):      6 (4, 2)
+  Jacobian     (ccfsg):           2
+  Hessian prod (*hprod):          1
+
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.31
+Execution time: 0.04

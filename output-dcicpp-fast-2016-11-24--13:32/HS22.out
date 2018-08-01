@@ -1,0 +1,64 @@
+sifdecoder -A pc64.lnx.gfo  HS22
+
+ Problem name: HS22
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear inequality constraint
+ There is 1 nonlinear inequality constraint
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.000955068
+ekpp/ekp = 0.00624985
+ekpp/ek = 0.000622428
+ekpp/ekp = 0.0995909
+ekpp/ek = 196.48
+ekpp/ekp = 1972.88
+ekpp/ek = 25.4299
+ekpp/ekp = 0.0128898
+ekpp/ek = 0.00126931
+ekpp/ekp = 0.0984746
+ekpp/ek = 0.00969744
+ekpp/ekp = 0.0984765
+ekpp/ek = 293.737
+ekpp/ekp = 2982.81
+ekpp/ek = 0.0218329
+ekpp/ekp = 7.31958e-06
+Showing
+**********************************************************
+Problem name: HS22    
+
+Number of Variables: 2
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 0.999999
+|c(x)| = 9.63029e-07
+|g(x) + J(x)'*y| = 3.30995e-10
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.00282812 s
+Normal iterations = 13
+Average number of normal iterations = 1.18182
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 3
+Restorations = 376
+Average number of restorations per normal iteration = 28
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

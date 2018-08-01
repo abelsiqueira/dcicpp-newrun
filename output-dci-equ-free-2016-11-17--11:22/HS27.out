@@ -1,0 +1,68 @@
+sifdecoder -A pc64.lnx.gfo -st   HS27
+
+ Problem name: HS27
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.20386409708600886     
+ |gp(xk)|/|gp(xck)| =    9.5974043802694878E-002
+ |gp(xk)|/|gp(xck)| =    1.1517581089204088E-002
+ |gp(xk)|/|gp(xck)| =    1.7173406632530235     
+ |gp(xk)|/|gp(xck)| =   0.16696866155325366     
+ |gp(xk)|/|gp(xck)| =    3.6745917422613780E-002
+ |gp(xk)|/|gp(xck)| =    4.1724787102094520     
+ |gp(xk)|/|gp(xck)| =    7.8921908122793344E-003
+ |gp(xk)|/|gp(xck)| =    2.2570837106126893     
+ |gp(xk)|/|gp(xck)| =    6.9364351221492182     
+ |gp(xk)|/|gp(xck)| =    4.5346799510631595     
+ |gp(xk)|/|gp(xck)| =    9.5810286300498468     
+ |gp(xk)|/|gp(xck)| =    8.9697598456109126E-002
+ |gp(xk)|/|gp(xck)| =    18.335784824767973     
+ |gp(xk)|/|gp(xck)| =    1.7853953792874805E-003
+ |gp(xk)|/|gp(xck)| =    23.994117171617575     
+ |gp(xk)|/|gp(xck)| =    9.1304034721374300E-006
+ |gp(xk)|/|gp(xck)| =   0.99999999999999856     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           18
+ Steihaug's iter:           36
+ Restorations   :           13
+ Rejected steps :            6
+ Function evals.:           24
+ Constr.  evals.:           40
+ Gradient evals.:           20
+ Jacobian evals.:           21
+ 2nd order Corr.:            2
+ BFGS iterations:            0
+ f(x)           :    3.9999992959340737E-002
+ ||h(x)||       :    1.7601649803130635E-007
+ ||gp(x)||      :    7.4393515855445804E-009
+ ||At*h||       :    1.7601649803130939E-007
+ Elapsed time   :    0.00000000    
+
+ ||xnew - xc||  :    1.2571363336548380E-006
+ rho            :    9.9999999999999995E-007
+ rhomax         :    5.8930983281349310     
+ vdelta         :    1.8656910908075679     
+ hdelta         :   0.51688708732217536     
+ L(x)           :    4.0000000000885133E-002
+ L(x) - L(xc)   :   -1.5803816588721986E-012
+ L(xc)-L(x(k-1)):    9.4626390056973264E-013
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

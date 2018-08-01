@@ -1,0 +1,35 @@
+sifdecoder -A pc64.lnx.gfo  WATSON
+
+ Problem name: WATSON
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 30 nonlinear groups
+ 
+ There are 12 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: WATSON  
+
+Number of Variables: 12
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 8.41148e-06
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.95171e-08
+y offset = 0
+Number of Iterations = 21
+Elapsed Time = 0.00639939 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicppclean: line 240: 16207 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

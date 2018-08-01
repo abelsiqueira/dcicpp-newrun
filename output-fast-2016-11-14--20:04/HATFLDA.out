@@ -1,0 +1,35 @@
+sifdecoder -A pc64.lnx.gfo  HATFLDA
+
+ Problem name: HATFLDA
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 3 nonlinear groups
+ 
+ There are 4 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HATFLDA 
+
+Number of Variables: 4
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 9.3108e-16
+|c(x)| = 0
+|g(x) + J(x)'*y| = 7.36472e-09
+y offset = 0
+Number of Iterations = 9
+Elapsed Time = 0.000270844 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 19899 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

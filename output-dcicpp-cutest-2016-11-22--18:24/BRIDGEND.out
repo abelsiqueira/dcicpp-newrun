@@ -1,0 +1,28 @@
+sifdecoder -A pc64.lnx.gfo  BRIDGEND
+
+ Problem name: BRIDGEND
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1304 linear equality constraints
+ There are 1423 nonlinear equality constraints
+ 
+ There are 1423 free variables
+ There are 1297 variables bounded only from below 
+ There are 14 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 668 variables
+NOPE preprocessing removed 668 contraints
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving

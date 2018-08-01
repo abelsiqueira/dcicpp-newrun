@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  CYCLIC3
+
+ Problem name: CYCLIC3
+
+ Double precision version will be formed
+
+ 
+ There are 2 linear equality constraints
+ There are 100000 nonlinear equality constraints
+ 
+ There are 100002 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CYCLIC3 
+
+Number of Variables: 100002
+Number of Constraints: 100002
+             Equality: 100002
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 1.43831e-07
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 1.5606 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 22
+Average number of restorations per normal iteration = 11
+**********************************************************
+Done
+Setup time: 0.46
+Execution time: 1.58667

@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  BRITGAS
+
+ Problem name: BRITGAS
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 360 nonlinear equality constraints
+ 
+ There are 426 variables bounded only from below 
+ There are 24 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: BRITGAS 
+
+Number of Variables: 450
+Number of Constraints: 360
+             Equality: 360
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.000251747
+|c(x)| = 2.84718e-13
+|g(x) + J(x)'*y| = 6.0717e-07
+|J(x)'c(x)| = 3.9952e-13
+y offset = 0
+Number of Iterations = 17
+Elapsed Time = 0.10642 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      81 (42, 39)
+  Gradient     (*ofg):           22
+  Constraints  (cfn, ccfsg):    529 (42, 487)
+  Jacobian     (ccfsg):         124
+  Hessian prod (*hprod):         29
+
+Normal iterations = 7
+Average number of normal iterations = 0.411765
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = 1
+Restorations = 363
+Average number of restorations per normal iteration = 51
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 0.36

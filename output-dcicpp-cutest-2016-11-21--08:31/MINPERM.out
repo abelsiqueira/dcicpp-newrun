@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  MINPERM
+
+ Problem name: MINPERM
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 20 linear equality constraints
+ There are 1013 nonlinear equality constraints
+ 
+ There are 1013 variables bounded only from below 
+ There are 100 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: MINPERM 
+
+Number of Variables: 1113
+Number of Constraints: 1033
+             Equality: 1033
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0.00036288
+|c(x)| = 2.5409e-13
+|g(x) + J(x)'*y| = 3.31647e-09
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.201071 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 2
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.039999
+Execution time: 0.426667

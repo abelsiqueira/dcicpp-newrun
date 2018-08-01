@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  PFIT1
+
+ Problem name: PFIT1
+
+ Double precision version will be formed
+
+ 
+ There are 3 nonlinear equality constraints
+ 
+ There are 2 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: PFIT1   
+
+Number of Variables: 3
+Number of Constraints: 3
+             Equality: 3
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0
+|c(x)| = 5.03333e-08
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 0.155962
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.00240731 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     148 (142, 6)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):    610 (142, 468)
+  Jacobian     (ccfsg):         119
+  Hessian prod (*hprod):        129
+
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 349
+Average number of restorations per normal iteration = 174
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

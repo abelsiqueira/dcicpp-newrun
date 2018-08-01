@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  DISCS
+
+ Problem name: DISCS
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 18 nonlinear equality constraints
+ There are 48 nonlinear inequality constraints
+ 
+ There are 21 free variables
+ There are 12 variables bounded only from below 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: DISCS   
+
+Number of Variables: 33
+Number of Constraints: 66
+             Equality: 18
+           has_inequality: 48
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 20.865
+|c(x)| = 4.61909
+|g(x) + J(x)'*y| = 0.000429599
+y offset = 0.0263933
+Number of Iterations = 1
+Elapsed Time = 1.48147 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10001
+Average number of restorations per normal iteration = 5000
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 1.63666

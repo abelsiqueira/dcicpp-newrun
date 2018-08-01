@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  DALE
+
+ Problem name: DALE
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 405 linear equality constraints
+ 
+ There are 1583 variables bounded only from above 
+ There are 14931 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: DALE    
+
+Number of Variables: 16514
+Number of Constraints: 405
+             Equality: 405
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 3704.79
+|c(x)| = 1.47547e-12
+|g(x) + J(x)'*y| = 5.93305e-07
+|J(x)'c(x)| = 2.3053e-05
+y offset = 0
+Number of Iterations = 15
+Elapsed Time = 60.4609 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      67 (35, 32)
+  Gradient     (*ofg):           17
+  Constraints  (cfn, ccfsg):    216 (35, 181)
+  Jacobian     (ccfsg):          68
+  Hessian prod (*hprod):      33339
+
+Normal iterations = 3
+Average number of normal iterations = 0.2
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 12
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 113
+Average number of restorations per normal iteration = 37
+**********************************************************
+Done
+Setup time: 0.183334
+Execution time: 60.54

@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS80
+
+ Problem name: HS80
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear equality constraints
+ 
+ There are 5 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS80    
+
+Number of Variables: 5
+Number of Constraints: 3
+             Equality: 3
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0539498
+|c(x)| = 5.06727e-10
+|g(x) + J(x)'*y| = 9.37806e-07
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.000313759 s
+Normal iterations = 4
+Average number of normal iterations = 1.33333
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 1
+Restorations = 4
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: -5.66244e-13

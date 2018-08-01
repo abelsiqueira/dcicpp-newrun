@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  TENBARS3
+
+ Problem name: TENBARS3
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 8 nonlinear equality constraints
+ 
+ There are 6 free variables
+ There are 12 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: TENBARS3
+
+Number of Variables: 18
+Number of Constraints: 8
+             Equality: 8
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2247.13
+|c(x)| = 3.22986e-07
+|g(x) + J(x)'*y| = 3.36386e-07
+|J(x)'c(x)| = 0.0391407
+y offset = 0
+Number of Iterations = 62
+Elapsed Time = 0.010648 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     314 (170, 144)
+  Gradient     (*ofg):           82
+  Constraints  (cfn, ccfsg):   1253 (170, 1083)
+  Jacobian     (ccfsg):         324
+  Hessian prod (*hprod):        163
+
+Normal iterations = 21
+Average number of normal iterations = 0.33871
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 41
+Iterations with 1  normal iteration  = 21
+Iterations with 2+ normal iterations = 0
+Restorations = 759
+Average number of restorations per normal iteration = 36
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.043332

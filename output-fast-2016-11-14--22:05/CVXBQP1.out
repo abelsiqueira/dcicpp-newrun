@@ -1,0 +1,34 @@
+sifdecoder -A pc64.lnx.gfo  CVXBQP1
+
+ Problem name: CVXBQP1
+
+ Double precision version will be formed
+
+ The objective function uses 10000 nonlinear groups
+ 
+ There are 10000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CVXBQP1 
+
+Number of Variables: 10000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.25027e+06
+|c(x)| = 0
+|g(x) + J(x)'*y| = 5.44432e-07
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.0774045 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 21209 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

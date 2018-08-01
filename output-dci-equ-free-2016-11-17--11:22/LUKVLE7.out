@@ -1,0 +1,71 @@
+sifdecoder -A pc64.lnx.gfo -st   LUKVLE7
+
+ Problem name: LUKVLE7
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 4 nonlinear equality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ |gp(xk)|/|gp(xck)| =   0.63378100460508513     
+ |gp(xk)|/|gp(xck)| =   0.17312910614301405     
+ |gp(xk)|/|gp(xck)| =   0.54815549231754290     
+ |gp(xk)|/|gp(xck)| =   0.14730972666199427     
+ |gp(xk)|/|gp(xck)| =   0.12061186840474941     
+ |gp(xk)|/|gp(xck)| =   0.70079294835109573     
+ |gp(xk)|/|gp(xck)| =   0.18504021319606176     
+ |gp(xk)|/|gp(xck)| =   0.43252578743592585     
+ |gp(xk)|/|gp(xck)| =   0.25120869951928670     
+ |gp(xk)|/|gp(xck)| =   0.39560760337644779     
+ |gp(xk)|/|gp(xck)| =   0.24963584997911964     
+ |gp(xk)|/|gp(xck)| =   0.37582446740182751     
+ |gp(xk)|/|gp(xck)| =    9.0536469948365866E-002
+ |gp(xk)|/|gp(xck)| =   0.37178560764461260     
+ |gp(xk)|/|gp(xck)| =   0.10649697147372653     
+ |gp(xk)|/|gp(xck)| =   0.99999990696492225     
+ |gp(xk)|/|gp(xck)| =   0.99999335966621083     
+ |gp(xk)|/|gp(xck)| =   0.99999958494465491     
+ |gp(xk)|/|gp(xck)| =   0.99999999999989553     
+ |gp(xk)|/|gp(xck)| =   0.99999999999563438     
+
+ DCI Summary.
+
+ The restoration has failed.
+
+ Iterations     :           20
+ Steihaug's iter:          906
+ Restorations   :           11
+ Rejected steps :          278
+ Function evals.:          298
+ Constr.  evals.:          796
+ Gradient evals.:           24
+ Jacobian evals.:           26
+ 2nd order Corr.:            3
+ BFGS iterations:            0
+ f(x)           :   -2165.0710938639368     
+ ||h(x)||       :    2.7755575615628914E-016
+ ||gp(x)||      :    6.3612105419430520E-004
+ ||At*h||       :    1.3823828158781159E-015
+ Elapsed time   :   0.589843750    
+
+ ||xnew - xc||  :    1.8645851828000518E-160
+ rho            :    5.2481632456266599E-005
+ rhomax         :    49.999897096258842     
+ vdelta         :    9.9999999999999998E-017
+ hdelta         :    1.0000000000000001E-005
+ L(x)           :   -2165.0710938556322     
+ L(x) - L(xc)   :    0.0000000000000000     
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

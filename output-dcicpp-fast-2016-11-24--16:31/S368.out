@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  S368
+
+ Problem name: S368
+
+ Double precision version will be formed
+
+ The objective function uses 128 nonlinear groups
+ 
+ There are 8 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: S368    
+
+Number of Variables: 8
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -0.749999
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.97142e-08
+|J(x)'c(x)| = 0
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.000617743 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      32 (14, 18)
+  Gradient     (*ofg):           10
+  Constraints  (cfn, ccfsg):      0 (0, 0)
+  Jacobian     (ccfsg):           0
+  Hessian prod (*hprod):         32
+
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 8
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

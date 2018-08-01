@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS100LNP
+
+ Problem name: HS100LNP
+
+ Double precision version will be formed
+
+ The objective function uses 4 nonlinear groups
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 7 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:14
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS100LNP
+
+Number of Variables: 7
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 680.63
+|c(x)| = 3.89933e-07
+|g(x) + J(x)'*y| = 2.42183e-07
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.000463247 s
+Normal iterations = 6
+Average number of normal iterations = 0.75
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 6
+Iterations with 2+ normal iterations = 0
+Restorations = 6
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: -5.66244e-13

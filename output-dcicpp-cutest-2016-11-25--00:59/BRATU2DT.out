@@ -1,0 +1,62 @@
+sifdecoder -A pc64.lnx.gfo  BRATU2DT
+
+ Problem name: BRATU2DT
+
+ Double precision version will be formed
+
+ 
+ There are 4900 nonlinear equality constraints
+ 
+ There are 4900 free variables
+ There are 284 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 284 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Showing
+**********************************************************
+Problem name: BRATU2DT
+
+Number of Variables: 4900
+Number of Constraints: 4900
+             Equality: 4900
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 0
+|c(x)| = 1.154e-05
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 3.66723e-05
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 138.971 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     461 (456, 5)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):  13777 (456, 13321)
+  Jacobian     (ccfsg):        3320
+  Hessian prod (*hprod):          0
+
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10001
+Average number of restorations per normal iteration = 5000
+**********************************************************
+Done
+Setup time: 0.11
+Execution time: 139.05

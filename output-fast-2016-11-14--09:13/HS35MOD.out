@@ -1,0 +1,34 @@
+sifdecoder -A pc64.lnx.gfo  HS35MOD
+
+ Problem name: HS35MOD
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear inequality constraint
+ 
+ There are 2 variables bounded only from below 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: HS35MOD 
+
+Number of Variables: 2
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = 0.25
+|c(x)| = 5.10703e-15
+|g(x) + J(x)'*y| = 4.00526e-08
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.000260592 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 28497 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

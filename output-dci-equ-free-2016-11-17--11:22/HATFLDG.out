@@ -1,0 +1,51 @@
+sifdecoder -A pc64.lnx.gfo -st   HATFLDG
+
+ Problem name: HATFLDG
+
+ Double precision version will be formed
+
+ 
+ There are 25 nonlinear equality constraints
+ 
+ There are 25 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO
+ |gp(xk)|/|gp(xck)| =                   Infinity
+
+ DCI Summary.
+
+ The restoration has failed.
+
+ Iterations     :            1
+ Steihaug's iter:            0
+ Restorations   :           23
+ Rejected steps :            0
+ Function evals.:            1
+ Constr.  evals.:           38
+ Gradient evals.:            3
+ Jacobian evals.:            7
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    0.0000000000000000     
+ ||h(x)||       :    1.5246909957275678E-017
+ ||gp(x)||      :    0.0000000000000000     
+ ||At*h||       :    4.7050082295582343E-017
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    0.0000000000000000     
+ rho            :    0.0000000000000000     
+ rhomax         :    26.500377355803820     
+ vdelta         :    9.9999999999999998E-017
+ hdelta         :    1000000.0000000000     
+ L(x)           :    0.0000000000000000     
+ L(x) - L(xc)   :    1.0000000000000000E+100
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

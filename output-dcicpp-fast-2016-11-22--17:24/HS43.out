@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS43
+
+ Problem name: HS43
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 4 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS43    
+
+Number of Variables: 4
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = -44
+|c(x)| = 2.28121e-07
+|g(x) + J(x)'*y| = 6.65761e-09
+y offset = 0
+Number of Iterations = 9
+Elapsed Time = 0.00207043 s
+Normal iterations = 9
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = 2
+Restorations = 212
+Average number of restorations per normal iteration = 23
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

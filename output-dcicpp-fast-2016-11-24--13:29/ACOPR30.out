@@ -1,0 +1,89 @@
+sifdecoder -A pc64.lnx.gfo  ACOPR30
+
+ Problem name: ACOPR30
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 60 nonlinear equality constraints
+ There are 112 nonlinear inequality constraints
+ 
+ There are 60 free variables
+ There are 12 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.999863
+ekpp/ekp = 0.999976
+ekpp/ek = 1.00003
+ekpp/ekp = 1.00006
+ekpp/ek = 0.999992
+ekpp/ekp = 0.999934
+ekpp/ek = 0.999925
+ekpp/ekp = 0.999991
+ekpp/ek = 1.00004
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00015
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00193
+ekpp/ekp = 1.00182
+ekpp/ek = 0.999604
+ekpp/ekp = 0.997784
+ekpp/ek = 0.998118
+ekpp/ekp = 1.00033
+ekpp/ek = 1.00026
+ekpp/ekp = 0.999928
+ekpp/ek = 1.00033
+ekpp/ekp = 1.00041
+ekpp/ek = 1.00039
+ekpp/ekp = 0.999984
+ekpp/ek = 1.00015
+ekpp/ekp = 1.00017
+ekpp/ek = 1.00028
+ekpp/ekp = 1.00011
+ekpp/ek = 1.0002
+ekpp/ekp = 1.00009
+ekpp/ek = 1.00039
+ekpp/ekp = 1.0003
+ekpp/ek = 1.00042
+ekpp/ekp = 1.00012
+ekpp/ek = 1.00036
+ekpp/ekp = 1.00024
+ekpp/ek = 0.998977
+ekpp/ekp = 0.998733
+ekpp/ek = 0.99874
+ekpp/ekp = 1.00001
+Showing
+**********************************************************
+Problem name: ACOPR30 
+
+Number of Variables: 72
+Number of Constraints: 172
+             Equality: 60
+           has_inequality: 112
+
+EXIT: The Algorithm has Converged
+f(x) = 576.892
+|c(x)| = 4.70762e-07
+|g(x) + J(x)'*y| = 5.28792e-08
+y offset = 0.0150334
+Number of Iterations = 23
+Elapsed Time = 0.0702512 s
+Normal iterations = 10
+Average number of normal iterations = 0.434783
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 14
+Iterations with 1  normal iteration  = 8
+Iterations with 2+ normal iterations = 1
+Restorations = 98
+Average number of restorations per normal iteration = 9
+**********************************************************
+Done
+Setup time: 0.01
+Execution time: 0.283333

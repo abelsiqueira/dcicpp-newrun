@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  WOODSNE
+
+ Problem name: WOODSNE
+
+ Double precision version will be formed
+
+ The objective function uses 3000 linear groups
+ 
+ There are 1001 linear equality constraints
+ There are 2000 nonlinear equality constraints
+ 
+ There are 4000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-equ-free-2016-11-17--11:31
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+NormalFlag = 2
+Showing
+**********************************************************
+Problem name: WOODSNE 
+
+Number of Variables: 4000
+Number of Constraints: 3001
+             Equality: 3001
+           has_inequality: 0
+
+EXIT: Stopped at a stationary for the infeasibility
+Cholesky failed
+f(x) = -8839.15
+|c(x)| = 1
+|g(x) + J(x)'*y| = 2.84276e-06
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.0204849 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10
+Average number of restorations per normal iteration = 5
+**********************************************************
+Done
+Setup time: 0.083333
+Execution time: 0.07

@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  SIMPLLPA
+
+ Problem name: SIMPLLPA
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 linear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: SIMPLLPA
+
+Number of Variables: 2
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 1
+|c(x)| = 9.98344e-07
+|g(x) + J(x)'*y| = 2.98579e-07
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.00108838 s
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 1
+Iterations with <= 1 normal iterations = 2
+**********************************************************
+Setup time: 0
+Execution time: 0.006666

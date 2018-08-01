@@ -1,0 +1,26 @@
+sifdecoder -A pc64.lnx.gfo  SARO
+
+ Problem name: SARO
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4015 nonlinear equality constraints
+ 
+ There are 3284 free variables
+ There are 1460 variables bounded from below and above 
+ There are 10 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 10 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719

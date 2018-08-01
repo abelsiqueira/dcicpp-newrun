@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  CVXBQP1
+
+ Problem name: CVXBQP1
+
+ Double precision version will be formed
+
+ The objective function uses 10000 nonlinear groups
+ 
+ There are 10000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.28516
+ekpp/ekp = 1.04368
+ekpp/ek = 1.06986
+ekpp/ekp = 1.02509
+ekpp/ek = 1.03061
+ekpp/ekp = 1.00539
+ekpp/ek = 1.00761
+ekpp/ekp = 1.0022
+ekpp/ek = 1.00274
+ekpp/ekp = 1.00054
+ekpp/ek = 1.0007
+ekpp/ekp = 1.00016
+ekpp/ek = 1.0002
+ekpp/ekp = 1.00003
+ekpp/ek = 1.00005
+ekpp/ekp = 1.00001
+Showing
+**********************************************************
+Problem name: CVXBQP1 
+
+Number of Variables: 10000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.25027e+06
+|c(x)| = 0
+|g(x) + J(x)'*y| = 5.44432e-07
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.0778284 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.150001
+Execution time: 0.196666

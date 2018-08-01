@@ -1,0 +1,22 @@
+sifdecoder -A pc64.lnx.gfo  SMMPSF
+
+ Problem name: SMMPSF
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 240 linear equality constraints
+ There are 12 linear inequality constraints
+ There are 11 nonlinear inequality constraints
+ 
+ There are 720 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: f is nan

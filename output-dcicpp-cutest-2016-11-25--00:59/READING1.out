@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  READING1
+
+ Problem name: READING1
+
+ Double precision version will be formed
+
+ The objective function uses 2000 nonlinear groups
+ 
+ There are 2000 nonlinear equality constraints
+ 
+ There are 4001 variables bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: READING1
+
+Number of Variables: 4001
+Number of Constraints: 2000
+             Equality: 2000
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -0.0869559
+|c(x)| = 3.54678e-11
+|g(x) + J(x)'*y| = 1.19134e-07
+|J(x)'c(x)| = 0.134824
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.159184 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      81 (72, 9)
+  Gradient     (*ofg):            6
+  Constraints  (cfn, ccfsg):     89 (72, 17)
+  Jacobian     (ccfsg):           7
+  Hessian prod (*hprod):         68
+
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 10
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0.086667
+Execution time: 0.343333

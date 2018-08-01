@@ -1,0 +1,50 @@
+sifdecoder -A pc64.lnx.gfo  HS20
+
+ Problem name: HS20
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There is 1 free variable 
+ There is 1 variable bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00605
+ekpp/ekp = 1.00003
+Showing
+**********************************************************
+Problem name: HS20    
+
+Number of Variables: 2
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = 40.1988
+|c(x)| = 3.32347e-07
+|g(x) + J(x)'*y| = 3.2567e-08
+y offset = 0
+Number of Iterations = 4
+Elapsed Time = 0.000319481 s
+Normal iterations = 2
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 2
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: -5.66244e-13

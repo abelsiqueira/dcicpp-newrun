@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  GOULDQP1
+
+ Problem name: GOULDQP1
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 17 linear equality constraints
+ 
+ There are 32 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: GOULDQP1
+
+Number of Variables: 32
+Number of Constraints: 17
+             Equality: 17
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -2858.64
+|c(x)| = 5.40069e-11
+|g(x) + J(x)'*y| = 7.41419e-07
+y offset = 0
+Number of Iterations = 20
+Elapsed Time = 0.00159192 s
+Normal iterations = 1
+Average number of normal iterations = 0.05
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 19
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.006666

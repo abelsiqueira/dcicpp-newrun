@@ -1,0 +1,67 @@
+sifdecoder -A pc64.lnx.gfo  DALLASM
+
+ Problem name: DALLASM
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 151 linear equality constraints
+ 
+ There are 196 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 32 variables
+NOPE preprocessing removed 32 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: DALLASM 
+
+Number of Variables: 164
+Number of Constraints: 119
+             Equality: 119
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 1.48317e+06
+|c(x)| = 1.78837e-07
+|g(x) + J(x)'*y| = 2.21207e-07
+|J(x)'c(x)| = 9.619e-13
+y offset = 0
+Number of Iterations = 79
+Elapsed Time = 0.191189 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     262 (102, 160)
+  Gradient     (*ofg):           81
+  Constraints  (cfn, ccfsg):    422 (102, 320)
+  Jacobian     (ccfsg):         132
+  Hessian prod (*hprod):       1505
+
+Normal iterations = 2
+Average number of normal iterations = 0.0253165
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 77
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 188
+Average number of restorations per normal iteration = 94
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.446666

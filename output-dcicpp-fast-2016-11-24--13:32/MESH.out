@@ -1,0 +1,111 @@
+sifdecoder -A pc64.lnx.gfo  MESH
+
+ Problem name: MESH
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There are 4 linear equality constraints
+ There are 24 linear inequality constraints
+ There are 20 nonlinear equality constraints
+ 
+ There are 2 free variables
+ There are 14 variables bounded only from below 
+ There are 17 variables bounded from below and above 
+ There are 8 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 8 variables
+Starting
+Solving
+ekpp/ek = 1.23564
+ekpp/ekp = 1.01429
+ekpp/ek = 1.01892
+ekpp/ekp = 1.00457
+ekpp/ek = 1.02501
+ekpp/ekp = 1.02035
+ekpp/ek = 1.06758
+ekpp/ekp = 1.04628
+ekpp/ek = 1.28372
+ekpp/ekp = 1.22694
+ekpp/ek = 2.18515
+ekpp/ekp = 1.78098
+ekpp/ek = 4.12024
+ekpp/ekp = 2.31347
+ekpp/ek = 5.72172
+ekpp/ekp = 2.47322
+ekpp/ek = 6.17928
+ekpp/ekp = 2.49847
+ekpp/ek = 6.24841
+ekpp/ekp = 2.50089
+ekpp/ek = 6.25371
+ekpp/ekp = 2.5006
+ekpp/ek = 6.25218
+ekpp/ekp = 2.50028
+ekpp/ek = 6.25098
+ekpp/ekp = 2.50012
+ekpp/ek = 6.25041
+ekpp/ekp = 2.50005
+ekpp/ek = 6.25017
+ekpp/ekp = 2.50002
+ekpp/ek = 6.25007
+ekpp/ekp = 2.50001
+ekpp/ek = 6.25003
+ekpp/ekp = 2.5
+ekpp/ek = 6.25001
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+ekpp/ek = 6.25
+ekpp/ekp = 2.5
+Showing
+**********************************************************
+Problem name: MESH    
+
+Number of Variables: 33
+Number of Constraints: 48
+             Equality: 24
+           has_inequality: 24
+
+EXIT: The problem is unlimited
+f(x) = -6.0974e+17
+|c(x)| = 0.000241423
+|g(x) + J(x)'*y| = 1.32687e+15
+y offset = 0.324342
+Number of Iterations = 32
+Elapsed Time = 0.00528598 s
+Normal iterations = 2
+Average number of normal iterations = 0.0625
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 30
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 2
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.013332

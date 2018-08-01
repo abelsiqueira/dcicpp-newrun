@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  LOOTSMA
+
+ Problem name: LOOTSMA
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ There is 1 variable bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LOOTSMA 
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 1.41422
+|c(x)| = 4.92789e-07
+|g(x) + J(x)'*y| = 4.89413e-07
+|J(x)'c(x)| = 9.517e-06
+y offset = 0
+Number of Iterations = 5
+Elapsed Time = 0.000466108 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      27 (13, 14)
+  Gradient     (*ofg):            9
+  Constraints  (cfn, ccfsg):     54 (13, 41)
+  Jacobian     (ccfsg):          10
+  Hessian prod (*hprod):          9
+
+Normal iterations = 6
+Average number of normal iterations = 1.2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 1
+Restorations = 31
+Average number of restorations per normal iteration = 5
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

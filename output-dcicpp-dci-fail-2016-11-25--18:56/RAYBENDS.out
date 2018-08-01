@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  RAYBENDS
+
+ Problem name: RAYBENDS
+
+ Double precision version will be formed
+
+ The objective function uses 1026 nonlinear groups
+ 
+ There are 2046 free variables
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 4 variables
+Starting
+Solving

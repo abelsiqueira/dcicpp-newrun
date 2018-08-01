@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HUESTIS
+
+ Problem name: HUESTIS
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear equality constraints
+ 
+ There are 5000 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HUESTIS 
+
+Number of Variables: 5000
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.74122e+11
+|c(x)| = 9.21261e-08
+|g(x) + J(x)'*y| = 1.06349e-05
+|J(x)'c(x)| = 0.000253574
+y offset = 0
+Number of Iterations = 22
+Elapsed Time = 77.2769 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     156 (105, 51)
+  Gradient     (*ofg):           29
+  Constraints  (cfn, ccfsg):    777 (105, 672)
+  Jacobian     (ccfsg):         230
+  Hessian prod (*hprod):     153727
+
+Normal iterations = 5
+Average number of normal iterations = 0.227273
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 18
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 1
+Restorations = 442
+Average number of restorations per normal iteration = 88
+**********************************************************
+Done
+Setup time: 0.059999
+Execution time: 77.4467

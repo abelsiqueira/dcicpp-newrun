@@ -1,0 +1,80 @@
+sifdecoder -A pc64.lnx.gfo  PALMER6E
+
+ Problem name: PALMER6E
+
+ Double precision version will be formed
+
+ The objective function uses 13 nonlinear groups
+ 
+ There are 7 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.959465
+ekpp/ekp = 0.994955
+ekpp/ek = 0.983545
+ekpp/ekp = 0.988532
+ekpp/ek = 0.96638
+ekpp/ekp = 0.977591
+ekpp/ek = 0.972188
+ekpp/ekp = 0.994473
+ekpp/ek = 0.966156
+ekpp/ekp = 0.971525
+ekpp/ek = 0.873269
+ekpp/ekp = 0.898864
+ekpp/ek = 0.726589
+ekpp/ekp = 0.808342
+ekpp/ek = 0.853769
+ekpp/ekp = 1.0562
+ekpp/ek = 1.5182
+ekpp/ekp = 1.43742
+ekpp/ek = 1.43623
+ekpp/ekp = 0.999172
+ekpp/ek = 0.998568
+ekpp/ekp = 0.999396
+ekpp/ek = 0.994517
+ekpp/ekp = 0.995119
+ekpp/ek = 0.983706
+ekpp/ekp = 0.988532
+ekpp/ek = 0.971337
+ekpp/ekp = 0.982606
+ekpp/ek = 0.954135
+ekpp/ekp = 0.971025
+ekpp/ek = 0.909036
+ekpp/ekp = 0.936161
+ekpp/ek = 0.936322
+ekpp/ekp = 1.00017
+Showing
+**********************************************************
+Problem name: PALMER6E
+
+Number of Variables: 8
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0697944
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.4178e-07
+y offset = 0
+Number of Iterations = 20
+Elapsed Time = 0.00114799 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 20
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.003333

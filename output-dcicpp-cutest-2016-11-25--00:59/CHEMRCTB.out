@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  CHEMRCTB
+
+ Problem name: CHEMRCTB
+
+ Double precision version will be formed
+
+ 
+ There are 2 linear equality constraints
+ There are 4998 nonlinear equality constraints
+ 
+ There are 5000 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CHEMRCTB
+
+Number of Variables: 5000
+Number of Constraints: 5000
+             Equality: 5000
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 4.97391e-09
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 443.606
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.190098 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      60 (53, 7)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):     82 (53, 29)
+  Jacobian     (ccfsg):           8
+  Hessian prod (*hprod):         48
+
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 21
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0.116665
+Execution time: 0.353334

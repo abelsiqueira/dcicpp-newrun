@@ -1,0 +1,25 @@
+sifdecoder -A pc64.lnx.gfo  FLOSP2HM
+
+ Problem name: FLOSP2HM
+
+ Double precision version will be formed
+
+ 
+ There are 1922 linear equality constraints
+ There are 841 nonlinear equality constraints
+ 
+ There are 2763 free variables
+ There are 120 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 120 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving

@@ -1,0 +1,154 @@
+sifdecoder -A pc64.lnx.gfo  PFIT4LS
+
+ Problem name: PFIT4LS
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There are 2 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00029
+ekpp/ekp = 1.00008
+ekpp/ek = 1.00001
+ekpp/ekp = 0.999921
+ekpp/ek = 0.999804
+ekpp/ekp = 0.999883
+ekpp/ek = 0.999876
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999991
+ekpp/ekp = 0.999998
+ekpp/ek = 0.999998
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00003
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00003
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00003
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00008
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00007
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00005
+ekpp/ekp = 1.00004
+ekpp/ek = 1.00013
+ekpp/ekp = 1.00009
+ekpp/ek = 0.99685
+ekpp/ekp = 0.996757
+ekpp/ek = 0.99686
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00019
+ekpp/ekp = 1.00009
+ekpp/ek = 1.00033
+ekpp/ekp = 1.00024
+ekpp/ek = 1.0005
+ekpp/ekp = 1.00026
+ekpp/ek = 1.00061
+ekpp/ekp = 1.00035
+ekpp/ek = 1.00063
+ekpp/ekp = 1.00029
+ekpp/ek = 0.987171
+ekpp/ekp = 0.986888
+ekpp/ek = 0.987108
+ekpp/ekp = 1.00022
+ekpp/ek = 1.00027
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00018
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00046
+ekpp/ekp = 1.00034
+ekpp/ek = 1.00039
+ekpp/ekp = 1.00006
+ekpp/ek = 1.0002
+ekpp/ekp = 1.00015
+ekpp/ek = 1.00053
+ekpp/ekp = 1.00038
+ekpp/ek = 1.00118
+ekpp/ekp = 1.0008
+ekpp/ek = 1.0011
+ekpp/ekp = 1.0003
+ekpp/ek = 1.00103
+ekpp/ekp = 1.00073
+ekpp/ek = 1.00116
+ekpp/ekp = 1.00043
+ekpp/ek = 1.00082
+ekpp/ekp = 1.00039
+ekpp/ek = 1.00144
+ekpp/ekp = 1.00105
+ekpp/ek = 1.00136
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00062
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00112
+ekpp/ekp = 1.00081
+ekpp/ek = 1.00132
+ekpp/ekp = 1.00052
+ekpp/ek = 1.00142
+ekpp/ekp = 1.00091
+ekpp/ek = 1.00134
+ekpp/ekp = 1.00043
+ekpp/ek = 1.001
+ekpp/ekp = 1.00057
+ekpp/ek = 1.0014
+ekpp/ekp = 1.00083
+ekpp/ek = 1.00124
+ekpp/ekp = 1.00041
+ekpp/ek = 1.0007
+ekpp/ekp = 1.00028
+ekpp/ek = 1.00101
+ekpp/ekp = 1.00073
+ekpp/ek = 1.00104
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00106
+ekpp/ekp = 1.00075
+ekpp/ek = 1.00086
+ekpp/ekp = 1.00011
+ekpp/ek = 1.00045
+ekpp/ekp = 1.00034
+ekpp/ek = 1.00034
+ekpp/ekp = 1
+ekpp/ek = 1.00002
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00002
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: PFIT4LS 
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.236342
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.14048e-09
+y offset = 0
+Number of Iterations = 57
+Elapsed Time = 0.00104523 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 57
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

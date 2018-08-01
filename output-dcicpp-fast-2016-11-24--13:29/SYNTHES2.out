@@ -1,0 +1,82 @@
+sifdecoder -A pc64.lnx.gfo  SYNTHES2
+
+ Problem name: SYNTHES2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There are 10 linear inequality constraints
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ There are 9 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.96364
+ekpp/ekp = 1.06296
+ekpp/ek = 1.18152
+ekpp/ekp = 1.11154
+ekpp/ek = 1.17184
+ekpp/ekp = 1.05425
+ekpp/ek = 1.0085
+ekpp/ekp = 0.956609
+ekpp/ek = 0.902856
+ekpp/ekp = 0.943809
+ekpp/ek = 0.930588
+ekpp/ekp = 0.985992
+ekpp/ek = 0.979318
+ekpp/ekp = 0.993231
+ekpp/ek = 0.967229
+ekpp/ekp = 0.973821
+ekpp/ek = 0.997341
+ekpp/ekp = 1.02415
+ekpp/ek = 0.997549
+ekpp/ekp = 0.974024
+ekpp/ek = 0.977319
+ekpp/ekp = 1.00338
+ekpp/ek = 1.00154
+ekpp/ekp = 0.998163
+ekpp/ek = 0.998956
+ekpp/ekp = 1.0008
+ekpp/ek = 1.00088
+ekpp/ekp = 1.00009
+ekpp/ek = 1.0001
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00001
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: SYNTHES2
+
+Number of Variables: 11
+Number of Constraints: 14
+             Equality: 1
+           has_inequality: 13
+
+EXIT: The Algorithm has Converged
+f(x) = -0.55435
+|c(x)| = 5.3735e-09
+|g(x) + J(x)'*y| = 2.23679e-07
+y offset = 4.01817e-12
+Number of Iterations = 19
+Elapsed Time = 0.0139713 s
+Normal iterations = 13
+Average number of normal iterations = 0.684211
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 11
+Iterations with 2+ normal iterations = 1
+Restorations = 730
+Average number of restorations per normal iteration = 56
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.056667

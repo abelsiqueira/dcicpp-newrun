@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  SNAKE
+
+ Problem name: SNAKE
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SNAKE   
+
+Number of Variables: 2
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The maximum number of restorarions was reached
+f(x) = -76.1591
+|c(x)| = 0.862975
+|g(x) + J(x)'*y| = 0.0835617
+|J(x)'c(x)| = 0.0444296
+y offset = 0.0004763
+Number of Iterations = 5
+Elapsed Time = 0.0531278 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     303 (287, 16)
+  Gradient     (*ofg):           11
+  Constraints  (cfn, ccfsg):  12151 (287, 11864)
+  Jacobian     (ccfsg):        1861
+  Hessian prod (*hprod):         52
+
+Normal iterations = 6
+Average number of normal iterations = 1.2
+Maximum number of normal iterations during one iteration = 4
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 1
+Restorations = 10003
+Average number of restorations per normal iteration = 1667
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.213332

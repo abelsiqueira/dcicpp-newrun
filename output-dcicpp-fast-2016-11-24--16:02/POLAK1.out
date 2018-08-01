@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  POLAK1
+
+ Problem name: POLAK1
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: POLAK1  
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 2.71828
+|c(x)| = 1.02797e-11
+|g(x) + J(x)'*y| = 2.8308e-12
+|J(x)'c(x)| = 5.57002e-05
+y offset = 0
+Number of Iterations = 16
+Elapsed Time = 0.00715089 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     258 (222, 36)
+  Gradient     (*ofg):           20
+  Constraints  (cfn, ccfsg):   2050 (222, 1828)
+  Jacobian     (ccfsg):         609
+  Hessian prod (*hprod):         27
+
+Normal iterations = 5
+Average number of normal iterations = 0.3125
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 12
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 1
+Restorations = 1219
+Average number of restorations per normal iteration = 243
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.029999

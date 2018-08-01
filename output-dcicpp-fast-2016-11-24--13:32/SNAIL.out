@@ -1,0 +1,195 @@
+sifdecoder -A pc64.lnx.gfo  SNAIL
+
+ Problem name: SNAIL
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.01092
+ekpp/ekp = 1.00072
+ekpp/ek = 0.983252
+ekpp/ekp = 0.982542
+ekpp/ek = 0.978986
+ekpp/ekp = 0.996381
+ekpp/ek = 1.00476
+ekpp/ekp = 1.00841
+ekpp/ek = 1.0015
+ekpp/ekp = 0.993148
+ekpp/ek = 1.00328
+ekpp/ekp = 1.0102
+ekpp/ek = 0.994892
+ekpp/ekp = 0.984847
+ekpp/ek = 0.98237
+ekpp/ekp = 0.997485
+ekpp/ek = 1.0038
+ekpp/ekp = 1.00633
+ekpp/ek = 1.02272
+ekpp/ekp = 1.01628
+ekpp/ek = 1.00288
+ekpp/ekp = 0.986809
+ekpp/ek = 0.984974
+ekpp/ekp = 0.99814
+ekpp/ek = 0.999673
+ekpp/ekp = 1.00154
+ekpp/ek = 1.00467
+ekpp/ekp = 1.00313
+ekpp/ek = 1.00225
+ekpp/ekp = 0.999125
+ekpp/ek = 1.01164
+ekpp/ekp = 1.01253
+ekpp/ek = 1.01757
+ekpp/ekp = 1.00498
+ekpp/ek = 1.00939
+ekpp/ekp = 1.00439
+ekpp/ek = 1.00937
+ekpp/ekp = 1.00496
+ekpp/ek = 1.00736
+ekpp/ekp = 1.00238
+ekpp/ek = 1.00745
+ekpp/ekp = 1.00505
+ekpp/ek = 1.00215
+ekpp/ekp = 0.99711
+ekpp/ek = 1.0067
+ekpp/ekp = 1.00962
+ekpp/ek = 0.994201
+ekpp/ekp = 0.984726
+ekpp/ek = 0.980196
+ekpp/ekp = 0.9954
+ekpp/ek = 0.999561
+ekpp/ekp = 1.00418
+ekpp/ek = 1.00967
+ekpp/ekp = 1.00547
+ekpp/ek = 0.98442
+ekpp/ekp = 0.979068
+ekpp/ek = 0.972878
+ekpp/ekp = 0.993678
+ekpp/ek = 0.986542
+ekpp/ekp = 0.992818
+ekpp/ek = 0.995114
+ekpp/ekp = 1.00231
+ekpp/ek = 0.969728
+ekpp/ekp = 0.96749
+ekpp/ek = 0.956907
+ekpp/ekp = 0.989061
+ekpp/ek = 0.958163
+ekpp/ekp = 0.96876
+ekpp/ek = 0.958495
+ekpp/ekp = 0.989404
+ekpp/ek = 0.990753
+ekpp/ekp = 1.00136
+ekpp/ek = 0.96972
+ekpp/ekp = 0.9684
+ekpp/ek = 0.936226
+ekpp/ekp = 0.966777
+ekpp/ek = 0.926389
+ekpp/ekp = 0.958225
+ekpp/ek = 0.941444
+ekpp/ekp = 0.982488
+ekpp/ek = 0.965945
+ekpp/ekp = 0.983162
+ekpp/ek = 0.970891
+ekpp/ekp = 0.987519
+ekpp/ek = 0.986185
+ekpp/ekp = 0.998649
+ekpp/ek = 0.963437
+ekpp/ekp = 0.96474
+ekpp/ek = 0.91838
+ekpp/ekp = 0.951945
+ekpp/ek = 0.89233
+ekpp/ekp = 0.937375
+ekpp/ek = 0.887032
+ekpp/ekp = 0.946294
+ekpp/ek = 0.885685
+ekpp/ekp = 0.93595
+ekpp/ek = 0.910887
+ekpp/ekp = 0.973222
+ekpp/ek = 0.962033
+ekpp/ekp = 0.988503
+ekpp/ek = 0.931012
+ekpp/ekp = 0.94184
+ekpp/ek = 0.87853
+ekpp/ekp = 0.932781
+ekpp/ek = 0.903303
+ekpp/ekp = 0.968398
+ekpp/ek = 0.964304
+ekpp/ekp = 0.995772
+ekpp/ek = 0.981601
+ekpp/ekp = 0.985769
+ekpp/ek = 0.919594
+ekpp/ekp = 0.93287
+ekpp/ek = 0.908015
+ekpp/ekp = 0.973356
+ekpp/ek = 1.01115
+ekpp/ekp = 1.03883
+ekpp/ek = 1.04432
+ekpp/ekp = 1.00529
+ekpp/ek = 1.013
+ekpp/ekp = 1.00767
+ekpp/ek = 1.04393
+ekpp/ekp = 1.03599
+ekpp/ek = 1.03591
+ekpp/ekp = 0.999926
+ekpp/ek = 1.06644
+ekpp/ekp = 1.06652
+ekpp/ek = 1.0007
+ekpp/ekp = 0.93829
+ekpp/ek = 0.885701
+ekpp/ekp = 0.943952
+ekpp/ek = 0.973788
+ekpp/ekp = 1.03161
+ekpp/ek = 1.00808
+ekpp/ekp = 0.97719
+ekpp/ek = 0.846338
+ekpp/ekp = 0.866093
+ekpp/ek = 0.627609
+ekpp/ekp = 0.724644
+ekpp/ek = 0.360999
+ekpp/ekp = 0.498174
+ekpp/ek = 0.358883
+ekpp/ekp = 0.720396
+ekpp/ek = 0.93281
+ekpp/ekp = 1.29486
+ekpp/ek = 1.21597
+ekpp/ekp = 0.939075
+ekpp/ek = 0.926858
+ekpp/ekp = 0.98699
+ekpp/ek = 0.986271
+ekpp/ekp = 0.999271
+Showing
+**********************************************************
+Problem name: SNAIL   
+
+Number of Variables: 2
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.12679e-11
+|c(x)| = 0
+|g(x) + J(x)'*y| = 3.91409e-07
+y offset = 0
+Number of Iterations = 78
+Elapsed Time = 0.000874758 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 78
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

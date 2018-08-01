@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  BRAINPC2
+
+ Problem name: BRAINPC2
+
+ Double precision version will be formed
+
+ The objective function uses 26 nonlinear groups
+ 
+ There are 13800 nonlinear equality constraints
+ 
+ There are 13805 variables bounded only from below 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting

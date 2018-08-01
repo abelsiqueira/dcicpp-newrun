@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  ROCKET
+
+ Problem name: ROCKET
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2002 nonlinear equality constraints
+ 
+ There are 802 free variables
+ There are 801 variables bounded only from below 
+ There are 800 variables bounded from below and above 
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 4 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: ROCKET  
+
+Number of Variables: 2403
+Number of Constraints: 2002
+             Equality: 2002
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -1.00615
+|c(x)| = 1.02565e-11
+|g(x) + J(x)'*y| = 2.76755e-08
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 90.555 s
+Normal iterations = 3
+Average number of normal iterations = 1.5
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 256
+Average number of restorations per normal iteration = 85
+**********************************************************
+Done
+Setup time: 0.063332
+Execution time: 90.7533

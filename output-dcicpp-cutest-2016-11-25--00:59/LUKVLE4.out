@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  LUKVLE4
+
+ Problem name: LUKVLE4
+
+ Double precision version will be formed
+
+ The objective function uses 24995 nonlinear groups
+ 
+ There are 4999 nonlinear equality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LUKVLE4 
+
+Number of Variables: 10000
+Number of Constraints: 4999
+             Equality: 4999
+           has_inequality: 0
+
+EXIT: rhomax became too short
+f(x) = 3.45311e+08
+|c(x)| = 5.25925e-08
+|g(x) + J(x)'*y| = 1.68611e+11
+|J(x)'c(x)| = 0.00048741
+y offset = 0
+Number of Iterations = 90
+Elapsed Time = 2.913 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     380 (194, 186)
+  Gradient     (*ofg):           96
+  Constraints  (cfn, ccfsg):    296 (194, 102)
+  Jacobian     (ccfsg):          95
+  Hessian prod (*hprod):        277
+
+Normal iterations = 6
+Average number of normal iterations = 0.0666667
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 84
+Iterations with 1  normal iteration  = 6
+Iterations with 2+ normal iterations = 0
+Restorations = 7
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.303334
+Execution time: 2.91333

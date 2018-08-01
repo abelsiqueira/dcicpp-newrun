@@ -1,0 +1,36 @@
+sifdecoder -A pc64.lnx.gfo  HS24
+
+ Problem name: HS24
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 linear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS24    
+
+Number of Variables: 2
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = -2.62144
+|c(x)| = 1.2755e-12
+|g(x) + J(x)'*y| = 4.74126e-09
+y offset = 1.81285e-09
+Number of Iterations = 8
+Elapsed Time = 0.000362158 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 23269 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

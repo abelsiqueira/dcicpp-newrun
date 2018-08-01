@@ -1,0 +1,120 @@
+sifdecoder -A pc64.lnx.gfo  MIFFLIN1
+
+ Problem name: MIFFLIN1
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There is 1 nonlinear inequality constraint
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.58182
+ekpp/ekp = 1.13832
+ekpp/ek = 1.18143
+ekpp/ekp = 1.03787
+ekpp/ek = 1.10457
+ekpp/ekp = 1.06427
+ekpp/ek = 1.06708
+ekpp/ekp = 1.00264
+ekpp/ek = 1.01133
+ekpp/ekp = 1.00866
+ekpp/ek = 1.02928
+ekpp/ekp = 1.02044
+ekpp/ek = 1.02541
+ekpp/ekp = 1.00488
+ekpp/ek = 1.01641
+ekpp/ekp = 1.01148
+ekpp/ek = 1.01429
+ekpp/ekp = 1.00278
+ekpp/ek = 1.00934
+ekpp/ekp = 1.00654
+ekpp/ek = 1.00814
+ekpp/ekp = 1.00159
+ekpp/ek = 1.00534
+ekpp/ekp = 1.00375
+ekpp/ek = 1.00467
+ekpp/ekp = 1.00092
+ekpp/ek = 1.00307
+ekpp/ekp = 1.00215
+ekpp/ek = 1.00258
+ekpp/ekp = 1.00042
+ekpp/ek = 1.00155
+ekpp/ekp = 1.00112
+ekpp/ek = 1.00184
+ekpp/ekp = 1.00072
+ekpp/ek = 1.00072
+ekpp/ekp = 1
+ekpp/ek = 1.00004
+ekpp/ekp = 1.00004
+ekpp/ek = 1.00013
+ekpp/ekp = 1.00009
+ekpp/ek = 1.00022
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00011
+ekpp/ekp = 0.99998
+ekpp/ek = 0.999932
+ekpp/ekp = 0.999951
+ekpp/ek = 0.999829
+ekpp/ekp = 0.999878
+ekpp/ek = 0.999897
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00007
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00018
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00011
+ekpp/ekp = 0.999981
+ekpp/ek = 0.999935
+ekpp/ekp = 0.999953
+ekpp/ek = 0.999837
+ekpp/ekp = 0.999884
+ekpp/ek = 0.999902
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00006
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00033
+ekpp/ekp = 1.00029
+ekpp/ek = 1.00025
+ekpp/ekp = 0.999961
+ekpp/ek = 1.00008
+ekpp/ekp = 1.00012
+ekpp/ek = 1.00012
+ekpp/ekp = 0.999997
+Showing
+**********************************************************
+Problem name: MIFFLIN1
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = -1
+|c(x)| = 4.16827e-10
+|g(x) + J(x)'*y| = 2.48558e-08
+y offset = 0
+Number of Iterations = 39
+Elapsed Time = 0.00102115 s
+Normal iterations = 3
+Average number of normal iterations = 0.0769231
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 36
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 3
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.003333

@@ -1,0 +1,89 @@
+sifdecoder -A pc64.lnx.gfo  HS29
+
+ Problem name: HS29
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.07222
+ekpp/ekp = 0.96332
+ekpp/ek = 1.05229
+ekpp/ekp = 1.09236
+ekpp/ek = 1.19333
+ekpp/ekp = 1.09244
+ekpp/ek = 1.1843
+ekpp/ekp = 1.08409
+ekpp/ek = 1.16507
+ekpp/ekp = 1.0747
+ekpp/ek = 1.15478
+ekpp/ekp = 1.07451
+ekpp/ek = 1.14923
+ekpp/ekp = 1.06954
+ekpp/ek = 1.14647
+ekpp/ekp = 1.07193
+ekpp/ek = 1.16684
+ekpp/ekp = 1.08855
+ekpp/ek = 1.15005
+ekpp/ekp = 1.0565
+ekpp/ek = 1.08659
+ekpp/ekp = 1.02848
+ekpp/ek = 1.07431
+ekpp/ekp = 1.04456
+ekpp/ek = 1.07533
+ekpp/ekp = 1.02945
+ekpp/ek = 1.05619
+ekpp/ekp = 1.02598
+ekpp/ek = 1.02144
+ekpp/ekp = 0.995578
+ekpp/ek = 1.04123
+ekpp/ekp = 1.04585
+ekpp/ek = 1.03627
+ekpp/ekp = 0.990842
+ekpp/ek = 0.967156
+ekpp/ekp = 0.976094
+ekpp/ek = 0.980459
+ekpp/ekp = 1.00447
+ekpp/ek = 1.00098
+ekpp/ekp = 0.996525
+ekpp/ek = 0.996871
+ekpp/ekp = 1.00035
+Showing
+**********************************************************
+Problem name: HS29    
+
+Number of Variables: 3
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = -22.6274
+|c(x)| = 1.89942e-07
+|g(x) + J(x)'*y| = 7.65672e-07
+y offset = 0
+Number of Iterations = 24
+Elapsed Time = 0.000877142 s
+Normal iterations = 15
+Average number of normal iterations = 0.625
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 9
+Iterations with 1  normal iteration  = 15
+Iterations with 2+ normal iterations = 0
+Restorations = 15
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

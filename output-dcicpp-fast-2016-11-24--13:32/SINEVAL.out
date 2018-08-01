@@ -1,0 +1,160 @@
+sifdecoder -A pc64.lnx.gfo  SINEVAL
+
+ Problem name: SINEVAL
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.974315
+ekpp/ekp = 0.981709
+ekpp/ek = 0.978119
+ekpp/ekp = 0.996343
+ekpp/ek = 0.98928
+ekpp/ekp = 0.992912
+ekpp/ek = 0.972334
+ekpp/ekp = 0.979276
+ekpp/ek = 0.927027
+ekpp/ekp = 0.946646
+ekpp/ek = 0.920007
+ekpp/ekp = 0.971859
+ekpp/ek = 0.909504
+ekpp/ekp = 0.935839
+ekpp/ek = 0.909625
+ekpp/ekp = 0.971988
+ekpp/ek = 0.89541
+ekpp/ekp = 0.921215
+ekpp/ek = 0.86855
+ekpp/ekp = 0.942831
+ekpp/ek = 0.722377
+ekpp/ekp = 0.766178
+ekpp/ek = 0.540747
+ekpp/ekp = 0.705771
+ekpp/ek = 0.693752
+ekpp/ekp = 0.982969
+ekpp/ek = 0.958518
+ekpp/ekp = 0.975125
+ekpp/ek = 0.913673
+ekpp/ekp = 0.93698
+ekpp/ek = 0.927386
+ekpp/ekp = 0.98976
+ekpp/ek = 0.963839
+ekpp/ekp = 0.973811
+ekpp/ek = 0.90968
+ekpp/ekp = 0.934144
+ekpp/ek = 0.924295
+ekpp/ekp = 0.989456
+ekpp/ek = 0.962436
+ekpp/ekp = 0.972692
+ekpp/ek = 0.905267
+ekpp/ekp = 0.930683
+ekpp/ek = 0.920202
+ekpp/ekp = 0.988738
+ekpp/ek = 0.959955
+ekpp/ekp = 0.970889
+ekpp/ek = 0.899449
+ekpp/ekp = 0.926418
+ekpp/ek = 0.915229
+ekpp/ekp = 0.987922
+ekpp/ek = 0.957266
+ekpp/ekp = 0.968969
+ekpp/ek = 0.892143
+ekpp/ekp = 0.920714
+ekpp/ek = 0.90824
+ekpp/ekp = 0.986452
+ekpp/ek = 0.953083
+ekpp/ekp = 0.966173
+ekpp/ek = 0.881755
+ekpp/ekp = 0.912627
+ekpp/ek = 0.731071
+ekpp/ekp = 0.801062
+ekpp/ek = 0.756577
+ekpp/ekp = 0.944467
+ekpp/ek = 0.92596
+ekpp/ekp = 0.980405
+ekpp/ek = 0.931418
+ekpp/ekp = 0.950034
+ekpp/ek = 0.825127
+ekpp/ekp = 0.868524
+ekpp/ek = 0.618067
+ekpp/ekp = 0.711629
+ekpp/ek = 0.638251
+ekpp/ekp = 0.896888
+ekpp/ek = 0.836532
+ekpp/ekp = 0.932705
+ekpp/ek = 0.770613
+ekpp/ekp = 0.826213
+ekpp/ek = 0.492676
+ekpp/ekp = 0.596306
+ekpp/ek = 0.606681
+ekpp/ekp = 1.0174
+ekpp/ek = 1.51323
+ekpp/ekp = 1.48735
+ekpp/ek = 1.78829
+ekpp/ekp = 1.20233
+ekpp/ek = 1.89077
+ekpp/ekp = 1.57259
+ekpp/ek = 1.77988
+ekpp/ekp = 1.13182
+ekpp/ek = 1.19703
+ekpp/ekp = 1.05762
+ekpp/ek = 1.20179
+ekpp/ekp = 1.13632
+ekpp/ek = 1.48601
+ekpp/ekp = 1.30774
+ekpp/ek = 1.43523
+ekpp/ekp = 1.09749
+ekpp/ek = 1.15588
+ekpp/ekp = 1.0532
+ekpp/ek = 1.18614
+ekpp/ekp = 1.12622
+ekpp/ek = 1.35529
+ekpp/ekp = 1.20339
+ekpp/ek = 1.30303
+ekpp/ekp = 1.0828
+ekpp/ek = 1.24214
+ekpp/ekp = 1.14716
+ekpp/ek = 1.18101
+ekpp/ekp = 1.02951
+ekpp/ek = 1.03274
+ekpp/ekp = 1.00314
+ekpp/ek = 1.00314
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: SINEVAL 
+
+Number of Variables: 2
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.9443e-14
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.49193e-08
+y offset = 0
+Number of Iterations = 60
+Elapsed Time = 0.00064373 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 60
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

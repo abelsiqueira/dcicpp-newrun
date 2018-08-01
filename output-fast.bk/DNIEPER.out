@@ -1,0 +1,41 @@
+sifdecoder -A pc64.lnx.gfo  DNIEPER
+
+ Problem name: DNIEPER
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 24 nonlinear equality constraints
+ 
+ There is 1 free variable 
+ There are 56 variables bounded from below and above 
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: DNIEPER 
+
+Number of Variables: 57
+Number of Constraints: 24
+             Equality: 24
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 18744
+|c(x)| = 9.59111e-07
+|g(x) + J(x)'*y| = 1.90472e-07
+y offset = 0
+Number of Iterations = 18
+Elapsed Time = 0.033381 s
+Normal iterations = 7
+Average number of normal iterations = 0.388889
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 7
+Iterations with <= 1 normal iterations = 18
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.126666

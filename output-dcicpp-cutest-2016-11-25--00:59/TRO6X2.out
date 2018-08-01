@@ -1,0 +1,63 @@
+sifdecoder -A pc64.lnx.gfo  TRO6X2
+
+ Problem name: TRO6X2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There are 20 nonlinear equality constraints
+ 
+ There are 20 free variables
+ There are 25 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: TRO6X2  
+
+Number of Variables: 45
+Number of Constraints: 21
+             Equality: 20
+           has_inequality: 1
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 1224.54
+|c(x)| = 0.0132409
+|g(x) + J(x)'*y| = 0.011754
+|J(x)'c(x)| = 3.33817e-05
+y offset = 0
+Number of Iterations = 235
+Elapsed Time = 0.343905 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2520 (2011, 509)
+  Gradient     (*ofg):          274
+  Constraints  (cfn, ccfsg):  17740 (2011, 15729)
+  Jacobian     (ccfsg):        4036
+  Hessian prod (*hprod):       1231
+
+Normal iterations = 213
+Average number of normal iterations = 0.906383
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 32
+Iterations with 1  normal iteration  = 193
+Iterations with 2+ normal iterations = 10
+Restorations = 11693
+Average number of restorations per normal iteration = 54
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.603333

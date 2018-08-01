@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  CRESC50
+
+ Problem name: CRESC50
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 100 nonlinear inequality constraints
+ 
+ There are 2 free variables
+ There are 3 variables bounded only from below 
+ There is 1 variable bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CRESC50 
+
+Number of Variables: 6
+Number of Constraints: 100
+             Equality: 0
+           has_inequality: 100
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 4.24945e-05
+|c(x)| = 128.389
+|g(x) + J(x)'*y| = 3.92075e-05
+|J(x)'c(x)| = 6.55174e+06
+y offset = 3.53011e-06
+Number of Iterations = 2
+Elapsed Time = 2.32429 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    1432 (1424, 8)
+  Gradient     (*ofg):            6
+  Constraints  (cfn, ccfsg):  16951 (1424, 15527)
+  Jacobian     (ccfsg):        5526
+  Hessian prod (*hprod):         49
+
+Normal iterations = 3
+Average number of normal iterations = 1.5
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10001
+Average number of restorations per normal iteration = 3333
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 2.46667

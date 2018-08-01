@@ -1,0 +1,32 @@
+sifdecoder -A pc64.lnx.gfo  DECONVU
+
+ Problem name: DECONVU
+
+ Double precision version will be formed
+
+ The objective function uses 40 nonlinear groups
+ 
+ There are 51 free variables
+ There are 12 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: DECONVU 
+
+Number of Variables: 51
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 6.29559e-07
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.77475e-08
+y offset = 0
+Number of Iterations = 31
+Elapsed Time = 0.0188959 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 18793 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

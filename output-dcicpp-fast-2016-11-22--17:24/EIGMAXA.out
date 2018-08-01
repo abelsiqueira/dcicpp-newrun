@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo  EIGMAXA
+
+ Problem name: EIGMAXA
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 101 nonlinear equality constraints
+ 
+ There are 101 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: EIGMAXA 
+
+Number of Variables: 101
+Number of Constraints: 101
+             Equality: 101
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -1
+|c(x)| = 1.99996e-12
+|g(x) + J(x)'*y| = 3.33067e-16
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.060132 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 151
+Average number of restorations per normal iteration = 75
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.243332

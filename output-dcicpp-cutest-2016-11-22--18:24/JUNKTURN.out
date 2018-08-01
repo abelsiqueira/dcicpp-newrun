@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  JUNKTURN
+
+ Problem name: JUNKTURN
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 7000 nonlinear equality constraints
+ 
+ There are 9996 free variables
+ There are 14 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 14 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: JUNKTURN
+
+Number of Variables: 9996
+Number of Constraints: 7000
+             Equality: 7000
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 0.000178063
+|c(x)| = 2.12611e-05
+|g(x) + J(x)'*y| = 0.000103818
+y offset = 0
+Number of Iterations = 19
+Elapsed Time = 161.268 s
+Normal iterations = 17
+Average number of normal iterations = 0.894737
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 15
+Iterations with 2+ normal iterations = 1
+Restorations = 14776
+Average number of restorations per normal iteration = 869
+**********************************************************
+Done
+Setup time: 0.196666
+Execution time: 161.36

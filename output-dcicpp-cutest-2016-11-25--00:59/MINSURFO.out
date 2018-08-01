@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  MINSURFO
+
+ Problem name: MINSURFO
+
+ Double precision version will be formed
+
+ The objective function uses 10302 nonlinear groups
+ 
+ There are 5002 variables bounded only from below 
+ There are 304 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 304 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: MINSURFO
+
+Number of Variables: 5002
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The maximum number of iterations was reached
+f(x) = 2.68523e+06
+|c(x)| = 0
+|g(x) + J(x)'*y| = 61.5365
+|J(x)'c(x)| = 6.95325e-310
+y offset = 0
+Number of Iterations = 10001
+Elapsed Time = 184.049 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):   37512 (17508, 20004)
+  Gradient     (*ofg):        10003
+  Constraints  (cfn, ccfsg):      0 (0, 0)
+  Jacobian     (ccfsg):           0
+  Hessian prod (*hprod):      41668
+
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 10001
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.160001
+Execution time: 184.063

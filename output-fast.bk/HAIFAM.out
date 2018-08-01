@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  HAIFAM
+
+ Problem name: HAIFAM
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 150 nonlinear inequality constraints
+ 
+ There are 99 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: HAIFAM  
+
+Number of Variables: 99
+Number of Constraints: 150
+             Equality: 0
+           has_inequality: 150
+
+EXIT: The Algorithm has Converged
+f(x) = -45.0003
+|c(x)| = 2.84368e-09
+|g(x) + J(x)'*y| = 1.15062e-07
+y offset = 1.6876e-05
+Number of Iterations = 77
+Elapsed Time = 0.183737 s
+Normal iterations = 41
+Average number of normal iterations = 0.532468
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 41
+Iterations with <= 1 normal iterations = 77
+**********************************************************
+Setup time: 0.006666
+Execution time: 0.436666

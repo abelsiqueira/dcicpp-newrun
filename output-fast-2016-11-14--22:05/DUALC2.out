@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo  DUALC2
+
+ Problem name: DUALC2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There are 228 linear inequality constraints
+ 
+ There are 7 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: DUALC2  
+
+Number of Variables: 7
+Number of Constraints: 229
+             Equality: 1
+           has_inequality: 228
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 8856.7
+|c(x)| = 4.83702e-11
+|g(x) + J(x)'*y| = 1.67471e-08
+y offset = 4.52496e-15
+Number of Iterations = 6
+Elapsed Time = 0.0535398 s
+Normal iterations = 1
+Average number of normal iterations = 0.166667
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 5
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 6
+Average number of restorations per normal iteration = 6
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.213332

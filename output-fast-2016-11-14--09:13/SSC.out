@@ -1,0 +1,32 @@
+sifdecoder -A pc64.lnx.gfo  SSC
+
+ Problem name: SSC
+
+ Double precision version will be formed
+
+ The objective function uses 10082 nonlinear groups
+ 
+ There are 4900 free variables
+ There are 284 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: SSC     
+
+Number of Variables: 4900
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -2.07817
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.30185e-08
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.721699 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 10107 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

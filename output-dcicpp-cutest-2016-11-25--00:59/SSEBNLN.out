@@ -1,0 +1,66 @@
+sifdecoder -A pc64.lnx.gfo  SSEBNLN
+
+ Problem name: SSEBNLN
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 48 linear equality constraints
+ There are 24 linear inequality constraints
+ There are 24 nonlinear equality constraints
+ 
+ There are 24 variables bounded only from below 
+ There are 168 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: SSEBNLN 
+
+Number of Variables: 192
+Number of Constraints: 96
+             Equality: 72
+           has_inequality: 24
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 1.61706e+07
+|c(x)| = 6.73854e-07
+|g(x) + J(x)'*y| = 8.15428e-07
+|J(x)'c(x)| = 4.5153e-06
+y offset = 0
+Number of Iterations = 12
+Elapsed Time = 0.0266964 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      80 (54, 26)
+  Gradient     (*ofg):           14
+  Constraints  (cfn, ccfsg):    555 (54, 501)
+  Jacobian     (ccfsg):         171
+  Hessian prod (*hprod):         11
+
+Normal iterations = 2
+Average number of normal iterations = 0.166667
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 10
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 330
+Average number of restorations per normal iteration = 165
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.109999

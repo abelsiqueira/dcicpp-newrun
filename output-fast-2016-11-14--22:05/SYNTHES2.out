@@ -1,0 +1,50 @@
+sifdecoder -A pc64.lnx.gfo  SYNTHES2
+
+ Problem name: SYNTHES2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There are 10 linear inequality constraints
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ There are 9 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SYNTHES2
+
+Number of Variables: 11
+Number of Constraints: 14
+             Equality: 1
+           has_inequality: 13
+
+EXIT: The Algorithm has Converged
+f(x) = 4.18305
+|c(x)| = 1.61045e-07
+|g(x) + J(x)'*y| = 3.70804e-07
+y offset = 0.0426196
+Number of Iterations = 16
+Elapsed Time = 0.00946212 s
+Normal iterations = 9
+Average number of normal iterations = 0.5625
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 0
+Restorations = 444
+Average number of restorations per normal iteration = 49
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.036665

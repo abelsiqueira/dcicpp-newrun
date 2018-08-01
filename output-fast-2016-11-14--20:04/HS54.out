@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS54
+
+ Problem name: HS54
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ 
+ There are 6 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS54    
+
+Number of Variables: 6
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The maximum number of iterations was reached
+f(x) = -0.161915
+|c(x)| = 5.63887e-11
+|g(x) + J(x)'*y| = 0.000121183
+y offset = 0
+Number of Iterations = 10001
+Elapsed Time = 0.133366 s
+Normal iterations = 1
+Average number of normal iterations = 9.999e-05
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 10000
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.289998

@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  CATENARY
+
+ Problem name: CATENARY
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1000 nonlinear equality constraints
+ 
+ There are 2999 free variables
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 4 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CATENARY
+
+Number of Variables: 2999
+Number of Constraints: 1000
+             Equality: 1000
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+f(x) = -1.68307e+07
+|c(x)| = 9080.77
+|g(x) + J(x)'*y| = 0.00257037
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 11.8096 s
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 10002
+Average number of restorations per normal iteration = 3334
+**********************************************************
+Done
+Setup time: 0.033333
+Execution time: 12.04

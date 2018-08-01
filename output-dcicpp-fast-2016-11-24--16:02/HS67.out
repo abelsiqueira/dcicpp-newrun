@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HS67
+
+ Problem name: HS67
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 14 nonlinear inequality constraints
+ 
+ There are 3 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS67    
+
+Number of Variables: 3
+Number of Constraints: 14
+             Equality: 0
+           has_inequality: 14
+
+EXIT: The Algorithm has Converged
+f(x) = -1162.12
+|c(x)| = 1.53799e-07
+|g(x) + J(x)'*y| = 9.83868e-08
+|J(x)'c(x)| = 0.000300958
+y offset = 3.13505e-11
+Number of Iterations = 1540
+Elapsed Time = 0.134706 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    6273 (3188, 3085)
+  Gradient     (*ofg):         1545
+  Constraints  (cfn, ccfsg):  12466 (3188, 9278)
+  Jacobian     (ccfsg):        3028
+  Hessian prod (*hprod):       1896
+
+Normal iterations = 1455
+Average number of normal iterations = 0.944805
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 85
+Iterations with 1  normal iteration  = 1455
+Iterations with 2+ normal iterations = 0
+Restorations = 6250
+Average number of restorations per normal iteration = 4
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.239999

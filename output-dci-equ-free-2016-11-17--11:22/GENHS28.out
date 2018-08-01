@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo -st   GENHS28
+
+ Problem name: GENHS28
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 8 linear equality constraints
+ 
+ There are 10 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    2.4596336586108245E-002
+ |gp(xk)|/|gp(xck)| =    1.7610157497617616E-015
+ |gp(xk)|/|gp(xck)| =    2.5173036475345647     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            3
+ Steihaug's iter:            4
+ Restorations   :            1
+ Rejected steps :            0
+ Function evals.:            3
+ Constr.  evals.:            4
+ Gradient evals.:            4
+ Jacobian evals.:            4
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :   0.92717369376639180     
+ ||h(x)||       :    3.5527136788005009E-015
+ ||gp(x)||      :    1.2212453270876722E-015
+ ||At*h||       :    2.0424181293029648E-014
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    3.0292095170364020     
+ rho            :    9.9999999999999995E-007
+ rhomax         :    80.347498585871350     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :   0.92717369376638858     
+ L(x) - L(xc)   :   -3.0563085701888983     
+ L(xc)-L(x(k-1)):    27.419515130812520     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

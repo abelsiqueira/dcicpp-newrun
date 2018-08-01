@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELP6
+
+ Problem name: HIMMELP6
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear inequality constraints
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:14
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: f is nan

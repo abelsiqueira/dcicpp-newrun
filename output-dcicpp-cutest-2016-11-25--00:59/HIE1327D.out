@@ -1,0 +1,114 @@
+sifdecoder -A pc64.lnx.gfo  HIE1327D
+
+ Problem name: HIE1327D
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 1443 linear equality constraints
+ 
+ There are 143 variables bounded only from above 
+ There are 1040 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: HIE1327D
+
+Number of Variables: 1183
+Number of Constraints: 1443
+             Equality: 1443
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 520.887
+|c(x)| = 0.00207834
+|g(x) + J(x)'*y| = 11.1969
+|J(x)'c(x)| = 0.00497836
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 45.6066 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     753 (744, 9)
+  Gradient     (*ofg):            6
+  Constraints  (cfn, ccfsg):  15789 (744, 15045)
+  Jacobian     (ccfsg):        3532
+  Hessian prod (*hprod):        352
+
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 11513
+Average number of restorations per normal iteration = 3837
+**********************************************************
+Done
+Setup time: 0.029999
+Execution time: 45.8167

@@ -1,0 +1,51 @@
+sifdecoder -A pc64.lnx.gfo  DENSCHNF
+
+ Problem name: DENSCHNF
+
+ Double precision version will be formed
+
+ The objective function uses 2 nonlinear groups
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.0482786
+ekpp/ekp = 0.159194
+ekpp/ek = 0.00547684
+ekpp/ekp = 0.0344035
+ekpp/ek = 4.41936e-05
+ekpp/ekp = 0.00128457
+Showing
+**********************************************************
+Problem name: DENSCHNF
+
+Number of Variables: 2
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.31489e-10
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.06836e-07
+y offset = 0
+Number of Iterations = 6
+Elapsed Time = 0.000220776 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

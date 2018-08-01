@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  RAYBENDS
+
+ Problem name: RAYBENDS
+
+ Double precision version will be formed
+
+ The objective function uses 1026 nonlinear groups
+ 
+ There are 2046 free variables
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 4 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: RAYBENDS
+
+Number of Variables: 2046
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: rhomax became too short
+f(x) = 3.12848e+13
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.62186e+16
+y offset = 0
+Number of Iterations = 50
+Elapsed Time = 37.1475 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 50
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.026665
+Execution time: 37.3667

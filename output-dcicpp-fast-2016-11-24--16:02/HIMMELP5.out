@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELP5
+
+ Problem name: HIMMELP5
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HIMMELP5
+
+Number of Variables: 2
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The maximum number of restorarions was reached
+f(x) = -12.5713
+|c(x)| = 0.000131677
+|g(x) + J(x)'*y| = 0.153002
+|J(x)'c(x)| = 0.00699308
+y offset = 0.0568234
+Number of Iterations = 4214
+Elapsed Time = 0.101607 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):   17472 (9018, 8454)
+  Gradient     (*ofg):         4240
+  Constraints  (cfn, ccfsg):  26817 (9018, 17799)
+  Jacobian     (ccfsg):        7802
+  Hessian prod (*hprod):       4450
+
+Normal iterations = 1870
+Average number of normal iterations = 0.443759
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2344
+Iterations with 1  normal iteration  = 1870
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 5
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.353333

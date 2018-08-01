@@ -1,0 +1,75 @@
+sifdecoder -A pc64.lnx.gfo  HS70
+
+ Problem name: HS70
+
+ Double precision version will be formed
+
+ The objective function uses 19 nonlinear groups
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 4 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.0103
+ekpp/ekp = 1.00181
+ekpp/ek = 0.943847
+ekpp/ekp = 0.94214
+ekpp/ek = 0.814621
+ekpp/ekp = 0.86465
+ekpp/ek = 0.85894
+ekpp/ekp = 0.993396
+ekpp/ek = 1.00834
+ekpp/ekp = 1.01505
+ekpp/ek = 1.18063
+ekpp/ekp = 1.16313
+ekpp/ek = 1.58771
+ekpp/ekp = 1.36503
+ekpp/ek = 2.37731
+ekpp/ekp = 1.74158
+ekpp/ek = 1.84701
+ekpp/ekp = 1.06053
+ekpp/ek = 1.23311
+ekpp/ekp = 1.16273
+ekpp/ek = 1.56255
+ekpp/ekp = 1.34387
+ekpp/ek = 2.21475
+ekpp/ekp = 1.64805
+ekpp/ek = 1.81994
+ekpp/ekp = 1.1043
+ekpp/ek = 1.10435
+ekpp/ekp = 1.00005
+Showing
+**********************************************************
+Problem name: HS70    
+
+Number of Variables: 4
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = 0.269017
+|c(x)| = 9.68482e-07
+|g(x) + J(x)'*y| = 2.02445e-07
+y offset = 0
+Number of Iterations = 17
+Elapsed Time = 0.00379229 s
+Normal iterations = 1
+Average number of normal iterations = 0.0588235
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 16
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 87
+Average number of restorations per normal iteration = 87
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.013333

@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS23
+
+ Problem name: HS23
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS23    
+
+Number of Variables: 2
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: The Algorithm has Converged
+f(x) = 2.00791
+|c(x)| = 1.17545e-07
+|g(x) + J(x)'*y| = 7.55156e-07
+y offset = 0
+Number of Iterations = 142
+Elapsed Time = 0.00455093 s
+Normal iterations = 56
+Average number of normal iterations = 0.394366
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 86
+Iterations with 1  normal iteration  = 56
+Iterations with 2+ normal iterations = 0
+Restorations = 61
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.016666

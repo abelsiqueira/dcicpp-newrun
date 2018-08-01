@@ -1,0 +1,111 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:        0
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:   500500
+
+Total number of variables............................:     1000
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        0
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  1.1144481e+17 0.00e+00 1.34e+04  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.2013789e+16 0.00e+00 3.96e+03  -1.0 3.33e+02    -  1.00e+00 1.00e+00f  1
+   2  4.3484027e+15 0.00e+00 1.17e+03  -1.0 2.22e+02    -  1.00e+00 1.00e+00f  1
+   3  8.5894374e+14 0.00e+00 3.47e+02  -1.0 1.48e+02    -  1.00e+00 1.00e+00f  1
+   4  1.6966790e+14 0.00e+00 1.03e+02  -1.0 9.88e+01    -  1.00e+00 1.00e+00f  1
+   5  3.3514646e+13 0.00e+00 3.05e+01  -1.0 6.58e+01    -  1.00e+00 1.00e+00f  1
+   6  6.6201766e+12 0.00e+00 9.04e+00  -1.0 4.39e+01    -  1.00e+00 1.00e+00f  1
+   7  1.3076891e+12 0.00e+00 2.68e+00  -1.0 2.93e+01    -  1.00e+00 1.00e+00f  1
+   8  2.5830888e+11 0.00e+00 7.93e-01  -1.0 1.95e+01    -  1.00e+00 1.00e+00f  1
+   9  5.1023948e+10 0.00e+00 2.35e-01  -1.7 1.30e+01    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.0078791e+10 0.00e+00 6.96e-02  -1.7 8.67e+00    -  1.00e+00 1.00e+00f  1
+  11  1.9908666e+09 0.00e+00 2.06e-02  -2.5 5.78e+00    -  1.00e+00 1.00e+00f  1
+  12  3.9325503e+08 0.00e+00 6.11e-03  -3.8 3.85e+00    -  1.00e+00 1.00e+00f  1
+  13  7.7678863e+07 0.00e+00 1.81e-03  -3.8 2.57e+00    -  1.00e+00 1.00e+00f  1
+  14  1.5343465e+07 0.00e+00 5.37e-04  -3.8 1.71e+00    -  1.00e+00 1.00e+00f  1
+  15  3.0305823e+06 0.00e+00 1.59e-04  -5.7 1.14e+00    -  1.00e+00 1.00e+00f  1
+  16  5.9853326e+05 0.00e+00 4.71e-05  -5.7 7.61e-01    -  1.00e+00 1.00e+00f  1
+  17  1.1818423e+05 0.00e+00 1.40e-05  -5.7 5.07e-01    -  1.00e+00 1.00e+00f  1
+  18  2.3325245e+04 0.00e+00 4.14e-06  -8.6 3.38e-01    -  1.00e+00 1.00e+00f  1
+  19  4.5986749e+03 0.00e+00 1.22e-06  -8.6 2.25e-01    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  9.0449209e+02 0.00e+00 3.63e-07  -8.6 1.50e-01    -  1.00e+00 1.00e+00f  1
+  21  1.7695170e+02 0.00e+00 1.07e-07  -8.6 9.99e-02    -  1.00e+00 1.00e+00f  1
+  22  3.4206591e+01 0.00e+00 3.16e-08  -8.6 6.63e-02    -  1.00e+00 1.00e+00f  1
+  23  6.4394978e+00 0.00e+00 9.27e-09  -8.6 4.38e-02    -  1.00e+00 1.00e+00f  1
+  24  1.1451331e+00 0.00e+00 2.68e-09 -12.9 2.86e-02    -  1.00e+00 1.00e+00f  1
+  25  1.8309626e-01 0.00e+00 7.44e-10 -12.9 1.81e-02    -  1.00e+00 1.00e+00f  1
+  26  2.8447712e-02 0.00e+00 1.86e-10 -12.9 1.06e-02    -  1.00e+00 1.00e+00f  1
+  27  1.0584892e-02 0.00e+00 3.40e-11 -12.9 5.13e-03    -  1.00e+00 1.00e+00f  1
+  28  9.7320581e-03 0.00e+00 2.46e-12 -12.9 1.52e-03    -  1.00e+00 1.00e+00f  1
+  29  9.7190487e-03 0.00e+00 1.19e-12 -12.9 2.03e-03    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  9.7125408e-03 0.00e+00 2.73e-12 -13.0 3.29e-03    -  1.00e+00 1.00e+00f  1
+  31  9.7016034e-03 0.00e+00 4.00e-13 -13.0 1.08e-03    -  1.00e+00 1.00e+00f  1
+  32  9.6975751e-03 0.00e+00 1.47e-12 -13.0 4.69e-03    -  1.00e+00 5.00e-01f  2
+  33  9.6924966e-03 0.00e+00 3.77e-13 -13.0 1.14e-03    -  1.00e+00 1.00e+00f  1
+  34  9.6921414e-03 0.00e+00 1.56e-12 -13.0 2.69e-03    -  1.00e+00 1.00e+00f  1
+
+Number of Iterations....: 34
+
+                                   (scaled)                 (unscaled)
+Objective...............:   9.6921413546777766e-11    9.6921413546777763e-03
+Dual infeasibility......:   1.5583309149940289e-12    1.5583309149940289e-04
+Constraint violation....:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   0.0000000000000000e+00    0.0000000000000000e+00
+Overall NLP error.......:   1.5583309149940289e-12    1.5583309149940289e-04
+
+
+Number of objective function evaluations             = 40
+Number of objective gradient evaluations             = 35
+Number of equality constraint evaluations            = 0
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 0
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 34
+Total CPU secs in IPOPT (w/o function evaluations)   =      1.507
+Total CPU secs in NLP function evaluations           =      0.723
+
+EXIT: Solved To Acceptable Level.
+
+ ** SUBROUTINE CUTEST_csetup: Warning. The problem has no general constraints. 
+ ** Other tools may be preferable ** 
+
+************************ CUTEst statistics ************************
+
+
+ Package used            :  IPOPT
+ Problem                 :  PENALTY1  
+ # variables             =            1000
+ # constraints           =               0
+ # objective functions   =        0.7600000E+02
+ # objective gradients   =        0.3600000E+02
+ # objective Hessians    =        0.3500000E+02
+ # Hessian-vector prdct  =        0.0000000E+00
+ # constraints functions =        0.0000000E+00
+ # constraints gradients =        0.0000000E+00
+ # constraints Hessians  =        0.0000000E+00
+ Exit code               =               1
+ Final f                 =   0.9692141E-02
+ Set up time             =            0.02 seconds
+ Solve time              =            2.45 seconds
+
+
+******************************************************************
+
+System Time =       2.1989998817 s.

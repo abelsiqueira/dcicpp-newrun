@@ -1,0 +1,17 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELBA
+
+ Problem name: HIMMELBA
+
+ Double precision version will be formed
+
+ 
+ There are 2 linear equality constraints
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+Setup time: 0
+Execution time: 0

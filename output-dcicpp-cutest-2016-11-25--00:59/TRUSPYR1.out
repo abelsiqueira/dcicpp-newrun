@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  TRUSPYR1
+
+ Problem name: TRUSPYR1
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There are 3 nonlinear equality constraints
+ 
+ There are 3 free variables
+ There are 8 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: TRUSPYR1
+
+Number of Variables: 11
+Number of Constraints: 4
+             Equality: 3
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = 11.2287
+|c(x)| = 9.5707e-07
+|g(x) + J(x)'*y| = 6.31254e-08
+|J(x)'c(x)| = 0.000510948
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.0112171 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     123 (94, 29)
+  Gradient     (*ofg):           18
+  Constraints  (cfn, ccfsg):   1638 (94, 1544)
+  Jacobian     (ccfsg):         247
+  Hessian prod (*hprod):        193
+
+Normal iterations = 14
+Average number of normal iterations = 1.27273
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 2
+Restorations = 1297
+Average number of restorations per normal iteration = 92
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.043332

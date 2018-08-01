@@ -1,0 +1,70 @@
+sifdecoder -A pc64.lnx.gfo  CORE1
+
+ Problem name: CORE1
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 20 linear equality constraints
+ There are 15 linear inequality constraints
+ There are 21 nonlinear equality constraints
+ There are 3 nonlinear inequality constraints
+ 
+ There are 9 variables bounded only from below 
+ There are 56 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 9 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: CORE1   
+
+Number of Variables: 65
+Number of Constraints: 50
+             Equality: 41
+           has_inequality: 9
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 86.5165
+|c(x)| = 3652.94
+|g(x) + J(x)'*y| = 0.0193869
+|J(x)'c(x)| = 8107.41
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.38059 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    1688 (1684, 4)
+  Gradient     (*ofg):            3
+  Constraints  (cfn, ccfsg):  16702 (1684, 15018)
+  Jacobian     (ccfsg):        5017
+  Hessian prod (*hprod):         10
+
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.639999

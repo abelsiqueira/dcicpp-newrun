@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  PRIMALC1
+
+ Problem name: PRIMALC1
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 9 linear inequality constraints
+ 
+ There are 15 free variables
+ There are 215 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: f is nan

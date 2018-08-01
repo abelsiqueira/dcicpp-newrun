@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  NGONE
+
+ Problem name: NGONE
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 98 linear inequality constraints
+ There are 4950 nonlinear inequality constraints
+ 
+ There are 196 variables bounded only from below 
+ There is 1 variable bounded from below and above 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 variables
+Starting
+Solving

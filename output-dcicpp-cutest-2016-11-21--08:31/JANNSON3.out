@@ -1,0 +1,48 @@
+sifdecoder -A pc64.lnx.gfo  JANNSON3
+
+ Problem name: JANNSON3
+
+ Double precision version will be formed
+
+ The objective function uses 20002 nonlinear groups
+ 
+ There is 1 linear equality constraint
+ There are 2 nonlinear inequality constraints
+ 
+ There are 20000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: JANNSON3
+
+Number of Variables: 20000
+Number of Constraints: 3
+             Equality: 1
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 19998.5
+|c(x)| = 1.48018e-08
+|g(x) + J(x)'*y| = 9.96007e-07
+y offset = 1.42243e-07
+Number of Iterations = 33
+Elapsed Time = 2.38184 s
+Normal iterations = 18
+Average number of normal iterations = 0.545455
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 15
+Iterations with 1  normal iteration  = 18
+Iterations with 2+ normal iterations = 0
+Restorations = 18
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.309999
+Execution time: 2.38667

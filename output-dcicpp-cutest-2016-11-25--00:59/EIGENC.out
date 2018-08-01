@@ -1,0 +1,60 @@
+sifdecoder -A pc64.lnx.gfo  EIGENC
+
+ Problem name: EIGENC
+
+ Double precision version will be formed
+
+ 
+ There are 2652 nonlinear equality constraints
+ 
+ There are 2652 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: EIGENC  
+
+Number of Variables: 2652
+Number of Constraints: 2652
+             Equality: 2652
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0
+|c(x)| = 1.3996e-07
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 4.47513e-05
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 26.8397 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):       9 (4, 5)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):     46 (4, 42)
+  Jacobian     (ccfsg):          10
+  Hessian prod (*hprod):          0
+
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 32
+Average number of restorations per normal iteration = 16
+**********************************************************
+Done
+Setup time: 0.92
+Execution time: 26.8233

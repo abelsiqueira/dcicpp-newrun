@@ -1,0 +1,22 @@
+sifdecoder -A pc64.lnx.gfo  TENBARS1
+
+ Problem name: TENBARS1
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There are 8 nonlinear equality constraints
+ 
+ There are 4 free variables
+ There are 14 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: f is nan

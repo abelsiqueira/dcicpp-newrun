@@ -1,0 +1,87 @@
+sifdecoder -A pc64.lnx.gfo  MESH
+
+ Problem name: MESH
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There are 4 linear equality constraints
+ There are 24 linear inequality constraints
+ There are 20 nonlinear equality constraints
+ 
+ There are 2 free variables
+ There are 14 variables bounded only from below 
+ There are 17 variables bounded from below and above 
+ There are 8 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 8 variables
+Starting
+Solving
+ekpp/ek = 1.14357
+ekpp/ekp = 1.05774
+ekpp/ek = 1.06526
+ekpp/ekp = 1.00711
+ekpp/ek = 1.02551
+ekpp/ekp = 1.01827
+ekpp/ek = 1.0254
+ekpp/ekp = 1.007
+ekpp/ek = 1.02372
+ekpp/ekp = 1.0166
+ekpp/ek = 1.02509
+ekpp/ekp = 1.00836
+ekpp/ek = 1.02676
+ekpp/ekp = 1.01826
+ekpp/ek = 1.0508
+ekpp/ekp = 1.03196
+ekpp/ek = 1.04052
+ekpp/ekp = 1.0083
+ekpp/ek = 1.02364
+ekpp/ekp = 1.01522
+ekpp/ek = 1.04144
+ekpp/ekp = 1.02583
+ekpp/ek = 1.27209
+ekpp/ekp = 1.24006
+ekpp/ek = 8.24227
+ekpp/ekp = 6.64665
+ekpp/ek = 171.109
+ekpp/ekp = 25.7437
+ekpp/ek = 1626.59
+ekpp/ekp = 63.1841
+ekpp/ek = 9884.9
+ekpp/ekp = 156.446
+ekpp/ek = 60953.7
+ekpp/ekp = 389.615
+Showing
+**********************************************************
+Problem name: MESH    
+
+Number of Variables: 33
+Number of Constraints: 48
+             Equality: 24
+           has_inequality: 24
+
+EXIT: The problem is unlimited
+f(x) = -1e+20
+|c(x)| = 0.000144729
+|g(x) + J(x)'*y| = 1.1137e+14
+y offset = 0.017
+Number of Iterations = 20
+Elapsed Time = 0.004493 s
+Normal iterations = 10
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 10
+Iterations with 1  normal iteration  = 10
+Iterations with 2+ normal iterations = 0
+Restorations = 10
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.016665

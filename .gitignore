@@ -1,6 +1,9 @@
 normal*
-output-*
 profile*
 *.prof
 *.dat
 lists
+*.f
+analysis-*
+equ-free-*
+*.d

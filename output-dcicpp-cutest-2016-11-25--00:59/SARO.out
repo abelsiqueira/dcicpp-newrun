@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo  SARO
+
+ Problem name: SARO
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4015 nonlinear equality constraints
+ 
+ There are 3284 free variables
+ There are 1460 variables bounded from below and above 
+ There are 10 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 10 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SARO    
+
+Number of Variables: 4744
+Number of Constraints: 4015
+             Equality: 4015
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 4.71841
+|c(x)| = 677.323
+|g(x) + J(x)'*y| = 9.43557e-06
+|J(x)'c(x)| = 235.443
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 289.33 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2087 (2081, 6)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):  18084 (2081, 16003)
+  Jacobian     (ccfsg):        6002
+  Hessian prod (*hprod):         77
+
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.096665
+Execution time: 289.333

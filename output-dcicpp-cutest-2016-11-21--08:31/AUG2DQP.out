@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  AUG2DQP
+
+ Problem name: AUG2DQP
+
+ Double precision version will be formed
+
+ The objective function uses 19800 nonlinear groups
+ 
+ There are 10000 linear equality constraints
+ 
+ There are 20200 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

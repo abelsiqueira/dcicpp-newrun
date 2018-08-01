@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  JANNSON4
+
+ Problem name: JANNSON4
+
+ Double precision version will be formed
+
+ The objective function uses 10002 nonlinear groups
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 10000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: JANNSON4
+
+Number of Variables: 10000
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 9801.97
+|c(x)| = 9.07922e-07
+|g(x) + J(x)'*y| = 1.78033e-08
+|J(x)'c(x)| = 1.00728e-06
+y offset = 0
+Number of Iterations = 20
+Elapsed Time = 0.802795 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     175 (131, 44)
+  Gradient     (*ofg):           24
+  Constraints  (cfn, ccfsg):    295 (131, 164)
+  Jacobian     (ccfsg):          41
+  Hessian prod (*hprod):        249
+
+Normal iterations = 14
+Average number of normal iterations = 0.7
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 14
+Iterations with 2+ normal iterations = 0
+Restorations = 123
+Average number of restorations per normal iteration = 8
+**********************************************************
+Done
+Setup time: 0.16
+Execution time: 0.923334

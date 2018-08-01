@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  OET3
+
+ Problem name: OET3
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1002 linear inequality constraints
+ 
+ There are 4 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

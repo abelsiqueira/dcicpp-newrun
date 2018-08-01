@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  ROBOT
+
+ Problem name: ROBOT
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 7 variables bounded from below and above 
+ There are 7 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 7 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: ROBOT   
+
+Number of Variables: 7
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 6.5933
+|c(x)| = 1.82854e-11
+|g(x) + J(x)'*y| = 4.54289e-12
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.000550747 s
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 20
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  MADSSCHJ
+
+ Problem name: MADSSCHJ
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 398 nonlinear inequality constraints
+ 
+ There are 201 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: MADSSCHJ
+
+Number of Variables: 201
+Number of Constraints: 398
+             Equality: 0
+           has_inequality: 398
+
+EXIT: The Algorithm has Converged
+f(x) = -4992.12
+|c(x)| = 9.56853e-07
+|g(x) + J(x)'*y| = 5.89193e-07
+|J(x)'c(x)| = 0.000105167
+y offset = 8.16363e-11
+Number of Iterations = 22
+Elapsed Time = 5.1697 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     187 (140, 47)
+  Gradient     (*ofg):           25
+  Constraints  (cfn, ccfsg):    470 (140, 330)
+  Jacobian     (ccfsg):          88
+  Hessian prod (*hprod):        117
+
+Normal iterations = 19
+Average number of normal iterations = 0.863636
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 17
+Iterations with 2+ normal iterations = 1
+Restorations = 242
+Average number of restorations per normal iteration = 12
+**********************************************************
+Done
+Setup time: 0.109999
+Execution time: 5.34333

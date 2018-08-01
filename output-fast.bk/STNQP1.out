@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  STNQP1
+
+ Problem name: STNQP1
+
+ Double precision version will be formed
+
+ The objective function uses 16383 nonlinear groups
+ 
+ There are 4095 linear equality constraints
+ 
+ There are 8193 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: STNQP1  
+
+Number of Variables: 6422
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -389054
+|c(x)| = 0
+|g(x) + J(x)'*y| = 7.56398e-07
+y offset = 0
+Number of Iterations = 10
+Elapsed Time = 0.0590982 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 10
+**********************************************************
+Setup time: 0.29
+Execution time: 0.066667

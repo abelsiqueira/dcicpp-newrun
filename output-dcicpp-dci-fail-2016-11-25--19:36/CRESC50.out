@@ -1,0 +1,71 @@
+sifdecoder -A pc64.lnx.gfo  CRESC50
+
+ Problem name: CRESC50
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 100 nonlinear inequality constraints
+ 
+ There are 2 free variables
+ There are 3 variables bounded only from below 
+ There is 1 variable bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Showing
+**********************************************************
+Problem name: CRESC50 
+
+Number of Variables: 6
+Number of Constraints: 100
+             Equality: 0
+           has_inequality: 100
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 3.32561e-07
+|c(x)| = 13.5488
+|g(x) + J(x)'*y| = 1.27334e-10
+|J(x)'c(x)| = 1075.76
+y offset = 1.4136e-11
+Number of Iterations = 3
+Elapsed Time = 2.99664 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    1694 (1686, 8)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):  20805 (1686, 19119)
+  Jacobian     (ccfsg):        6691
+  Hessian prod (*hprod):          6
+
+Normal iterations = 2
+Average number of normal iterations = 0.666667
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 12428
+Average number of restorations per normal iteration = 6214
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 3.24667

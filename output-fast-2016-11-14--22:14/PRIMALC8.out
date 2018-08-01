@@ -1,0 +1,48 @@
+sifdecoder -A pc64.lnx.gfo  PRIMALC8
+
+ Problem name: PRIMALC8
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 8 linear inequality constraints
+ 
+ There are 17 free variables
+ There are 503 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: PRIMALC8
+
+Number of Variables: 520
+Number of Constraints: 8
+             Equality: 0
+           has_inequality: 8
+
+EXIT: The maximum number of iterations was reached
+f(x) = 1001.49
+|c(x)| = 4.25015e-07
+|g(x) + J(x)'*y| = 0.016111
+y offset = 0.000449209
+Number of Iterations = 2001
+Elapsed Time = 1.99093 s
+Normal iterations = 3
+Average number of normal iterations = 0.00149925
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1998
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 108
+Average number of restorations per normal iteration = 36
+**********************************************************
+Done
+Setup time: 0.009999
+Execution time: 2.24

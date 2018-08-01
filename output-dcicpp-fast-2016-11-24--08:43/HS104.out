@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS104
+
+ Problem name: HS104
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 nonlinear inequality constraints
+ 
+ There are 8 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:43
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS104   
+
+Number of Variables: 8
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: The Algorithm has Converged
+f(x) = 3.95116
+|c(x)| = 2.29426e-08
+|g(x) + J(x)'*y| = 1.8047e-07
+y offset = 6.89641e-11
+Number of Iterations = 13
+Elapsed Time = 0.00239873 s
+Normal iterations = 6
+Average number of normal iterations = 0.461538
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 8
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 1
+Restorations = 106
+Average number of restorations per normal iteration = 17
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

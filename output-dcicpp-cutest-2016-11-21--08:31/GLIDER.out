@@ -1,0 +1,24 @@
+sifdecoder -A pc64.lnx.gfo  GLIDER
+
+ Problem name: GLIDER
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 401 linear equality constraints
+ There are 4407 nonlinear equality constraints
+ 
+ There are 4006 free variables
+ There are 800 variables bounded only from below 
+ There are 401 variables bounded from below and above 
+ There are 7 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 7 variables
+Starting
+Solving

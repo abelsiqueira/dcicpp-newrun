@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo  GROWTH
+
+ Problem name: GROWTH
+
+ Double precision version will be formed
+
+ 
+ There are 12 nonlinear equality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:43
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+NormalFlag = 2
+Showing
+**********************************************************
+Problem name: GROWTH  
+
+Number of Variables: 3
+Number of Constraints: 12
+             Equality: 12
+           has_inequality: 0
+
+EXIT: Stopped at a stationary for the infeasibility
+Cholesky failed
+f(x) = 0
+|c(x)| = 59.516
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.000970364 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 38
+Average number of restorations per normal iteration = 19
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

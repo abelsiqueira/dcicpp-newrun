@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo -st   AUG3DC
+
+ Problem name: AUG3DC
+
+ Double precision version will be formed
+
+ The objective function uses 27543 nonlinear groups
+ 
+ There are 8000 linear equality constraints
+ 
+ There are 27543 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    1.0604260136691052E-015
+ |gp(xk)|/|gp(xck)| =    1.0673686183118809     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            2
+ Steihaug's iter:            1
+ Restorations   :            1
+ Rejected steps :            0
+ Function evals.:            2
+ Constr.  evals.:            3
+ Gradient evals.:            3
+ Jacobian evals.:            3
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    27654.071087654553     
+ ||h(x)||       :    3.5882408155885059E-013
+ ||gp(x)||      :    8.8817841970012523E-014
+ ||At*h||       :    7.3455472794940884E-012
+ Elapsed time   :   0.511718750    
+
+ ||xnew - xc||  :    165.96083875420732     
+ rho            :    3.8035506005289225E-012
+ rhomax         :    456.15786740995708     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    0.0000000000000000     
+ L(x) - L(xc)   :   -13771.500000000000     
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

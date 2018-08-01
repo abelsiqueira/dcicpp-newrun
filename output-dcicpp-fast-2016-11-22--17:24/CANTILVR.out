@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  CANTILVR
+
+ Problem name: CANTILVR
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 5 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CANTILVR
+
+Number of Variables: 5
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = 1.33996
+|c(x)| = 9.95964e-07
+|g(x) + J(x)'*y| = 6.42195e-09
+y offset = 0
+Number of Iterations = 34
+Elapsed Time = 0.00560737 s
+Normal iterations = 40
+Average number of normal iterations = 1.17647
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 5
+Iterations with 1  normal iteration  = 18
+Iterations with 2+ normal iterations = 11
+Restorations = 724
+Average number of restorations per normal iteration = 18
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.019998

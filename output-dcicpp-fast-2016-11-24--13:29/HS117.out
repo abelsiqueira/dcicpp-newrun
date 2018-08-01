@@ -1,0 +1,271 @@
+sifdecoder -A pc64.lnx.gfo  HS117
+
+ Problem name: HS117
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 nonlinear inequality constraints
+ 
+ There are 15 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.987534
+ekpp/ekp = 0.989666
+ekpp/ek = 0.966039
+ekpp/ekp = 0.976126
+ekpp/ek = 0.939635
+ekpp/ekp = 0.962617
+ekpp/ek = 0.923497
+ekpp/ekp = 0.959361
+ekpp/ek = 0.888539
+ekpp/ekp = 0.926178
+ekpp/ek = 0.915923
+ekpp/ekp = 0.988928
+ekpp/ek = 0.965354
+ekpp/ekp = 0.976162
+ekpp/ek = 0.939081
+ekpp/ekp = 0.962014
+ekpp/ek = 0.917008
+ekpp/ekp = 0.953218
+ekpp/ek = 0.936593
+ekpp/ekp = 0.982559
+ekpp/ek = 0.978622
+ekpp/ekp = 0.995993
+ekpp/ek = 0.989473
+ekpp/ekp = 0.993454
+ekpp/ek = 0.957387
+ekpp/ekp = 0.963695
+ekpp/ek = 0.905753
+ekpp/ekp = 0.939875
+ekpp/ek = 0.900155
+ekpp/ekp = 0.957739
+ekpp/ek = 0.945373
+ekpp/ekp = 0.987088
+ekpp/ek = 0.918987
+ekpp/ekp = 0.931008
+ekpp/ek = 0.808685
+ekpp/ekp = 0.868612
+ekpp/ek = 0.858409
+ekpp/ekp = 0.988253
+ekpp/ek = 0.981822
+ekpp/ekp = 0.993492
+ekpp/ek = 0.992532
+ekpp/ekp = 0.999034
+ekpp/ek = 0.997578
+ekpp/ekp = 0.998543
+ekpp/ek = 0.960104
+ekpp/ekp = 0.961505
+ekpp/ek = 0.94255
+ekpp/ekp = 0.980286
+ekpp/ek = 0.923029
+ekpp/ekp = 0.941592
+ekpp/ek = 0.822025
+ekpp/ekp = 0.873017
+ekpp/ek = 0.668928
+ekpp/ekp = 0.766226
+ekpp/ek = 0.614129
+ekpp/ekp = 0.801498
+ekpp/ek = 0.706665
+ekpp/ekp = 0.881679
+ekpp/ek = 0.940914
+ekpp/ekp = 1.06718
+ekpp/ek = 1.07107
+ekpp/ekp = 1.00364
+ekpp/ek = 1.00463
+ekpp/ekp = 1.00099
+ekpp/ek = 1.00363
+ekpp/ekp = 1.00263
+ekpp/ek = 1.01033
+ekpp/ekp = 1.00768
+ekpp/ek = 1.00886
+ekpp/ekp = 1.00117
+ekpp/ek = 1.00424
+ekpp/ekp = 1.00307
+ekpp/ek = 1.01167
+ekpp/ekp = 1.00858
+ekpp/ek = 1.00977
+ekpp/ekp = 1.00118
+ekpp/ek = 1.00421
+ekpp/ekp = 1.00303
+ekpp/ek = 1.01123
+ekpp/ekp = 1.00817
+ekpp/ek = 1.02322
+ekpp/ekp = 1.01493
+ekpp/ek = 0.995237
+ekpp/ekp = 0.980598
+ekpp/ek = 0.98087
+ekpp/ekp = 1.00028
+ekpp/ek = 1.00029
+ekpp/ekp = 1.00001
+ekpp/ek = 0.996722
+ekpp/ekp = 0.99671
+ekpp/ek = 0.994877
+ekpp/ekp = 0.998161
+ekpp/ek = 0.99354
+ekpp/ekp = 0.995371
+ekpp/ek = 0.983096
+ekpp/ekp = 0.987668
+ekpp/ek = 0.986381
+ekpp/ekp = 0.998697
+ekpp/ek = 0.995302
+ekpp/ekp = 0.996601
+ekpp/ek = 0.987347
+ekpp/ekp = 0.990715
+ekpp/ek = 0.997877
+ekpp/ekp = 1.00723
+ekpp/ek = 1.00011
+ekpp/ekp = 0.992934
+ekpp/ek = 1.00969
+ekpp/ekp = 1.01687
+ekpp/ek = 1.00329
+ekpp/ekp = 0.986647
+ekpp/ek = 0.984964
+ekpp/ekp = 0.998293
+ekpp/ek = 0.998814
+ekpp/ekp = 1.00052
+ekpp/ek = 1.00122
+ekpp/ekp = 1.00069
+ekpp/ek = 1.00236
+ekpp/ekp = 1.00167
+ekpp/ek = 1.00547
+ekpp/ekp = 1.0038
+ekpp/ek = 1.01171
+ekpp/ekp = 1.00789
+ekpp/ek = 1.02425
+ekpp/ekp = 1.01623
+ekpp/ek = 1.07056
+ekpp/ekp = 1.05346
+ekpp/ek = 1.06727
+ekpp/ekp = 1.01311
+ekpp/ek = 1.05162
+ekpp/ekp = 1.03802
+ekpp/ek = 1.05105
+ekpp/ekp = 1.01255
+ekpp/ek = 1.03691
+ekpp/ekp = 1.02406
+ekpp/ek = 1.04156
+ekpp/ekp = 1.01709
+ekpp/ek = 1.01533
+ekpp/ekp = 0.998272
+ekpp/ek = 0.99896
+ekpp/ekp = 1.00069
+ekpp/ek = 1.00284
+ekpp/ekp = 1.00215
+ekpp/ek = 1.00759
+ekpp/ekp = 1.00543
+ekpp/ek = 1.01942
+ekpp/ekp = 1.01392
+ekpp/ek = 1.03298
+ekpp/ekp = 1.0188
+ekpp/ek = 1.03618
+ekpp/ekp = 1.01706
+ekpp/ek = 1.03118
+ekpp/ekp = 1.01389
+ekpp/ek = 1.02904
+ekpp/ekp = 1.01494
+ekpp/ek = 1.02964
+ekpp/ekp = 1.01449
+ekpp/ek = 1.02736
+ekpp/ekp = 1.01269
+ekpp/ek = 1.02355
+ekpp/ekp = 1.01073
+ekpp/ek = 1.01994
+ekpp/ekp = 1.00911
+ekpp/ek = 1.01732
+ekpp/ekp = 1.00814
+ekpp/ek = 1.01756
+ekpp/ekp = 1.00934
+ekpp/ek = 1.0178
+ekpp/ekp = 1.00838
+ekpp/ek = 1.01592
+ekpp/ekp = 1.00748
+ekpp/ek = 1.01545
+ekpp/ekp = 1.00791
+ekpp/ek = 1.01647
+ekpp/ekp = 1.00849
+ekpp/ek = 1.01552
+ekpp/ekp = 1.00697
+ekpp/ek = 1.01286
+ekpp/ekp = 1.00586
+ekpp/ek = 1.01236
+ekpp/ekp = 1.00647
+ekpp/ek = 1.01162
+ekpp/ekp = 1.00512
+ekpp/ek = 1.01136
+ekpp/ekp = 1.0062
+ekpp/ek = 1.01159
+ekpp/ekp = 1.00536
+ekpp/ek = 1.00912
+ekpp/ekp = 1.00375
+ekpp/ek = 1.01005
+ekpp/ekp = 1.00628
+ekpp/ek = 1.01145
+ekpp/ekp = 1.00514
+ekpp/ek = 1.00886
+ekpp/ekp = 1.0037
+ekpp/ek = 1.00827
+ekpp/ekp = 1.00456
+ekpp/ek = 1.00787
+ekpp/ekp = 1.0033
+ekpp/ek = 1.00872
+ekpp/ekp = 1.0054
+ekpp/ek = 1.00969
+ekpp/ekp = 1.00427
+ekpp/ek = 1.00754
+ekpp/ekp = 1.00326
+ekpp/ek = 1.00758
+ekpp/ekp = 1.0043
+ekpp/ek = 1.00799
+ekpp/ekp = 1.00368
+ekpp/ek = 1.0066
+ekpp/ekp = 1.00292
+ekpp/ek = 1.0069
+ekpp/ekp = 1.00397
+ekpp/ek = 1.00238
+ekpp/ekp = 0.998416
+ekpp/ek = 1.00551
+ekpp/ekp = 1.0071
+ekpp/ek = 0.998997
+ekpp/ekp = 0.99195
+ekpp/ek = 0.989889
+ekpp/ekp = 0.997922
+ekpp/ek = 1.00661
+ekpp/ekp = 1.00871
+ekpp/ek = 1.00401
+ekpp/ekp = 0.99534
+Showing
+**********************************************************
+Problem name: HS117   
+
+Number of Variables: 15
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: The Algorithm has Converged
+f(x) = 32.3555
+|c(x)| = 6.72912e-07
+|g(x) + J(x)'*y| = 9.61176e-07
+y offset = 0
+Number of Iterations = 115
+Elapsed Time = 0.0292189 s
+Normal iterations = 83
+Average number of normal iterations = 0.721739
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 37
+Iterations with 1  normal iteration  = 73
+Iterations with 2+ normal iterations = 5
+Restorations = 1386
+Average number of restorations per normal iteration = 16
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.113332

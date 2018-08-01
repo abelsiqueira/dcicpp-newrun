@@ -1,0 +1,40 @@
+sifdecoder -A pc64.lnx.gfo  STEENBRG
+
+ Problem name: STEENBRG
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 126 linear equality constraints
+ 
+ There are 540 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: STEENBRG
+
+Number of Variables: 540
+Number of Constraints: 126
+             Equality: 126
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 29460.7
+|c(x)| = 2.55689e-07
+|g(x) + J(x)'*y| = 9.52366e-07
+y offset = 0
+Number of Iterations = 837
+Elapsed Time = 0.451368 s
+Normal iterations = 6
+Average number of normal iterations = 0.00716846
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 6
+Iterations with <= 1 normal iterations = 837
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.646665

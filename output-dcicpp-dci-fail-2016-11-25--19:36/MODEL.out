@@ -1,0 +1,100 @@
+sifdecoder -A pc64.lnx.gfo  MODEL
+
+ Problem name: MODEL
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 23 linear equality constraints
+ There are 15 linear inequality constraints
+ 
+ There are 42 variables bounded from below and above 
+ There are 1500 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1500 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: MODEL   
+
+Number of Variables: 42
+Number of Constraints: 38
+             Equality: 23
+           has_inequality: 15
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 0
+|c(x)| = 0.240774
+|g(x) + J(x)'*y| = 1.86061e-12
+|J(x)'c(x)| = 0.0271431
+y offset = 5.33466e-19
+Number of Iterations = 3
+Elapsed Time = 4.88218 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    3386 (3378, 8)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):  34196 (3378, 30818)
+  Jacobian     (ccfsg):       11381
+  Hessian prod (*hprod):         21
+
+Normal iterations = 2
+Average number of normal iterations = 0.666667
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 19437
+Average number of restorations per normal iteration = 9718
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 4.99333

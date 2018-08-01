@@ -1,0 +1,25 @@
+sifdecoder -A pc64.lnx.gfo  ARWHDNE
+
+ Problem name: ARWHDNE
+
+ Double precision version will be formed
+
+ 
+ There are 499 linear equality constraints
+ There are 499 nonlinear equality constraints
+ 
+ There are 500 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 499 variables
+NOPE preprocessing removed 499 contraints
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving

@@ -1,0 +1,63 @@
+sifdecoder -A pc64.lnx.gfo  AGG
+
+ Problem name: AGG
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 36 linear equality constraints
+ There are 452 linear inequality constraints
+ 
+ There are 163 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 30 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: AGG     
+
+Number of Variables: 163
+Number of Constraints: 458
+             Equality: 36
+           has_inequality: 422
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = -1.64656e+06
+|c(x)| = 2.91146e+06
+|g(x) + J(x)'*y| = 502.095
+|J(x)'c(x)| = 1.42528e+07
+y offset = 101.83
+Number of Iterations = 1
+Elapsed Time = 6.90942 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    1674 (1670, 4)
+  Gradient     (*ofg):            3
+  Constraints  (cfn, ccfsg):  16672 (1670, 15002)
+  Jacobian     (ccfsg):        5001
+  Hessian prod (*hprod):          1
+
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 7.1

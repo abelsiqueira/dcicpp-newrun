@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  ACOPP57
+
+ Problem name: ACOPP57
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 114 nonlinear equality constraints
+ There are 160 nonlinear inequality constraints
+ 
+ There are 57 free variables
+ There are 71 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ACOPP57 
+
+Number of Variables: 128
+Number of Constraints: 274
+             Equality: 114
+           has_inequality: 160
+
+EXIT: The Algorithm has Converged
+f(x) = 41742.4
+|c(x)| = 1.97567e-09
+|g(x) + J(x)'*y| = 9.67292e-08
+y offset = 9.23993e-17
+Number of Iterations = 215
+Elapsed Time = 0.56118 s
+Normal iterations = 16
+Average number of normal iterations = 0.0744186
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 200
+Iterations with 1  normal iteration  = 14
+Iterations with 2+ normal iterations = 1
+Restorations = 170
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0.009999
+Execution time: 0.736666

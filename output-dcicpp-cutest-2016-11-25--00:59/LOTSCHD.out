@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  LOTSCHD
+
+ Problem name: LOTSCHD
+
+ Double precision version will be formed
+
+ The objective function uses 6 nonlinear groups
+ 
+ There are 7 linear equality constraints
+ 
+ There are 12 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LOTSCHD 
+
+Number of Variables: 12
+Number of Constraints: 7
+             Equality: 7
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2398.42
+|c(x)| = 3.86568e-09
+|g(x) + J(x)'*y| = 3.36333e-07
+|J(x)'c(x)| = 0.000818326
+y offset = 0
+Number of Iterations = 18
+Elapsed Time = 0.00212526 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     192 (153, 39)
+  Gradient     (*ofg):           21
+  Constraints  (cfn, ccfsg):    313 (153, 160)
+  Jacobian     (ccfsg):          46
+  Hessian prod (*hprod):        145
+
+Normal iterations = 4
+Average number of normal iterations = 0.222222
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 14
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 0
+Restorations = 114
+Average number of restorations per normal iteration = 28
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

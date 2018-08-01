@@ -1,0 +1,40 @@
+sifdecoder -A pc64.lnx.gfo  HS106
+
+ Problem name: HS106
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 3 linear inequality constraints
+ There are 3 nonlinear inequality constraints
+ 
+ There are 8 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: HS106   
+
+Number of Variables: 8
+Number of Constraints: 6
+             Equality: 0
+           has_inequality: 6
+
+EXIT: The Algorithm has Converged
+f(x) = 7118.41
+|c(x)| = 9.23342e-07
+|g(x) + J(x)'*y| = 1.85591e-07
+y offset = 0
+Number of Iterations = 307
+Elapsed Time = 0.0252354 s
+Normal iterations = 93
+Average number of normal iterations = 0.302932
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 89
+Iterations with <= 1 normal iterations = 305
+**********************************************************
+Setup time: 0
+Execution time: 0.099999

@@ -1,0 +1,17 @@
+sifdecoder -A pc64.lnx.gfo  EIGENCLS
+
+ Problem name: EIGENCLS
+
+ Double precision version will be formed
+
+ The objective function uses 2652 nonlinear groups
+ 
+ There are 2652 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

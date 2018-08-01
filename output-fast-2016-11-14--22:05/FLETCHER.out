@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  FLETCHER
+
+ Problem name: FLETCHER
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 linear inequality constraints
+ There is 1 nonlinear equality constraint
+ 
+ There are 3 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: FLETCHER
+
+Number of Variables: 4
+Number of Constraints: 4
+             Equality: 1
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = 35.4435
+|c(x)| = 5.80585e-11
+|g(x) + J(x)'*y| = 2.2959e-09
+y offset = 0
+Number of Iterations = 21
+Elapsed Time = 0.00151372 s
+Normal iterations = 8
+Average number of normal iterations = 0.380952
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 16
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 3
+Restorations = 113
+Average number of restorations per normal iteration = 14
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

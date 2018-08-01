@@ -1,0 +1,60 @@
+sifdecoder -A pc64.lnx.gfo -st   EIGENACO
+
+ Problem name: EIGENACO
+
+ Double precision version will be formed
+
+ The objective function uses 1275 nonlinear groups
+ 
+ There are 1275 nonlinear equality constraints
+ 
+ There are 2550 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    1.2429990667948951     
+ |gp(xk)|/|gp(xck)| =   0.37639973216437700     
+ |gp(xk)|/|gp(xck)| =   0.25085595789324611     
+ |gp(xk)|/|gp(xck)| =    1.5359831812106584E-002
+ |gp(xk)|/|gp(xck)| =    1.9517481961996559E-002
+ |gp(xk)|/|gp(xck)| =    2.1037717389238521E-002
+ |gp(xk)|/|gp(xck)| =    7.1793836646902185E-005
+ |gp(xk)|/|gp(xck)| =    1.0609247748029377E-004
+ |gp(xk)|/|gp(xck)| =    2.6553620289083296E-009
+ |gp(xk)|/|gp(xck)| =    1.0000000000000000     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           10
+ Steihaug's iter:           13
+ Restorations   :            8
+ Rejected steps :            4
+ Function evals.:           14
+ Constr.  evals.:           25
+ Gradient evals.:           14
+ Jacobian evals.:           15
+ 2nd order Corr.:            1
+ BFGS iterations:            0
+ f(x)           :    1.1898618023992089E-021
+ ||h(x)||       :    6.0465357165639944E-009
+ ||gp(x)||      :    4.3975490182091973E-011
+ ||At*h||       :    1.9208511321595414E-008
+ Elapsed time   :   0.593750000    
+
+ ||xnew - xc||  :    1.2990459692434448E-002
+ rho            :    9.9999999999999995E-007
+ rhomax         :    12.486113676694304     
+ vdelta         :    16.528198590834624     
+ hdelta         :    238.41857910156250     
+ L(x)           :    8.6662448050952241E-009
+ L(x) - L(xc)   :   -1.6875204397692379E-004
+ L(xc)-L(x(k-1)):    1.6997365180422471E-004
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

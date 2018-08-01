@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  FLT
+
+ Problem name: FLT
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: FLT     
+
+Number of Variables: 2
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0
+|c(x)| = 7.94635e-07
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 6.71623e-09
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.000354767 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      11 (4, 7)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):     39 (4, 35)
+  Jacobian     (ccfsg):           7
+  Hessian prod (*hprod):          1
+
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 28
+Average number of restorations per normal iteration = 14
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: -5.66244e-13

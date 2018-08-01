@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  SIMPLLPB
+
+ Problem name: SIMPLLPB
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 3 linear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SIMPLLPB
+
+Number of Variables: 2
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = 1.1
+|c(x)| = 2.61003e-15
+|g(x) + J(x)'*y| = 1.44338e-08
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.000546932 s
+Normal iterations = 1
+Average number of normal iterations = 0.333333
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 38
+Average number of restorations per normal iteration = 38
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: -5.66244e-13

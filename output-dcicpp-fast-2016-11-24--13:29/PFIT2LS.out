@@ -1,0 +1,114 @@
+sifdecoder -A pc64.lnx.gfo  PFIT2LS
+
+ Problem name: PFIT2LS
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There are 2 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00058
+ekpp/ekp = 1.00025
+ekpp/ek = 1.01153
+ekpp/ekp = 1.01128
+ekpp/ek = 1.01121
+ekpp/ekp = 0.999938
+ekpp/ek = 0.99912
+ekpp/ekp = 0.999182
+ekpp/ek = 0.980574
+ekpp/ekp = 0.981377
+ekpp/ek = 0.934716
+ekpp/ekp = 0.952454
+ekpp/ek = 0.839403
+ekpp/ekp = 0.881306
+ekpp/ek = 0.803197
+ekpp/ekp = 0.911372
+ekpp/ek = 0.787728
+ekpp/ekp = 0.864332
+ekpp/ek = 0.821086
+ekpp/ekp = 0.949966
+ekpp/ek = 0.950089
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00048
+ekpp/ekp = 1.00035
+ekpp/ek = 1.00045
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00033
+ekpp/ekp = 1.00022
+ekpp/ek = 1.0008
+ekpp/ekp = 1.00058
+ekpp/ek = 1.00074
+ekpp/ekp = 1.00016
+ekpp/ek = 1.0005
+ekpp/ekp = 1.00034
+ekpp/ek = 1.00125
+ekpp/ekp = 1.00091
+ekpp/ek = 0.993549
+ekpp/ekp = 0.992648
+ekpp/ek = 0.967264
+ekpp/ekp = 0.974428
+ekpp/ek = 0.976329
+ekpp/ekp = 1.00195
+ekpp/ek = 0.99402
+ekpp/ekp = 0.992084
+ekpp/ek = 0.968359
+ekpp/ekp = 0.976086
+ekpp/ek = 0.917976
+ekpp/ekp = 0.940467
+ekpp/ek = 0.912494
+ekpp/ekp = 0.970256
+ekpp/ek = 0.915099
+ekpp/ekp = 0.943152
+ekpp/ek = 0.944178
+ekpp/ekp = 1.00109
+ekpp/ek = 1.00459
+ekpp/ekp = 1.0035
+ekpp/ek = 1.00472
+ekpp/ekp = 1.00122
+ekpp/ek = 0.99514
+ekpp/ekp = 0.993932
+ekpp/ek = 0.994284
+ekpp/ekp = 1.00035
+ekpp/ek = 0.99935
+ekpp/ekp = 0.998996
+ekpp/ek = 0.995322
+ekpp/ekp = 0.996322
+ekpp/ek = 0.996307
+ekpp/ekp = 0.999985
+Showing
+**********************************************************
+Problem name: PFIT2LS 
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.00565127
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.29371e-07
+y offset = 0
+Number of Iterations = 37
+Elapsed Time = 0.000809908 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 37
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

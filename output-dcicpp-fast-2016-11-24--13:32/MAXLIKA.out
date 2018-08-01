@@ -1,0 +1,91 @@
+sifdecoder -A pc64.lnx.gfo  MAXLIKA
+
+ Problem name: MAXLIKA
+
+ Double precision version will be formed
+
+ The objective function uses 235 nonlinear groups
+ 
+ There are 8 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.02656
+ekpp/ekp = 1.02295
+ekpp/ek = 1.02516
+ekpp/ekp = 1.00216
+ekpp/ek = 1.02641
+ekpp/ekp = 1.02419
+ekpp/ek = 1.02658
+ekpp/ekp = 1.00233
+ekpp/ek = 1.00223
+ekpp/ekp = 0.999893
+ekpp/ek = 1.03202
+ekpp/ekp = 1.03213
+ekpp/ek = 1.03909
+ekpp/ekp = 1.00674
+ekpp/ek = 1.00449
+ekpp/ekp = 0.997762
+ekpp/ek = 1.00706
+ekpp/ekp = 1.00932
+ekpp/ek = 0.997142
+ekpp/ekp = 0.987936
+ekpp/ek = 0.988992
+ekpp/ekp = 1.00107
+ekpp/ek = 1.00461
+ekpp/ekp = 1.00354
+ekpp/ek = 1.02252
+ekpp/ekp = 1.01891
+ekpp/ek = 1.01557
+ekpp/ekp = 0.996715
+ekpp/ek = 0.989852
+ekpp/ekp = 0.993115
+ekpp/ek = 0.988778
+ekpp/ekp = 0.995633
+ekpp/ek = 1.00684
+ekpp/ekp = 1.01126
+ekpp/ek = 1.00965
+ekpp/ekp = 0.99841
+ekpp/ek = 1.00926
+ekpp/ekp = 1.01086
+ekpp/ek = 1.03115
+ekpp/ekp = 1.02007
+ekpp/ek = 1.02346
+ekpp/ekp = 1.00333
+ekpp/ek = 1.00294
+ekpp/ekp = 0.99962
+ekpp/ek = 0.999619
+ekpp/ekp = 0.999999
+Showing
+**********************************************************
+Problem name: MAXLIKA 
+
+Number of Variables: 8
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1142.08
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.94188e-08
+y offset = 0
+Number of Iterations = 26
+Elapsed Time = 0.0885246 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 26
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 0.243333

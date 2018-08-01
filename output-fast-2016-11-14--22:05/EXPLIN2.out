@@ -1,0 +1,34 @@
+sifdecoder -A pc64.lnx.gfo  EXPLIN2
+
+ Problem name: EXPLIN2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 1200 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: EXPLIN2 
+
+Number of Variables: 1200
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -7.19985e+07
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.14948e-07
+y offset = 0
+Number of Iterations = 104
+Elapsed Time = 0.132844 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 25174 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

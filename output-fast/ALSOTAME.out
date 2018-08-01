@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  ALSOTAME
+
+ Problem name: ALSOTAME
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: ALSOTAME
+
+Number of Variables: 2
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.082085
+|c(x)| = 1.13594e-11
+|g(x) + J(x)'*y| = 2.0849e-13
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.00024128 s
+Normal iterations = 3
+Average number of normal iterations = 1.5
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 1
+Iterations with <= 1 normal iterations = 1
+**********************************************************
+Setup time: 0
+Execution time: 0.003333

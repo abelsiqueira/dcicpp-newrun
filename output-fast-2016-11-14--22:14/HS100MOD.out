@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS100MOD
+
+ Problem name: HS100MOD
+
+ Double precision version will be formed
+
+ The objective function uses 4 nonlinear groups
+ 
+ There are 4 nonlinear inequality constraints
+ 
+ There are 7 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS100MOD
+
+Number of Variables: 7
+Number of Constraints: 4
+             Equality: 0
+           has_inequality: 4
+
+EXIT: The Algorithm has Converged
+f(x) = 678.72
+|c(x)| = 4.07847e-09
+|g(x) + J(x)'*y| = 9.59409e-07
+y offset = 3.05936e-10
+Number of Iterations = 80
+Elapsed Time = 0.00472045 s
+Normal iterations = 30
+Average number of normal iterations = 0.375
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 50
+Iterations with 1  normal iteration  = 30
+Iterations with 2+ normal iterations = 0
+Restorations = 30
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.019999

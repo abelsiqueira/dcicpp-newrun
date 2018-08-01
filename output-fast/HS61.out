@@ -1,0 +1,40 @@
+sifdecoder -A pc64.lnx.gfo  HS61
+
+ Problem name: HS61
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: HS61    
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -143.646
+|c(x)| = 2.68132e-12
+|g(x) + J(x)'*y| = 7.21869e-08
+y offset = 0
+Number of Iterations = 5
+Elapsed Time = 0.000360489 s
+Normal iterations = 5
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 3
+Iterations with <= 1 normal iterations = 4
+**********************************************************
+Setup time: 0
+Execution time: 0

@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  QPCBOEI1
+
+ Problem name: QPCBOEI1
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 9 linear equality constraints
+ There are 342 linear inequality constraints
+ 
+ There are 228 variables bounded only from below 
+ There are 156 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+NOPE preprocessing removed 35 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: QPCBOEI1
+
+Number of Variables: 382
+Number of Constraints: 316
+             Equality: 8
+           has_inequality: 308
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 1.15601e+07
+|c(x)| = 2.41795e-06
+|g(x) + J(x)'*y| = 0.007054
+y offset = 0.922051
+Number of Iterations = 224
+Elapsed Time = 28.9296 s
+Normal iterations = 36
+Average number of normal iterations = 0.160714
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 188
+Iterations with 1  normal iteration  = 36
+Iterations with 2+ normal iterations = 0
+Restorations = 12721
+Average number of restorations per normal iteration = 353
+**********************************************************
+Done
+Setup time: 0.009999
+Execution time: 29.18

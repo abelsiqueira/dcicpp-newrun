@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  PDE1
+
+ Problem name: PDE1
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 89401 linear equality constraints
+ There are 181194 linear inequality constraints
+ 
+ There are 90602 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 27285 Segmentation fault      (core dumped) ${EXEC}/run_${PACKAGE}

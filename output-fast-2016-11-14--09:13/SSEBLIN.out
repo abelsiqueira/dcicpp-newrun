@@ -1,0 +1,46 @@
+sifdecoder -A pc64.lnx.gfo  SSEBLIN
+
+ Problem name: SSEBLIN
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 48 linear equality constraints
+ There are 24 linear inequality constraints
+ 
+ There are 24 variables bounded only from below 
+ There are 168 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: SSEBLIN 
+
+Number of Variables: 192
+Number of Constraints: 72
+             Equality: 48
+           has_inequality: 24
+
+EXIT: rhomax became too short
+f(x) = 1.72829e+07
+|c(x)| = 1.05791e-08
+|g(x) + J(x)'*y| = 0.00717171
+y offset = 0
+Number of Iterations = 131
+Elapsed Time = 0.135541 s
+Normal iterations = 5
+Average number of normal iterations = 0.0381679
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 126
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = -126
+Restorations = 1301
+Average number of restorations per normal iteration = 260
+**********************************************************
+Setup time: 0
+Execution time: 0.393332

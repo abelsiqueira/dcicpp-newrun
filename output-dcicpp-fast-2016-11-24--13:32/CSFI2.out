@@ -1,0 +1,260 @@
+sifdecoder -A pc64.lnx.gfo  CSFI2
+
+ Problem name: CSFI2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear equality constraints
+ There are 2 nonlinear inequality constraints
+ 
+ There are 5 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00309
+ekpp/ekp = 1.00058
+ekpp/ek = 1.00056
+ekpp/ekp = 0.999978
+ekpp/ek = 1.02063
+ekpp/ekp = 1.02065
+ekpp/ek = 1.06261
+ekpp/ekp = 1.04111
+ekpp/ek = 1.04059
+ekpp/ekp = 0.9995
+ekpp/ek = 0.999349
+ekpp/ekp = 0.999849
+ekpp/ek = 1.58397
+ekpp/ekp = 1.58421
+ekpp/ek = 1.62755
+ekpp/ekp = 1.02736
+ekpp/ek = 1.02736
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999994
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999994
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999993
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999993
+ekpp/ekp = 0.999996
+ekpp/ek = 0.999993
+ekpp/ekp = 0.999996
+ekpp/ek = 0.999992
+ekpp/ekp = 0.999996
+ekpp/ek = 0.999992
+ekpp/ekp = 0.999996
+ekpp/ek = 0.999991
+ekpp/ekp = 0.999995
+ekpp/ek = 0.999991
+ekpp/ekp = 0.999995
+ekpp/ek = 0.99999
+ekpp/ekp = 0.999995
+ekpp/ek = 0.999989
+ekpp/ekp = 0.999995
+ekpp/ek = 0.999989
+ekpp/ekp = 0.999994
+ekpp/ek = 0.999988
+ekpp/ekp = 0.999994
+ekpp/ek = 0.999987
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999986
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999986
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999982
+ekpp/ekp = 0.99999
+ekpp/ek = 0.99998
+ekpp/ekp = 0.99999
+ekpp/ek = 0.999979
+ekpp/ekp = 0.999989
+ekpp/ek = 0.999978
+ekpp/ekp = 0.999989
+ekpp/ek = 0.999976
+ekpp/ekp = 0.999988
+ekpp/ek = 0.999975
+ekpp/ekp = 0.999987
+ekpp/ek = 0.999973
+ekpp/ekp = 0.999986
+ekpp/ek = 0.999972
+ekpp/ekp = 0.999985
+ekpp/ek = 0.99997
+ekpp/ekp = 0.999984
+ekpp/ek = 0.999968
+ekpp/ekp = 0.999984
+ekpp/ek = 0.999966
+ekpp/ekp = 0.999982
+ekpp/ek = 0.999964
+ekpp/ekp = 0.999981
+ekpp/ek = 0.999962
+ekpp/ekp = 0.99998
+ekpp/ek = 0.999959
+ekpp/ekp = 0.999979
+ekpp/ek = 0.999957
+ekpp/ekp = 0.999978
+ekpp/ek = 0.999954
+ekpp/ekp = 0.999976
+ekpp/ek = 0.999951
+ekpp/ekp = 0.999975
+ekpp/ek = 0.999948
+ekpp/ekp = 0.999973
+ekpp/ek = 0.999945
+ekpp/ekp = 0.999972
+ekpp/ek = 0.999941
+ekpp/ekp = 0.99997
+ekpp/ek = 0.999938
+ekpp/ekp = 0.999968
+ekpp/ek = 0.999934
+ekpp/ekp = 0.999966
+ekpp/ek = 0.99993
+ekpp/ekp = 0.999964
+ekpp/ek = 0.999925
+ekpp/ekp = 0.999962
+ekpp/ek = 0.999921
+ekpp/ekp = 0.999959
+ekpp/ek = 0.999916
+ekpp/ekp = 0.999957
+ekpp/ek = 0.999911
+ekpp/ekp = 0.999954
+ekpp/ek = 0.999905
+ekpp/ekp = 0.999951
+ekpp/ek = 0.999899
+ekpp/ekp = 0.999948
+ekpp/ek = 0.999893
+ekpp/ekp = 0.999945
+ekpp/ek = 0.999887
+ekpp/ekp = 0.999942
+ekpp/ek = 0.99988
+ekpp/ekp = 0.999938
+ekpp/ek = 0.999873
+ekpp/ekp = 0.999934
+ekpp/ek = 0.999865
+ekpp/ekp = 0.999931
+ekpp/ek = 0.999857
+ekpp/ekp = 0.999926
+ekpp/ek = 0.999848
+ekpp/ekp = 0.999922
+ekpp/ek = 0.999839
+ekpp/ekp = 0.999917
+ekpp/ek = 0.99983
+ekpp/ekp = 0.999912
+ekpp/ek = 0.99982
+ekpp/ekp = 0.999907
+ekpp/ek = 0.999809
+ekpp/ekp = 0.999902
+ekpp/ek = 0.999798
+ekpp/ekp = 0.999896
+ekpp/ek = 0.999786
+ekpp/ekp = 0.99989
+ekpp/ek = 0.999774
+ekpp/ekp = 0.999884
+ekpp/ek = 0.999761
+ekpp/ekp = 0.999877
+ekpp/ek = 0.999747
+ekpp/ekp = 0.99987
+ekpp/ek = 0.999733
+ekpp/ekp = 0.999863
+ekpp/ek = 0.999718
+ekpp/ekp = 0.999855
+ekpp/ek = 0.999703
+ekpp/ekp = 0.999847
+ekpp/ek = 0.999686
+ekpp/ekp = 0.999839
+ekpp/ek = 0.999669
+ekpp/ekp = 0.99983
+ekpp/ek = 0.999651
+ekpp/ekp = 0.999821
+ekpp/ek = 0.999632
+ekpp/ekp = 0.999811
+ekpp/ek = 0.999613
+ekpp/ekp = 0.999801
+ekpp/ek = 0.999593
+ekpp/ekp = 0.999791
+ekpp/ek = 0.999571
+ekpp/ekp = 0.99978
+ekpp/ek = 0.999549
+ekpp/ekp = 0.999769
+ekpp/ek = 0.999526
+ekpp/ekp = 0.999757
+ekpp/ek = 0.999502
+ekpp/ekp = 0.999745
+ekpp/ek = 0.999478
+ekpp/ekp = 0.999732
+ekpp/ek = 0.999452
+ekpp/ekp = 0.999719
+ekpp/ek = 0.999425
+ekpp/ekp = 0.999705
+ekpp/ek = 0.999396
+ekpp/ekp = 0.999691
+ekpp/ek = 0.999366
+ekpp/ekp = 0.999676
+ekpp/ek = 0.999335
+ekpp/ekp = 0.999659
+ekpp/ek = 0.999302
+ekpp/ekp = 0.999642
+ekpp/ek = 0.999652
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00065
+ekpp/ekp = 1.00064
+ekpp/ek = 1.00067
+ekpp/ekp = 1.00003
+ekpp/ek = 0.999959
+ekpp/ekp = 0.999933
+ekpp/ek = 1.0001
+ekpp/ekp = 1.00016
+ekpp/ek = 0.999839
+ekpp/ekp = 0.999677
+ekpp/ek = 0.999873
+ekpp/ekp = 1.0002
+ekpp/ek = 1.0002
+ekpp/ekp = 0.999999
+ekpp/ek = 0.999999
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1.00001
+ekpp/ek = 1
+ekpp/ekp = 0.999995
+ekpp/ek = 0.999981
+ekpp/ekp = 0.999986
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999998
+Showing
+**********************************************************
+Problem name: CSFI2   
+
+Number of Variables: 5
+Number of Constraints: 4
+             Equality: 2
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 55.0176
+|c(x)| = 5.28437e-08
+|g(x) + J(x)'*y| = 1.19805e-10
+y offset = 4.16539e-12
+Number of Iterations = 109
+Elapsed Time = 0.00461388 s
+Normal iterations = 12
+Average number of normal iterations = 0.110092
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 98
+Iterations with 1  normal iteration  = 10
+Iterations with 2+ normal iterations = 1
+Restorations = 243
+Average number of restorations per normal iteration = 20
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.016665

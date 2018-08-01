@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HAIFAS
+
+ Problem name: HAIFAS
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 9 nonlinear inequality constraints
+ 
+ There are 13 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HAIFAS  
+
+Number of Variables: 13
+Number of Constraints: 9
+             Equality: 0
+           has_inequality: 9
+
+EXIT: The Algorithm has Converged
+f(x) = -0.450001
+|c(x)| = 9.92856e-07
+|g(x) + J(x)'*y| = 2.35905e-07
+y offset = 1.73809e-06
+Number of Iterations = 21
+Elapsed Time = 0.0257726 s
+Normal iterations = 23
+Average number of normal iterations = 1.09524
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 16
+Iterations with 2+ normal iterations = 3
+Restorations = 934
+Average number of restorations per normal iteration = 40
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.073333

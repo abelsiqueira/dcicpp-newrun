@@ -1,0 +1,27 @@
+sifdecoder -A pc64.lnx.gfo  KTMODEL
+
+ Problem name: KTMODEL
+
+ Double precision version will be formed
+
+ 
+ There are 180 linear equality constraints
+ There are 270 nonlinear equality constraints
+ 
+ There are 28 free variables
+ There are 683 variables bounded only from below 
+ There are 15 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 15 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Exception: f is nan

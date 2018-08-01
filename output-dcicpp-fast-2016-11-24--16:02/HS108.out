@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  HS108
+
+ Problem name: HS108
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 13 nonlinear inequality constraints
+ 
+ There are 8 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS108   
+
+Number of Variables: 9
+Number of Constraints: 13
+             Equality: 0
+           has_inequality: 13
+
+EXIT: The Algorithm has Converged
+f(x) = -0.674977
+|c(x)| = 2.06777e-08
+|g(x) + J(x)'*y| = 1.33879e-07
+|J(x)'c(x)| = 0.000254339
+y offset = 1.63024e-07
+Number of Iterations = 27
+Elapsed Time = 0.00870633 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     218 (152, 66)
+  Gradient     (*ofg):           39
+  Constraints  (cfn, ccfsg):    720 (152, 568)
+  Jacobian     (ccfsg):         111
+  Hessian prod (*hprod):        219
+
+Normal iterations = 29
+Average number of normal iterations = 1.07407
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 19
+Iterations with 2+ normal iterations = 5
+Restorations = 457
+Average number of restorations per normal iteration = 15
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.026665

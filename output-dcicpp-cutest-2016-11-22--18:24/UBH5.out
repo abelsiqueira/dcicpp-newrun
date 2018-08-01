@@ -1,0 +1,51 @@
+sifdecoder -A pc64.lnx.gfo  UBH5
+
+ Problem name: UBH5
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 3000 linear equality constraints
+ There are 500 nonlinear equality constraints
+ 
+ There are 3494 free variables
+ There are 1503 variables bounded from below and above 
+ There are 13 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 13 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: UBH5    
+
+Number of Variables: 4997
+Number of Constraints: 3500
+             Equality: 3500
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+f(x) = -0.871813
+|c(x)| = 10.4785
+|g(x) + J(x)'*y| = 0.0541342
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 47.541 s
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 11779
+Average number of restorations per normal iteration = 5889
+**********************************************************
+Done
+Setup time: 0.07
+Execution time: 47.7433

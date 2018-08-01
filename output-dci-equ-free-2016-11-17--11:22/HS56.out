@@ -1,0 +1,76 @@
+sifdecoder -A pc64.lnx.gfo -st   HS56
+
+ Problem name: HS56
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 4 nonlinear equality constraints
+ 
+ There are 7 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    9.1186077313545706     
+ |gp(xk)|/|gp(xck)| =    6.0918516458363401     
+ |gp(xk)|/|gp(xck)| =    1.3811685193771674     
+ |gp(xk)|/|gp(xck)| =    8.0924398783952931     
+ |gp(xk)|/|gp(xck)| =    4.4809616042982983     
+ |gp(xk)|/|gp(xck)| =    3.0718099436956523     
+ |gp(xk)|/|gp(xck)| =    218.42836347217320     
+ |gp(xk)|/|gp(xck)| =    217.87944320097586     
+ |gp(xk)|/|gp(xck)| =    100.95839530075425     
+ |gp(xk)|/|gp(xck)| =    30.310648018149053     
+ |gp(xk)|/|gp(xck)| =    7.9233913100667284     
+ |gp(xk)|/|gp(xck)| =    3.5123435256378421     
+ |gp(xk)|/|gp(xck)| =    1.1774960879395531     
+ |gp(xk)|/|gp(xck)| =   0.86066712327019768     
+ |gp(xk)|/|gp(xck)| =   0.12115169598121929     
+ |gp(xk)|/|gp(xck)| =   0.83418669784920119     
+ |gp(xk)|/|gp(xck)| =    8.6604410383254019E-002
+ |gp(xk)|/|gp(xck)| =   0.72245696186980135     
+ |gp(xk)|/|gp(xck)| =    1.4219812646950019     
+ |gp(xk)|/|gp(xck)| =   0.56663168383212914     
+ |gp(xk)|/|gp(xck)| =    7.1201073676659885E-002
+ |gp(xk)|/|gp(xck)| =   0.33783723336360688     
+ |gp(xk)|/|gp(xck)| =    4.2096589152654613E-003
+ |gp(xk)|/|gp(xck)| =    4.1549195693675517E-002
+ |gp(xk)|/|gp(xck)| =    4.2498104213144594E-002
+ |gp(xk)|/|gp(xck)| =    1.0001355887778838     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           26
+ Steihaug's iter:           54
+ Restorations   :           35
+ Rejected steps :           21
+ Function evals.:           47
+ Constr.  evals.:          108
+ Gradient evals.:           33
+ Jacobian evals.:           43
+ 2nd order Corr.:           16
+ BFGS iterations:            2
+ f(x)           :   -3.4559999999999986     
+ ||h(x)||       :    1.6431300764452317E-013
+ ||gp(x)||      :    5.4400928206632670E-013
+ ||At*h||       :    7.1759645619011480E-013
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    2.0111478821196141E-006
+ rho            :    9.9999999999999995E-007
+ rhomax         :   0.49529265329340727     
+ vdelta         :    5.5237007054145781     
+ hdelta         :    2.0744331925904151     
+ L(x)           :   -3.4560000000000000     
+ L(x) - L(xc)   :   -1.5272227926743653E-012
+ L(xc)-L(x(k-1)):   -1.5525181140674249E-010
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

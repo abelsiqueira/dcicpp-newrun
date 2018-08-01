@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  HS117
+
+ Problem name: HS117
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 nonlinear inequality constraints
+ 
+ There are 15 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+NormalFlag = 2
+Showing
+**********************************************************
+Problem name: HS117   
+
+Number of Variables: 15
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: Stopped at a stationary for the infeasibility
+f(x) = 1190.95
+|c(x)| = 0.0210062
+|g(x) + J(x)'*y| = 0.000691119
+|J(x)'c(x)| = 0
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.00178981 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      94 (76, 18)
+  Gradient     (*ofg):           10
+  Constraints  (cfn, ccfsg):    200 (76, 124)
+  Jacobian     (ccfsg):          32
+  Hessian prod (*hprod):         66
+
+Normal iterations = 3
+Average number of normal iterations = 0.375
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 95
+Average number of restorations per normal iteration = 31
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.023333

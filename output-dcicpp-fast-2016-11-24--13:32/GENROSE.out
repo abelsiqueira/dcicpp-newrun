@@ -1,0 +1,334 @@
+sifdecoder -A pc64.lnx.gfo  GENROSE
+
+ Problem name: GENROSE
+
+ Double precision version will be formed
+
+ The objective function uses 100 linear groups
+ The objective function uses 99 nonlinear groups
+ 
+ There are 100 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.07614
+ekpp/ekp = 1.0037
+ekpp/ek = 1.03839
+ekpp/ekp = 1.03456
+ekpp/ek = 1.03514
+ekpp/ekp = 1.00056
+ekpp/ek = 1.01831
+ekpp/ekp = 1.01774
+ekpp/ek = 1.05391
+ekpp/ekp = 1.03554
+ekpp/ek = 1.03365
+ekpp/ekp = 0.998177
+ekpp/ek = 0.988504
+ekpp/ekp = 0.990309
+ekpp/ek = 0.989109
+ekpp/ekp = 0.998788
+ekpp/ek = 0.997807
+ekpp/ekp = 0.999018
+ekpp/ek = 0.995512
+ekpp/ekp = 0.996491
+ekpp/ek = 0.996628
+ekpp/ekp = 1.00014
+ekpp/ek = 0.998795
+ekpp/ekp = 0.998657
+ekpp/ek = 0.993557
+ekpp/ekp = 0.994893
+ekpp/ek = 0.994242
+ekpp/ekp = 0.999345
+ekpp/ek = 0.998235
+ekpp/ekp = 0.998889
+ekpp/ek = 0.993701
+ekpp/ekp = 0.994806
+ekpp/ek = 0.994615
+ekpp/ekp = 0.999807
+ekpp/ek = 0.999067
+ekpp/ekp = 0.99926
+ekpp/ek = 0.994864
+ekpp/ekp = 0.995601
+ekpp/ek = 0.983977
+ekpp/ekp = 0.988325
+ekpp/ek = 0.987198
+ekpp/ekp = 0.998861
+ekpp/ek = 0.994288
+ekpp/ekp = 0.995422
+ekpp/ek = 0.995088
+ekpp/ekp = 0.999664
+ekpp/ek = 0.997816
+ekpp/ekp = 0.998152
+ekpp/ek = 0.994879
+ekpp/ekp = 0.996721
+ekpp/ek = 0.996478
+ekpp/ekp = 0.999756
+ekpp/ek = 0.997923
+ekpp/ekp = 0.998167
+ekpp/ek = 0.993515
+ekpp/ekp = 0.99534
+ekpp/ek = 0.994843
+ekpp/ekp = 0.9995
+ekpp/ek = 0.997123
+ekpp/ekp = 0.997622
+ekpp/ek = 0.991672
+ekpp/ekp = 0.994037
+ekpp/ek = 0.979498
+ekpp/ekp = 0.985374
+ekpp/ek = 0.974151
+ekpp/ekp = 0.988611
+ekpp/ek = 0.988378
+ekpp/ekp = 0.999765
+ekpp/ek = 0.996259
+ekpp/ekp = 0.996494
+ekpp/ek = 0.996028
+ekpp/ekp = 0.999533
+ekpp/ek = 0.997354
+ekpp/ekp = 0.99782
+ekpp/ek = 0.992571
+ekpp/ekp = 0.994739
+ekpp/ek = 0.977759
+ekpp/ekp = 0.982931
+ekpp/ek = 0.981852
+ekpp/ekp = 0.998903
+ekpp/ek = 0.993556
+ekpp/ekp = 0.994647
+ekpp/ek = 0.994211
+ekpp/ekp = 0.999562
+ekpp/ek = 0.996885
+ekpp/ekp = 0.997322
+ekpp/ek = 0.991078
+ekpp/ekp = 0.993739
+ekpp/ek = 0.993229
+ekpp/ekp = 0.999487
+ekpp/ek = 0.997417
+ekpp/ekp = 0.997929
+ekpp/ek = 0.991596
+ekpp/ekp = 0.993654
+ekpp/ek = 0.993028
+ekpp/ekp = 0.99937
+ekpp/ek = 0.996907
+ekpp/ekp = 0.997536
+ekpp/ek = 0.990745
+ekpp/ekp = 0.993192
+ekpp/ek = 0.992502
+ekpp/ekp = 0.999306
+ekpp/ek = 0.997149
+ekpp/ekp = 0.997842
+ekpp/ek = 0.992449
+ekpp/ekp = 0.994596
+ekpp/ek = 0.993443
+ekpp/ekp = 0.998841
+ekpp/ek = 0.995885
+ekpp/ekp = 0.997041
+ekpp/ek = 0.990768
+ekpp/ekp = 0.993708
+ekpp/ek = 0.978178
+ekpp/ekp = 0.984372
+ekpp/ek = 0.983086
+ekpp/ekp = 0.998694
+ekpp/ek = 0.990716
+ekpp/ekp = 0.992012
+ekpp/ek = 0.983309
+ekpp/ekp = 0.991227
+ekpp/ek = 0.973213
+ekpp/ekp = 0.981827
+ekpp/ek = 0.981326
+ekpp/ekp = 0.99949
+ekpp/ek = 0.996024
+ekpp/ekp = 0.996532
+ekpp/ek = 0.995713
+ekpp/ekp = 0.999178
+ekpp/ek = 0.996381
+ekpp/ekp = 0.9972
+ekpp/ek = 0.991355
+ekpp/ekp = 0.994138
+ekpp/ek = 0.993738
+ekpp/ekp = 0.999597
+ekpp/ek = 0.996785
+ekpp/ekp = 0.997187
+ekpp/ek = 0.991794
+ekpp/ekp = 0.994592
+ekpp/ek = 0.977428
+ekpp/ekp = 0.982742
+ekpp/ek = 0.981083
+ekpp/ekp = 0.998312
+ekpp/ek = 0.990999
+ekpp/ekp = 0.992675
+ekpp/ek = 0.992288
+ekpp/ekp = 0.999611
+ekpp/ek = 0.997708
+ekpp/ekp = 0.998097
+ekpp/ek = 0.99278
+ekpp/ekp = 0.994673
+ekpp/ek = 0.979225
+ekpp/ekp = 0.98447
+ekpp/ek = 0.968888
+ekpp/ekp = 0.984172
+ekpp/ek = 0.98315
+ekpp/ekp = 0.998962
+ekpp/ek = 0.991802
+ekpp/ekp = 0.992833
+ekpp/ek = 0.981126
+ekpp/ekp = 0.988208
+ekpp/ek = 0.987374
+ekpp/ekp = 0.999155
+ekpp/ek = 0.992877
+ekpp/ekp = 0.993716
+ekpp/ek = 0.981252
+ekpp/ekp = 0.987457
+ekpp/ek = 0.986752
+ekpp/ekp = 0.999285
+ekpp/ek = 0.992373
+ekpp/ekp = 0.993083
+ekpp/ek = 0.977219
+ekpp/ekp = 0.984026
+ekpp/ek = 0.982608
+ekpp/ekp = 0.998558
+ekpp/ek = 0.993585
+ekpp/ekp = 0.995019
+ekpp/ek = 0.974351
+ekpp/ekp = 0.979229
+ekpp/ek = 0.963171
+ekpp/ekp = 0.983602
+ekpp/ek = 0.983085
+ekpp/ekp = 0.999475
+ekpp/ek = 0.994161
+ekpp/ekp = 0.994683
+ekpp/ek = 0.975046
+ekpp/ekp = 0.980258
+ekpp/ek = 0.978835
+ekpp/ekp = 0.998549
+ekpp/ek = 0.99348
+ekpp/ekp = 0.994924
+ekpp/ek = 0.975243
+ekpp/ekp = 0.980219
+ekpp/ek = 0.979251
+ekpp/ekp = 0.999012
+ekpp/ek = 0.993129
+ekpp/ekp = 0.99411
+ekpp/ek = 0.971469
+ekpp/ekp = 0.977225
+ekpp/ek = 0.975202
+ekpp/ekp = 0.997929
+ekpp/ek = 0.988892
+ekpp/ekp = 0.990944
+ekpp/ek = 0.969062
+ekpp/ekp = 0.977918
+ekpp/ek = 0.976103
+ekpp/ekp = 0.998144
+ekpp/ek = 0.992362
+ekpp/ekp = 0.994207
+ekpp/ek = 0.971351
+ekpp/ekp = 0.977011
+ekpp/ek = 0.930013
+ekpp/ekp = 0.951896
+ekpp/ek = 0.949355
+ekpp/ekp = 0.997331
+ekpp/ek = 0.971275
+ekpp/ekp = 0.973875
+ekpp/ek = 0.97213
+ekpp/ekp = 0.998208
+ekpp/ek = 0.989693
+ekpp/ekp = 0.99147
+ekpp/ek = 0.969701
+ekpp/ekp = 0.978044
+ekpp/ek = 0.975592
+ekpp/ekp = 0.997493
+ekpp/ek = 0.990392
+ekpp/ekp = 0.992881
+ekpp/ek = 0.964002
+ekpp/ekp = 0.970914
+ekpp/ek = 0.914492
+ekpp/ekp = 0.941888
+ekpp/ek = 0.935314
+ekpp/ekp = 0.993021
+ekpp/ek = 0.964012
+ekpp/ekp = 0.970787
+ekpp/ek = 0.969043
+ekpp/ekp = 0.998204
+ekpp/ek = 0.988281
+ekpp/ekp = 0.990059
+ekpp/ek = 0.96093
+ekpp/ekp = 0.970578
+ekpp/ek = 0.968265
+ekpp/ekp = 0.997617
+ekpp/ek = 0.986964
+ekpp/ekp = 0.989322
+ekpp/ek = 0.968273
+ekpp/ekp = 0.978724
+ekpp/ek = 0.976294
+ekpp/ekp = 0.997517
+ekpp/ek = 0.987349
+ekpp/ekp = 0.989807
+ekpp/ek = 0.971471
+ekpp/ekp = 0.981475
+ekpp/ek = 0.979715
+ekpp/ekp = 0.998207
+ekpp/ek = 0.984026
+ekpp/ekp = 0.985793
+ekpp/ek = 0.951205
+ekpp/ekp = 0.964914
+ekpp/ek = 0.962126
+ekpp/ekp = 0.997111
+ekpp/ek = 0.981939
+ekpp/ekp = 0.984784
+ekpp/ek = 0.949549
+ekpp/ekp = 0.964221
+ekpp/ek = 0.858956
+ekpp/ekp = 0.890829
+ekpp/ek = 0.886672
+ekpp/ekp = 0.995333
+ekpp/ek = 0.942897
+ekpp/ekp = 0.947318
+ekpp/ek = 0.796001
+ekpp/ekp = 0.840267
+ekpp/ek = 0.456153
+ekpp/ekp = 0.542866
+ekpp/ek = 0.506294
+ekpp/ekp = 0.932631
+ekpp/ek = 0.665861
+ekpp/ekp = 0.713959
+ekpp/ek = 0.547121
+ekpp/ekp = 0.76632
+ekpp/ek = 0.181779
+ekpp/ekp = 0.23721
+ekpp/ek = 0.0351511
+ekpp/ekp = 0.148186
+ekpp/ek = 0.00250716
+ekpp/ekp = 0.0169191
+ekpp/ek = 8.76784e-06
+ekpp/ekp = 0.000518222
+Showing
+**********************************************************
+Problem name: GENROSE 
+
+Number of Variables: 100
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.42337e-07
+y offset = 0
+Number of Iterations = 147
+Elapsed Time = 0.024627 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 147
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.053332

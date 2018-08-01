@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  TWOD
+
+ Problem name: TWOD
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 67080 linear equality constraints
+ 
+ There are 68840 variables bounded from below and above 
+ There are 1681 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1681 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: TWOD    
+
+Number of Variables: 68840
+Number of Constraints: 67080
+             Equality: 67080
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.020604
+|c(x)| = 2.48813e-07
+|g(x) + J(x)'*y| = 2.41567e-10
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 162.429 s
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.566668
+Execution time: 162.46

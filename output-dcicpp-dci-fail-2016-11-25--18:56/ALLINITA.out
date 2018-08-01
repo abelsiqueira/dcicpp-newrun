@@ -1,0 +1,64 @@
+sifdecoder -A pc64.lnx.gfo  ALLINITA
+
+ Problem name: ALLINITA
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ The objective function uses 10 nonlinear groups
+ 
+ There is 1 linear equality constraint
+ There is 1 linear inequality constraint
+ There is 1 nonlinear equality constraint
+ There is 1 nonlinear inequality constraint
+ 
+ There is 1 free variable 
+ There is 1 variable bounded only from below 
+ There is 1 variable bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ALLINITA
+
+Number of Variables: 3
+Number of Constraints: 4
+             Equality: 2
+           has_inequality: 2
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 28.2013
+|c(x)| = 0.287123
+|g(x) + J(x)'*y| = 0.438085
+|J(x)'c(x)| = 2.40579e-06
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.0600257 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     763 (755, 8)
+  Gradient     (*ofg):            6
+  Constraints  (cfn, ccfsg):  13800 (755, 13045)
+  Jacobian     (ccfsg):        3044
+  Hessian prod (*hprod):          2
+
+Normal iterations = 3
+Average number of normal iterations = 1.5
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10001
+Average number of restorations per normal iteration = 3333
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.176665

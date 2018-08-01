@@ -1,0 +1,22 @@
+sifdecoder -A pc64.lnx.gfo  EIGENA
+
+ Problem name: EIGENA
+
+ Double precision version will be formed
+
+ 
+ There are 2550 nonlinear equality constraints
+ 
+ There are 2550 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving

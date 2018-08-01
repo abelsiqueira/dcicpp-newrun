@@ -1,0 +1,75 @@
+sifdecoder -A pc64.lnx.gfo  HS25
+
+ Problem name: HS25
+
+ Double precision version will be formed
+
+ The objective function uses 99 nonlinear groups
+ 
+ There are 3 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00027
+ekpp/ekp = 0.99993
+ekpp/ek = 0.999791
+ekpp/ekp = 0.999861
+ekpp/ek = 0.999825
+ekpp/ekp = 0.999964
+ekpp/ek = 0.999899
+ekpp/ekp = 0.999935
+ekpp/ek = 0.999936
+ekpp/ekp = 1
+ekpp/ek = 0.985514
+ekpp/ekp = 0.985514
+ekpp/ek = 0.949359
+ekpp/ekp = 0.963314
+ekpp/ek = 0.872045
+ekpp/ekp = 0.905256
+ekpp/ek = 0.672892
+ekpp/ekp = 0.743317
+ekpp/ek = 0.559405
+ekpp/ekp = 0.75258
+ekpp/ek = 0.705536
+ekpp/ekp = 0.93749
+ekpp/ek = 0.872448
+ekpp/ekp = 0.930621
+ekpp/ek = 0.937665
+ekpp/ekp = 1.00757
+ekpp/ek = 1.00896
+ekpp/ekp = 1.00138
+ekpp/ek = 1.00139
+ekpp/ekp = 1.00001
+Showing
+**********************************************************
+Problem name: HS25    
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0022492
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.35211e-08
+y offset = 0
+Number of Iterations = 18
+Elapsed Time = 0.00535774 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 18
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.023332

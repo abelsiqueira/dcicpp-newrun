@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  OET3
+
+ Problem name: OET3
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1002 linear inequality constraints
+ 
+ There are 4 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: OET3    
+
+Number of Variables: 4
+Number of Constraints: 1002
+             Equality: 0
+           has_inequality: 1002
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 0.114847
+|c(x)| = 0.00784722
+|g(x) + J(x)'*y| = 1.11453e-05
+|J(x)'c(x)| = 0.0976159
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 278.909 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     263 (255, 8)
+  Gradient     (*ofg):            6
+  Constraints  (cfn, ccfsg):  11922 (255, 11667)
+  Jacobian     (ccfsg):        1666
+  Hessian prod (*hprod):        130
+
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10001
+Average number of restorations per normal iteration = 5000
+**********************************************************
+Done
+Setup time: 0.013332
+Execution time: 278.987

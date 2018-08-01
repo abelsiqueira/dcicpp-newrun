@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo -st   BT3
+
+ Problem name: BT3
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 linear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    5.3398481376296235E-002
+ |gp(xk)|/|gp(xck)| =    2.3490050906355111E-015
+ |gp(xk)|/|gp(xck)| =    2.6265131491422212E-016
+ |gp(xk)|/|gp(xck)| =   0.99430194791942539     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            4
+ Steihaug's iter:            6
+ Restorations   :            1
+ Rejected steps :            0
+ Function evals.:            4
+ Constr.  evals.:            5
+ Gradient evals.:            5
+ Jacobian evals.:            5
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    4.0930232558139776     
+ ||h(x)||       :    3.4861002973229915E-014
+ ||gp(x)||      :    1.7763568394002505E-015
+ ||At*h||       :    1.1667382309550023E-013
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    3.4749833229777001     
+ rho            :    9.9999999999999995E-007
+ rhomax         :    408.00000000000000     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    4.0930232558138560     
+ L(x) - L(xc)   :   -18.965256526468799     
+ L(xc)-L(x(k-1)):    492.85036761525038     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

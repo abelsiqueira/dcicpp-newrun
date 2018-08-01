@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  CHACONN1
+
+ Problem name: CHACONN1
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CHACONN1
+
+Number of Variables: 3
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = 1.95222
+|c(x)| = 5.06964e-07
+|g(x) + J(x)'*y| = 7.1271e-11
+|J(x)'c(x)| = 2.66771e-05
+y offset = 1.72795e-11
+Number of Iterations = 8
+Elapsed Time = 0.000591278 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      31 (11, 20)
+  Gradient     (*ofg):           12
+  Constraints  (cfn, ccfsg):     65 (11, 54)
+  Jacobian     (ccfsg):          14
+  Hessian prod (*hprod):          8
+
+Normal iterations = 6
+Average number of normal iterations = 0.75
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 6
+Iterations with 2+ normal iterations = 0
+Restorations = 40
+Average number of restorations per normal iteration = 6
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

@@ -1,0 +1,93 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:        0
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............: 15823125
+
+Total number of variables............................:     5625
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        0
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  2.8594017e+01 0.00e+00 2.34e-02  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.4497409e+01 0.00e+00 2.50e-02  -3.8 1.37e+02  -4.0 1.00e+00 6.25e-02f  5
+   2  1.0145766e+01 0.00e+00 2.35e-02  -3.8 4.93e+02  -4.5 1.00e+00 1.56e-02f  7
+   3  7.9500354e+00 0.00e+00 2.48e-02  -3.8 2.28e+05    -  1.00e+00 6.10e-05f 15
+   4  5.6310526e+00 0.00e+00 2.03e-02  -3.8 4.62e+05    -  1.00e+00 3.05e-05f 16
+   5  3.9992941e+00 0.00e+00 2.09e-02  -3.8 1.62e+03  -5.0 1.00e+00 3.91e-03f  9
+   6  2.4980414e+00 0.00e+00 1.96e-02  -3.8 4.15e+03  -5.4 1.00e+00 9.77e-04f 11
+   7  1.9934711e+00 0.00e+00 1.48e-02  -3.8 4.77e+03    -  1.00e+00 4.88e-04f 12
+   8  1.7580431e+00 0.00e+00 1.96e-02  -3.8 2.08e+03  -5.9 1.00e+00 9.77e-04f 11
+   9  1.4888891e+00 0.00e+00 1.47e-02  -3.8 1.64e+03    -  1.00e+00 9.77e-04f 11
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.3339393e+00 0.00e+00 1.47e-02  -3.8 4.42e+02  -6.4 1.00e+00 1.95e-03f 10
+  11  1.5160686e+01 0.00e+00 2.35e-02  -3.8 3.88e+01  -6.9 1.00e+00 1.00e+00w  1
+  12  1.3320754e+05 0.00e+00 2.93e-02  -3.8 3.16e+05  -7.3 1.00e+00 1.00e+00w  1
+  13  6.7604804e+13 0.00e+00 3.57e-02  -3.8 1.18e+15    -  1.00e+00 1.00e+00w  1
+  14  1.2295483e+00 0.00e+00 1.43e-02  -3.8 2.28e+06  -7.8 1.00e+00 1.56e-02f  6
+  15  1.2047426e+00 0.00e+00 1.42e-02  -3.8 8.64e+01    -  1.00e+00 7.81e-03f  8
+  16  1.1996432e+00 0.00e+00 1.40e-02  -3.8 4.56e+01    -  1.00e+00 1.56e-02f  7
+  17  1.1811401e+00 0.00e+00 1.39e-02  -3.8 9.44e+01  -8.3 1.00e+00 7.81e-03f  8
+  18  1.1753885e+00 0.00e+00 1.42e-02  -3.8 4.55e+01    -  1.00e+00 1.56e-02f  7
+
+Number of Iterations....: 18
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.1753885294737973e+00    1.1753885294737973e+00
+Dual infeasibility......:   1.4206003084385093e-02    1.4206003084385093e-02
+Constraint violation....:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   0.0000000000000000e+00    0.0000000000000000e+00
+Overall NLP error.......:   1.4206003084385093e-02    1.4206003084385093e-02
+
+
+Number of objective function evaluations             = 204
+Number of objective gradient evaluations             = 19
+Number of equality constraint evaluations            = 0
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 0
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 18
+Total CPU secs in IPOPT (w/o function evaluations)   =    301.570
+Total CPU secs in NLP function evaluations           =      8.137
+
+EXIT: Maximum CPU time exceeded.
+
+ ** SUBROUTINE CUTEST_csetup: Warning. The problem has no general constraints. 
+ ** Other tools may be preferable ** 
+
+************************ CUTEst statistics ************************
+
+
+ Package used            :  IPOPT
+ Problem                 :  FMINSURF  
+ # variables             =            5625
+ # constraints           =               0
+ # objective functions   =        0.2240000E+03
+ # objective gradients   =        0.2000000E+02
+ # objective Hessians    =        0.1900000E+02
+ # Hessian-vector prdct  =        0.0000000E+00
+ # constraints functions =        0.0000000E+00
+ # constraints gradients =        0.0000000E+00
+ # constraints Hessians  =        0.0000000E+00
+ Exit code               =              -4
+ Final f                 =   0.0000000E+00
+ Set up time             =            0.12 seconds
+ Solve time              =          380.82 seconds
+
+
+******************************************************************
+
+System Time =     114.8820037842 s.

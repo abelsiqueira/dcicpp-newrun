@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  BLOWEYB
+
+ Problem name: BLOWEYB
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2002 linear equality constraints
+ 
+ There are 2001 free variables
+ There are 2001 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: BLOWEYB 
+
+Number of Variables: 4002
+Number of Constraints: 2002
+             Equality: 2002
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -2.67493e-05
+|c(x)| = 5.44424e-09
+|g(x) + J(x)'*y| = 5.36081e-09
+|J(x)'c(x)| = 1.37939
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.012517 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      11 (4, 7)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):     11 (4, 7)
+  Jacobian     (ccfsg):           4
+  Hessian prod (*hprod):          1
+
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 3
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0.073333
+Execution time: 0.053333

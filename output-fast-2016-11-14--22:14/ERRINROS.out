@@ -1,0 +1,35 @@
+sifdecoder -A pc64.lnx.gfo  ERRINROS
+
+ Problem name: ERRINROS
+
+ Double precision version will be formed
+
+ The objective function uses 49 linear groups
+ The objective function uses 49 nonlinear groups
+ 
+ There are 50 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ERRINROS
+
+Number of Variables: 50
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 39.923
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.09933e-07
+y offset = 0
+Number of Iterations = 37
+Elapsed Time = 0.00626397 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicppclean: line 240: 25486 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

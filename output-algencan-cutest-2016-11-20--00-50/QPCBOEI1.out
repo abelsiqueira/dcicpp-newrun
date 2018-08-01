@@ -1,0 +1,145 @@
+ Solving problem: QPCBOEI1  
+
+ ==============================================================================
+ This is ALGENCAN 3.1.0.
+ ALGENCAN, an Augmented Lagrangian method for nonlinear programming, is part of
+ the TANGO Project: Trustable Algorithms for Nonlinear General Optimization.
+ See http://www.ime.usp.br/~egbirgin/tango/ for details.
+ ==============================================================================
+
+ There are no strings to be processed in the array of parameters.
+
+ The specification file was found.
+
+ Processing specification file:
+
+ FEASIBILITY-TOLERANCE                                           1.00000000D-06
+ OPTIMALITY-TOLERANCE                                            1.00000000D-06
+ SAVE-STATISTICS-TABLE-LINE                   
+ ITERATIONS-OUTPUT-DETAIL                                                    10
+
+ Available HSL subroutines = NONE           
+
+ ALGENCAN PARAMETERS:
+
+ firstde                =                    T
+ seconde                =                    T
+ truehpr                =                    T
+ hptype in TN           =               TRUEHP
+ lsslvr in TR           =            NONE/NONE
+ lsslvr in NW           =            NONE/NONE
+ lsslvr in ACCPROC      =            NONE/NONE
+ innslvr                =                   TN
+ accproc                =                    F
+ rmfixv                 =                    T
+ slacks                 =                    F
+ scale                  =                    T
+ epsfeas                =           1.0000D-06
+ epsopt                 =           1.0000D-06
+ efstain                =           1.0000D-04
+ eostain                =           1.0000D-12
+ efacc                  =           1.0000D-04
+ eoacc                  =           1.0000D-04
+ iprint                 =                   10
+ ncomp                  =                    6
+
+ Specification filename =       'algencan.dat'
+ Output filename        =                   ''
+ Solution filename      =                   ''
+
+ Number of variables               :     384
+ Number of equality constraints    :       9
+ Number of inequality constraints  :     431
+ Number of bound constraints       :     540
+ Number of fixed variables         :       0
+
+ There are no fixed variables to be removed.
+
+ Objective function scale factor   : 2.3D-02
+ Smallest constraints scale factor : 3.2D-04
+
+ Entry to ALGENCAN.
+ Number of variables  :     384
+ Number of constraints:     440
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+  0         0.000D+00 3.D+03  0.000D+00 3.D+03 3.D+03 8.D-03 3.D+03    0   0   0
+  1 1.D-06 -2.593D-01 3.D+03 -6.056D-03 3.D+03 3.D+03 5.D-05 3.D+03    2C  0   0
+  2 1.D-06 -1.931D-01 3.D+03 -4.510D-03 3.D+03 3.D+03 4.D-05 3.D+03    3C  0   0
+  3 1.D-05  2.896D+00 3.D+03  6.762D-02 3.D+03 3.D+03 1.D-04 3.D+03    4C  0   0
+  4 1.D-04  2.734D+02 3.D+03  6.385D+00 3.D+03 3.D+03 1.D-09 3.D+03    6C  0   0
+  5 1.D-03  2.424D+04 2.D+03  5.660D+02 2.D+03 2.D+03 6.D-07 2.D+03   10C  0   0
+  6 1.D-02  1.094D+06 2.D+03  2.555D+04 2.D+03 2.D+03 1.D-04 2.D+03   18C  0   0
+  7 1.D-01  7.343D+06 5.D+02  1.715D+05 5.D+02 5.D+02 2.D-08 5.D+02   31C  0   0
+  8 1.D-01  9.613D+06 3.D+02  2.245D+05 1.D+02 1.D+02 7.D-09 1.D+02   40C  0   0
+  9 1.D-01  1.027D+07 3.D+02  2.398D+05 4.D+01 4.D+01 2.D-07 3.D+01   45C  0   0
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+ 10 1.D-01  1.047D+07 3.D+02  2.445D+05 3.D+01 3.D+01 3.D-09 3.D+01   51C  0   0
+ 11 1.D+00  1.061D+07 3.D+02  2.478D+05 2.D+01 2.D+01 2.D-07 2.D+01   63C  0   0
+ 12 1.D+01  1.075D+07 3.D+02  2.510D+05 3.D+00 3.D+00 2.D-06 8.D-01   92C  0   0
+ 13 1.D+01  1.077D+07 3.D+02  2.514D+05 3.D+00 3.D+00 2.D-07 2.D-01  104C  0   0
+ 14 1.D+02  1.080D+07 3.D+02  2.522D+05 1.D+00 1.D+00 9.D-04 1.D-01  162C  0   0
+ 15 1.D+02  1.082D+07 2.D+02  2.527D+05 1.D+00 1.D+00 3.D-06 2.D-01  189C  0   0
+ 16 1.D+03  1.091D+07 1.D+02  2.548D+05 9.D-01 9.D-01 5.D-04 5.D-02  285C  0   0
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+ 17 1.D+04  1.122D+07 4.D+01  2.620D+05 3.D-01 3.D-01 5.D-04 4.D-03  439C  0   0
+ 18 1.D+04  1.135D+07 2.D+01  2.651D+05 1.D-01 1.D-01 6.D-04 3.D-02  482C  0   0
+ 19 1.D+05  1.147D+07 3.D+00  2.678D+05 3.D-02 3.D-02 6.D-04 2.D-02  649C  0   0
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+ 20 1.D+05  1.149D+07 2.D+00  2.684D+05 1.D-02 1.D-02 5.D-04 4.D-03  701C  0   0
+ 21 1.D+05  1.150D+07 9.D-01  2.685D+05 5.D-03 5.D-03 1.D-02 2.D-03  721P  0   0
+ 22 1.D+05  1.150D+07 4.D-01  2.686D+05 3.D-03 3.D-03 6.D-03 1.D-03  727P  0   0
+ 23 1.D+05  1.150D+07 2.D-01  2.686D+05 1.D-03 1.D-03 7.D-04 6.D-04  748C  0   0
+ 24 1.D+05  1.150D+07 1.D-01  2.686D+05 6.D-04 6.D-04 7.D-03 3.D-04  761P  0   0
+ 25 1.D+05  1.150D+07 5.D-02  2.686D+05 3.D-04 3.D-04 3.D-02 1.D-04  772P  0   0
+ 26 1.D+05  1.150D+07 2.D-02  2.686D+05 1.D-04 1.D-04 4.D-03 6.D-05  780P  0   0
+ 27 1.D+05  1.150D+07 1.D-02  2.686D+05 7.D-05 7.D-05 2.D-02 3.D-05  785P  0   0
+ 28 1.D+05  1.150D+07 5.D-03  2.686D+05 4.D-05 4.D-05 8.D-04 2.D-05  787C  0   0
+ 29 1.D+05  1.150D+07 3.D-03  2.686D+05 2.D-05 2.D-05 4.D-05 8.D-06  797C  0   0
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+ 30 1.D+05  1.150D+07 2.D-03  2.686D+05 1.D-05 1.D-05 6.D-02 5.D-06  803P  0   0
+ 31 1.D+06  1.150D+07 7.D-05  2.686D+05 4.D-07 4.D-07 5.D-04 2.D-07  820P  0   0
+ 32 1.D+06  1.150D+07 5.D-06  2.686D+05 4.D-08 4.D-08 1.D-03 1.D-08  830P  0   0
+ 33 1.D+06  1.150D+07 5.D-06  2.686D+05 2.D-08 2.D-08 2.D-02 2.D-08  837P  0   0
+ 34 1.D+07  1.150D+07 3.D-08  2.686D+05 1.D-09 1.D-09 4.D-03 1.D-09  846P  0   0
+ 35 1.D+07  1.150D+07 3.D-07  2.686D+05 2.D-09 2.D-09 4.D-02 3.D-09  853P  0   0
+ 36 3.D+06  1.150D+07 3.D-07  2.686D+05 6.D-09 7.D-09 2.D-04 8.D-09  874P  0   0
+ 37 1.D+06  1.150D+07 7.D-07  2.686D+05 3.D-09 3.D-09 8.D-04 4.D-09  889P  0   0
+ 38 1.D+05  1.150D+07 2.D-05  2.686D+05 6.D-08 6.D-08 2.D-05 4.D-08  898P  0   0
+ 39 1.D+06  1.150D+07 5.D-07  2.686D+05 3.D-09 3.D-09 3.D-05 3.D-09  912P  0   0
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+ 40 1.D+06  1.150D+07 5.D-07  2.686D+05 3.D-09 3.D-09 5.D-03 4.D-09  920P  0   0
+ 41 1.D+04  1.150D+07 1.D-05  2.686D+05 1.D-07 2.D-07 3.D-05 1.D-07  944P  0   0
+ 42 1.D+05  1.150D+07 7.D-06  2.686D+05 3.D-08 3.D-08 1.D-05 2.D-08  951P  0   0
+ 43 1.D+05  1.150D+07 2.D-06  2.686D+05 6.D-09 6.D-09 3.D-05 7.D-09  959P  0   0
+ 44 1.D+05  1.150D+07 7.D-07  2.686D+05 3.D-09 3.D-09 4.D-06 2.D-09  970P  0   0
+ 45 1.D+05  1.150D+07 1.D-07  2.686D+05 5.D-10 2.D-09 8.D-07 1.D-10  974C  0   0
+
+ Flag of ALGENCAN: Solution was found.
+
+ User-provided subroutines calls counters: 
+
+ Subroutine fsub     (coded=F):        0
+ Subroutine gsub     (coded=F):        0
+ Subroutine hsub     (coded=F):        0
+ Subroutine csub     (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine jacsub   (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine hcsub    (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine fcsub    (coded=T):     4835
+ Subroutine gjacsub  (coded=T):     1120
+ Subroutine gjacpsub (coded=F):        0
+ Subroutine hlsub    (coded=T):     1063
+ Subroutine hlpsub   (coded=F):        0
+
+
+ Total CPU time in seconds =     1.10
+ Elapsed time    1.10546875    

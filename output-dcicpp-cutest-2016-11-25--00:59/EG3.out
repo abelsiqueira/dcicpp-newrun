@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  EG3
+
+ Problem name: EG3
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear equality constraint
+ There are 19999 nonlinear inequality constraints
+ 
+ There is 1 free variable 
+ There are 10000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

@@ -1,0 +1,46 @@
+sifdecoder -A pc64.lnx.gfo  GOTTFR
+
+ Problem name: GOTTFR
+
+ Double precision version will be formed
+
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: GOTTFR  
+
+Number of Variables: 2
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 1.13922e-09
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.000296831 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 11
+Average number of restorations per normal iteration = 5
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

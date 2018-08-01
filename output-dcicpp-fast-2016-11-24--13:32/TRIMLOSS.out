@@ -1,0 +1,80 @@
+sifdecoder -A pc64.lnx.gfo  TRIMLOSS
+
+ Problem name: TRIMLOSS
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 20 linear equality constraints
+ There are 51 linear inequality constraints
+ There are 4 nonlinear inequality constraints
+ 
+ There are 20 variables bounded only from below 
+ There are 122 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.06514
+ekpp/ekp = 1.06242
+ekpp/ek = 1.22964
+ekpp/ekp = 1.15739
+ekpp/ek = 1.26472
+ekpp/ekp = 1.09274
+ekpp/ek = 1.16536
+ekpp/ekp = 1.06646
+ekpp/ek = 1.10839
+ekpp/ekp = 1.03931
+ekpp/ek = 1.07035
+ekpp/ekp = 1.02986
+ekpp/ek = 1.11787
+ekpp/ekp = 1.08545
+ekpp/ek = 1.2069
+ekpp/ekp = 1.11188
+ekpp/ek = 1.34708
+ekpp/ekp = 1.21153
+ekpp/ek = 1.36154
+ekpp/ekp = 1.12382
+ekpp/ek = 1.22487
+ekpp/ekp = 1.08992
+ekpp/ek = 1.14582
+ekpp/ekp = 1.05129
+ekpp/ek = 1.08081
+ekpp/ekp = 1.02808
+ekpp/ek = 1.04127
+ekpp/ekp = 1.01282
+ekpp/ek = 1.0262
+ekpp/ekp = 1.01321
+Showing
+**********************************************************
+Problem name: TRIMLOSS
+
+Number of Variables: 142
+Number of Constraints: 75
+             Equality: 20
+           has_inequality: 55
+
+EXIT: The Algorithm has Converged
+f(x) = 9.06045
+|c(x)| = 8.30496e-15
+|g(x) + J(x)'*y| = 9.94149e-07
+y offset = 0.00100183
+Number of Iterations = 18
+Elapsed Time = 0.0393233 s
+Normal iterations = 19
+Average number of normal iterations = 1.05556
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 16
+Iterations with 2+ normal iterations = 1
+Restorations = 193
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.153333

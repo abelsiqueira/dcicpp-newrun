@@ -1,0 +1,95 @@
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+ Solving problem: WACHBIEG  
+
+ ==============================================================================
+ This is ALGENCAN 3.1.0.
+ ALGENCAN, an Augmented Lagrangian method for nonlinear programming, is part of
+ the TANGO Project: Trustable Algorithms for Nonlinear General Optimization.
+ See http://www.ime.usp.br/~egbirgin/tango/ for details.
+ ==============================================================================
+
+ There are no strings to be processed in the array of parameters.
+
+ The specification file was found.
+
+ Processing specification file:
+
+ FEASIBILITY-TOLERANCE                                           1.00000000D-06
+ OPTIMALITY-TOLERANCE                                            1.00000000D-06
+ SAVE-STATISTICS-TABLE-LINE                   
+ ITERATIONS-OUTPUT-DETAIL                                                    10
+
+ Available HSL subroutines = NONE           
+
+ ALGENCAN PARAMETERS:
+
+ firstde                =                    T
+ seconde                =                    T
+ truehpr                =                    T
+ hptype in TN           =               TRUEHP
+ lsslvr in TR           =            NONE/NONE
+ lsslvr in NW           =            NONE/NONE
+ lsslvr in ACCPROC      =            NONE/NONE
+ innslvr                =                   TN
+ accproc                =                    F
+ rmfixv                 =                    T
+ slacks                 =                    F
+ scale                  =                    T
+ epsfeas                =           1.0000D-06
+ epsopt                 =           1.0000D-06
+ efstain                =           1.0000D-04
+ eostain                =           1.0000D-12
+ efacc                  =           1.0000D-04
+ eoacc                  =           1.0000D-04
+ iprint                 =                   10
+ ncomp                  =                    6
+
+ Specification filename =       'algencan.dat'
+ Output filename        =                   ''
+ Solution filename      =                   ''
+
+ Number of variables               :       3
+ Number of equality constraints    :       2
+ Number of inequality constraints  :       0
+ Number of bound constraints       :       2
+ Number of fixed variables         :       0
+
+ There are no fixed variables to be removed.
+
+ Objective function scale factor   : 1.0D+00
+ Smallest constraints scale factor : 2.5D-01
+
+ Entry to ALGENCAN.
+ Number of variables  :       3
+ Number of constraints:       2
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+  0        -2.000D+00 4.D+00 -2.000D+00 4.D+00 4.D+00 1.D+00 4.D+00    0   0   0
+  1 3.D+00  2.129D-01 1.D+00  2.129D-01 3.D-01 3.D-01 1.D-05 3.D-01    4C  0   0
+  2 1.D+01  5.614D-01 7.D-01  5.614D-01 2.D-01 2.D-01 7.D-04 6.D-02    6C  0   0
+  3 1.D+02  1.010D+00 2.D-02  1.010D+00 5.D-03 5.D-03 7.D-05 6.D-03   13C  0   0
+  4 1.D+02  9.996D-01 8.D-04  9.996D-01 2.D-04 2.D-04 1.D-06 1.D-04   15C  0   0
+  5 1.D+02  1.000D+00 3.D-05  1.000D+00 9.D-06 9.D-06 3.D-12 4.D-06   17C  0   0
+  6 1.D+02  1.000D+00 1.D-06  1.000D+00 4.D-07 4.D-07 1.D-08 2.D-07   18C  0   0
+  7 1.D+02  1.000D+00 6.D-08  1.000D+00 1.D-08 1.D-08 2.D-11 7.D-09   19C  0   0
+
+ Flag of ALGENCAN: Solution was found.
+
+ User-provided subroutines calls counters: 
+
+ Subroutine fsub     (coded=F):        0
+ Subroutine gsub     (coded=F):        0
+ Subroutine hsub     (coded=F):        0
+ Subroutine csub     (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine jacsub   (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine hcsub    (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine fcsub    (coded=T):       57
+ Subroutine gjacsub  (coded=T):       42
+ Subroutine gjacpsub (coded=F):        0
+ Subroutine hlsub    (coded=T):       18
+ Subroutine hlpsub   (coded=F):        0
+
+
+ Total CPU time in seconds =     0.00
+ Elapsed time    3.90625000E-03

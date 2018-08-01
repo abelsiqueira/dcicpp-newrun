@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  PRODPL0
+
+ Problem name: PRODPL0
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 20 linear equality constraints
+ There are 5 linear inequality constraints
+ There are 4 nonlinear inequality constraints
+ 
+ There are 60 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: PRODPL0 
+
+Number of Variables: 60
+Number of Constraints: 29
+             Equality: 20
+           has_inequality: 9
+
+EXIT: The Algorithm has Converged
+f(x) = 58.7901
+|c(x)| = 6.15053e-08
+|g(x) + J(x)'*y| = 3.47161e-07
+|J(x)'c(x)| = 1.73043e-08
+y offset = 0
+Number of Iterations = 13
+Elapsed Time = 0.00829554 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      70 (42, 28)
+  Gradient     (*ofg):           15
+  Constraints  (cfn, ccfsg):    436 (42, 394)
+  Jacobian     (ccfsg):         125
+  Hessian prod (*hprod):         13
+
+Normal iterations = 7
+Average number of normal iterations = 0.538462
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 0
+Restorations = 269
+Average number of restorations per normal iteration = 38
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.033333

@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  DTOC3
+
+ Problem name: DTOC3
+
+ Double precision version will be formed
+
+ The objective function uses 1499 nonlinear groups
+ 
+ There are 2998 linear equality constraints
+ 
+ There are 4497 free variables
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  OET6
+
+ Problem name: OET6
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1002 nonlinear inequality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: OET6    
+
+Number of Variables: 5
+Number of Constraints: 1002
+             Equality: 0
+           has_inequality: 1002
+
+EXIT: The Algorithm has Converged
+f(x) = 0.111227
+|c(x)| = 3.85745e-14
+|g(x) + J(x)'*y| = 7.95953e-07
+|J(x)'c(x)| = 4.7206e-05
+y offset = 0
+Number of Iterations = 24
+Elapsed Time = 10.7929 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     261 (196, 65)
+  Gradient     (*ofg):           41
+  Constraints  (cfn, ccfsg):    353 (196, 157)
+  Jacobian     (ccfsg):          63
+  Hessian prod (*hprod):        213
+
+Normal iterations = 17
+Average number of normal iterations = 0.708333
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 9
+Iterations with 1  normal iteration  = 14
+Iterations with 2+ normal iterations = 1
+Restorations = 94
+Average number of restorations per normal iteration = 5
+**********************************************************
+Done
+Setup time: 0.053332
+Execution time: 11.0033

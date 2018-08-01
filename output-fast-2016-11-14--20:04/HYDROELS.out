@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  HYDROELS
+
+ Problem name: HYDROELS
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 168 linear inequality constraints
+ 
+ There are 167 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+NOPE preprocessing removed 1 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HYDROELS
+
+Number of Variables: 167
+Number of Constraints: 167
+             Equality: 0
+           has_inequality: 167
+
+EXIT: The Algorithm has Converged
+f(x) = -3.42979e+06
+|c(x)| = 0
+|g(x) + J(x)'*y| = 2.89627e-09
+y offset = 3.04554e-05
+Number of Iterations = 1
+Elapsed Time = 0.000514269 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 27507 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

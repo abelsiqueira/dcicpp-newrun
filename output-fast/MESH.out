@@ -1,0 +1,44 @@
+sifdecoder -A pc64.lnx.gfo  MESH
+
+ Problem name: MESH
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There are 4 linear equality constraints
+ There are 24 linear inequality constraints
+ There are 20 nonlinear equality constraints
+ 
+ There are 2 free variables
+ There are 14 variables bounded only from below 
+ There are 17 variables bounded from below and above 
+ There are 8 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: MESH    
+
+Number of Variables: 33
+Number of Constraints: 48
+             Equality: 24
+           has_inequality: 24
+
+EXIT: The problem is unlimited
+f(x) = -6.12119e+17
+|c(x)| = 4.11828e-05
+|g(x) + J(x)'*y| = 1.32195e+15
+y offset = 0.016
+Number of Iterations = 68
+Elapsed Time = 0.0150034 s
+Normal iterations = 38
+Average number of normal iterations = 0.558824
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 38
+Iterations with <= 1 normal iterations = 68
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.059999

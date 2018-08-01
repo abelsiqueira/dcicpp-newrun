@@ -1,0 +1,36 @@
+sifdecoder -A pc64.lnx.gfo  TORSION6
+
+ Problem name: TORSION6
+
+ Double precision version will be formed
+
+ The objective function uses 5184 nonlinear groups
+ 
+ There are 5184 variables bounded from below and above 
+ There are 292 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 292 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: TORSION6
+
+Number of Variables: 5184
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 3.81494
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.51874e-08
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.0122182 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 14493 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

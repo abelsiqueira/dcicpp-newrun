@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  HS21MOD
+
+ Problem name: HS21MOD
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear inequality constraint
+ 
+ There is 1 free variable 
+ There are 2 variables bounded only from above 
+ There are 2 variables bounded only from below 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS21MOD 
+
+Number of Variables: 7
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = -95.96
+|c(x)| = 1.98064e-12
+|g(x) + J(x)'*y| = 3.24794e-08
+y offset = 0
+Number of Iterations = 5
+Elapsed Time = 0.000290394 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicppclean: line 240: 30868 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

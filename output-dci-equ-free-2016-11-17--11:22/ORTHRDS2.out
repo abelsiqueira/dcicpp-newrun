@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo -st   ORTHRDS2
+
+ Problem name: ORTHRDS2
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 2500 nonlinear equality constraints
+ 
+ There are 5003 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    23.307681949592698     
+ |gp(xk)|/|gp(xck)| =    11.529858721309527     
+ |gp(xk)|/|gp(xck)| =    28.714830623154779     
+ |gp(xk)|/|gp(xck)| =    11.094471162536109     
+ |gp(xk)|/|gp(xck)| =    10.477832303420001     
+ |gp(xk)|/|gp(xck)| =    11.815790135339675     
+ |gp(xk)|/|gp(xck)| =    11.534095603693775     
+ |gp(xk)|/|gp(xck)| =    28.618757231852992     
+ |gp(xk)|/|gp(xck)| =    1.0008392582502128     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            9
+ Steihaug's iter:           13
+ Restorations   :           33
+ Rejected steps :            0
+ Function evals.:            9
+ Constr.  evals.:           45
+ Gradient evals.:           14
+ Jacobian evals.:           18
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    762.46501685866053     
+ ||h(x)||       :    2.8310143568673959E-007
+ ||gp(x)||      :    3.5540619447438360E-008
+ ||At*h||       :    2.4762912191545356E-004
+ Elapsed time   :    35.8085938    
+
+ ||xnew - xc||  :    2.2994358405592348E-005
+ rho            :    9.9999999999999995E-007
+ rhomax         :    15587.349117656298     
+ vdelta         :    20.899396887916893     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    762.46515308085486     
+ L(x) - L(xc)   :   -5.0545168051030487E-010
+ L(xc)-L(x(k-1)):   -2.2646418074145913E-010
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

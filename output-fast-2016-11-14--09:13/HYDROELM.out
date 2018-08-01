@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  HYDROELM
+
+ Problem name: HYDROELM
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 504 linear inequality constraints
+ 
+ There are 503 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Setup time: 0.009999
+Execution time: 0.053334

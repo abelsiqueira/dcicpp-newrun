@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  NCVXQP7
+
+ Problem name: NCVXQP7
+
+ Double precision version will be formed
+
+ The objective function uses 10000 nonlinear groups
+ 
+ There are 7500 linear equality constraints
+ 
+ There are 10000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: NCVXQP7 
+
+Number of Variables: 10000
+Number of Constraints: 7500
+             Equality: 7500
+           has_inequality: 0
+
+EXIT: rhomax became too short
+Cholesky failed
+f(x) = -5.21974e+09
+|c(x)| = 9.83389e-07
+|g(x) + J(x)'*y| = 4.29964e-05
+|J(x)'c(x)| = 5.631e-07
+y offset = 0
+Number of Iterations = 145
+Elapsed Time = 26.5392 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    3831 (3539, 292)
+  Gradient     (*ofg):          147
+  Constraints  (cfn, ccfsg):   5869 (3539, 2330)
+  Jacobian     (ccfsg):         773
+  Hessian prod (*hprod):       3403
+
+Normal iterations = 6
+Average number of normal iterations = 0.0413793
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 139
+Iterations with 1  normal iteration  = 6
+Iterations with 2+ normal iterations = 0
+Restorations = 1557
+Average number of restorations per normal iteration = 259
+**********************************************************
+Done
+Setup time: 0.256667
+Execution time: 26.5267

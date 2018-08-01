@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  DISC2
+
+ Problem name: DISC2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 17 nonlinear equality constraints
+ There are 6 nonlinear inequality constraints
+ 
+ There are 22 free variables
+ There are 7 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: DISC2   
+
+Number of Variables: 29
+Number of Constraints: 23
+             Equality: 17
+           has_inequality: 6
+
+EXIT: The Algorithm has Converged
+f(x) = 1.5625
+|c(x)| = 8.64291e-07
+|g(x) + J(x)'*y| = 3.7468e-08
+y offset = 3.80442e-10
+Number of Iterations = 28
+Elapsed Time = 0.0108707 s
+Normal iterations = 8
+Average number of normal iterations = 0.285714
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 20
+Iterations with 1  normal iteration  = 8
+Iterations with 2+ normal iterations = 0
+Restorations = 337
+Average number of restorations per normal iteration = 42
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.043332

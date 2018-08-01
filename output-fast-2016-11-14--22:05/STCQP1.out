@@ -1,0 +1,38 @@
+sifdecoder -A pc64.lnx.gfo  STCQP1
+
+ Problem name: STCQP1
+
+ Double precision version will be formed
+
+ The objective function uses 16383 nonlinear groups
+ 
+ There are 4095 linear equality constraints
+ 
+ There are 8193 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1771 variables
+NOPE preprocessing removed 4095 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: STCQP1  
+
+Number of Variables: 6422
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 367255
+|c(x)| = 0
+|g(x) + J(x)'*y| = 2.67108e-07
+y offset = 0
+Number of Iterations = 13
+Elapsed Time = 0.33011 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 13034 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

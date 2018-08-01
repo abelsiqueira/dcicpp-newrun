@@ -1,0 +1,86 @@
+sifdecoder -A pc64.lnx.gfo  HS92
+
+ Problem name: HS92
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 6 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 0.987577
+ekpp/ekp = 1.05124
+ekpp/ek = 1.04731
+ekpp/ekp = 0.996262
+ekpp/ek = 0.993821
+ekpp/ekp = 0.99755
+ekpp/ek = 0.991817
+ekpp/ekp = 0.994253
+ekpp/ek = 0.979563
+ekpp/ekp = 0.985225
+ekpp/ek = 1.09482
+ekpp/ekp = 1.11123
+ekpp/ek = 1.13144
+ekpp/ekp = 1.01818
+ekpp/ek = 1.0222
+ekpp/ekp = 1.00394
+ekpp/ek = 1.04948
+ekpp/ekp = 1.04535
+ekpp/ek = 1.08018
+ekpp/ekp = 1.03332
+ekpp/ek = 1.03621
+ekpp/ekp = 1.00279
+ekpp/ek = 1.0031
+ekpp/ekp = 1.0003
+ekpp/ek = 1.00031
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00015
+ekpp/ekp = 1.00014
+ekpp/ek = 1.00014
+ekpp/ekp = 1
+ekpp/ek = 1.00013
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00013
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: HS92    
+
+Number of Variables: 6
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 1.3617
+|c(x)| = 9.05591e-07
+|g(x) + J(x)'*y| = 1.94925e-07
+y offset = 0
+Number of Iterations = 20
+Elapsed Time = 0.120028 s
+Normal iterations = 10
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 10
+Iterations with 1  normal iteration  = 10
+Iterations with 2+ normal iterations = 0
+Restorations = 152
+Average number of restorations per normal iteration = 15
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.223332

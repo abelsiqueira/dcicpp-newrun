@@ -1,0 +1,67 @@
+sifdecoder -A pc64.lnx.gfo  HS47
+
+ Problem name: HS47
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.811514
+ekpp/ekp = 0.893534
+ekpp/ek = 0.536079
+ekpp/ekp = 0.599954
+ekpp/ek = 0.246141
+ekpp/ekp = 0.410266
+ekpp/ek = 0.218648
+ekpp/ekp = 0.532942
+ekpp/ek = 0.303586
+ekpp/ekp = 0.569643
+ekpp/ek = 0.301436
+ekpp/ekp = 0.529167
+ekpp/ek = 0.279053
+ekpp/ekp = 0.527345
+ekpp/ek = 0.269789
+ekpp/ekp = 0.511599
+ekpp/ek = 0.259457
+ekpp/ekp = 0.507149
+ekpp/ek = 0.255451
+ekpp/ekp = 0.5037
+Showing
+**********************************************************
+Problem name: HS47    
+
+Number of Variables: 5
+Number of Constraints: 3
+             Equality: 3
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.78587e-08
+|c(x)| = 1.2451e-07
+|g(x) + J(x)'*y| = 2.93075e-07
+y offset = 0
+Number of Iterations = 13
+Elapsed Time = 0.000608444 s
+Normal iterations = 5
+Average number of normal iterations = 0.384615
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 9
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 1
+Restorations = 5
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: -5.66244e-13

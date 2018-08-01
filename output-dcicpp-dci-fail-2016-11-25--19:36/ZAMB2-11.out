@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  ZAMB2-11
+
+ Problem name: ZAMB2-11
+
+ Double precision version will be formed
+
+ The objective function uses 176 nonlinear groups
+ 
+ There are 96 nonlinear equality constraints
+ 
+ There are 264 variables bounded from below and above 
+ There are 6 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 6 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ZAMB2-11
+
+Number of Variables: 264
+Number of Constraints: 96
+             Equality: 96
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+f(x) = -0.73714
+|c(x)| = 0.0984381
+|g(x) + J(x)'*y| = 6.73154e-05
+|J(x)'c(x)| = 0.182301
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 1.11407 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     238 (232, 6)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):  13352 (232, 13120)
+  Jacobian     (ccfsg):        3119
+  Hessian prod (*hprod):        133
+
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 1.30667

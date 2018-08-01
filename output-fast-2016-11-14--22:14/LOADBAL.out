@@ -1,0 +1,38 @@
+sifdecoder -A pc64.lnx.gfo  LOADBAL
+
+ Problem name: LOADBAL
+
+ Double precision version will be formed
+
+ The objective function uses 51 nonlinear groups
+ 
+ There are 11 linear equality constraints
+ There are 20 linear inequality constraints
+ 
+ There are 20 variables bounded only from below 
+ There are 11 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LOADBAL 
+
+Number of Variables: 31
+Number of Constraints: 31
+             Equality: 11
+           has_inequality: 20
+
+EXIT: The Algorithm has Converged
+f(x) = 0.452856
+|c(x)| = 1.39223e-11
+|g(x) + J(x)'*y| = 6.52076e-07
+y offset = 1.04948e-09
+Number of Iterations = 36
+Elapsed Time = 0.00296664 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicppclean: line 240:  4113 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

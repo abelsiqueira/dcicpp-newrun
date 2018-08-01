@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELBJ
+
+ Problem name: HIMMELBJ
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 14 linear equality constraints
+ 
+ There are 43 variables bounded only from below 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: HIMMELBJ
+
+Number of Variables: 43
+Number of Constraints: 14
+             Equality: 14
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -1910.34
+|c(x)| = 6.47924e-07
+|g(x) + J(x)'*y| = 4.79562e-08
+y offset = 0
+Number of Iterations = 27
+Elapsed Time = 0.00960612 s
+Normal iterations = 2
+Average number of normal iterations = 0.0740741
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 25
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 239
+Average number of restorations per normal iteration = 119
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.026666

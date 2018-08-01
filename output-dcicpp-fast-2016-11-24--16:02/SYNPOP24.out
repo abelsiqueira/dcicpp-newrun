@@ -1,0 +1,24 @@
+sifdecoder -A pc64.lnx.gfo  SYNPOP24
+
+ Problem name: SYNPOP24
+
+ Double precision version will be formed
+
+ 
+ There are 7353 linear equality constraints
+ 
+ There are 6968 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 6968 variables
+NOPE preprocessing removed 7353 contraints
+EXIT: After the preprocessing, there no variables
+f(x) = 0
+Elapsed Time = 0.0
+WARNING: Time of the preprocessing not included
+Setup time: 0.183333
+Execution time: 2.33333

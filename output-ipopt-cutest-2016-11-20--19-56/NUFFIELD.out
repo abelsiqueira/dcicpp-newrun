@@ -1,0 +1,105 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:        0
+Number of nonzeros in inequality constraint Jacobian.:    17874
+Number of nonzeros in Lagrangian Hessian.............:    10999
+
+Total number of variables............................:      939
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        0
+Total number of inequality constraints...............:     5000
+        inequality constraints with only lower bounds:     4139
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      861
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  0.0000000e+00 0.00e+00 7.19e-01  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+Reallocating memory for MA57: lfact (304537)
+Reallocating memory for MA57: lfact (532669)
+Reallocating memory for MA57: lfact (1823024)
+Reallocating memory for MA57: lfact (2727077)
+Reallocating memory for MA57: lfact (3030044)
+   1 -8.1430434e-04 9.10e-03 1.29e+08  -1.7 2.30e-02   8.0 9.97e-01 5.37e-02h  4
+Reallocating memory for MA57: lfact (4296873)
+Reallocating memory for MA57: lfact (6316349)
+Reallocating memory for MA57: lfact (15974725)
+Reallocating memory for MA57: lfact (27283423)
+Reallocating memory for MA57: lfact (30081946)
+Reallocating memory for MA57: lfact (38280257)
+   2 -6.3196962e-03 4.15e-02 2.00e+09  -1.7 2.25e-02   8.4 6.45e-01 3.85e-01h  1
+Reallocating memory for MA57: lfact (45307212)
+Reallocating memory for MA57: lfact (49834954)
+   3 -6.3747493e-03 4.17e-02 1.99e+09  -1.7 1.38e-02  11.6 1.00e+00 6.28e-03h  1
+   4 -6.3752983e-03 4.17e-02 1.99e+09  -1.7 1.38e-02  12.0 1.00e+00 6.30e-05h  1
+   5 -6.3895267e-03 4.17e-02 1.67e+10  -1.7 1.43e-02  11.5 1.00e+00 1.69e-03h  1
+   6 -9.3543015e-03 2.56e-01 1.92e+11  -1.7 1.42e-02  11.9 1.00e+00 3.54e-01h  1
+   7 -9.3842935e-03 2.54e-01 1.91e+11  -1.7 9.31e-03  12.4 1.00e+00 5.53e-03h  1
+   8 -9.3845921e-03 2.54e-01 1.91e+11  -1.7 9.23e-03  12.8 1.00e+00 5.54e-05h  1
+   9 -9.4972221e-03 2.49e-01 1.88e+11  -1.7 8.52e-03  12.3 1.00e+00 2.11e-02h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10 -1.0533887e-02 2.17e-01 3.41e+11  -1.7 8.40e-03  12.7 1.00e+00 1.99e-01h  1
+  11 -1.0544250e-02 2.16e-01 5.12e+11  -1.7 6.65e-03  13.2 1.00e+00 2.48e-03h  1
+  12 -1.0546056e-02 2.16e-01 3.41e+11  -1.7 6.46e-03  12.7 1.00e+00 4.31e-04h  1
+  13 -1.1219079e-02 1.81e-01 4.96e+11  -1.7 6.62e-03  13.1 1.00e+00 1.61e-01h  1
+  14 -1.1225629e-02 1.81e-01 1.00e+12  -1.7 5.59e-03  13.5 1.00e+00 1.87e-03h  1
+  15 -1.1271363e-02 1.79e-01 4.89e+11  -1.7 5.51e-03  13.1 1.00e+00 1.30e-02h  1
+  16 -1.1456998e-02 1.69e-01 8.13e+11  -1.7 5.50e-03  13.5 1.00e+00 5.34e-02h  1
+  17 -1.1609680e-02 1.61e-01 4.64e+11  -1.7 5.13e-03  13.0 1.00e+00 4.62e-02h  1
+  18 -1.1774788e-02 1.52e-01 5.77e+11  -1.7 4.96e-03  13.4 1.00e+00 5.25e-02h  1
+  19 -1.1790281e-02 1.51e-01 1.82e+12  -1.7 4.74e-03  13.9 1.00e+00 5.20e-03h  1
+
+Number of Iterations....: 19
+
+                                   (scaled)                 (unscaled)
+Objective...............:  -1.1790281496066935e-02   -1.1790281496066935e-02
+Dual infeasibility......:   1.8184280092569326e+12    1.8184280092569326e+12
+Constraint violation....:   1.5086495108580092e-01    1.5086495108580092e-01
+Complementarity.........:   4.6296244094236167e+06    4.6296244094236167e+06
+Overall NLP error.......:   2.3080944404963524e+04    1.8184280092569326e+12
+
+
+Number of objective function evaluations             = 25
+Number of objective gradient evaluations             = 20
+Number of equality constraint evaluations            = 0
+Number of inequality constraint evaluations          = 25
+Number of equality constraint Jacobian evaluations   = 0
+Number of inequality constraint Jacobian evaluations = 20
+Number of Lagrangian Hessian evaluations             = 19
+Total CPU secs in IPOPT (w/o function evaluations)   =    308.027
+Total CPU secs in NLP function evaluations           =      0.057
+
+EXIT: Maximum CPU time exceeded.
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+
+************************ CUTEst statistics ************************
+
+
+ Package used            :  IPOPT
+ Problem                 :  NUFFIELD  
+ # variables             =             940
+ # constraints           =            5000
+ # objective functions   =        0.4600000E+02
+ # objective gradients   =        0.2100000E+02
+ # objective Hessians    =        0.2000000E+02
+ # Hessian-vector prdct  =        0.0000000E+00
+ # constraints functions =        0.4700000E+02
+ # constraints gradients =        0.2200000E+02
+ # constraints Hessians  =        0.2000000E+02
+ Exit code               =              -4
+ Final f                 =   0.0000000E+00
+ Set up time             =            0.06 seconds
+ Solve time              =          443.11 seconds
+
+
+******************************************************************
+
+System Time =     120.7880020142 s.

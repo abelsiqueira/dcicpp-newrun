@@ -1,0 +1,34 @@
+sifdecoder -A pc64.lnx.gfo  DTOC1L
+
+ Problem name: DTOC1L
+
+ Double precision version will be formed
+
+ The objective function uses 5998 nonlinear groups
+ 
+ There are 3996 linear equality constraints
+ 
+ There are 5994 free variables
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: DTOC1L  
+
+Number of Variables: 5994
+Number of Constraints: 3996
+             Equality: 3996
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 3.94304
+|c(x)| = 1.01236e-14
+|g(x) + J(x)'*y| = 6.89774e-07
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.0680842 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 20616 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

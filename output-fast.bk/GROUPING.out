@@ -1,0 +1,41 @@
+sifdecoder -A pc64.lnx.gfo  GROUPING
+
+ Problem name: GROUPING
+
+ Double precision version will be formed
+
+ The objective function uses 10 nonlinear groups
+ 
+ There are 25 linear equality constraints
+ There are 100 nonlinear equality constraints
+ 
+ There are 100 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: GROUPING
+
+Number of Variables: 100
+Number of Constraints: 125
+             Equality: 125
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 13.8504
+|c(x)| = 5.62944e-08
+|g(x) + J(x)'*y| = 1.09884e-09
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.000795841 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 0
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.003333

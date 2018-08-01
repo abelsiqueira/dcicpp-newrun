@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  HANGING
+
+ Problem name: HANGING
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2330 nonlinear inequality constraints
+ 
+ There are 3588 free variables
+ There are 12 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 12 variables
+Starting
+Solving

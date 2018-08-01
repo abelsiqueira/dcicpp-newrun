@@ -1,0 +1,38 @@
+sifdecoder -A pc64.lnx.gfo  ERRINRSM
+
+ Problem name: ERRINRSM
+
+ Double precision version will be formed
+
+ The objective function uses 49 linear groups
+ The objective function uses 49 nonlinear groups
+ 
+ There are 50 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: ERRINRSM
+
+Number of Variables: 50
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 37.9989
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.77464e-07
+y offset = 0
+Number of Iterations = 87
+Elapsed Time = 0.0233579 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 87
+**********************************************************
+Setup time: 0
+Execution time: 0.049998

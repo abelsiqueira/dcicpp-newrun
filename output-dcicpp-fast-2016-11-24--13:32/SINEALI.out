@@ -1,0 +1,62 @@
+sifdecoder -A pc64.lnx.gfo  SINEALI
+
+ Problem name: SINEALI
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 999 nonlinear groups
+ 
+ There are 1000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.0145
+ekpp/ekp = 1.00007
+ekpp/ek = 1.00016
+ekpp/ekp = 1.00008
+ekpp/ek = 1.00028
+ekpp/ekp = 1.0002
+ekpp/ek = 1.00043
+ekpp/ekp = 1.00023
+ekpp/ek = 1.00007
+ekpp/ekp = 0.999837
+ekpp/ek = 0.999815
+ekpp/ekp = 0.999978
+ekpp/ek = 0.999978
+ekpp/ekp = 0.999999
+ekpp/ek = 0.999999
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: SINEALI 
+
+Number of Variables: 1000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -99901
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.14891e-08
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.0231662 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.016665
+Execution time: 0.093334

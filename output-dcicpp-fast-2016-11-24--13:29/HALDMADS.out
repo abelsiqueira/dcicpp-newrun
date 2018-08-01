@@ -1,0 +1,179 @@
+sifdecoder -A pc64.lnx.gfo  HALDMADS
+
+ Problem name: HALDMADS
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 42 nonlinear inequality constraints
+ 
+ There are 6 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.18941
+ekpp/ekp = 0.999946
+ekpp/ek = 0.999604
+ekpp/ekp = 0.999658
+ekpp/ek = 0.999516
+ekpp/ekp = 0.999858
+ekpp/ek = 0.999591
+ekpp/ekp = 0.999733
+ekpp/ek = 0.999509
+ekpp/ekp = 0.999776
+ekpp/ek = 0.999776
+ekpp/ekp = 1
+ekpp/ek = 0.999999
+ekpp/ekp = 1
+ekpp/ek = 0.999998
+ekpp/ekp = 0.999998
+ekpp/ek = 0.999993
+ekpp/ekp = 0.999995
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999988
+ekpp/ek = 0.999958
+ekpp/ekp = 0.99997
+ekpp/ek = 0.9999
+ekpp/ekp = 0.999929
+ekpp/ek = 0.999772
+ekpp/ekp = 0.999843
+ekpp/ek = 0.999575
+ekpp/ekp = 0.999732
+ekpp/ek = 0.999534
+ekpp/ekp = 0.999801
+ekpp/ek = 0.99967
+ekpp/ekp = 0.999868
+ekpp/ek = 0.999868
+ekpp/ekp = 1
+ekpp/ek = 0.999999
+ekpp/ekp = 0.999999
+ekpp/ek = 0.999997
+ekpp/ekp = 0.999998
+ekpp/ek = 0.999992
+ekpp/ekp = 0.999994
+ekpp/ek = 0.999979
+ekpp/ekp = 0.999985
+ekpp/ek = 0.999949
+ekpp/ekp = 0.999964
+ekpp/ek = 0.999878
+ekpp/ekp = 0.999915
+ekpp/ek = 0.999738
+ekpp/ekp = 0.999823
+ekpp/ek = 0.999676
+ekpp/ekp = 0.999853
+ekpp/ek = 0.999759
+ekpp/ekp = 0.999905
+ekpp/ek = 0.999718
+ekpp/ekp = 0.999813
+ekpp/ek = 0.999686
+ekpp/ekp = 0.999873
+ekpp/ek = 0.999873
+ekpp/ekp = 1
+ekpp/ek = 0.999999
+ekpp/ekp = 0.999999
+ekpp/ek = 0.999996
+ekpp/ekp = 0.999998
+ekpp/ek = 0.999992
+ekpp/ekp = 0.999994
+ekpp/ek = 0.999979
+ekpp/ekp = 0.999985
+ekpp/ek = 0.999949
+ekpp/ekp = 0.999964
+ekpp/ek = 0.999881
+ekpp/ekp = 0.999917
+ekpp/ek = 0.99985
+ekpp/ekp = 0.999933
+ekpp/ek = 0.999879
+ekpp/ekp = 0.999946
+ekpp/ek = 0.999903
+ekpp/ekp = 0.999957
+ekpp/ek = 0.999922
+ekpp/ekp = 0.999966
+ekpp/ek = 0.999929
+ekpp/ekp = 0.999964
+ekpp/ek = 0.999935
+ekpp/ekp = 0.999971
+ekpp/ek = 0.999948
+ekpp/ekp = 0.999977
+ekpp/ek = 0.999959
+ekpp/ekp = 0.999982
+ekpp/ek = 0.999967
+ekpp/ekp = 0.999986
+ekpp/ek = 0.999974
+ekpp/ekp = 0.999989
+ekpp/ek = 0.999967
+ekpp/ekp = 0.999979
+ekpp/ek = 0.999956
+ekpp/ekp = 0.999978
+ekpp/ek = 0.999978
+ekpp/ekp = 1
+ekpp/ek = 0.999999
+ekpp/ekp = 0.999999
+ekpp/ek = 0.999997
+ekpp/ekp = 0.999998
+ekpp/ek = 0.999993
+ekpp/ekp = 0.999995
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999988
+ekpp/ek = 0.999957
+ekpp/ekp = 0.99997
+ekpp/ek = 0.999928
+ekpp/ekp = 0.999958
+ekpp/ek = 0.999915
+ekpp/ekp = 0.999956
+ekpp/ek = 0.99991
+ekpp/ekp = 0.999954
+ekpp/ek = 0.999852
+ekpp/ekp = 0.999898
+ekpp/ek = 0.999897
+ekpp/ekp = 1
+ekpp/ek = 0.999998
+ekpp/ekp = 0.999998
+ekpp/ek = 0.999996
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999991
+ekpp/ekp = 0.999994
+ekpp/ek = 0.999978
+ekpp/ekp = 0.999985
+ekpp/ek = 0.999947
+ekpp/ekp = 0.999963
+ekpp/ek = 0.999878
+ekpp/ekp = 0.999915
+ekpp/ek = 0.999849
+ekpp/ekp = 0.999934
+ekpp/ek = 0.999903
+ekpp/ekp = 0.999969
+Showing
+**********************************************************
+Problem name: HALDMADS
+
+Number of Variables: 6
+Number of Constraints: 42
+             Equality: 0
+           has_inequality: 42
+
+EXIT: The Algorithm has Converged
+f(x) = 2.50672
+|c(x)| = 1.69542e-10
+|g(x) + J(x)'*y| = 4.96471e-07
+y offset = 3.17835e-05
+Number of Iterations = 69
+Elapsed Time = 0.0624757 s
+Normal iterations = 38
+Average number of normal iterations = 0.550725
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 32
+Iterations with 1  normal iteration  = 36
+Iterations with 2+ normal iterations = 1
+Restorations = 580
+Average number of restorations per normal iteration = 15
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.246666

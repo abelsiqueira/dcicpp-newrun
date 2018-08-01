@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  GIGOMEZ2
+
+ Problem name: GIGOMEZ2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: GIGOMEZ2
+
+Number of Variables: 3
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = 1.95222
+|c(x)| = 6.27637e-07
+|g(x) + J(x)'*y| = 9.08389e-07
+|J(x)'c(x)| = 2.8417e-05
+y offset = 5.25635e-07
+Number of Iterations = 7
+Elapsed Time = 0.000812292 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      58 (40, 18)
+  Gradient     (*ofg):           11
+  Constraints  (cfn, ccfsg):    122 (40, 82)
+  Jacobian     (ccfsg):          16
+  Hessian prod (*hprod):         70
+
+Normal iterations = 6
+Average number of normal iterations = 0.857143
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 1
+Restorations = 66
+Average number of restorations per normal iteration = 11
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

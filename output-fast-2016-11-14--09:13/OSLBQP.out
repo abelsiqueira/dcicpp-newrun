@@ -1,0 +1,32 @@
+sifdecoder -A pc64.lnx.gfo  OSLBQP
+
+ Problem name: OSLBQP
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 variables bounded only from below 
+ There are 3 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: OSLBQP  
+
+Number of Variables: 8
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 6.25
+|c(x)| = 0
+|g(x) + J(x)'*y| = 3.93357e-09
+y offset = 0
+Number of Iterations = 6
+Elapsed Time = 0.000281572 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240:  3951 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

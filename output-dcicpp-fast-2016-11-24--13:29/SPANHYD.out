@@ -1,0 +1,74 @@
+sifdecoder -A pc64.lnx.gfo  SPANHYD
+
+ Problem name: SPANHYD
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 33 linear equality constraints
+ 
+ There are 81 variables bounded from below and above 
+ There are 16 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 16 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 0.997252
+ekpp/ekp = 0.997332
+ekpp/ek = 0.996567
+ekpp/ekp = 0.999233
+ekpp/ek = 1.00199
+ekpp/ekp = 1.00276
+ekpp/ek = 1.01593
+ekpp/ekp = 1.01313
+ekpp/ek = 1.01326
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00421
+ekpp/ekp = 1.00408
+ekpp/ek = 1.00408
+ekpp/ekp = 0.999993
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+ekpp/ek = 0.999993
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: SPANHYD 
+
+Number of Variables: 81
+Number of Constraints: 33
+             Equality: 33
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 239.738
+|c(x)| = 9.28181e-07
+|g(x) + J(x)'*y| = 4.38291e-13
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.0114715 s
+Normal iterations = 3
+Average number of normal iterations = 0.272727
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 8
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 178
+Average number of restorations per normal iteration = 59
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.046666

@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  BLOCKQP2
+
+ Problem name: BLOCKQP2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5000 linear equality constraints
+ There is 1 linear inequality constraint
+ 
+ There are 10010 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: BLOCKQP2
+
+Number of Variables: 10010
+Number of Constraints: 5001
+             Equality: 5000
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = -4993.79
+|c(x)| = 8.01749e-08
+|g(x) + J(x)'*y| = 1.12757e-07
+|J(x)'c(x)| = 111.904
+y offset = 0
+Number of Iterations = 5
+Elapsed Time = 159.634 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      19 (7, 12)
+  Gradient     (*ofg):            7
+  Constraints  (cfn, ccfsg):     17 (7, 10)
+  Jacobian     (ccfsg):           7
+  Hessian prod (*hprod):          4
+
+Normal iterations = 1
+Average number of normal iterations = 0.2
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 3
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0.196666
+Execution time: 159.64

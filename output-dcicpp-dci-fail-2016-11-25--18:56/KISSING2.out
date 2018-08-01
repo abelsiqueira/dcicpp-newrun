@@ -1,0 +1,64 @@
+sifdecoder -A pc64.lnx.gfo  KISSING2
+
+ Problem name: KISSING2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 625 nonlinear inequality constraints
+ 
+ There are 94 free variables
+ There are 6 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 6 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+NormalFlag = 2
+Showing
+**********************************************************
+Problem name: KISSING2
+
+Number of Variables: 94
+Number of Constraints: 625
+             Equality: 0
+           has_inequality: 625
+
+EXIT: Stopped at a stationary for the infeasibility
+Cholesky failed
+f(x) = 77.4397
+|c(x)| = 11.1028
+|g(x) + J(x)'*y| = 0.0540605
+|J(x)'c(x)| = 0
+y offset = 0.0528206
+Number of Iterations = 2
+Elapsed Time = 0.859584 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      19 (12, 7)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):    168 (12, 156)
+  Jacobian     (ccfsg):          41
+  Hessian prod (*hprod):          1
+
+Normal iterations = 3
+Average number of normal iterations = 1.5
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 119
+Average number of restorations per normal iteration = 39
+**********************************************************
+Done
+Setup time: 0.016665
+Execution time: 1.08333

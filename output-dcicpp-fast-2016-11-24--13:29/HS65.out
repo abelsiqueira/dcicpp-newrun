@@ -1,0 +1,93 @@
+sifdecoder -A pc64.lnx.gfo  HS65
+
+ Problem name: HS65
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 3 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.617003
+ekpp/ekp = 0.813811
+ekpp/ek = 0.696113
+ekpp/ekp = 0.855375
+ekpp/ek = 0.796897
+ekpp/ekp = 0.931634
+ekpp/ek = 0.953917
+ekpp/ekp = 1.02392
+ekpp/ek = 1.05094
+ekpp/ekp = 1.0264
+ekpp/ek = 1.053
+ekpp/ekp = 1.02592
+ekpp/ek = 1.05114
+ekpp/ekp = 1.02458
+ekpp/ek = 1.04787
+ekpp/ekp = 1.02273
+ekpp/ek = 1.0439
+ekpp/ekp = 1.02071
+ekpp/ek = 1.0427
+ekpp/ekp = 1.02155
+ekpp/ek = 1.04197
+ekpp/ekp = 1.01999
+ekpp/ek = 1.04131
+ekpp/ekp = 1.0209
+ekpp/ek = 1.04079
+ekpp/ekp = 1.01948
+ekpp/ek = 1.03994
+ekpp/ekp = 1.02007
+ekpp/ek = 1.03927
+ekpp/ekp = 1.01882
+ekpp/ek = 1.06862
+ekpp/ekp = 1.04887
+ekpp/ek = 1.10039
+ekpp/ekp = 1.04911
+ekpp/ek = 1.06411
+ekpp/ekp = 1.01429
+ekpp/ek = 1.01342
+ekpp/ekp = 0.999143
+ekpp/ek = 0.999633
+ekpp/ekp = 1.00049
+ekpp/ek = 1.00024
+ekpp/ekp = 0.999753
+ekpp/ek = 0.999212
+ekpp/ekp = 0.999459
+ekpp/ek = 0.999553
+ekpp/ekp = 1.00009
+Showing
+**********************************************************
+Problem name: HS65    
+
+Number of Variables: 3
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = 0.953529
+|c(x)| = 9.66789e-07
+|g(x) + J(x)'*y| = 3.85843e-07
+y offset = 0
+Number of Iterations = 26
+Elapsed Time = 0.00225258 s
+Normal iterations = 22
+Average number of normal iterations = 0.846154
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 16
+Iterations with 2+ normal iterations = 3
+Restorations = 237
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

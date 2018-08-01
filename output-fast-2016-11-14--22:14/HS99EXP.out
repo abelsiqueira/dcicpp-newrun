@@ -1,0 +1,22 @@
+sifdecoder -A pc64.lnx.gfo  HS99EXP
+
+ Problem name: HS99EXP
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 21 nonlinear equality constraints
+ 
+ There are 21 free variables
+ There are 7 variables bounded from below and above 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

@@ -1,0 +1,161 @@
+sifdecoder -A pc64.lnx.gfo -st   LUKVLE4
+
+ Problem name: LUKVLE4
+
+ Double precision version will be formed
+
+ The objective function uses 24995 nonlinear groups
+ 
+ There are 4999 nonlinear equality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.26207568328339464     
+ |gp(xk)|/|gp(xck)| =   0.35249924675676336     
+ |gp(xk)|/|gp(xck)| =   0.36726513064936878     
+ |gp(xk)|/|gp(xck)| =    2.2226750915481746     
+ |gp(xk)|/|gp(xck)| =   0.32607632852594914     
+ |gp(xk)|/|gp(xck)| =   0.33064286965176304     
+ |gp(xk)|/|gp(xck)| =   0.32745941802233558     
+ |gp(xk)|/|gp(xck)| =   0.35466458698103354     
+ |gp(xk)|/|gp(xck)| =   0.74901450570867911     
+ |gp(xk)|/|gp(xck)| =    3.3969477488859301     
+ |gp(xk)|/|gp(xck)| =   0.45627103006543029     
+ |gp(xk)|/|gp(xck)| =   0.73018011134854233     
+ |gp(xk)|/|gp(xck)| =   0.89913824559242905     
+ |gp(xk)|/|gp(xck)| =    1.1801411798150365     
+ |gp(xk)|/|gp(xck)| =    1.4890351521645440     
+ |gp(xk)|/|gp(xck)| =    1.0234372889174261     
+ |gp(xk)|/|gp(xck)| =   0.93451898117551957     
+ |gp(xk)|/|gp(xck)| =    4.6837456990695339     
+ |gp(xk)|/|gp(xck)| =   0.44604934329500134     
+ |gp(xk)|/|gp(xck)| =   0.42182977483884215     
+ |gp(xk)|/|gp(xck)| =    1.2455533174577087     
+ |gp(xk)|/|gp(xck)| =    2.9712880209448347     
+ |gp(xk)|/|gp(xck)| =    1.3939486336048506     
+ |gp(xk)|/|gp(xck)| =   0.51106101855228570     
+ |gp(xk)|/|gp(xck)| =   0.70328780067824337     
+ |gp(xk)|/|gp(xck)| =    1.1680097623065977     
+ |gp(xk)|/|gp(xck)| =   0.55483583764524169     
+ |gp(xk)|/|gp(xck)| =    2.3202365315374962     
+ |gp(xk)|/|gp(xck)| =    1.7728230268977780     
+ |gp(xk)|/|gp(xck)| =   0.70014815002646402     
+ |gp(xk)|/|gp(xck)| =    3.0256264666977701     
+ |gp(xk)|/|gp(xck)| =   0.31031851839928437     
+ |gp(xk)|/|gp(xck)| =    2.2394939286839053     
+ |gp(xk)|/|gp(xck)| =    1.1263281061927710     
+ |gp(xk)|/|gp(xck)| =   0.38316628393141089     
+ |gp(xk)|/|gp(xck)| =    8.1669529425177778     
+ |gp(xk)|/|gp(xck)| =   0.45540407370125835     
+ |gp(xk)|/|gp(xck)| =   0.64885234504980172     
+ |gp(xk)|/|gp(xck)| =    1.8257497291923672     
+ |gp(xk)|/|gp(xck)| =   0.46950287540700869     
+ |gp(xk)|/|gp(xck)| =    7.3642556985075451     
+ |gp(xk)|/|gp(xck)| =   0.42457047269323239     
+ |gp(xk)|/|gp(xck)| =   0.46442284481276291     
+ |gp(xk)|/|gp(xck)| =    1.2320063126113008     
+ |gp(xk)|/|gp(xck)| =   0.41701603978988355     
+ |gp(xk)|/|gp(xck)| =    1.9341648898168624     
+ |gp(xk)|/|gp(xck)| =    2.8731618301186530     
+ |gp(xk)|/|gp(xck)| =   0.55014908595821088     
+ |gp(xk)|/|gp(xck)| =   0.44638220913869142     
+ |gp(xk)|/|gp(xck)| =    2.0440677867118482     
+ |gp(xk)|/|gp(xck)| =    1.0330932416438141     
+ |gp(xk)|/|gp(xck)| =    1.2264308728593918     
+ |gp(xk)|/|gp(xck)| =   0.54036454710799675     
+ |gp(xk)|/|gp(xck)| =    1.0182643907777618     
+ |gp(xk)|/|gp(xck)| =    2.0128023636521357     
+ |gp(xk)|/|gp(xck)| =    1.0806398328684856     
+ |gp(xk)|/|gp(xck)| =   0.87684617038612989     
+ |gp(xk)|/|gp(xck)| =    1.3138525449125726     
+ |gp(xk)|/|gp(xck)| =    1.6498096318622901     
+ |gp(xk)|/|gp(xck)| =    1.1219257832948402     
+ |gp(xk)|/|gp(xck)| =   0.64593473179568761     
+ |gp(xk)|/|gp(xck)| =   0.87859351668983598     
+ |gp(xk)|/|gp(xck)| =    1.6746914707832379     
+ |gp(xk)|/|gp(xck)| =    2.3638103263207384     
+ |gp(xk)|/|gp(xck)| =   0.38599021890724156     
+ |gp(xk)|/|gp(xck)| =   0.80753050267563609     
+ |gp(xk)|/|gp(xck)| =    1.4072322147719167     
+ |gp(xk)|/|gp(xck)| =   0.67331912980778785     
+ |gp(xk)|/|gp(xck)| =    10.507403629944958     
+ |gp(xk)|/|gp(xck)| =   0.46718503434991049     
+ |gp(xk)|/|gp(xck)| =    2.2871249526729773     
+ |gp(xk)|/|gp(xck)| =   0.51969169026722062     
+ |gp(xk)|/|gp(xck)| =    7.4241145151497099     
+ |gp(xk)|/|gp(xck)| =   0.33297956770075904     
+ |gp(xk)|/|gp(xck)| =    3.9450496004552829     
+ |gp(xk)|/|gp(xck)| =   0.32966576495885241     
+ |gp(xk)|/|gp(xck)| =    1.1999307779123540     
+ |gp(xk)|/|gp(xck)| =   0.60873145776411108     
+ |gp(xk)|/|gp(xck)| =   0.27303296422044199     
+ |gp(xk)|/|gp(xck)| =   0.53594339224571508     
+ |gp(xk)|/|gp(xck)| =   0.82203886569052209     
+ |gp(xk)|/|gp(xck)| =   0.93418854067622281     
+ |gp(xk)|/|gp(xck)| =   0.89365770177105019     
+ |gp(xk)|/|gp(xck)| =    1.2375136292123714     
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ |gp(xk)|/|gp(xck)| =   0.53822157141262794     
+ |gp(xk)|/|gp(xck)| =   0.96215823312737048     
+ |gp(xk)|/|gp(xck)| =   0.93840731195516047     
+ |gp(xk)|/|gp(xck)| =   0.89420734205588126     
+ |gp(xk)|/|gp(xck)| =   0.81711768496526327     
+ |gp(xk)|/|gp(xck)| =   0.56530436705515685     
+ |gp(xk)|/|gp(xck)| =   0.67800214160778371     
+ |gp(xk)|/|gp(xck)| =    1.0059321901246616     
+ |gp(xk)|/|gp(xck)| =   0.31229222965595865     
+ |gp(xk)|/|gp(xck)| =   0.70399540244347747     
+ |gp(xk)|/|gp(xck)| =   0.83492723349637277     
+ |gp(xk)|/|gp(xck)| =    1.6724399590360310     
+ |gp(xk)|/|gp(xck)| =    1.6120169190998463     
+ |gp(xk)|/|gp(xck)| =   0.15847574932688929     
+ |gp(xk)|/|gp(xck)| =    1.8495077732774465     
+ |gp(xk)|/|gp(xck)| =   0.39356573963591457     
+ |gp(xk)|/|gp(xck)| =   0.31415921567110694     
+ |gp(xk)|/|gp(xck)| =   0.22662004844917569     
+ |gp(xk)|/|gp(xck)| =    9.1292384180666361E-002
+ |gp(xk)|/|gp(xck)| =    8.6580152501542579E-002
+ |gp(xk)|/|gp(xck)| =    6.5139586810762429E-002
+ |gp(xk)|/|gp(xck)| =    8.0557265044322687E-002
+ |gp(xk)|/|gp(xck)| =    8.3158981683377584E-002
+ |gp(xk)|/|gp(xck)| =   0.99983534444627520     
+ |gp(xk)|/|gp(xck)| =   0.99999999999872224     
+ |gp(xk)|/|gp(xck)| =    1.0000000000001950     
+
+ DCI Summary.
+
+ The restoration has failed.
+
+ Iterations     :          110
+ Steihaug's iter:          700
+ Restorations   :           15
+ Rejected steps :          284
+ Function evals.:          394
+ Constr.  evals.:          903
+ Gradient evals.:          117
+ Jacobian evals.:          118
+ 2nd order Corr.:            2
+ BFGS iterations:            0
+ f(x)           :   -330068.13858440769     
+ ||h(x)||       :    1.7763568394002505E-015
+ ||gp(x)||      :    1.0417694495501451E-004
+ ||At*h||       :    2.0744408160811481E-013
+ Elapsed time   :    3.28515625    
+
+ ||xnew - xc||  :    2.6791129477430249E-159
+ rho            :    1.8143199552061316E-005
+ rhomax         :    368.75793365406048     
+ vdelta         :    9.9999999999999998E-017
+ hdelta         :    1.0000000000000001E-005
+ L(x)           :   -330068.13858440780     
+ L(x) - L(xc)   :    0.0000000000000000     
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

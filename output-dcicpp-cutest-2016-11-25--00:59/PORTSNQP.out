@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  PORTSNQP
+
+ Problem name: PORTSNQP
+
+ Double precision version will be formed
+
+ The objective function uses 100001 nonlinear groups
+ 
+ There are 2 linear equality constraints
+ 
+ There are 100000 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: PORTSNQP
+
+Number of Variables: 100000
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 33332.3
+|c(x)| = 5.57879e-15
+|g(x) + J(x)'*y| = 1.82003e-12
+|J(x)'c(x)| = 74.8846
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.655672 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):       9 (4, 5)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):     35 (4, 31)
+  Jacobian     (ccfsg):           9
+  Hessian prod (*hprod):          0
+
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 22
+Average number of restorations per normal iteration = 11
+**********************************************************
+Done
+Setup time: 0.506667
+Execution time: 0.67

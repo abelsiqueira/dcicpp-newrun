@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  POWELL20
+
+ Problem name: POWELL20
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5000 linear inequality constraints
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

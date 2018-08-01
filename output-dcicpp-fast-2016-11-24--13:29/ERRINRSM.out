@@ -1,0 +1,214 @@
+sifdecoder -A pc64.lnx.gfo  ERRINRSM
+
+ Problem name: ERRINRSM
+
+ Double precision version will be formed
+
+ The objective function uses 49 linear groups
+ The objective function uses 49 nonlinear groups
+ 
+ There are 50 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.99667
+ekpp/ekp = 0.998727
+ekpp/ek = 0.997759
+ekpp/ekp = 0.99903
+ekpp/ek = 0.998441
+ekpp/ekp = 0.99941
+ekpp/ek = 0.999121
+ekpp/ekp = 0.999711
+ekpp/ek = 0.99933
+ekpp/ekp = 0.999619
+ekpp/ek = 0.999611
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999854
+ekpp/ekp = 0.999863
+ekpp/ek = 0.999858
+ekpp/ekp = 0.999995
+ekpp/ek = 0.99996
+ekpp/ekp = 0.999965
+ekpp/ek = 0.999951
+ekpp/ekp = 0.999986
+ekpp/ek = 0.999953
+ekpp/ekp = 0.999968
+ekpp/ek = 0.999908
+ekpp/ekp = 0.999941
+ekpp/ek = 0.999944
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999981
+ekpp/ek = 0.99867
+ekpp/ekp = 0.998689
+ekpp/ek = 0.995421
+ekpp/ekp = 0.996727
+ekpp/ek = 0.988536
+ekpp/ekp = 0.991782
+ekpp/ek = 0.971243
+ekpp/ekp = 0.97929
+ekpp/ek = 0.927524
+ekpp/ekp = 0.947139
+ekpp/ek = 0.815038
+ekpp/ekp = 0.860526
+ekpp/ek = 0.86049
+ekpp/ekp = 0.999958
+ekpp/ek = 0.974662
+ekpp/ekp = 0.974702
+ekpp/ek = 0.911448
+ekpp/ekp = 0.935104
+ekpp/ek = 0.773071
+ekpp/ekp = 0.826723
+ekpp/ek = 0.826682
+ekpp/ekp = 0.999951
+ekpp/ek = 0.967242
+ekpp/ekp = 0.967289
+ekpp/ek = 0.885566
+ekpp/ekp = 0.915514
+ekpp/ek = 0.90235
+ekpp/ekp = 0.985622
+ekpp/ek = 0.949622
+ekpp/ekp = 0.963475
+ekpp/ek = 0.872308
+ekpp/ekp = 0.905377
+ekpp/ek = 0.89063
+ekpp/ekp = 0.983712
+ekpp/ek = 0.942916
+ekpp/ekp = 0.958529
+ekpp/ek = 0.855217
+ekpp/ekp = 0.892218
+ekpp/ek = 0.875413
+ekpp/ekp = 0.981165
+ekpp/ek = 0.934113
+ekpp/ekp = 0.952045
+ekpp/ek = 0.832498
+ekpp/ekp = 0.874431
+ekpp/ek = 0.854963
+ekpp/ekp = 0.977736
+ekpp/ek = 0.921894
+ekpp/ekp = 0.942886
+ekpp/ek = 0.801283
+ekpp/ekp = 0.84982
+ekpp/ek = 0.61763
+ekpp/ekp = 0.726778
+ekpp/ek = 0.726704
+ekpp/ekp = 0.999897
+ekpp/ek = 0.942713
+ekpp/ekp = 0.94281
+ekpp/ek = 0.802396
+ekpp/ekp = 0.851068
+ekpp/ek = 0.829029
+ekpp/ekp = 0.974104
+ekpp/ek = 0.908242
+ekpp/ekp = 0.932387
+ekpp/ek = 0.772762
+ekpp/ekp = 0.828799
+ekpp/ek = 0.59591
+ekpp/ekp = 0.719004
+ekpp/ek = 0.718883
+ekpp/ekp = 0.999832
+ekpp/ek = 0.974532
+ekpp/ekp = 0.974696
+ekpp/ek = 0.91871
+ekpp/ekp = 0.942561
+ekpp/ek = 0.936137
+ekpp/ekp = 0.993185
+ekpp/ek = 0.975682
+ekpp/ekp = 0.982377
+ekpp/ek = 0.955625
+ekpp/ekp = 0.972769
+ekpp/ek = 0.968659
+ekpp/ekp = 0.995775
+ekpp/ek = 0.993532
+ekpp/ekp = 0.997747
+ekpp/ek = 1.00101
+ekpp/ekp = 1.00327
+ekpp/ek = 1.01537
+ekpp/ekp = 1.01206
+ekpp/ek = 1.00565
+ekpp/ekp = 0.993666
+ekpp/ek = 0.993428
+ekpp/ekp = 0.99976
+ekpp/ek = 0.999098
+ekpp/ekp = 0.999338
+ekpp/ek = 0.99768
+ekpp/ekp = 0.998342
+ekpp/ek = 0.995184
+ekpp/ekp = 0.996838
+ekpp/ek = 0.988691
+ekpp/ekp = 0.991828
+ekpp/ek = 0.989279
+ekpp/ekp = 0.99743
+ekpp/ek = 1.01499
+ekpp/ekp = 1.01761
+ekpp/ek = 1.10949
+ekpp/ekp = 1.09029
+ekpp/ek = 1.16612
+ekpp/ekp = 1.06955
+ekpp/ek = 1.09169
+ekpp/ekp = 1.0207
+ekpp/ek = 1.07766
+ekpp/ekp = 1.0558
+ekpp/ek = 1.21496
+ekpp/ekp = 1.15075
+ekpp/ek = 1.3414
+ekpp/ekp = 1.16567
+ekpp/ek = 1.40684
+ekpp/ekp = 1.2069
+ekpp/ek = 1.36794
+ekpp/ekp = 1.13344
+ekpp/ek = 1.16229
+ekpp/ekp = 1.02545
+ekpp/ek = 1.08908
+ekpp/ekp = 1.06205
+ekpp/ek = 1.22039
+ekpp/ekp = 1.14909
+ekpp/ek = 1.42742
+ekpp/ekp = 1.24221
+ekpp/ek = 1.24223
+ekpp/ekp = 1.00001
+ekpp/ek = 1.01689
+ekpp/ekp = 1.01688
+ekpp/ek = 1.05908
+ekpp/ekp = 1.0415
+ekpp/ek = 1.1458
+ekpp/ekp = 1.10015
+ekpp/ek = 1.28003
+ekpp/ekp = 1.16351
+ekpp/ek = 1.16351
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: ERRINRSM
+
+Number of Variables: 50
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 37.9989
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.77464e-07
+y offset = 0
+Number of Iterations = 87
+Elapsed Time = 0.0155265 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 87
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.059999

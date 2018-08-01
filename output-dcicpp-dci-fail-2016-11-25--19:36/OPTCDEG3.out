@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  OPTCDEG3
+
+ Problem name: OPTCDEG3
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 1500 linear equality constraints
+ There are 1500 nonlinear equality constraints
+ 
+ There are 1500 free variables
+ There are 1499 variables bounded only from below 
+ There are 1500 variables bounded from below and above 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: OPTCDEG3
+
+Number of Variables: 4499
+Number of Constraints: 3000
+             Equality: 3000
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 47.3116
+|c(x)| = 0.0113893
+|g(x) + J(x)'*y| = 0.00407101
+|J(x)'c(x)| = 0.0138292
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 11.9514 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     234 (227, 7)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):  12162 (227, 11935)
+  Jacobian     (ccfsg):        1867
+  Hessian prod (*hprod):          2
+
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 10068
+Average number of restorations per normal iteration = 5034
+**********************************************************
+Done
+Setup time: 0.069999
+Execution time: 12.1367

@@ -1,0 +1,45 @@
+sifdecoder -A pc64.lnx.gfo  TENBARS4
+
+ Problem name: TENBARS4
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There are 8 nonlinear equality constraints
+ 
+ There are 8 free variables
+ There are 10 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: TENBARS4
+
+Number of Variables: 18
+Number of Constraints: 8
+             Equality: 8
+           has_inequality: 0
+
+EXIT: rhomax became too short
+f(x) = 368.494
+|c(x)| = 3.2685e-08
+|g(x) + J(x)'*y| = 1.09308e-05
+y offset = 0
+Number of Iterations = 215
+Elapsed Time = 0.0544989 s
+Normal iterations = 80
+Average number of normal iterations = 0.372093
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 136
+Iterations with 1  normal iteration  = 78
+Iterations with 2+ normal iterations = -134
+Restorations = 2448
+Average number of restorations per normal iteration = 30
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.216666

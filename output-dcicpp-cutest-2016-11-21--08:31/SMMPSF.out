@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  SMMPSF
+
+ Problem name: SMMPSF
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 240 linear equality constraints
+ There are 12 linear inequality constraints
+ There are 11 nonlinear inequality constraints
+ 
+ There are 720 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SMMPSF  
+
+Number of Variables: 720
+Number of Constraints: 263
+             Equality: 240
+           has_inequality: 23
+
+EXIT: rhomax became too short
+f(x) = 1.16609e+06
+|c(x)| = 5.27721e-13
+|g(x) + J(x)'*y| = 5.4683e-06
+y offset = 0.00590867
+Number of Iterations = 617
+Elapsed Time = 1.73271 s
+Normal iterations = 244
+Average number of normal iterations = 0.395462
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 374
+Iterations with 1  normal iteration  = 242
+Iterations with 2+ normal iterations = 1
+Restorations = 2160
+Average number of restorations per normal iteration = 8
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 1.98667

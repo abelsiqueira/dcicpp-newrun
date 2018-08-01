@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  ROSEPETAL2
+
+ Problem name: ROSEPETAL2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 20000 linear inequality constraints
+ There is 1 nonlinear equality constraint
+ 
+ There are 10001 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting

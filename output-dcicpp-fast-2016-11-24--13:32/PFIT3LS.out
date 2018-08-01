@@ -1,0 +1,106 @@
+sifdecoder -A pc64.lnx.gfo  PFIT3LS
+
+ Problem name: PFIT3LS
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There are 2 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00118
+ekpp/ekp = 1.00099
+ekpp/ek = 1.00145
+ekpp/ekp = 1.00046
+ekpp/ek = 1.00192
+ekpp/ekp = 1.00146
+ekpp/ek = 1.00126
+ekpp/ekp = 0.999802
+ekpp/ek = 0.999584
+ekpp/ekp = 0.999782
+ekpp/ek = 0.999455
+ekpp/ekp = 0.999673
+ekpp/ek = 0.979855
+ekpp/ekp = 0.980176
+ekpp/ek = 0.930305
+ekpp/ekp = 0.94912
+ekpp/ek = 0.874056
+ekpp/ekp = 0.920912
+ekpp/ek = 0.798247
+ekpp/ekp = 0.8668
+ekpp/ek = 0.832469
+ekpp/ekp = 0.960393
+ekpp/ek = 0.96056
+ekpp/ekp = 1.00017
+ekpp/ek = 1.0006
+ekpp/ekp = 1.00043
+ekpp/ek = 1.00161
+ekpp/ekp = 1.00118
+ekpp/ek = 0.979998
+ekpp/ekp = 0.978844
+ekpp/ek = 0.923781
+ekpp/ekp = 0.943747
+ekpp/ek = 0.85172
+ekpp/ekp = 0.902488
+ekpp/ek = 0.879153
+ekpp/ekp = 0.974143
+ekpp/ek = 0.978865
+ekpp/ekp = 1.00485
+ekpp/ek = 0.969647
+ekpp/ekp = 0.96497
+ekpp/ek = 0.894022
+ekpp/ekp = 0.926476
+ekpp/ek = 0.927925
+ekpp/ekp = 1.00156
+ekpp/ek = 1.00683
+ekpp/ekp = 1.00526
+ekpp/ek = 0.977941
+ekpp/ekp = 0.972822
+ekpp/ek = 0.948246
+ekpp/ekp = 0.974737
+ekpp/ek = 0.959891
+ekpp/ekp = 0.984769
+ekpp/ek = 0.971061
+ekpp/ekp = 0.98608
+ekpp/ek = 0.987417
+ekpp/ekp = 1.00136
+ekpp/ek = 0.993909
+ekpp/ekp = 0.992563
+ekpp/ek = 0.992567
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: PFIT3LS 
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.033746
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.61132e-07
+y offset = 0
+Number of Iterations = 33
+Elapsed Time = 0.000901222 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 33
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

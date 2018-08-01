@@ -1,0 +1,256 @@
+sifdecoder -A pc64.lnx.gfo  HEART8LS
+
+ Problem name: HEART8LS
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ The objective function uses 6 nonlinear groups
+ 
+ There are 8 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.50387
+ekpp/ekp = 0.999567
+ekpp/ek = 1.24801
+ekpp/ekp = 1.24855
+ekpp/ek = 1.25856
+ekpp/ekp = 1.00802
+ekpp/ek = 1.0804
+ekpp/ekp = 1.0718
+ekpp/ek = 1.10586
+ekpp/ekp = 1.03178
+ekpp/ek = 1.1216
+ekpp/ekp = 1.08706
+ekpp/ek = 1.10275
+ekpp/ekp = 1.01444
+ekpp/ek = 1.01779
+ekpp/ekp = 1.0033
+ekpp/ek = 1.05234
+ekpp/ekp = 1.04888
+ekpp/ek = 1.04333
+ekpp/ekp = 0.994716
+ekpp/ek = 0.989276
+ekpp/ekp = 0.994531
+ekpp/ek = 0.995284
+ekpp/ekp = 1.00076
+ekpp/ek = 1.00047
+ekpp/ekp = 0.999713
+ekpp/ek = 1.00157
+ekpp/ekp = 1.00186
+ekpp/ek = 1.00035
+ekpp/ekp = 0.998489
+ekpp/ek = 0.997745
+ekpp/ekp = 0.999255
+ekpp/ek = 1.00162
+ekpp/ekp = 1.00237
+ekpp/ek = 1.00087
+ekpp/ekp = 0.998513
+ekpp/ek = 0.99727
+ekpp/ekp = 0.998755
+ekpp/ek = 1.00072
+ekpp/ekp = 1.00197
+ekpp/ek = 1.00082
+ekpp/ekp = 0.998851
+ekpp/ek = 1.00102
+ekpp/ekp = 1.00217
+ekpp/ek = 1.00048
+ekpp/ekp = 0.998311
+ekpp/ek = 0.999223
+ekpp/ekp = 1.00091
+ekpp/ek = 0.999523
+ekpp/ekp = 0.998611
+ekpp/ek = 1.00062
+ekpp/ekp = 1.00202
+ekpp/ek = 1.00153
+ekpp/ekp = 0.999514
+ekpp/ek = 1.00039
+ekpp/ekp = 1.00088
+ekpp/ek = 1.001
+ekpp/ekp = 1.00012
+ekpp/ek = 1.00046
+ekpp/ekp = 1.00035
+ekpp/ek = 1.00014
+ekpp/ekp = 0.999793
+ekpp/ek = 1.00079
+ekpp/ekp = 1.001
+ekpp/ek = 1.0011
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00017
+ekpp/ekp = 1.00007
+ekpp/ek = 1.00052
+ekpp/ekp = 1.00044
+ekpp/ek = 1.00059
+ekpp/ekp = 1.00015
+ekpp/ek = 1.00014
+ekpp/ekp = 0.999989
+ekpp/ek = 1.00022
+ekpp/ekp = 1.00023
+ekpp/ek = 1.00018
+ekpp/ekp = 0.999947
+ekpp/ek = 0.999923
+ekpp/ekp = 0.999976
+ekpp/ek = 0.999773
+ekpp/ekp = 0.999797
+ekpp/ek = 0.999806
+ekpp/ekp = 1.00001
+ekpp/ek = 0.999828
+ekpp/ekp = 0.999818
+ekpp/ek = 0.999419
+ekpp/ekp = 0.999601
+ekpp/ek = 0.999516
+ekpp/ekp = 0.999915
+ekpp/ek = 0.999684
+ekpp/ekp = 0.999768
+ekpp/ek = 0.999133
+ekpp/ekp = 0.999365
+ekpp/ek = 0.997562
+ekpp/ekp = 0.998196
+ekpp/ek = 0.996106
+ekpp/ekp = 0.997907
+ekpp/ek = 0.99256
+ekpp/ekp = 0.994642
+ekpp/ek = 0.993208
+ekpp/ekp = 0.998558
+ekpp/ek = 0.997791
+ekpp/ekp = 0.999232
+ekpp/ek = 0.99423
+ekpp/ekp = 0.994994
+ekpp/ek = 0.993881
+ekpp/ekp = 0.998881
+ekpp/ek = 0.996787
+ekpp/ekp = 0.997903
+ekpp/ek = 0.9913
+ekpp/ekp = 0.993383
+ekpp/ek = 0.992623
+ekpp/ekp = 0.999235
+ekpp/ek = 0.998932
+ekpp/ekp = 0.999697
+ekpp/ek = 0.996335
+ekpp/ekp = 0.996638
+ekpp/ek = 0.990402
+ekpp/ekp = 0.993744
+ekpp/ek = 0.991529
+ekpp/ekp = 0.997771
+ekpp/ek = 0.995608
+ekpp/ekp = 0.997832
+ekpp/ek = 0.988475
+ekpp/ekp = 0.990622
+ekpp/ek = 0.989835
+ekpp/ekp = 0.999205
+ekpp/ek = 0.995027
+ekpp/ekp = 0.995819
+ekpp/ek = 0.990158
+ekpp/ekp = 0.994316
+ekpp/ek = 0.992994
+ekpp/ekp = 0.998671
+ekpp/ek = 0.996471
+ekpp/ekp = 0.997797
+ekpp/ek = 0.992183
+ekpp/ekp = 0.994374
+ekpp/ek = 0.993041
+ekpp/ekp = 0.99866
+ekpp/ek = 0.997602
+ekpp/ekp = 0.99894
+ekpp/ek = 0.993995
+ekpp/ekp = 0.99505
+ekpp/ek = 0.995216
+ekpp/ekp = 1.00017
+ekpp/ek = 0.997816
+ekpp/ekp = 0.997649
+ekpp/ek = 0.99564
+ekpp/ekp = 0.997986
+ekpp/ek = 0.996991
+ekpp/ekp = 0.999003
+ekpp/ek = 0.999224
+ekpp/ekp = 1.00022
+ekpp/ek = 0.997968
+ekpp/ekp = 0.997748
+ekpp/ek = 0.998289
+ekpp/ekp = 1.00054
+ekpp/ek = 0.999721
+ekpp/ekp = 0.999179
+ekpp/ek = 1.00003
+ekpp/ekp = 1.00085
+ekpp/ek = 1.00861
+ekpp/ekp = 1.00776
+ekpp/ek = 1.01172
+ekpp/ekp = 1.00393
+ekpp/ek = 1.00392
+ekpp/ekp = 0.999995
+ekpp/ek = 1.00436
+ekpp/ekp = 1.00436
+ekpp/ek = 1.02067
+ekpp/ekp = 1.01624
+ekpp/ek = 1.01611
+ekpp/ekp = 0.999877
+ekpp/ek = 1.00488
+ekpp/ekp = 1.005
+ekpp/ek = 1.01656
+ekpp/ekp = 1.0115
+ekpp/ek = 1.05244
+ekpp/ekp = 1.04047
+ekpp/ek = 1.04052
+ekpp/ekp = 1.00005
+ekpp/ek = 1.01481
+ekpp/ekp = 1.01477
+ekpp/ek = 1.05318
+ekpp/ekp = 1.03785
+ekpp/ek = 1.04137
+ekpp/ekp = 1.00338
+ekpp/ek = 1.01622
+ekpp/ekp = 1.0128
+ekpp/ek = 1.05132
+ekpp/ekp = 1.03803
+ekpp/ek = 1.03665
+ekpp/ekp = 0.998669
+ekpp/ek = 1.00029
+ekpp/ekp = 1.00162
+ekpp/ek = 1.01161
+ekpp/ekp = 1.00997
+ekpp/ek = 1.01202
+ekpp/ekp = 1.00203
+ekpp/ek = 1.00448
+ekpp/ekp = 1.00245
+ekpp/ek = 1.00687
+ekpp/ekp = 1.0044
+ekpp/ek = 1.00662
+ekpp/ekp = 1.0022
+ekpp/ek = 1.00155
+ekpp/ekp = 0.999347
+ekpp/ek = 0.999329
+ekpp/ekp = 0.999981
+Showing
+**********************************************************
+Problem name: HEART8LS
+
+Number of Variables: 8
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.58665e-12
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.22684e-07
+y offset = 0
+Number of Iterations = 108
+Elapsed Time = 0.00252867 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 108
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.006666

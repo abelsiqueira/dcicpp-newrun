@@ -1,0 +1,77 @@
+sifdecoder -A pc64.lnx.gfo -st   ORTHREGD
+
+ Problem name: ORTHREGD
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 2500 nonlinear equality constraints
+ 
+ There are 5003 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    27.752111416856216     
+ |gp(xk)|/|gp(xck)| =    13.042878006972442     
+ |gp(xk)|/|gp(xck)| =    207.53794089405628     
+ |gp(xk)|/|gp(xck)| =    50.990855768058758     
+ |gp(xk)|/|gp(xck)| =    5.4617058773891261     
+ |gp(xk)|/|gp(xck)| =    7.8362316043255911     
+ |gp(xk)|/|gp(xck)| =    2.4973272418053689     
+ |gp(xk)|/|gp(xck)| =    4.3491563879912318     
+ |gp(xk)|/|gp(xck)| =    1.1816484459248013     
+ |gp(xk)|/|gp(xck)| =    9.9905923849685916     
+ |gp(xk)|/|gp(xck)| =    28.683072063124413     
+ |gp(xk)|/|gp(xck)| =    1.0897330737015720     
+ |gp(xk)|/|gp(xck)| =    4.4540413257863927     
+ |gp(xk)|/|gp(xck)| =    11.059811147069853     
+ |gp(xk)|/|gp(xck)| =    1.0002984232311489     
+ |gp(xk)|/|gp(xck)| =    1.0002948956787703     
+ |gp(xk)|/|gp(xck)| =    1.7210478200594388     
+ |gp(xk)|/|gp(xck)| =    1.0003106386876850     
+ |gp(xk)|/|gp(xck)| =    7.4477750530981579     
+ |gp(xk)|/|gp(xck)| =    1.0003160290333089     
+ |gp(xk)|/|gp(xck)| =    7.0151858431069583     
+ |gp(xk)|/|gp(xck)| =    24.306334260989946     
+ |gp(xk)|/|gp(xck)| =    1.0001526003425476     
+ |gp(xk)|/|gp(xck)| =    1.0001540160002804     
+ |gp(xk)|/|gp(xck)| =    1.8029636414803076     
+ |gp(xk)|/|gp(xck)| =    13.047514113684722     
+ |gp(xk)|/|gp(xck)| =    1.0001903121784006     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           27
+ Steihaug's iter:          115
+ Restorations   :           39
+ Rejected steps :           10
+ Function evals.:           37
+ Constr.  evals.:           83
+ Gradient evals.:           34
+ Jacobian evals.:           40
+ 2nd order Corr.:            3
+ BFGS iterations:            0
+ f(x)           :    1245.3169215376895     
+ ||h(x)||       :    1.8375018266948154E-008
+ ||gp(x)||      :    1.3049367675321832E-007
+ ||At*h||       :    1.8134616138245499E-005
+ Elapsed time   :    74.5625000    
+
+ ||xnew - xc||  :    2.3736355932061152E-006
+ rho            :    9.9999999999999995E-007
+ rhomax         :    487.11085927457856     
+ vdelta         :    32.011072370903513     
+ hdelta         :    2.8312815885448012E-002
+ L(x)           :    1245.3222013408738     
+ L(x) - L(xc)   :   -5.2295945351943374E-012
+ L(xc)-L(x(k-1)):   -6.2755134422332048E-010
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

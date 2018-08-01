@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  SIPOW2M
+
+ Problem name: SIPOW2M
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2000 linear inequality constraints
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1000 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SIPOW2M 
+
+Number of Variables: 2
+Number of Constraints: 1000
+             Equality: 0
+           has_inequality: 1000
+
+EXIT: The Algorithm has Converged
+f(x) = -0.175076
+|c(x)| = 4.38283e-09
+|g(x) + J(x)'*y| = 1.2797e-07
+|J(x)'c(x)| = 6.95258e-310
+y offset = 0.00106819
+Number of Iterations = 4
+Elapsed Time = 0.683352 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      16 (6, 10)
+  Gradient     (*ofg):            6
+  Constraints  (cfn, ccfsg):     10 (6, 4)
+  Jacobian     (ccfsg):           4
+  Hessian prod (*hprod):          3
+
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.016666
+Execution time: 0.946667

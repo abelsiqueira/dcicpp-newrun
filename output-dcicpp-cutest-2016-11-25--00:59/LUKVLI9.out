@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  LUKVLI9
+
+ Problem name: LUKVLI9
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 10000 nonlinear groups
+ 
+ There are 6 nonlinear inequality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LUKVLI9 
+
+Number of Variables: 10000
+Number of Constraints: 6
+             Equality: 0
+           has_inequality: 6
+
+EXIT: The Algorithm has Converged
+f(x) = 998.944
+|c(x)| = 2.61083e-07
+|g(x) + J(x)'*y| = 9.78215e-07
+|J(x)'c(x)| = 3.54111e-05
+y offset = 8.01984e-09
+Number of Iterations = 4357
+Elapsed Time = 49.8412 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):   18302 (9196, 9106)
+  Gradient     (*ofg):         4749
+  Constraints  (cfn, ccfsg):  22257 (9196, 13061)
+  Jacobian     (ccfsg):        4977
+  Hessian prod (*hprod):      14377
+
+Normal iterations = 3853
+Average number of normal iterations = 0.884324
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 506
+Iterations with 1  normal iteration  = 3849
+Iterations with 2+ normal iterations = 2
+Restorations = 8084
+Average number of restorations per normal iteration = 2
+**********************************************************
+Done
+Setup time: 0.150001
+Execution time: 49.9467

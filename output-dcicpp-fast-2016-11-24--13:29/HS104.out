@@ -1,0 +1,81 @@
+sifdecoder -A pc64.lnx.gfo  HS104
+
+ Problem name: HS104
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 nonlinear inequality constraints
+ 
+ There are 8 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.11301
+ekpp/ekp = 1.01585
+ekpp/ek = 1.02541
+ekpp/ekp = 1.00941
+ekpp/ek = 1.01737
+ekpp/ekp = 1.00788
+ekpp/ek = 1.02661
+ekpp/ekp = 1.01859
+ekpp/ek = 1.01423
+ekpp/ekp = 0.995718
+ekpp/ek = 0.991796
+ekpp/ekp = 0.996062
+ekpp/ek = 1.00301
+ekpp/ekp = 1.00698
+ekpp/ek = 1.00585
+ekpp/ekp = 0.998877
+ekpp/ek = 0.998898
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00009
+ekpp/ekp = 1.00007
+ekpp/ek = 1.00005
+ekpp/ekp = 0.999984
+ekpp/ek = 1.00001
+ekpp/ekp = 1.00003
+ekpp/ek = 1
+ekpp/ekp = 0.999974
+ekpp/ek = 0.999997
+ekpp/ekp = 1.00002
+ekpp/ek = 1
+ekpp/ekp = 0.999979
+ekpp/ek = 0.99999
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00001
+ekpp/ekp = 0.999998
+Showing
+**********************************************************
+Problem name: HS104   
+
+Number of Variables: 8
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: The Algorithm has Converged
+f(x) = 3.95116
+|c(x)| = 3.24724e-07
+|g(x) + J(x)'*y| = 6.59766e-08
+y offset = 7.15185e-11
+Number of Iterations = 20
+Elapsed Time = 0.00375772 s
+Normal iterations = 5
+Average number of normal iterations = 0.25
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 15
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = 0
+Restorations = 95
+Average number of restorations per normal iteration = 19
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

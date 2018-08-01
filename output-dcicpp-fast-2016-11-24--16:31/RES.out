@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  RES
+
+ Problem name: RES
+
+ Double precision version will be formed
+
+ 
+ There are 12 linear equality constraints
+ There are 2 linear inequality constraints
+ 
+ There are 20 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 5 variables
+NOPE preprocessing removed 7 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: RES     
+
+Number of Variables: 15
+Number of Constraints: 7
+             Equality: 7
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 1.79018e-15
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 0.0357421
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.000316143 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      10 (4, 6)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):     10 (4, 6)
+  Jacobian     (ccfsg):           3
+  Hessian prod (*hprod):          1
+
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 3
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0
+Execution time: -5.66244e-13

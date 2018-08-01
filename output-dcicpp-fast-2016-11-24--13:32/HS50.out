@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo  HS50
+
+ Problem name: HS50
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 linear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.416499
+ekpp/ekp = 0.637127
+ekpp/ek = 0.381211
+ekpp/ekp = 0.598328
+ekpp/ek = 0.302405
+ekpp/ekp = 0.505417
+ekpp/ek = 0.149823
+ekpp/ekp = 0.296434
+ekpp/ek = 0.0129902
+ekpp/ekp = 0.0438215
+ekpp/ek = 3.94656e-06
+ekpp/ekp = 9.00599e-05
+Showing
+**********************************************************
+Problem name: HS50    
+
+Number of Variables: 5
+Number of Constraints: 3
+             Equality: 3
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 6.38372e-13
+|c(x)| = 8.77602e-14
+|g(x) + J(x)'*y| = 2.20001e-10
+y offset = 0
+Number of Iterations = 9
+Elapsed Time = 0.000401258 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 9
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: -5.66244e-13

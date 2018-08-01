@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  HADAMARD
+
+ Problem name: HADAMARD
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 800 linear inequality constraints
+ There are 210 nonlinear equality constraints
+ 
+ There are 400 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: HADAMARD
+
+Number of Variables: 401
+Number of Constraints: 1010
+             Equality: 210
+           has_inequality: 800
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 1.21121
+|c(x)| = 2.8978e-09
+|g(x) + J(x)'*y| = 9.81679e-07
+y offset = 6.26986e-05
+Number of Iterations = 25
+Elapsed Time = 40.3434 s
+Normal iterations = 25
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 23
+Iterations with 2+ normal iterations = 1
+Restorations = 212
+Average number of restorations per normal iteration = 8
+**********************************************************
+Done
+Setup time: 0.03
+Execution time: 40.5733

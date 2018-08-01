@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  STEERING
+
+ Problem name: STEERING
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1600 nonlinear equality constraints
+ 
+ There are 1597 free variables
+ There is 1 variable bounded only from below 
+ There are 401 variables bounded from below and above 
+ There are 7 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 7 variables
+Starting
+Solving

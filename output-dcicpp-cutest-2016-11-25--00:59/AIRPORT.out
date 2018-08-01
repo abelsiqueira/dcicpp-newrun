@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  AIRPORT
+
+ Problem name: AIRPORT
+
+ Double precision version will be formed
+
+ The objective function uses 1722 nonlinear groups
+ 
+ There are 42 nonlinear inequality constraints
+ 
+ There are 84 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: AIRPORT 
+
+Number of Variables: 84
+Number of Constraints: 42
+             Equality: 0
+           has_inequality: 42
+
+EXIT: The Algorithm has Converged
+f(x) = 47952.7
+|c(x)| = 9.65705e-07
+|g(x) + J(x)'*y| = 9.88488e-08
+|J(x)'c(x)| = 7.32679e-07
+y offset = 0
+Number of Iterations = 35
+Elapsed Time = 0.0738397 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     191 (106, 85)
+  Gradient     (*ofg):           50
+  Constraints  (cfn, ccfsg):    678 (106, 572)
+  Jacobian     (ccfsg):         128
+  Hessian prod (*hprod):        524
+
+Normal iterations = 23
+Average number of normal iterations = 0.657143
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 13
+Iterations with 1  normal iteration  = 21
+Iterations with 2+ normal iterations = 1
+Restorations = 444
+Average number of restorations per normal iteration = 19
+**********************************************************
+Done
+Setup time: 0.019999
+Execution time: 0.293333

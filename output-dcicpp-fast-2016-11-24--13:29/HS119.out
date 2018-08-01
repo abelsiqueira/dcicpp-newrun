@@ -1,0 +1,51 @@
+sifdecoder -A pc64.lnx.gfo  HS119
+
+ Problem name: HS119
+
+ Double precision version will be formed
+
+ The objective function uses 16 nonlinear groups
+ 
+ There are 8 linear equality constraints
+ 
+ There are 16 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.945093
+ekpp/ekp = 1.00495
+ekpp/ek = 1.00789
+ekpp/ekp = 1.00293
+Showing
+**********************************************************
+Problem name: HS119   
+
+Number of Variables: 16
+Number of Constraints: 8
+             Equality: 8
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1292.35
+|c(x)| = 7.1674e-14
+|g(x) + J(x)'*y| = 4.59363e-07
+y offset = 0
+Number of Iterations = 5
+Elapsed Time = 0.00565553 s
+Normal iterations = 2
+Average number of normal iterations = 0.4
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 320
+Average number of restorations per normal iteration = 160
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.023333

@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  EIGENC2
+
+ Problem name: EIGENC2
+
+ Double precision version will be formed
+
+ The objective function uses 2601 nonlinear groups
+ 
+ There are 1326 nonlinear equality constraints
+ 
+ There are 2652 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-equ-free-2016-11-17--11:31
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: EIGENC2 
+
+Number of Variables: 2652
+Number of Constraints: 1326
+             Equality: 1326
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 5.19974e-08
+|c(x)| = 9.07315e-08
+|g(x) + J(x)'*y| = 8.23006e-08
+y offset = 0
+Number of Iterations = 24
+Elapsed Time = 12.9345 s
+Normal iterations = 11
+Average number of normal iterations = 0.458333
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 13
+Iterations with 1  normal iteration  = 11
+Iterations with 2+ normal iterations = 0
+Restorations = 11
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.303334
+Execution time: 12.9367

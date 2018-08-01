@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  OET4
+
+ Problem name: OET4
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1002 nonlinear inequality constraints
+ 
+ There are 4 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: OET4    
+
+Number of Variables: 4
+Number of Constraints: 1002
+             Equality: 0
+           has_inequality: 1002
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0521912
+|c(x)| = 1.13768e-10
+|g(x) + J(x)'*y| = 8.58574e-07
+y offset = 0
+Number of Iterations = 69
+Elapsed Time = 35.7271 s
+Normal iterations = 48
+Average number of normal iterations = 0.695652
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 21
+Iterations with 1  normal iteration  = 48
+Iterations with 2+ normal iterations = 0
+Restorations = 92
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.039999
+Execution time: 35.9533

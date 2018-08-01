@@ -1,0 +1,67 @@
+sifdecoder -A pc64.lnx.gfo  HAIRY
+
+ Problem name: HAIRY
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.393665
+ekpp/ekp = 0.472931
+ekpp/ek = 0.496029
+ekpp/ekp = 1.04884
+ekpp/ek = 0.643113
+ekpp/ekp = 0.613166
+ekpp/ek = 0.436093
+ekpp/ekp = 0.711215
+ekpp/ek = 0.68099
+ekpp/ekp = 0.957501
+ekpp/ek = 0.904701
+ekpp/ekp = 0.944856
+ekpp/ek = 0.812887
+ekpp/ekp = 0.860329
+ekpp/ek = 0.893784
+ekpp/ekp = 1.03889
+ekpp/ek = 1.04968
+ekpp/ekp = 1.01039
+ekpp/ek = 1.00932
+ekpp/ekp = 0.998939
+ekpp/ek = 0.99894
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: HAIRY   
+
+Number of Variables: 2
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 20
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.12462e-16
+y offset = 0
+Number of Iterations = 14
+Elapsed Time = 0.000350714 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 14
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

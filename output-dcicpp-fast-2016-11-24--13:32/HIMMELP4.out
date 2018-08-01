@@ -1,0 +1,69 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELP4
+
+ Problem name: HIMMELP4
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.11945
+ekpp/ekp = 1.04298
+ekpp/ek = 1.1421
+ekpp/ekp = 1.09503
+ekpp/ek = 1.15312
+ekpp/ekp = 1.05305
+ekpp/ek = 1.17604
+ekpp/ekp = 1.1168
+ekpp/ek = 1.18721
+ekpp/ekp = 1.06305
+ekpp/ek = 1.11056
+ekpp/ekp = 1.0447
+ekpp/ek = 1.06933
+ekpp/ekp = 1.02358
+ekpp/ek = 1.0405
+ekpp/ekp = 1.01653
+ekpp/ek = 1.01907
+ekpp/ekp = 1.00249
+ekpp/ek = 1.00293
+ekpp/ekp = 1.00044
+ekpp/ek = 1.00044
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: HIMMELP4
+
+Number of Variables: 2
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = -59.0132
+|c(x)| = 4.74288e-09
+|g(x) + J(x)'*y| = 4.40363e-09
+y offset = 0
+Number of Iterations = 14
+Elapsed Time = 0.000715733 s
+Normal iterations = 11
+Average number of normal iterations = 0.785714
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 11
+Iterations with 2+ normal iterations = 0
+Restorations = 16
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.003333

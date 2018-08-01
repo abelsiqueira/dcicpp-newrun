@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  BIGGS3
+
+ Problem name: BIGGS3
+
+ Double precision version will be formed
+
+ The objective function uses 13 nonlinear groups
+ 
+ There are 3 free variables
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: BIGGS3  
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.70273e-16
+|c(x)| = 0
+|g(x) + J(x)'*y| = 3.21208e-09
+|J(x)'c(x)| = 6.95323e-310
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.000701666 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      38 (15, 23)
+  Gradient     (*ofg):           12
+  Constraints  (cfn, ccfsg):      0 (0, 0)
+  Jacobian     (ccfsg):           0
+  Hessian prod (*hprod):         30
+
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

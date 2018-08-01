@@ -1,0 +1,55 @@
+sifdecoder -A pc64.lnx.gfo  QCNEW
+
+ Problem name: QCNEW
+
+ Double precision version will be formed
+
+ The objective function uses 17 nonlinear groups
+ 
+ There are 3 linear inequality constraints
+ 
+ There are 7 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving
+ekpp/ek = 1.00056
+ekpp/ekp = 1.00008
+ekpp/ek = 1.00002
+ekpp/ekp = 0.999949
+ekpp/ek = 0.999912
+ekpp/ekp = 0.999964
+Showing
+**********************************************************
+Problem name: QCNEW   
+
+Number of Variables: 7
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = -806.521
+|c(x)| = 2.6074e-16
+|g(x) + J(x)'*y| = 1.53299e-07
+y offset = 0
+Number of Iterations = 6
+Elapsed Time = 0.000429153 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

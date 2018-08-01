@@ -1,0 +1,60 @@
+sifdecoder -A pc64.lnx.gfo  DEMYMALO
+
+ Problem name: DEMYMALO
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 linear inequality constraints
+ There is 1 nonlinear inequality constraint
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 2.31513
+ekpp/ekp = 1.34035
+ekpp/ek = 1.75523
+ekpp/ekp = 1.30953
+ekpp/ek = 2.21249
+ekpp/ekp = 1.68953
+ekpp/ek = 1.39169
+ekpp/ekp = 0.823714
+ekpp/ek = 0.856782
+ekpp/ekp = 1.04015
+ekpp/ek = 1.04664
+ekpp/ekp = 1.00624
+Showing
+**********************************************************
+Problem name: DEMYMALO
+
+Number of Variables: 3
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = -3
+|c(x)| = 9.81608e-07
+|g(x) + J(x)'*y| = 4.26037e-14
+y offset = 0
+Number of Iterations = 9
+Elapsed Time = 0.00301695 s
+Normal iterations = 10
+Average number of normal iterations = 1.11111
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 3
+Restorations = 350
+Average number of restorations per normal iteration = 35
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

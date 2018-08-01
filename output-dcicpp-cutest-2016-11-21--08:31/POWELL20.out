@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo  POWELL20
+
+ Problem name: POWELL20
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5000 linear inequality constraints
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: POWELL20
+
+Number of Variables: 5000
+Number of Constraints: 5000
+             Equality: 0
+           has_inequality: 5000
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 6.51198e+09
+|c(x)| = 2.57491e-07
+|g(x) + J(x)'*y| = 1.39932e-07
+y offset = 2.88544
+Number of Iterations = 8
+Elapsed Time = 33.9153 s
+Normal iterations = 5
+Average number of normal iterations = 0.625
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 1
+Restorations = 8550
+Average number of restorations per normal iteration = 1710
+**********************************************************
+Done
+Setup time: 0.093333
+Execution time: 34.0967

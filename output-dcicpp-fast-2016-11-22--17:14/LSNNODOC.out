@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo  LSNNODOC
+
+ Problem name: LSNNODOC
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 4 linear equality constraints
+ 
+ There are 2 free variables
+ There are 3 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:14
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: LSNNODOC
+
+Number of Variables: 5
+Number of Constraints: 4
+             Equality: 4
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 123.118
+|c(x)| = 4.7187e-09
+|g(x) + J(x)'*y| = 7.9139e-07
+y offset = 0
+Number of Iterations = 16
+Elapsed Time = 0.000536919 s
+Normal iterations = 1
+Average number of normal iterations = 0.0625
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 15
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

@@ -1,0 +1,88 @@
+sifdecoder -A pc64.lnx.gfo  CLIFF
+
+ Problem name: CLIFF
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 2 nonlinear groups
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.99087
+ekpp/ekp = 0.99553
+ekpp/ek = 0.991298
+ekpp/ekp = 0.995748
+ekpp/ek = 0.991738
+ekpp/ekp = 0.995972
+ekpp/ek = 0.992189
+ekpp/ekp = 0.996202
+ekpp/ek = 0.992653
+ekpp/ekp = 0.996437
+ekpp/ek = 0.993127
+ekpp/ekp = 0.996678
+ekpp/ek = 0.993612
+ekpp/ekp = 0.996924
+ekpp/ek = 0.994107
+ekpp/ekp = 0.997174
+ekpp/ek = 0.994611
+ekpp/ekp = 0.997429
+ekpp/ek = 0.995123
+ekpp/ekp = 0.997688
+ekpp/ek = 0.995644
+ekpp/ekp = 0.997951
+ekpp/ek = 0.996172
+ekpp/ekp = 0.998217
+ekpp/ek = 0.996706
+ekpp/ekp = 0.998486
+ekpp/ek = 0.997246
+ekpp/ekp = 0.998758
+ekpp/ek = 0.997792
+ekpp/ekp = 0.999032
+ekpp/ek = 0.998341
+ekpp/ekp = 0.999308
+ekpp/ek = 0.998893
+ekpp/ekp = 0.999584
+ekpp/ek = 0.999443
+ekpp/ekp = 0.999858
+ekpp/ek = 0.999976
+ekpp/ekp = 1.00012
+ekpp/ek = 1.00045
+ekpp/ekp = 1.00033
+ekpp/ek = 1.00074
+ekpp/ekp = 1.00041
+Showing
+**********************************************************
+Problem name: CLIFF   
+
+Number of Variables: 2
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.208512
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.1839e-07
+y offset = 0
+Number of Iterations = 24
+Elapsed Time = 0.000356197 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 24
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

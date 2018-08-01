@@ -1,0 +1,66 @@
+sifdecoder -A pc64.lnx.gfo  MPC3
+
+ Problem name: MPC3
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 1065 linear equality constraints
+ There are 1286 linear inequality constraints
+ 
+ There are 920 free variables
+ There are 595 variables bounded from below and above 
+ There are 15 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 44 variables
+NOPE preprocessing removed 51 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Showing
+**********************************************************
+Problem name: MPC3    
+
+Number of Variables: 1486
+Number of Constraints: 2300
+             Equality: 1036
+           has_inequality: 1264
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = -1.50153e+07
+|c(x)| = 0.000602741
+|g(x) + J(x)'*y| = 0.183363
+|J(x)'c(x)| = 17.2378
+y offset = 0.0714312
+Number of Iterations = 3
+Elapsed Time = 96.562 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2929 (2921, 8)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):  29956 (2921, 27035)
+  Jacobian     (ccfsg):        8968
+  Hessian prod (*hprod):          3
+
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 18067
+Average number of restorations per normal iteration = 6022
+**********************************************************
+Done
+Setup time: 0.053333
+Execution time: 96.73

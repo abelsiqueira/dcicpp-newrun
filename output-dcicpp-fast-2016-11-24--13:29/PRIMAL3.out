@@ -1,0 +1,66 @@
+sifdecoder -A pc64.lnx.gfo  PRIMAL3
+
+ Problem name: PRIMAL3
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 111 linear inequality constraints
+ 
+ There are 744 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.999522
+ekpp/ekp = 0.999798
+ekpp/ek = 0.999781
+ekpp/ekp = 0.999982
+ekpp/ek = 0.999956
+ekpp/ekp = 0.999974
+ekpp/ek = 0.999914
+ekpp/ekp = 0.99994
+ekpp/ek = 0.999884
+ekpp/ekp = 0.999944
+ekpp/ek = 0.999937
+ekpp/ekp = 0.999994
+ekpp/ek = 0.999982
+ekpp/ekp = 0.999988
+ekpp/ek = 0.999987
+ekpp/ekp = 0.999999
+ekpp/ek = 0.999998
+ekpp/ekp = 0.999999
+Showing
+**********************************************************
+Problem name: PRIMAL3 
+
+Number of Variables: 745
+Number of Constraints: 111
+             Equality: 0
+           has_inequality: 111
+
+EXIT: The Algorithm has Converged
+f(x) = -0.135626
+|c(x)| = 1.12031e-10
+|g(x) + J(x)'*y| = 1.72163e-07
+y offset = 3.11495e-06
+Number of Iterations = 12
+Elapsed Time = 0.0804048 s
+Normal iterations = 1
+Average number of normal iterations = 0.0833333
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.036665
+Execution time: 0.303334

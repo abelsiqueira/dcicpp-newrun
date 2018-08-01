@@ -1,0 +1,88 @@
+sifdecoder -A pc64.lnx.gfo  HS113
+
+ Problem name: HS113
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 linear inequality constraints
+ There are 5 nonlinear inequality constraints
+ 
+ There are 10 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.978297
+ekpp/ekp = 0.996622
+ekpp/ek = 0.996227
+ekpp/ekp = 0.999604
+ekpp/ek = 1.00298
+ekpp/ekp = 1.00338
+ekpp/ek = 1.01593
+ekpp/ekp = 1.01251
+ekpp/ek = 1.01718
+ekpp/ekp = 1.00461
+ekpp/ek = 1.01763
+ekpp/ekp = 1.01296
+ekpp/ek = 1.01847
+ekpp/ekp = 1.00544
+ekpp/ek = 1.01953
+ekpp/ekp = 1.01401
+ekpp/ek = 1.04774
+ekpp/ekp = 1.03326
+ekpp/ek = 1.03413
+ekpp/ekp = 1.00084
+ekpp/ek = 1.00936
+ekpp/ekp = 1.00851
+ekpp/ek = 1.00984
+ekpp/ekp = 1.00132
+ekpp/ek = 1.00347
+ekpp/ekp = 1.00215
+ekpp/ek = 1.00617
+ekpp/ekp = 1.00401
+ekpp/ek = 0.998704
+ekpp/ekp = 0.994713
+ekpp/ek = 1.00006
+ekpp/ekp = 1.00538
+ekpp/ek = 1.00473
+ekpp/ekp = 0.999361
+ekpp/ek = 0.999661
+ekpp/ekp = 1.0003
+ekpp/ek = 1.00028
+ekpp/ekp = 0.999977
+ekpp/ek = 0.99999
+ekpp/ekp = 1.00001
+Showing
+**********************************************************
+Problem name: HS113   
+
+Number of Variables: 10
+Number of Constraints: 8
+             Equality: 0
+           has_inequality: 8
+
+EXIT: The Algorithm has Converged
+f(x) = 24.3062
+|c(x)| = 9.91051e-07
+|g(x) + J(x)'*y| = 5.93002e-08
+y offset = 9.91191e-10
+Number of Iterations = 23
+Elapsed Time = 0.00532794 s
+Normal iterations = 19
+Average number of normal iterations = 0.826087
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 19
+Iterations with 2+ normal iterations = 0
+Restorations = 264
+Average number of restorations per normal iteration = 13
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.016665

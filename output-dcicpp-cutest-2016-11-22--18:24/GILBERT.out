@@ -1,0 +1,48 @@
+sifdecoder -A pc64.lnx.gfo  GILBERT
+
+ Problem name: GILBERT
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There are 4999 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: GILBERT 
+
+Number of Variables: 5000
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2459.48
+|c(x)| = 2.36972e-12
+|g(x) + J(x)'*y| = 6.05258e-08
+y offset = 0
+Number of Iterations = 6
+Elapsed Time = 0.0969551 s
+Normal iterations = 7
+Average number of normal iterations = 1.16667
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = 1
+Restorations = 16
+Average number of restorations per normal iteration = 2
+**********************************************************
+Done
+Setup time: 0.086666
+Execution time: 0.283334

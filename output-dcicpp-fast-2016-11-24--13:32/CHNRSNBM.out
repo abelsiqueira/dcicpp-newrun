@@ -1,0 +1,218 @@
+sifdecoder -A pc64.lnx.gfo  CHNRSNBM
+
+ Problem name: CHNRSNBM
+
+ Double precision version will be formed
+
+ The objective function uses 49 linear groups
+ The objective function uses 49 nonlinear groups
+ 
+ There are 50 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.707023
+ekpp/ekp = 0.856298
+ekpp/ek = 0.797671
+ekpp/ekp = 0.931534
+ekpp/ek = 0.869105
+ekpp/ekp = 0.932982
+ekpp/ek = 0.896579
+ekpp/ekp = 0.960982
+ekpp/ek = 0.95507
+ekpp/ekp = 0.993848
+ekpp/ek = 0.97017
+ekpp/ekp = 0.976176
+ekpp/ek = 0.976987
+ekpp/ekp = 1.00083
+ekpp/ek = 0.991194
+ekpp/ekp = 0.990372
+ekpp/ek = 0.989814
+ekpp/ekp = 0.999437
+ekpp/ek = 0.996052
+ekpp/ekp = 0.996614
+ekpp/ek = 0.990595
+ekpp/ekp = 0.993961
+ekpp/ek = 0.991815
+ekpp/ekp = 0.997841
+ekpp/ek = 0.994624
+ekpp/ekp = 0.996776
+ekpp/ek = 0.99132
+ekpp/ekp = 0.994527
+ekpp/ek = 0.976573
+ekpp/ekp = 0.981948
+ekpp/ek = 0.963427
+ekpp/ekp = 0.981139
+ekpp/ek = 0.979699
+ekpp/ekp = 0.998532
+ekpp/ek = 0.993814
+ekpp/ekp = 0.995276
+ekpp/ek = 0.984466
+ekpp/ekp = 0.989139
+ekpp/ek = 0.986753
+ekpp/ekp = 0.997589
+ekpp/ek = 0.990335
+ekpp/ekp = 0.992729
+ekpp/ek = 0.978043
+ekpp/ekp = 0.985207
+ekpp/ek = 0.973434
+ekpp/ekp = 0.98805
+ekpp/ek = 0.985963
+ekpp/ekp = 0.997887
+ekpp/ek = 0.991742
+ekpp/ekp = 0.993842
+ekpp/ek = 0.978485
+ekpp/ekp = 0.984548
+ekpp/ek = 0.962667
+ekpp/ekp = 0.977775
+ekpp/ek = 0.973386
+ekpp/ekp = 0.995511
+ekpp/ek = 0.980172
+ekpp/ekp = 0.984592
+ekpp/ek = 0.971226
+ekpp/ekp = 0.986424
+ekpp/ek = 0.968234
+ekpp/ekp = 0.981559
+ekpp/ek = 0.958294
+ekpp/ekp = 0.976298
+ekpp/ek = 0.951653
+ekpp/ekp = 0.974757
+ekpp/ek = 0.971588
+ekpp/ekp = 0.996749
+ekpp/ek = 0.98019
+ekpp/ekp = 0.983387
+ekpp/ek = 0.968808
+ekpp/ekp = 0.985175
+ekpp/ek = 0.960623
+ekpp/ekp = 0.975078
+ekpp/ek = 0.953938
+ekpp/ekp = 0.97832
+ekpp/ek = 0.976401
+ekpp/ekp = 0.998039
+ekpp/ek = 0.99125
+ekpp/ekp = 0.993198
+ekpp/ek = 0.976905
+ekpp/ekp = 0.983596
+ekpp/ek = 0.980542
+ekpp/ekp = 0.996896
+ekpp/ek = 0.988729
+ekpp/ekp = 0.991808
+ekpp/ek = 0.96706
+ekpp/ekp = 0.975048
+ekpp/ek = 0.972852
+ekpp/ekp = 0.997748
+ekpp/ek = 0.98817
+ekpp/ekp = 0.990401
+ekpp/ek = 0.96625
+ekpp/ekp = 0.975615
+ekpp/ek = 0.955121
+ekpp/ekp = 0.978994
+ekpp/ek = 0.975344
+ekpp/ekp = 0.996273
+ekpp/ek = 0.985722
+ekpp/ekp = 0.98941
+ekpp/ek = 0.965677
+ekpp/ekp = 0.976013
+ekpp/ek = 0.973211
+ekpp/ekp = 0.997129
+ekpp/ek = 0.985336
+ekpp/ekp = 0.988173
+ekpp/ek = 0.965307
+ekpp/ekp = 0.97686
+ekpp/ek = 0.931146
+ekpp/ekp = 0.953204
+ekpp/ek = 0.918469
+ekpp/ekp = 0.96356
+ekpp/ek = 0.93859
+ekpp/ekp = 0.974086
+ekpp/ek = 0.967971
+ekpp/ekp = 0.993722
+ekpp/ek = 0.979616
+ekpp/ekp = 0.985805
+ekpp/ek = 0.942847
+ekpp/ekp = 0.956424
+ekpp/ek = 0.950637
+ekpp/ekp = 0.993949
+ekpp/ek = 0.97273
+ekpp/ekp = 0.978651
+ekpp/ek = 0.937021
+ekpp/ekp = 0.957462
+ekpp/ek = 0.889175
+ekpp/ekp = 0.928679
+ekpp/ek = 0.858755
+ekpp/ekp = 0.924705
+ekpp/ek = 0.880089
+ekpp/ekp = 0.951751
+ekpp/ek = 0.939639
+ekpp/ekp = 0.987274
+ekpp/ek = 0.943617
+ekpp/ekp = 0.955781
+ekpp/ek = 0.864654
+ekpp/ekp = 0.904657
+ekpp/ek = 0.878787
+ekpp/ekp = 0.971404
+ekpp/ek = 0.9652
+ekpp/ekp = 0.993614
+ekpp/ek = 0.955695
+ekpp/ekp = 0.961838
+ekpp/ek = 0.898007
+ekpp/ekp = 0.933636
+ekpp/ek = 0.917041
+ekpp/ekp = 0.982225
+ekpp/ek = 0.915597
+ekpp/ekp = 0.932166
+ekpp/ek = 0.88799
+ekpp/ekp = 0.952609
+ekpp/ek = 0.838573
+ekpp/ekp = 0.880291
+ekpp/ek = 0.646284
+ekpp/ekp = 0.734171
+ekpp/ek = 0.637533
+ekpp/ekp = 0.868371
+ekpp/ek = 0.774354
+ekpp/ekp = 0.891732
+ekpp/ek = 0.576108
+ekpp/ekp = 0.646055
+ekpp/ek = 0.498384
+ekpp/ekp = 0.771427
+ekpp/ek = 0.227963
+ekpp/ekp = 0.295509
+ekpp/ek = 0.180184
+ekpp/ekp = 0.609741
+ekpp/ek = 0.0236459
+ekpp/ekp = 0.0387802
+ekpp/ek = 0.00285147
+ekpp/ekp = 0.0735291
+Showing
+**********************************************************
+Problem name: CHNRSNBM
+
+Number of Variables: 50
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 9.28665e-09
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.90431e-08
+y offset = 0
+Number of Iterations = 89
+Elapsed Time = 0.0108683 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 89
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.03

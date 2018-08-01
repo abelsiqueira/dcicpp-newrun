@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  STANCMIN
+
+ Problem name: STANCMIN
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear inequality constraints
+ 
+ There are 3 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: STANCMIN
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The maximum number of iterations was reached
+f(x) = 4.25
+|c(x)| = 9.92205e-07
+|g(x) + J(x)'*y| = 5.62781e-08
+|J(x)'c(x)| = 1.25311e-06
+y offset = 0
+Number of Iterations = 10001
+Elapsed Time = 0.0906901 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):   20030 (26, 20004)
+  Gradient     (*ofg):        10003
+  Constraints  (cfn, ccfsg):  10546 (26, 10520)
+  Jacobian     (ccfsg):       10108
+  Hessian prod (*hprod):          3
+
+Normal iterations = 1
+Average number of normal iterations = 9.999e-05
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 10000
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 412
+Average number of restorations per normal iteration = 412
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.346666

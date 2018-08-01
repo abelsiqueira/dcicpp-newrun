@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  SIM2BQP
+
+ Problem name: SIM2BQP
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 2 nonlinear groups
+ 
+ There is 1 variable bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

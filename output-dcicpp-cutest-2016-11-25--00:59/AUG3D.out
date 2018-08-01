@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  AUG3D
+
+ Problem name: AUG3D
+
+ Double precision version will be formed
+
+ The objective function uses 22743 nonlinear groups
+ 
+ There are 8000 linear equality constraints
+ 
+ There are 27543 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: AUG3D   
+
+Number of Variables: 27543
+Number of Constraints: 8000
+             Equality: 8000
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 24561.5
+|c(x)| = 1.1489e-11
+|g(x) + J(x)'*y| = 4.38324e-08
+|J(x)'c(x)| = 69.282
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.775545 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      13 (5, 8)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):     10 (5, 5)
+  Jacobian     (ccfsg):           4
+  Hessian prod (*hprod):          9
+
+Normal iterations = 1
+Average number of normal iterations = 0.333333
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.326667
+Execution time: 0.78

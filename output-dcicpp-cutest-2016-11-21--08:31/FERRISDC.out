@@ -1,0 +1,55 @@
+sifdecoder -A pc64.lnx.gfo  FERRISDC
+
+ Problem name: FERRISDC
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 210 linear equality constraints
+ 
+ There are 200 free variables
+ There are 1800 variables bounded from below and above 
+ There are 200 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 200 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: FERRISDC
+
+Number of Variables: 2000
+Number of Constraints: 210
+             Equality: 210
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0.000394948
+|c(x)| = 1.5011e-10
+|g(x) + J(x)'*y| = 4.64273e-08
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.163144 s
+Normal iterations = 1
+Average number of normal iterations = 0.333333
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.573332
+Execution time: 0.163334

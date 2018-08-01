@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  MPC11
+
+ Problem name: MPC11
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 1065 linear equality constraints
+ There are 1286 linear inequality constraints
+ 
+ There are 920 free variables
+ There are 595 variables bounded from below and above 
+ There are 15 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 44 variables
+NOPE preprocessing removed 51 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: MPC11   
+
+Number of Variables: 1486
+Number of Constraints: 2300
+             Equality: 1036
+           has_inequality: 1264
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = -1.5025e+07
+|c(x)| = 6.62367e-07
+|g(x) + J(x)'*y| = 2.44109e-05
+y offset = 0.0498377
+Number of Iterations = 4936
+Elapsed Time = 217.733 s
+Normal iterations = 1232
+Average number of normal iterations = 0.249595
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 3704
+Iterations with 1  normal iteration  = 1232
+Iterations with 2+ normal iterations = 0
+Restorations = 10004
+Average number of restorations per normal iteration = 8
+**********************************************************
+Done
+Setup time: 0.053332
+Execution time: 217.95

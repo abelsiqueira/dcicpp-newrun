@@ -1,0 +1,55 @@
+sifdecoder -A pc64.lnx.gfo  PALMER7E
+
+ Problem name: PALMER7E
+
+ Double precision version will be formed
+
+ The objective function uses 13 nonlinear groups
+ 
+ There are 7 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: PALMER7E
+
+Number of Variables: 8
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 10.1706
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.99191e-08
+|J(x)'c(x)| = 6.95266e-310
+y offset = 0
+Number of Iterations = 31
+Elapsed Time = 0.00185728 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     109 (46, 63)
+  Gradient     (*ofg):           32
+  Constraints  (cfn, ccfsg):      0 (0, 0)
+  Jacobian     (ccfsg):           0
+  Hessian prod (*hprod):        271
+
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 31
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

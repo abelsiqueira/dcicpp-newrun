@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  BLOCKQP4
+
+ Problem name: BLOCKQP4
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5000 linear equality constraints
+ There is 1 linear inequality constraint
+ 
+ There are 10010 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

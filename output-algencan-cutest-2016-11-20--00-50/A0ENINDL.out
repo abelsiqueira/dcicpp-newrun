@@ -1,0 +1,102 @@
+ Solving problem: A0ENINDL  
+
+ ==============================================================================
+ This is ALGENCAN 3.1.0.
+ ALGENCAN, an Augmented Lagrangian method for nonlinear programming, is part of
+ the TANGO Project: Trustable Algorithms for Nonlinear General Optimization.
+ See http://www.ime.usp.br/~egbirgin/tango/ for details.
+ ==============================================================================
+
+ There are no strings to be processed in the array of parameters.
+
+ The specification file was found.
+
+ Processing specification file:
+
+ FEASIBILITY-TOLERANCE                                           1.00000000D-06
+ OPTIMALITY-TOLERANCE                                            1.00000000D-06
+ SAVE-STATISTICS-TABLE-LINE                   
+ ITERATIONS-OUTPUT-DETAIL                                                    10
+
+ Available HSL subroutines = NONE           
+
+ ALGENCAN PARAMETERS:
+
+ firstde                =                    T
+ seconde                =                    T
+ truehpr                =                    T
+ hptype in TN           =               TRUEHP
+ lsslvr in TR           =            NONE/NONE
+ lsslvr in NW           =            NONE/NONE
+ lsslvr in ACCPROC      =            NONE/NONE
+ innslvr                =                   TN
+ accproc                =                    F
+ rmfixv                 =                    T
+ slacks                 =                    F
+ scale                  =                    T
+ epsfeas                =           1.0000D-06
+ epsopt                 =           1.0000D-06
+ efstain                =           1.0000D-04
+ eostain                =           1.0000D-12
+ efacc                  =           1.0000D-04
+ eoacc                  =           1.0000D-04
+ iprint                 =                   10
+ ncomp                  =                    6
+
+ Specification filename =       'algencan.dat'
+ Output filename        =                   ''
+ Solution filename      =                   ''
+
+ Number of variables               :   45006
+ Number of equality constraints    :   15002
+ Number of inequality constraints  :       0
+ Number of bound constraints       :   60008
+ Number of fixed variables         :   25004
+
+ Number of removed fixed variables :   25004
+
+ Objective function scale factor   : 1.0D+00
+ Smallest constraints scale factor : 1.0D-01
+
+ Entry to ALGENCAN.
+ Number of variables  :   20002
+ Number of constraints:   15002
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+  0         0.000D+00 1.D+02  0.000D+00 2.D+01 2.D+01 0.D+00 3.D+01    0   0   0
+  1 6.D-05  0.000D+00 6.D+00  0.000D+00 6.D+00 6.D+00 3.D-04 6.D+00    1C  0   0
+  2 2.D-04  0.000D+00 2.D+00  0.000D+00 2.D+00 2.D+00 3.D-04 2.D+00    3C  0   0
+  3 2.D-04  0.000D+00 2.D+00  0.000D+00 2.D+00 2.D+00 5.D-04 2.D+00    3C  0   0
+  4 2.D-03  0.000D+00 4.D-01  0.000D+00 2.D-01 2.D-01 8.D-05 2.D-01    7C  0   0
+  5 2.D-03  0.000D+00 4.D-01  0.000D+00 2.D-01 2.D-01 5.D-04 2.D-01    7C  0   0
+  6 2.D-02  0.000D+00 1.D-01  0.000D+00 5.D-02 5.D-02 9.D-04 5.D-02    8C  0   0
+  7 2.D-02  0.000D+00 9.D-02  0.000D+00 4.D-02 4.D-02 5.D-04 2.D-02    9C  0   0
+  8 2.D-01  0.000D+00 8.D-03  0.000D+00 8.D-03 8.D-03 6.D-04 4.D-03   10C  0   0
+  9 2.D-01  0.000D+00 5.D-03  0.000D+00 5.D-03 5.D-03 3.D-04 5.D-03   11C  0   0
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+ 10 2.D+00  0.000D+00 2.D-04  0.000D+00 1.D-04 1.D-04 2.D-07 1.D-04   13C  0   0
+ 11 2.D+00  0.000D+00 6.D-07  0.000D+00 1.D-07 1.D-07 3.D-09 1.D-07   15C  0   0
+
+ Flag of ALGENCAN: Solution was found.
+
+ User-provided subroutines calls counters: 
+
+ Subroutine fsub     (coded=F):        0
+ Subroutine gsub     (coded=F):        0
+ Subroutine hsub     (coded=F):        0
+ Subroutine csub     (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine jacsub   (coded=F):        0 (       0 calls per constraint in avg)
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+ Subroutine hcsub    (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine fcsub    (coded=T):       49
+ Subroutine gjacsub  (coded=T):       50
+ Subroutine gjacpsub (coded=F):        0
+ Subroutine hlsub    (coded=T):       13
+ Subroutine hlpsub   (coded=F):        0
+
+
+ Total CPU time in seconds =     0.37
+ Elapsed time   0.384033203    

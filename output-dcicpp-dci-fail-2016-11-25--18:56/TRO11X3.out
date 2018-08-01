@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  TRO11X3
+
+ Problem name: TRO11X3
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There are 60 nonlinear equality constraints
+ 
+ There are 60 free variables
+ There are 90 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: TRO11X3 
+
+Number of Variables: 150
+Number of Constraints: 61
+             Equality: 60
+           has_inequality: 1
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 2593.26
+|c(x)| = 0.00935034
+|g(x) + J(x)'*y| = 0.00159123
+|J(x)'c(x)| = 0.355293
+y offset = 0
+Number of Iterations = 644
+Elapsed Time = 1.19949 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    5359 (3935, 1424)
+  Gradient     (*ofg):          780
+  Constraints  (cfn, ccfsg):  18860 (3935, 14925)
+  Jacobian     (ccfsg):        4919
+  Hessian prod (*hprod):       2719
+
+Normal iterations = 507
+Average number of normal iterations = 0.787267
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 141
+Iterations with 1  normal iteration  = 499
+Iterations with 2+ normal iterations = 4
+Restorations = 10006
+Average number of restorations per normal iteration = 19
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 1.45

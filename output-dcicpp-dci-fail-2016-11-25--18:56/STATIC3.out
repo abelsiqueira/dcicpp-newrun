@@ -1,0 +1,25 @@
+sifdecoder -A pc64.lnx.gfo  STATIC3
+
+ Problem name: STATIC3
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 1 nonlinear group
+ 
+ There are 96 linear equality constraints
+ 
+ There are 290 free variables
+ There are 144 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719

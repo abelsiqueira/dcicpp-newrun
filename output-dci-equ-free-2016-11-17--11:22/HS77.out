@@ -1,0 +1,64 @@
+sifdecoder -A pc64.lnx.gfo -st   HS77
+
+ Problem name: HS77
+
+ Double precision version will be formed
+
+ The objective function uses 5 nonlinear groups
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.40263700816493880     
+ |gp(xk)|/|gp(xck)| =   0.40355003459846650     
+ |gp(xk)|/|gp(xck)| =   0.66074823923308879     
+ |gp(xk)|/|gp(xck)| =    4.3023666929219138     
+ |gp(xk)|/|gp(xck)| =    2.8877215270487269     
+ |gp(xk)|/|gp(xck)| =    6.7978137652705435     
+ |gp(xk)|/|gp(xck)| =    4.2006236414919060     
+ |gp(xk)|/|gp(xck)| =    2.9378183533360223     
+ |gp(xk)|/|gp(xck)| =   0.76260946439552368     
+ |gp(xk)|/|gp(xck)| =   0.85648320383691523     
+ |gp(xk)|/|gp(xck)| =   0.93221221665017762     
+ |gp(xk)|/|gp(xck)| =   0.89265506653029958     
+ |gp(xk)|/|gp(xck)| =   0.97221152823815860     
+ |gp(xk)|/|gp(xck)| =    1.0000000005128824     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           14
+ Steihaug's iter:           34
+ Restorations   :            5
+ Rejected steps :            2
+ Function evals.:           16
+ Constr.  evals.:           21
+ Gradient evals.:           19
+ Jacobian evals.:           19
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :   0.24150512926271206     
+ ||h(x)||       :    3.0241205095649093E-008
+ ||gp(x)||      :    1.4334965710988135E-007
+ ||At*h||       :    7.9407743940414997E-007
+ Elapsed time   :    0.00000000    
+
+ ||xnew - xc||  :    6.7227569648960215E-006
+ rho            :    9.9999999999999995E-007
+ rhomax         :    289.79025722784104     
+ vdelta         :    1000000.0000000000     
+ hdelta         :   0.23933160332785980     
+ L(x)           :   0.24150512830856125     
+ L(x) - L(xc)   :   -5.9943494612468839E-011
+ L(xc)-L(x(k-1)):    3.5595304481716994E-010
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

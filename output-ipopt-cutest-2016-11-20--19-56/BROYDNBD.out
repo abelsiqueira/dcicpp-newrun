@@ -1,0 +1,92 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:    34984
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:     5000
+
+Total number of variables............................:     5000
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     5000
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  0.0000000e+00 5.00e+00 0.00e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  0.0000000e+00 2.77e+00 1.38e+09  -1.0 4.88e-01  -4.0 1.00e+00 1.00e+00h  1
+   2  0.0000000e+00 1.85e+01 1.55e+09  -1.0 1.68e+00    -  1.00e+00 1.00e+00h  1
+   3  0.0000000e+00 2.33e+00 3.78e+08  -1.0 3.24e-01  -4.5 1.00e+00 1.00e+00h  1
+   4  0.0000000e+00 1.30e-01 7.37e+07  -1.0 7.89e-02  -5.0 1.00e+00 1.00e+00h  1
+   5  0.0000000e+00 3.53e-02 6.40e+06  -1.0 2.35e-02    -  1.00e+00 1.00e+00h  1
+   6  0.0000000e+00 1.42e-02 2.45e+05  -1.0 5.25e-03    -  1.00e+00 1.00e+00h  1
+   7  0.0000000e+00 7.54e-03 7.55e+04  -1.0 2.93e-03    -  1.00e+00 1.00e+00h  1
+   8  0.0000000e+00 4.25e-03 2.34e+04  -1.0 1.64e-03  -5.4 1.00e+00 1.00e+00h  1
+   9  0.0000000e+00 2.44e-03 7.23e+03  -1.0 9.14e-04    -  1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  0.0000000e+00 1.42e-03 2.24e+03  -1.0 5.11e-04  -5.9 1.00e+00 1.00e+00h  1
+  11  0.0000000e+00 6.91e-04 1.06e+03  -1.7 3.55e-04  -6.4 1.00e+00 1.00e+00h  1
+  12  0.0000000e+00 3.40e-04 2.33e+02  -1.7 1.68e-04    -  1.00e+00 1.00e+00h  1
+  13  0.0000000e+00 1.53e-04 1.11e+02  -2.5 9.95e-05    -  1.00e+00 1.00e+00h  1
+  14  0.0000000e+00 4.65e-05 3.54e+01  -3.8 5.18e-05  -6.9 1.00e+00 1.00e+00h  1
+  15  0.0000000e+00 1.39e-05 2.57e+00  -3.8 1.40e-05    -  1.00e+00 1.00e+00h  1
+  16  0.0000000e+00 1.70e-06 2.73e-01  -5.7 4.59e-06    -  1.00e+00 1.00e+00h  1
+  17  0.0000000e+00 2.08e-07 3.17e-03  -5.7 4.99e-07    -  1.00e+00 1.00e+00h  1
+  18  0.0000000e+00 5.42e-09 6.63e-05  -8.6 7.19e-08  -7.3 1.00e+00 1.00e+00h  1
+Cannot recompute multipliers for feasibility problem.  Error in eq_mult_calculator
+
+Number of Iterations....: 18
+
+                                   (scaled)                 (unscaled)
+Objective...............:   0.0000000000000000e+00    0.0000000000000000e+00
+Dual infeasibility......:   6.6259875893592834e-05    6.6259875893592834e-05
+Constraint violation....:   5.4194628076448751e-09    5.4194628076448751e-09
+Complementarity.........:   0.0000000000000000e+00    0.0000000000000000e+00
+Overall NLP error.......:   5.4194628076448751e-09    6.6259875893592834e-05
+
+
+Number of objective function evaluations             = 19
+Number of objective gradient evaluations             = 19
+Number of equality constraint evaluations            = 19
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 19
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 18
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.160
+Total CPU secs in NLP function evaluations           =      0.053
+
+EXIT: Optimal Solution Found.
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+
+************************ CUTEst statistics ************************
+
+
+ Package used            :  IPOPT
+ Problem                 :  BROYDNBD  
+ # variables             =            5000
+ # constraints           =            5000
+ # objective functions   =        0.3900000E+02
+ # objective gradients   =        0.2000000E+02
+ # objective Hessians    =        0.1900000E+02
+ # Hessian-vector prdct  =        0.0000000E+00
+ # constraints functions =        0.4000000E+02
+ # constraints gradients =        0.2100000E+02
+ # constraints Hessians  =        0.1900000E+02
+ Exit code               =               0
+ Final f                 =   0.0000000E+00
+ Set up time             =            0.18 seconds
+ Solve time              =            0.31 seconds
+
+
+******************************************************************
+
+System Time =       0.1930000037 s.

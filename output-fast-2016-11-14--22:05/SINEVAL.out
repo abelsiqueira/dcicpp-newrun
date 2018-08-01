@@ -1,0 +1,35 @@
+sifdecoder -A pc64.lnx.gfo  SINEVAL
+
+ Problem name: SINEVAL
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SINEVAL 
+
+Number of Variables: 2
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.9443e-14
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.49193e-08
+y offset = 0
+Number of Iterations = 60
+Elapsed Time = 0.000442028 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 11803 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

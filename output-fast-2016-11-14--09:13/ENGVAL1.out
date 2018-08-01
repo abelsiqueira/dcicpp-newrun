@@ -1,0 +1,32 @@
+sifdecoder -A pc64.lnx.gfo  ENGVAL1
+
+ Problem name: ENGVAL1
+
+ Double precision version will be formed
+
+ The objective function uses 4999 linear groups
+ The objective function uses 4999 nonlinear groups
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: ENGVAL1 
+
+Number of Variables: 5000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 5548.67
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.25934e-08
+y offset = 0
+Number of Iterations = 7
+Elapsed Time = 0.0293703 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 22048 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

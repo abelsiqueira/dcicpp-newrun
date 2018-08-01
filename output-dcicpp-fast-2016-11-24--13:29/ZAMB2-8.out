@@ -1,0 +1,197 @@
+sifdecoder -A pc64.lnx.gfo  ZAMB2-8
+
+ Problem name: ZAMB2-8
+
+ Double precision version will be formed
+
+ The objective function uses 92 nonlinear groups
+ 
+ There are 48 nonlinear equality constraints
+ 
+ There are 132 variables bounded from below and above 
+ There are 6 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 6 variables
+Starting
+Solving
+ekpp/ek = 0.917312
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00002
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00004
+ekpp/ekp = 1.00003
+ekpp/ek = 1.00011
+ekpp/ekp = 1.00008
+ekpp/ek = 1.00022
+ekpp/ekp = 1.00014
+ekpp/ek = 1.0005
+ekpp/ekp = 1.00036
+ekpp/ek = 1.00151
+ekpp/ekp = 1.00116
+ekpp/ek = 1.00362
+ekpp/ekp = 1.00246
+ekpp/ek = 1.00717
+ekpp/ekp = 1.0047
+ekpp/ek = 1.00771
+ekpp/ekp = 1.003
+ekpp/ek = 1.00394
+ekpp/ekp = 1.00094
+ekpp/ek = 1.00232
+ekpp/ekp = 1.00138
+ekpp/ek = 1.00169
+ekpp/ekp = 1.00032
+ekpp/ek = 1.00077
+ekpp/ekp = 1.00046
+ekpp/ek = 1.00099
+ekpp/ekp = 1.00054
+ekpp/ek = 1.00054
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00002
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00006
+ekpp/ekp = 1.00004
+ekpp/ek = 1.00014
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00038
+ekpp/ekp = 1.00028
+ekpp/ek = 1.00146
+ekpp/ekp = 1.00118
+ekpp/ek = 1.00124
+ekpp/ekp = 1.00006
+ekpp/ek = 1.00006
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00002
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00005
+ekpp/ekp = 1.00004
+ekpp/ek = 1.00011
+ekpp/ekp = 1.00008
+ekpp/ek = 1.0002
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00027
+ekpp/ekp = 1.00014
+ekpp/ek = 1.00005
+ekpp/ekp = 0.999914
+ekpp/ek = 1.00021
+ekpp/ekp = 1.00029
+ekpp/ek = 1.00047
+ekpp/ekp = 1.00017
+ekpp/ek = 0.999964
+ekpp/ekp = 0.99979
+ekpp/ek = 0.998858
+ekpp/ekp = 0.999068
+ekpp/ek = 0.99523
+ekpp/ekp = 0.996158
+ekpp/ek = 0.996869
+ekpp/ekp = 1.00071
+ekpp/ek = 1.00024
+ekpp/ekp = 0.999522
+ekpp/ek = 0.999729
+ekpp/ekp = 1.00021
+ekpp/ek = 1.00021
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1
+ekpp/ek = 1.00002
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00003
+ekpp/ekp = 1.00002
+ekpp/ek = 0.999996
+ekpp/ekp = 0.99998
+ekpp/ek = 0.999966
+ekpp/ekp = 0.999987
+ekpp/ek = 0.999953
+ekpp/ekp = 0.999966
+ekpp/ek = 0.999881
+ekpp/ekp = 0.999915
+ekpp/ek = 0.999906
+ekpp/ekp = 0.999991
+ekpp/ek = 0.99997
+ekpp/ekp = 0.999979
+ekpp/ek = 0.999927
+ekpp/ekp = 0.999948
+ekpp/ek = 0.999943
+ekpp/ekp = 0.999995
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999988
+ekpp/ek = 0.999959
+ekpp/ekp = 0.999971
+ekpp/ek = 0.999909
+ekpp/ekp = 0.999938
+ekpp/ek = 0.999936
+ekpp/ekp = 0.999998
+ekpp/ek = 0.999994
+ekpp/ekp = 0.999996
+ekpp/ek = 0.999987
+ekpp/ekp = 0.999991
+Showing
+**********************************************************
+Problem name: ZAMB2-8 
+
+Number of Variables: 132
+Number of Constraints: 48
+             Equality: 48
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -0.146291
+|c(x)| = 9.36109e-07
+|g(x) + J(x)'*y| = 9.71726e-07
+y offset = 0
+Number of Iterations = 77
+Elapsed Time = 0.080405 s
+Normal iterations = 31
+Average number of normal iterations = 0.402597
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 46
+Iterations with 1  normal iteration  = 31
+Iterations with 2+ normal iterations = 0
+Restorations = 874
+Average number of restorations per normal iteration = 28
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.316666

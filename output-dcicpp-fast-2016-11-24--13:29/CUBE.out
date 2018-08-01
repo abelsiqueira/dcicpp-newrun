@@ -1,0 +1,102 @@
+sifdecoder -A pc64.lnx.gfo  CUBE
+
+ Problem name: CUBE
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.804311
+ekpp/ekp = 0.909151
+ekpp/ek = 0.812475
+ekpp/ekp = 0.893663
+ekpp/ek = 0.829233
+ekpp/ekp = 0.927904
+ekpp/ek = 0.804163
+ekpp/ekp = 0.866645
+ekpp/ek = 0.837896
+ekpp/ekp = 0.966827
+ekpp/ek = 0.925184
+ekpp/ekp = 0.956929
+ekpp/ek = 0.853839
+ekpp/ekp = 0.892271
+ekpp/ek = 0.722649
+ekpp/ekp = 0.809898
+ekpp/ek = 0.828894
+ekpp/ekp = 1.02345
+ekpp/ek = 0.970247
+ekpp/ekp = 0.948012
+ekpp/ek = 0.92022
+ekpp/ekp = 0.970683
+ekpp/ek = 0.930582
+ekpp/ekp = 0.958687
+ekpp/ek = 0.827577
+ekpp/ekp = 0.86324
+ekpp/ek = 0.798423
+ekpp/ekp = 0.924914
+ekpp/ek = 0.895394
+ekpp/ekp = 0.968083
+ekpp/ek = 0.859767
+ekpp/ekp = 0.888113
+ekpp/ek = 0.751118
+ekpp/ekp = 0.845746
+ekpp/ek = 0.735845
+ekpp/ekp = 0.870054
+ekpp/ek = 0.639717
+ekpp/ekp = 0.735261
+ekpp/ek = 0.642366
+ekpp/ekp = 0.873656
+ekpp/ek = 0.807387
+ekpp/ekp = 0.924148
+ekpp/ek = 0.735017
+ekpp/ekp = 0.795346
+ekpp/ek = 0.488915
+ekpp/ekp = 0.614719
+ekpp/ek = 0.446243
+ekpp/ekp = 0.72593
+ekpp/ek = 0.22661
+ekpp/ekp = 0.312165
+ekpp/ek = 0.180578
+ekpp/ekp = 0.578471
+ekpp/ek = 0.0255084
+ekpp/ekp = 0.0440962
+ekpp/ek = 0.0440437
+ekpp/ekp = 0.998809
+Showing
+**********************************************************
+Problem name: CUBE    
+
+Number of Variables: 2
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.06831e-07
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.54364e-08
+y offset = 0
+Number of Iterations = 31
+Elapsed Time = 0.000386238 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 31
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

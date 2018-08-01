@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS7
+
+ Problem name: HS7
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:14
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS7     
+
+Number of Variables: 2
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -1.73205
+|c(x)| = 1.18035e-09
+|g(x) + J(x)'*y| = 1.58892e-08
+y offset = 0
+Number of Iterations = 4
+Elapsed Time = 0.000308514 s
+Normal iterations = 4
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 1
+Restorations = 6
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

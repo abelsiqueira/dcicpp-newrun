@@ -1,0 +1,63 @@
+sifdecoder -A pc64.lnx.gfo  FLOSP2HH
+
+ Problem name: FLOSP2HH
+
+ Double precision version will be formed
+
+ 
+ There are 1922 linear equality constraints
+ There are 841 nonlinear equality constraints
+ 
+ There are 2763 free variables
+ There are 120 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 120 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: FLOSP2HH
+
+Number of Variables: 2763
+Number of Constraints: 2763
+             Equality: 2763
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 0
+|c(x)| = 8.82341e+06
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 3.61728e+14
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 96.2427 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      60 (56, 4)
+  Gradient     (*ofg):            3
+  Constraints  (cfn, ccfsg):  12535 (56, 12479)
+  Jacobian     (ccfsg):        2478
+  Hessian prod (*hprod):          0
+
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.069999
+Execution time: 96.3867

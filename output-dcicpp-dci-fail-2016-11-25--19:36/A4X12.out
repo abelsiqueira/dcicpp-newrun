@@ -1,0 +1,66 @@
+sifdecoder -A pc64.lnx.gfo  A4X12
+
+ Problem name: A4X12
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear equality constraint
+ There are 192 linear inequality constraints
+ There are 192 nonlinear inequality constraints
+ 
+ There are 115 free variables
+ There are 15 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 16 variables
+NOPE preprocessing removed 1 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: A4X12   
+
+Number of Variables: 114
+Number of Constraints: 384
+             Equality: 0
+           has_inequality: 384
+
+EXIT: rhomax became too short
+Cholesky failed
+f(x) = 1.50977
+|c(x)| = 9.30535e-07
+|g(x) + J(x)'*y| = 2.97992e-05
+|J(x)'c(x)| = 5.95661e-08
+y offset = 0.0942056
+Number of Iterations = 73
+Elapsed Time = 7.80648 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2058 (1873, 185)
+  Gradient     (*ofg):          112
+  Constraints  (cfn, ccfsg):  15956 (1873, 14083)
+  Jacobian     (ccfsg):        4896
+  Hessian prod (*hprod):        470
+
+Normal iterations = 65
+Average number of normal iterations = 0.890411
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 9
+Iterations with 1  normal iteration  = 63
+Iterations with 2+ normal iterations = 1
+Restorations = 9187
+Average number of restorations per normal iteration = 141
+**********************************************************
+Done
+Setup time: 0.11
+Execution time: 7.93

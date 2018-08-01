@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  SPIRAL
+
+ Problem name: SPIRAL
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SPIRAL  
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: rhomax became too short
+f(x) = 0.0277963
+|c(x)| = 8.52394e-08
+|g(x) + J(x)'*y| = 0.00508262
+y offset = 5.27112e-52
+Number of Iterations = 102
+Elapsed Time = 0.00428033 s
+Normal iterations = 34
+Average number of normal iterations = 0.333333
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 72
+Iterations with 1  normal iteration  = 26
+Iterations with 2+ normal iterations = 4
+Restorations = 296
+Average number of restorations per normal iteration = 8
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.016666

@@ -1,0 +1,96 @@
+sifdecoder -A pc64.lnx.gfo  DEMBO7
+
+ Problem name: DEMBO7
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 20 nonlinear inequality constraints
+ 
+ There are 16 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.898319
+ekpp/ekp = 1.00436
+ekpp/ek = 1.00435
+ekpp/ekp = 0.999989
+ekpp/ek = 0.999968
+ekpp/ekp = 0.99998
+ekpp/ek = 0.999938
+ekpp/ekp = 0.999958
+ekpp/ek = 0.999851
+ekpp/ekp = 0.999893
+ekpp/ek = 0.999496
+ekpp/ekp = 0.999603
+ekpp/ek = 0.996594
+ekpp/ekp = 0.996989
+ekpp/ek = 0.989122
+ekpp/ekp = 0.992109
+ekpp/ek = 0.97558
+ekpp/ekp = 0.98334
+ekpp/ek = 0.973731
+ekpp/ekp = 0.990228
+ekpp/ek = 0.977997
+ekpp/ekp = 0.987648
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 0.987225
+ekpp/ekp = 0.999571
+ekpp/ek = 0.999341
+ekpp/ekp = 0.99977
+ekpp/ek = 0.998909
+ekpp/ekp = 0.999138
+ekpp/ek = 1.00049
+ekpp/ekp = 1.00135
+ekpp/ek = 1.00098
+ekpp/ekp = 0.999627
+ekpp/ek = 0.999144
+ekpp/ekp = 0.999517
+ekpp/ek = 0.999846
+ekpp/ekp = 1.00033
+ekpp/ek = 1.00057
+ekpp/ekp = 1.00024
+ekpp/ek = 1.00095
+ekpp/ekp = 1.00071
+ekpp/ek = 1.00132
+ekpp/ekp = 1.00062
+ekpp/ek = 1.00052
+ekpp/ekp = 0.999909
+Showing
+**********************************************************
+Problem name: DEMBO7  
+
+Number of Variables: 16
+Number of Constraints: 20
+             Equality: 0
+           has_inequality: 20
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 174.787
+|c(x)| = 9.94695e-07
+|g(x) + J(x)'*y| = 2.99891e-07
+y offset = 0.00430287
+Number of Iterations = 25
+Elapsed Time = 0.0292413 s
+Normal iterations = 18
+Average number of normal iterations = 0.72
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 18
+Iterations with 2+ normal iterations = 0
+Restorations = 556
+Average number of restorations per normal iteration = 30
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.089998

@@ -1,0 +1,48 @@
+sifdecoder -A pc64.lnx.gfo  DUALC1
+
+ Problem name: DUALC1
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There are 214 linear inequality constraints
+ 
+ There are 9 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: DUALC1  
+
+Number of Variables: 9
+Number of Constraints: 215
+             Equality: 1
+           has_inequality: 214
+
+EXIT: The Algorithm has Converged
+f(x) = 103842
+|c(x)| = 5.50494e-09
+|g(x) + J(x)'*y| = 2.14739e-08
+y offset = 0.003
+Number of Iterations = 5
+Elapsed Time = 0.135161 s
+Normal iterations = 1
+Average number of normal iterations = 0.2
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 29
+Average number of restorations per normal iteration = 29
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.283333

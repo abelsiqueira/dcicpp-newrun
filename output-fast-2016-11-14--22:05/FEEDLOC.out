@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo  FEEDLOC
+
+ Problem name: FEEDLOC
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4 linear equality constraints
+ There are 166 linear inequality constraints
+ There are 15 nonlinear equality constraints
+ There are 74 nonlinear inequality constraints
+ 
+ There are 87 variables bounded from below and above 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 variables
+NOPE preprocessing removed 2 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: FEEDLOC 
+
+Number of Variables: 87
+Number of Constraints: 257
+             Equality: 19
+           has_inequality: 238
+
+EXIT: The maximum number of iterations was reached
+f(x) = 0.000411067
+|c(x)| = 0.36866
+|g(x) + J(x)'*y| = 0.0042033
+y offset = 17.9597
+Number of Iterations = 2001
+Elapsed Time = 2.29354 s
+Normal iterations = 2
+Average number of normal iterations = 0.0009995
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1999
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 179
+Average number of restorations per normal iteration = 89
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 2.54333

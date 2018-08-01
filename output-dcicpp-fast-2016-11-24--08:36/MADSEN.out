@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  MADSEN
+
+ Problem name: MADSEN
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 6 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: MADSEN  
+
+Number of Variables: 3
+Number of Constraints: 6
+             Equality: 0
+           has_inequality: 6
+
+EXIT: The Algorithm has Converged
+f(x) = 0.616432
+|c(x)| = 9.79438e-07
+|g(x) + J(x)'*y| = 3.10688e-08
+y offset = 3.54816e-09
+Number of Iterations = 23
+Elapsed Time = 0.00303388 s
+Normal iterations = 10
+Average number of normal iterations = 0.434783
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 13
+Iterations with 1  normal iteration  = 10
+Iterations with 2+ normal iterations = 0
+Restorations = 252
+Average number of restorations per normal iteration = 25
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.009999

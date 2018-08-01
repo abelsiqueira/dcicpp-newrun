@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  BYRDSPHR
+
+ Problem name: BYRDSPHR
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: BYRDSPHR
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -4.6833
+|c(x)| = 3.63508e-12
+|g(x) + J(x)'*y| = 6.20634e-17
+|J(x)'c(x)| = 0.000112235
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.000421047 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      58 (49, 9)
+  Gradient     (*ofg):            6
+  Constraints  (cfn, ccfsg):     72 (49, 23)
+  Jacobian     (ccfsg):           8
+  Hessian prod (*hprod):         45
+
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 15
+Average number of restorations per normal iteration = 5
+**********************************************************
+Done
+Setup time: 0
+Execution time: -5.66244e-13

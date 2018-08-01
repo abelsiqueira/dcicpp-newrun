@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  MSS1
+
+ Problem name: MSS1
+
+ Double precision version will be formed
+
+ The objective function uses 2 nonlinear groups
+ 
+ There are 73 nonlinear equality constraints
+ 
+ There are 90 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:39
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: MSS1    
+
+Number of Variables: 90
+Number of Constraints: 73
+             Equality: 73
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -16
+|c(x)| = 4.92618e-07
+|g(x) + J(x)'*y| = 3.84283e-07
+y offset = 0
+Number of Iterations = 25
+Elapsed Time = 0.0143697 s
+Normal iterations = 15
+Average number of normal iterations = 0.6
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 13
+Iterations with 2+ normal iterations = 1
+Restorations = 45
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.053332

@@ -1,0 +1,85 @@
+sifdecoder -A pc64.lnx.gfo  MAXLIKA
+
+ Problem name: MAXLIKA
+
+ Double precision version will be formed
+
+ The objective function uses 235 nonlinear groups
+ 
+ There are 8 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.02656
+ekpp/ekp = 1.02295
+ekpp/ek = 1.02516
+ekpp/ekp = 1.00216
+ekpp/ek = 1.02641
+ekpp/ekp = 1.02419
+ekpp/ek = 1.02658
+ekpp/ekp = 1.00233
+ekpp/ek = 1.00223
+ekpp/ekp = 0.999893
+ekpp/ek = 1.03202
+ekpp/ekp = 1.03213
+ekpp/ek = 1.03909
+ekpp/ekp = 1.00674
+ekpp/ek = 1.00449
+ekpp/ekp = 0.997762
+ekpp/ek = 1.02581
+ekpp/ekp = 1.02811
+ekpp/ek = 1.01794
+ekpp/ekp = 0.99011
+ekpp/ek = 0.988898
+ekpp/ekp = 0.998775
+ekpp/ek = 0.995818
+ekpp/ekp = 0.997039
+ekpp/ek = 0.991557
+ekpp/ekp = 0.994502
+ekpp/ek = 1.00279
+ekpp/ekp = 1.00834
+ekpp/ek = 1.01026
+ekpp/ekp = 1.00191
+ekpp/ek = 1.00674
+ekpp/ekp = 1.00482
+ekpp/ek = 1.01384
+ekpp/ekp = 1.00897
+ekpp/ek = 1.02612
+ekpp/ekp = 1.017
+ekpp/ek = 1.01726
+ekpp/ekp = 1.00026
+ekpp/ek = 1.00023
+ekpp/ekp = 0.999969
+Showing
+**********************************************************
+Problem name: MAXLIKA 
+
+Number of Variables: 8
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1142.08
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.08262e-09
+y offset = 0
+Number of Iterations = 23
+Elapsed Time = 0.0406559 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 23
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.013333
+Execution time: 0.16

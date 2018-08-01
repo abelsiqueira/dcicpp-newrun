@@ -1,0 +1,34 @@
+sifdecoder -A pc64.lnx.gfo  BOX3
+
+ Problem name: BOX3
+
+ Double precision version will be formed
+
+ The objective function uses 10 nonlinear groups
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: BOX3    
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 7.30022e-15
+|c(x)| = 0
+|g(x) + J(x)'*y| = 7.59708e-09
+y offset = 0
+Number of Iterations = 9
+Elapsed Time = 0.000487566 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicppclean: line 240: 18955 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

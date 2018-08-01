@@ -1,0 +1,122 @@
+sifdecoder -A pc64.lnx.gfo  YFIT
+
+ Problem name: YFIT
+
+ Double precision version will be formed
+
+ The objective function uses 17 nonlinear groups
+ 
+ There are 2 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.1407
+ekpp/ekp = 1.05487
+ekpp/ek = 1.29151
+ekpp/ekp = 1.22434
+ekpp/ek = 1.90503
+ekpp/ekp = 1.55597
+ekpp/ek = 1.88653
+ekpp/ekp = 1.21245
+ekpp/ek = 1.32189
+ekpp/ekp = 1.09026
+ekpp/ek = 1.23699
+ekpp/ekp = 1.13458
+ekpp/ek = 1.18953
+ekpp/ekp = 1.04843
+ekpp/ek = 1.18395
+ekpp/ekp = 1.12925
+ekpp/ek = 1.15944
+ekpp/ekp = 1.02673
+ekpp/ek = 1.04729
+ekpp/ekp = 1.02003
+ekpp/ek = 1.07111
+ekpp/ekp = 1.05007
+ekpp/ek = 1.11615
+ekpp/ekp = 1.06293
+ekpp/ek = 1.10232
+ekpp/ekp = 1.03707
+ekpp/ek = 1.1125
+ekpp/ekp = 1.07274
+ekpp/ek = 1.09134
+ekpp/ekp = 1.01734
+ekpp/ek = 1.02435
+ekpp/ekp = 1.00689
+ekpp/ek = 1.02423
+ekpp/ekp = 1.01722
+ekpp/ek = 1.06102
+ekpp/ekp = 1.04305
+ekpp/ek = 1.06736
+ekpp/ekp = 1.0233
+ekpp/ek = 1.03237
+ekpp/ekp = 1.00886
+ekpp/ek = 1.03121
+ekpp/ekp = 1.02215
+ekpp/ek = 1.06938
+ekpp/ekp = 1.04621
+ekpp/ek = 1.05734
+ekpp/ekp = 1.01064
+ekpp/ek = 1.01531
+ekpp/ekp = 1.00462
+ekpp/ek = 1.01623
+ekpp/ekp = 1.01156
+ekpp/ek = 1.04078
+ekpp/ekp = 1.02889
+ekpp/ek = 1.04229
+ekpp/ekp = 1.01302
+ekpp/ek = 1.02191
+ekpp/ekp = 1.00877
+ekpp/ek = 1.0309
+ekpp/ekp = 1.02193
+ekpp/ek = 1.03311
+ekpp/ekp = 1.01093
+ekpp/ek = 1.03439
+ekpp/ekp = 1.0232
+ekpp/ek = 1.02774
+ekpp/ekp = 1.00444
+ekpp/ek = 1.01305
+ekpp/ekp = 1.00857
+ekpp/ek = 1.01734
+ekpp/ekp = 1.0087
+ekpp/ek = 1.01276
+ekpp/ekp = 1.00403
+ekpp/ek = 1.00703
+ekpp/ekp = 1.00299
+ekpp/ek = 1.00352
+ekpp/ekp = 1.00053
+ekpp/ek = 1.00053
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: YFIT    
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.91195e-09
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.87446e-08
+y offset = 0
+Number of Iterations = 41
+Elapsed Time = 0.00277853 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 41
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.009999

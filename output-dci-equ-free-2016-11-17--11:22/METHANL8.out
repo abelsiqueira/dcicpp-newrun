@@ -1,0 +1,51 @@
+sifdecoder -A pc64.lnx.gfo -st   METHANL8
+
+ Problem name: METHANL8
+
+ Double precision version will be formed
+
+ 
+ There are 31 nonlinear equality constraints
+ 
+ There are 31 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO
+ |gp(xk)|/|gp(xck)| =                   Infinity
+
+ DCI Summary.
+
+ The restoration has failed.
+
+ Iterations     :            1
+ Steihaug's iter:            0
+ Restorations   :           14
+ Rejected steps :            0
+ Function evals.:            1
+ Constr.  evals.:           22
+ Gradient evals.:            3
+ Jacobian evals.:            7
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    0.0000000000000000     
+ ||h(x)||       :    4.3073669075965887E-014
+ ||gp(x)||      :    0.0000000000000000     
+ ||At*h||       :    9.3710515521785322E-012
+ Elapsed time   :    0.00000000    
+
+ ||xnew - xc||  :    0.0000000000000000     
+ rho            :    0.0000000000000000     
+ rhomax         :    336.17859074388531     
+ vdelta         :    1.4603646999157383E-015
+ hdelta         :    1000000.0000000000     
+ L(x)           :    0.0000000000000000     
+ L(x) - L(xc)   :    1.0000000000000000E+100
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

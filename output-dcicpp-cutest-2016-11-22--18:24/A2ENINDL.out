@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  A2ENINDL
+
+ Problem name: A2ENINDL
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 15002 linear equality constraints
+ 
+ There are 10002 free variables
+ There are 10000 variables bounded only from below 
+ There are 25004 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 25004 variables
+Starting

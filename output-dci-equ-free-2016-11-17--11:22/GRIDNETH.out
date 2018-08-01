@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo -st   GRIDNETH
+
+ Problem name: GRIDNETH
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3844 linear equality constraints
+ 
+ There are 7564 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.16262375175936322     
+ |gp(xk)|/|gp(xck)| =    7.0635242995902764E-002
+ |gp(xk)|/|gp(xck)| =    8.4235609603251799E-002
+ |gp(xk)|/|gp(xck)| =    9.1653583477007500E-002
+ |gp(xk)|/|gp(xck)| =    8.4065976161017339E-002
+ |gp(xk)|/|gp(xck)| =    8.9808915734874151E-002
+ |gp(xk)|/|gp(xck)| =    8.3900087148009658E-002
+ |gp(xk)|/|gp(xck)| =   0.99999999998047162     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            8
+ Steihaug's iter:           62
+ Restorations   :            1
+ Rejected steps :            0
+ Function evals.:            8
+ Constr.  evals.:            9
+ Gradient evals.:            8
+ Jacobian evals.:            8
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    206.48050916156345     
+ ||h(x)||       :    4.0145664570445661E-013
+ ||gp(x)||      :    3.1233908621974837E-007
+ ||At*h||       :    2.8196492930528748E-012
+ Elapsed time   :    8.98437500E-02
+
+ ||xnew - xc||  :    3.6056738162196976E-004
+ rho            :    9.9999999999999995E-007
+ rhomax         :    36.062445840513924     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    206.48050916156723     
+ L(x) - L(xc)   :   -2.5896724764606915E-009
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

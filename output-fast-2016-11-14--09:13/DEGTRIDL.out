@@ -1,0 +1,43 @@
+sifdecoder -A pc64.lnx.gfo  DEGTRIDL
+
+ Problem name: DEGTRIDL
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There is 1 linear equality constraint
+ 
+ There are 100001 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: DEGTRIDL
+
+Number of Variables: 100001
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.501498
+|c(x)| = 1.82111e-07
+|g(x) + J(x)'*y| = 8.8465e-08
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.260543 s
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = -1
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Setup time: 0.503334
+Execution time: 0.273333

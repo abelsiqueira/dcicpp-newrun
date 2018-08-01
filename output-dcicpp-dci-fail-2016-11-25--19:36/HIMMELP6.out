@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELP6
+
+ Problem name: HIMMELP6
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear inequality constraints
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HIMMELP6
+
+Number of Variables: 2
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: The Algorithm has Converged
+f(x) = -59.0132
+|c(x)| = 5.53588e-07
+|g(x) + J(x)'*y| = 1.42277e-10
+|J(x)'c(x)| = 0.00588024
+y offset = 0
+Number of Iterations = 148
+Elapsed Time = 0.00890613 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     829 (531, 298)
+  Gradient     (*ofg):          150
+  Constraints  (cfn, ccfsg):   1574 (531, 1043)
+  Jacobian     (ccfsg):         302
+  Hessian prod (*hprod):        433
+
+Normal iterations = 80
+Average number of normal iterations = 0.540541
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 68
+Iterations with 1  normal iteration  = 80
+Iterations with 2+ normal iterations = 0
+Restorations = 741
+Average number of restorations per normal iteration = 9
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.023332

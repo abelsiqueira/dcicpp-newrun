@@ -1,0 +1,22 @@
+sifdecoder -A pc64.lnx.gfo  ARGLALE
+
+ Problem name: ARGLALE
+
+ Double precision version will be formed
+
+ 
+ There are 400 linear equality constraints
+ 
+ There are 200 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving

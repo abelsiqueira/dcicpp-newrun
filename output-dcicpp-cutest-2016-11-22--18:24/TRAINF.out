@@ -1,0 +1,51 @@
+sifdecoder -A pc64.lnx.gfo  TRAINF
+
+ Problem name: TRAINF
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 1001 linear equality constraints
+ There are 1001 nonlinear equality constraints
+ 
+ There are 2000 free variables
+ There are 2000 variables bounded from below and above 
+ There are 8 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 8 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: TRAINF  
+
+Number of Variables: 4000
+Number of Constraints: 2002
+             Equality: 2002
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 3.12615
+|c(x)| = 1.59785e-08
+|g(x) + J(x)'*y| = 7.10654e-08
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 1.34648 s
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 540
+Average number of restorations per normal iteration = 270
+**********************************************************
+Done
+Setup time: 0.059999
+Execution time: 1.55667

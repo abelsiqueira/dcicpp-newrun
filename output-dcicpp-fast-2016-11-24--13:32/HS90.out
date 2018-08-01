@@ -1,0 +1,80 @@
+sifdecoder -A pc64.lnx.gfo  HS90
+
+ Problem name: HS90
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 4 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 1.05791
+ekpp/ekp = 1.12554
+ekpp/ek = 1.08863
+ekpp/ekp = 0.967204
+ekpp/ek = 0.960831
+ekpp/ekp = 0.993411
+ekpp/ek = 0.978933
+ekpp/ekp = 0.985426
+ekpp/ek = 1.04688
+ekpp/ekp = 1.06236
+ekpp/ek = 1.22836
+ekpp/ekp = 1.15626
+ekpp/ek = 1.18496
+ekpp/ekp = 1.02482
+ekpp/ek = 1.03379
+ekpp/ekp = 1.00875
+ekpp/ek = 1.01032
+ekpp/ekp = 1.00156
+ekpp/ek = 1.00156
+ekpp/ekp = 1.00001
+ekpp/ek = 1.0045
+ekpp/ekp = 1.00449
+ekpp/ek = 1.00535
+ekpp/ekp = 1.00086
+ekpp/ek = 1.00088
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00002
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: HS90    
+
+Number of Variables: 4
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 1.3617
+|c(x)| = 9.06547e-07
+|g(x) + J(x)'*y| = 1.71277e-07
+y offset = 0
+Number of Iterations = 17
+Elapsed Time = 0.0571196 s
+Normal iterations = 9
+Average number of normal iterations = 0.529412
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 8
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 0
+Restorations = 148
+Average number of restorations per normal iteration = 16
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.226665

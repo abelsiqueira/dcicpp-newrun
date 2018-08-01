@@ -29,7 +29,7 @@ mv algencan.prof $out/
 mv ipopt.prof $out/
 
 cp $dcicpp/$list1 $out/
-cp nolarge.list $out/
+cp anycon.list equ-free.list ineq-or-bounds.list nolarge.list $out/
 
 grep -l -i cholesky $dcicpp/*.out | while read i; do basename $i .out; done > $out/cholfail.list
 
@@ -37,16 +37,24 @@ cd $out
 
 sort cholfail.list $list1 | uniq -u > cholok.list
 
-sort cholok.list nolarge.list | uniq -d > nolarge-cholok.list
-for l in nolarge cholok nolarge-cholok
+# Create nolarge subset
+for l in cholok anycon equ-free ineq-or-bounds
+do
+  sort nolarge.list $l.list | uniq -d > nolarge-$l.list
+done
+
+# Creating samef subset
+for l in nolarge cholok nolarge-cholok anycon equ-free ineq-or-bounds \
+          nolarge-anycon nolarge-equ-free nolarge-ineq-or-bounds
 do
   sort samef.list $l.list | uniq -d > samef-$l.list
 done
 
-pp="perprof --tikz dcicpp.prof algencan.prof ipopt.prof --semilog --black-and-white"
+pp="perprof --compare exitflag --tikz dcicpp.prof algencan.prof ipopt.prof --semilog --black-and-white"
 
 $pp -o perf
-for l in nolarge cholok nolarge-cholok
+for l in nolarge cholok nolarge-cholok anycon equ-free ineq-or-bounds \
+          nolarge-anycon nolarge-equ-free nolarge-ineq-or-bounds
 do
   $pp -o perf-$l --subset $l.list
   $pp -o perf-samef-$l --subset samef-$l.list

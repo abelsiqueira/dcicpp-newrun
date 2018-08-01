@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  SAWPATH
+
+ Problem name: SAWPATH
+
+ Double precision version will be formed
+
+ The objective function uses 196 nonlinear groups
+ 
+ There are 578 linear equality constraints
+ There are 196 nonlinear inequality constraints
+ 
+ There are 581 free variables
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 variables
+NOPE preprocessing removed 1 contraints
+Starting
+Solving

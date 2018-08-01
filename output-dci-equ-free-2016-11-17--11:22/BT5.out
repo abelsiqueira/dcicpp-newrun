@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo -st   BT5
+
+ Problem name: BT5
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There is 1 nonlinear equality constraint
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.15029217448140741     
+ |gp(xk)|/|gp(xck)| =   0.21377435759780639     
+ |gp(xk)|/|gp(xck)| =   0.29328490086946085     
+ |gp(xk)|/|gp(xck)| =   0.29458569243098781     
+ |gp(xk)|/|gp(xck)| =   0.29447321496834383     
+ |gp(xk)|/|gp(xck)| =   0.99999910214617638     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            6
+ Steihaug's iter:           14
+ Restorations   :            6
+ Rejected steps :            9
+ Function evals.:           15
+ Constr.  evals.:           24
+ Gradient evals.:           10
+ Jacobian evals.:           10
+ 2nd order Corr.:            1
+ BFGS iterations:            0
+ f(x)           :    961.71517192299814     
+ ||h(x)||       :    1.6923599766016650E-007
+ ||gp(x)||      :    6.9153216486483871E-010
+ ||At*h||       :    1.6923600221202233E-006
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    1.0439576743037908E-004
+ rho            :    9.9999999999999995E-007
+ rhomax         :    33.540013416813053     
+ vdelta         :    1.6449404843146123     
+ hdelta         :    9.5367431640625000     
+ L(x)           :    961.71517213005302     
+ L(x) - L(xc)   :   -8.2704900705721229E-009
+ L(xc)-L(x(k-1)):   -2.1327631429812755E-006
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

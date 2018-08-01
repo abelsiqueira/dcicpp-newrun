@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  ROBOTARM
+
+ Problem name: ROBOTARM
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 3202 nonlinear equality constraints
+ 
+ There are 1999 free variables
+ There is 1 variable bounded only from below 
+ There are 2400 variables bounded from below and above 
+ There are 12 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 12 variables
+Starting
+Solving

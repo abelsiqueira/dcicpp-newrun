@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  JUNKTURN
+
+ Problem name: JUNKTURN
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 7000 nonlinear equality constraints
+ 
+ There are 9996 free variables
+ There are 14 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 14 variables
+Starting
+Solving

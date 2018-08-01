@@ -1,0 +1,40 @@
+sifdecoder -A pc64.lnx.gfo  BT5
+
+ Problem name: BT5
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There is 1 nonlinear equality constraint
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: BT5     
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 961.715
+|c(x)| = 8.28647e-07
+|g(x) + J(x)'*y| = 4.62206e-11
+y offset = 0
+Number of Iterations = 5
+Elapsed Time = 0.000345469 s
+Normal iterations = 4
+Average number of normal iterations = 0.8
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 4
+Iterations with <= 1 normal iterations = 5
+**********************************************************
+Setup time: 0
+Execution time: 0

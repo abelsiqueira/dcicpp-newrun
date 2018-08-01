@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  LEAKNET
+
+ Problem name: LEAKNET
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 73 linear equality constraints
+ There are 80 nonlinear equality constraints
+ 
+ There are 80 free variables
+ There are 70 variables bounded only from below 
+ There are 6 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 18 variables
+NOPE preprocessing removed 18 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LEAKNET 
+
+Number of Variables: 138
+Number of Constraints: 135
+             Equality: 135
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 15.2883
+|c(x)| = 1.81496e-13
+|g(x) + J(x)'*y| = 6.3039e-07
+|J(x)'c(x)| = 1.31838e-11
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.0104969 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     139 (133, 6)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):    189 (133, 56)
+  Jacobian     (ccfsg):          17
+  Hessian prod (*hprod):        129
+
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 39
+Average number of restorations per normal iteration = 19
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.039999

@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  QPNSTAIR
+
+ Problem name: QPNSTAIR
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 209 linear equality constraints
+ There are 147 linear inequality constraints
+ 
+ There are 6 free variables
+ There are 373 variables bounded only from below 
+ There are 6 variables bounded from below and above 
+ There are 82 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 82 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: QPNSTAIR
+
+Number of Variables: 385
+Number of Constraints: 356
+             Equality: 209
+           has_inequality: 147
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 5.25127e+06
+|c(x)| = 9.73692e-08
+|g(x) + J(x)'*y| = 6.29033e-07
+y offset = 0.0110009
+Number of Iterations = 110
+Elapsed Time = 5.6939 s
+Normal iterations = 11
+Average number of normal iterations = 0.1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 99
+Iterations with 1  normal iteration  = 11
+Iterations with 2+ normal iterations = 0
+Restorations = 1610
+Average number of restorations per normal iteration = 146
+**********************************************************
+Done
+Setup time: 0.013332
+Execution time: 5.94333

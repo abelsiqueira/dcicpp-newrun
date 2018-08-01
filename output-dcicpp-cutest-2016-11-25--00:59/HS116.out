@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  HS116
+
+ Problem name: HS116
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4 linear inequality constraints
+ There are 10 nonlinear inequality constraints
+ 
+ There are 13 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+NormalFlag = 2
+Showing
+**********************************************************
+Problem name: HS116   
+
+Number of Variables: 13
+Number of Constraints: 14
+             Equality: 0
+           has_inequality: 14
+
+EXIT: Stopped at a stationary for the infeasibility
+f(x) = 147.385
+|c(x)| = 2.26597
+|g(x) + J(x)'*y| = 0.0559649
+|J(x)'c(x)| = 0
+y offset = 0.00214861
+Number of Iterations = 6
+Elapsed Time = 0.00133634 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      29 (14, 15)
+  Gradient     (*ofg):            9
+  Constraints  (cfn, ccfsg):    107 (14, 93)
+  Jacobian     (ccfsg):          32
+  Hessian prod (*hprod):          6
+
+Normal iterations = 3
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 65
+Average number of restorations per normal iteration = 21
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.003333

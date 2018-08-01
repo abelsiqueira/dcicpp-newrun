@@ -1,0 +1,18 @@
+sifdecoder -A pc64.lnx.gfo  GMNCASE2
+
+ Problem name: GMNCASE2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 1050 linear inequality constraints
+ 
+ There are 175 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+Setup time: 0.163333
+Execution time: 0.006667

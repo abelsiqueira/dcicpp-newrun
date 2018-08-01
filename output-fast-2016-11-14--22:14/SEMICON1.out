@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  SEMICON1
+
+ Problem name: SEMICON1
+
+ Double precision version will be formed
+
+ 
+ There are 5000 nonlinear equality constraints
+ 
+ There are 5000 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

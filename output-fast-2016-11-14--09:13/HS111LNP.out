@@ -1,0 +1,43 @@
+sifdecoder -A pc64.lnx.gfo  HS111LNP
+
+ Problem name: HS111LNP
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear equality constraints
+ 
+ There are 10 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: HS111LNP
+
+Number of Variables: 10
+Number of Constraints: 3
+             Equality: 3
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -47.7611
+|c(x)| = 9.89069e-07
+|g(x) + J(x)'*y| = 6.94498e-08
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.00174117 s
+Normal iterations = 7
+Average number of normal iterations = 0.636364
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = -4
+Restorations = 13
+Average number of restorations per normal iteration = 1
+**********************************************************
+Setup time: 0
+Execution time: 0.009999

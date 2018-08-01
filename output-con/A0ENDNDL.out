@@ -1,0 +1,41 @@
+sifdecoder -A pc64.lnx.gfo  A0ENDNDL
+
+ Problem name: A0ENDNDL
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 15002 linear equality constraints
+ 
+ There are 10002 free variables
+ There are 10000 variables bounded only from below 
+ There are 25004 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output-con
+No tools
+**********************************************************
+Problem name: A0ENDNDL
+
+Number of Variables: 20002
+Number of Constraints: 15002
+             Equality: 15002
+           has_inequality: 0
+
+EXIT: The problem reached the time limit
+f(x) = 0.5
+|c(x)| = 99.5888
+|g(x) + J(x)'*y| = 99.9834
+y offset = 0
+Number of Iterations = 0
+Elapsed Time = 588.975 s
+Normal iterations = 0
+Average number of normal iterations = -nan
+Maximum number of normal iterations during one iteration = 0
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 0
+**********************************************************
+Setup time: 0.346667
+Execution time: 587.96

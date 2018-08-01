@@ -1,0 +1,24 @@
+sifdecoder -A pc64.lnx.gfo  LAUNCH
+
+ Problem name: LAUNCH
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 4 nonlinear groups
+ 
+ There are 6 linear equality constraints
+ There are 12 linear inequality constraints
+ There are 3 nonlinear equality constraints
+ There are 7 nonlinear inequality constraints
+ 
+ There are 25 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: f is nan

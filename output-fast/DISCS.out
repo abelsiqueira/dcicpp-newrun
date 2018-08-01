@@ -1,0 +1,44 @@
+sifdecoder -A pc64.lnx.gfo  DISCS
+
+ Problem name: DISCS
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 18 nonlinear equality constraints
+ There are 48 nonlinear inequality constraints
+ 
+ There are 21 free variables
+ There are 12 variables bounded only from below 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+NormalFlag = 2
+**********************************************************
+Problem name: DISCS   
+
+Number of Variables: 33
+Number of Constraints: 66
+             Equality: 18
+           has_inequality: 48
+
+EXIT: Stopped at a stationary for the infeasibility
+Cholesky failed
+f(x) = 33.6411
+|c(x)| = 0.0477632
+|g(x) + J(x)'*y| = 2.88069e-06
+y offset = 5.31567
+Number of Iterations = 1
+Elapsed Time = 0.537419 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 0
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.759999

@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  HAGER2
+
+ Problem name: HAGER2
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 2500 linear equality constraints
+ 
+ There are 5000 free variables
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HAGER2  
+
+Number of Variables: 5000
+Number of Constraints: 2500
+             Equality: 2500
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.432082
+|c(x)| = 6.16052e-08
+|g(x) + J(x)'*y| = 2.82644e-08
+|J(x)'c(x)| = 6.25e+06
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.0138972 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      13 (5, 8)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):     10 (5, 5)
+  Jacobian     (ccfsg):           4
+  Hessian prod (*hprod):          3
+
+Normal iterations = 1
+Average number of normal iterations = 0.333333
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.1
+Execution time: 0.063333

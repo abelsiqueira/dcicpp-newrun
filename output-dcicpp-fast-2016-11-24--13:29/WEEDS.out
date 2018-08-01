@@ -1,0 +1,130 @@
+sifdecoder -A pc64.lnx.gfo  WEEDS
+
+ Problem name: WEEDS
+
+ Double precision version will be formed
+
+ The objective function uses 12 nonlinear groups
+ 
+ There are 2 variables bounded only from below 
+ There is 1 variable bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.04457
+ekpp/ekp = 1.08285
+ekpp/ek = 1.27824
+ekpp/ekp = 1.18044
+ekpp/ek = 1.61862
+ekpp/ekp = 1.3712
+ekpp/ek = 2.4035
+ekpp/ekp = 1.75285
+ekpp/ek = 3.86532
+ekpp/ekp = 2.20516
+ekpp/ek = 4.26856
+ekpp/ekp = 1.93571
+ekpp/ek = 3.45246
+ekpp/ekp = 1.78356
+ekpp/ek = 3.40696
+ekpp/ekp = 1.9102
+ekpp/ek = 4.41144
+ekpp/ekp = 2.30941
+ekpp/ek = 4.79605
+ekpp/ekp = 2.07674
+ekpp/ek = 3.69549
+ekpp/ekp = 1.77946
+ekpp/ek = 3.21389
+ekpp/ekp = 1.8061
+ekpp/ek = 3.92076
+ekpp/ekp = 2.17085
+ekpp/ek = 4.9462
+ekpp/ekp = 2.27846
+ekpp/ek = 4.09907
+ekpp/ekp = 1.79905
+ekpp/ek = 3.09037
+ekpp/ekp = 1.71778
+ekpp/ek = 3.33966
+ekpp/ekp = 1.94418
+ekpp/ek = 4.82034
+ekpp/ekp = 2.47937
+ekpp/ek = 4.6687
+ekpp/ekp = 1.88302
+ekpp/ek = 3.09955
+ekpp/ekp = 1.64605
+ekpp/ek = 2.77697
+ekpp/ekp = 1.68705
+ekpp/ek = 3.68753
+ekpp/ekp = 2.18579
+ekpp/ek = 5.16695
+ekpp/ekp = 2.36388
+ekpp/ek = 3.77975
+ekpp/ekp = 1.59896
+ekpp/ek = 2.33701
+ekpp/ekp = 1.46158
+ekpp/ek = 2.14504
+ekpp/ekp = 1.46762
+ekpp/ek = 2.86328
+ekpp/ekp = 1.95098
+ekpp/ek = 9.03323
+ekpp/ekp = 4.6301
+ekpp/ek = 5.27461
+ekpp/ekp = 1.1392
+ekpp/ek = 1.11068
+ekpp/ekp = 0.974963
+ekpp/ek = 0.912369
+ekpp/ekp = 0.935799
+ekpp/ek = 0.901275
+ekpp/ekp = 0.963107
+ekpp/ek = 0.984559
+ekpp/ekp = 1.02227
+ekpp/ek = 1.00968
+ekpp/ekp = 0.987677
+ekpp/ek = 0.995102
+ekpp/ekp = 1.00752
+ekpp/ek = 1.00313
+ekpp/ekp = 0.995646
+ekpp/ek = 0.99824
+ekpp/ekp = 1.00261
+ekpp/ek = 1.00107
+ekpp/ekp = 0.99847
+ekpp/ek = 0.999377
+ekpp/ekp = 1.00091
+ekpp/ek = 1.00037
+ekpp/ekp = 0.999464
+ekpp/ek = 0.999781
+ekpp/ekp = 1.00032
+ekpp/ek = 1.00013
+ekpp/ekp = 0.999812
+Showing
+**********************************************************
+Problem name: WEEDS   
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2639.27
+|c(x)| = 0
+|g(x) + J(x)'*y| = 7.75629e-07
+y offset = 0
+Number of Iterations = 45
+Elapsed Time = 0.00121045 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 45
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

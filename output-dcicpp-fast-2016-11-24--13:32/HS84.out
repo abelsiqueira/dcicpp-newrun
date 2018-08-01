@@ -1,0 +1,149 @@
+sifdecoder -A pc64.lnx.gfo  HS84
+
+ Problem name: HS84
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 5 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00931
+ekpp/ekp = 1.00664
+ekpp/ek = 1.0077
+ekpp/ekp = 1.00105
+ekpp/ek = 1.00384
+ekpp/ekp = 1.00278
+ekpp/ek = 1.01096
+ekpp/ekp = 1.00816
+ekpp/ek = 1.00969
+ekpp/ekp = 1.00152
+ekpp/ek = 1.00583
+ekpp/ekp = 1.0043
+ekpp/ek = 1.0199
+ekpp/ekp = 1.01553
+ekpp/ek = 1.02148
+ekpp/ekp = 1.00586
+ekpp/ek = 1.02409
+ekpp/ekp = 1.01812
+ekpp/ek = 1.02681
+ekpp/ekp = 1.00854
+ekpp/ek = 1.03317
+ekpp/ekp = 1.02442
+ekpp/ek = 1.03144
+ekpp/ekp = 1.00685
+ekpp/ek = 1.02551
+ekpp/ekp = 1.01854
+ekpp/ek = 1.02444
+ekpp/ekp = 1.00579
+ekpp/ek = 1.02122
+ekpp/ekp = 1.01534
+ekpp/ek = 1.06085
+ekpp/ekp = 1.04483
+ekpp/ek = 1.04948
+ekpp/ekp = 1.00445
+ekpp/ek = 1.01593
+ekpp/ekp = 1.01143
+ekpp/ek = 1.04255
+ekpp/ekp = 1.03076
+ekpp/ek = 1.03492
+ekpp/ekp = 1.00403
+ekpp/ek = 1.01436
+ekpp/ekp = 1.01029
+ekpp/ek = 1.03775
+ekpp/ekp = 1.02718
+ekpp/ek = 1.03064
+ekpp/ekp = 1.00337
+ekpp/ek = 1.01194
+ekpp/ekp = 1.00854
+ekpp/ek = 1.03095
+ekpp/ekp = 1.02222
+ekpp/ek = 1.0258
+ekpp/ekp = 1.0035
+ekpp/ek = 1.01241
+ekpp/ekp = 1.00888
+ekpp/ek = 1.03212
+ekpp/ekp = 1.02304
+ekpp/ek = 1.02582
+ekpp/ekp = 1.00272
+ekpp/ek = 1.0096
+ekpp/ekp = 1.00686
+ekpp/ek = 1.02457
+ekpp/ekp = 1.01759
+ekpp/ek = 1.01963
+ekpp/ekp = 1.002
+ekpp/ek = 1.00705
+ekpp/ekp = 1.00504
+ekpp/ek = 1.0179
+ekpp/ekp = 1.0128
+ekpp/ek = 1.01472
+ekpp/ekp = 1.00189
+ekpp/ek = 1.00666
+ekpp/ekp = 1.00476
+ekpp/ek = 1.01689
+ekpp/ekp = 1.01208
+ekpp/ek = 1.01343
+ekpp/ekp = 1.00134
+ekpp/ek = 1.00469
+ekpp/ekp = 1.00335
+ekpp/ek = 1.01184
+ekpp/ekp = 1.00846
+ekpp/ek = 1.00939
+ekpp/ekp = 1.00092
+ekpp/ek = 1.00322
+ekpp/ekp = 1.0023
+ekpp/ek = 1.00796
+ekpp/ekp = 1.00565
+ekpp/ek = 1.01915
+ekpp/ekp = 1.01342
+ekpp/ek = 1.0139
+ekpp/ekp = 1.00048
+ekpp/ek = 1.00166
+ekpp/ekp = 1.00119
+ekpp/ek = 1.00414
+ekpp/ekp = 1.00295
+ekpp/ek = 1.01022
+ekpp/ekp = 1.00724
+ekpp/ek = 1.00768
+ekpp/ekp = 1.00043
+ekpp/ek = 1.00052
+ekpp/ekp = 1.00009
+ekpp/ek = 1.00009
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: HS84    
+
+Number of Variables: 5
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = -5.28033e+06
+|c(x)| = 2.91402e-10
+|g(x) + J(x)'*y| = 4.54588e-07
+y offset = 1.91367e-05
+Number of Iterations = 54
+Elapsed Time = 0.00244665 s
+Normal iterations = 45
+Average number of normal iterations = 0.833333
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 9
+Iterations with 1  normal iteration  = 45
+Iterations with 2+ normal iterations = 0
+Restorations = 45
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.013332

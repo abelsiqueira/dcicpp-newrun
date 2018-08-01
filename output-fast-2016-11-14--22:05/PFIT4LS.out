@@ -1,0 +1,35 @@
+sifdecoder -A pc64.lnx.gfo  PFIT4LS
+
+ Problem name: PFIT4LS
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There are 2 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: PFIT4LS 
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.23646
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.9027e-09
+y offset = 0
+Number of Iterations = 54
+Elapsed Time = 0.000770569 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240:  8781 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

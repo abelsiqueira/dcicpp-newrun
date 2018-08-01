@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  GMNCASE4
+
+ Problem name: GMNCASE4
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 350 linear inequality constraints
+ 
+ There are 175 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+NOPE preprocessing removed 2 contraints
+Starting
+Solving

@@ -1,0 +1,24 @@
+sifdecoder -A pc64.lnx.gfo  ORBIT2
+
+ Problem name: ORBIT2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1797 nonlinear equality constraints
+ There are 300 nonlinear inequality constraints
+ 
+ There are 1794 free variables
+ There is 1 variable bounded only from below 
+ There are 897 variables bounded from below and above 
+ There are 6 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 6 variables
+Starting
+Solving

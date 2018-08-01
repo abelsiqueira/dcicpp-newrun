@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  ACOPP300
+
+ Problem name: ACOPP300
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 600 nonlinear equality constraints
+ There are 822 nonlinear inequality constraints
+ 
+ There are 300 free variables
+ There are 438 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ACOPP300
+
+Number of Variables: 738
+Number of Constraints: 1422
+             Equality: 600
+           has_inequality: 822
+
+EXIT: rhomax became too short
+f(x) = 731999
+|c(x)| = 9.64462e-07
+|g(x) + J(x)'*y| = 0.000311182
+y offset = 3.02883e-11
+Number of Iterations = 509
+Elapsed Time = 30.6463 s
+Normal iterations = 325
+Average number of normal iterations = 0.638507
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 206
+Iterations with 1  normal iteration  = 281
+Iterations with 2+ normal iterations = 22
+Restorations = 3822
+Average number of restorations per normal iteration = 11
+**********************************************************
+Done
+Setup time: 0.056666
+Execution time: 30.8567

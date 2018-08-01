@@ -1,0 +1,24 @@
+sifdecoder -A pc64.lnx.gfo  GAUSSELM
+
+ Problem name: GAUSSELM
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 41002 linear inequality constraints
+ There are 20540 nonlinear equality constraints
+ 
+ There are 20501 free variables
+ There are 39 variables bounded only from below 
+ There are 1599 variables bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving

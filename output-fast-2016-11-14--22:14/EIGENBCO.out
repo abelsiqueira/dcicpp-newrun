@@ -1,0 +1,36 @@
+sifdecoder -A pc64.lnx.gfo  EIGENBCO
+
+ Problem name: EIGENBCO
+
+ Double precision version will be formed
+
+ The objective function uses 1275 nonlinear groups
+ 
+ There are 1275 nonlinear equality constraints
+ 
+ There are 2550 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: EIGENBCO
+
+Number of Variables: 2550
+Number of Constraints: 1275
+             Equality: 1275
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 49
+|c(x)| = 0
+|g(x) + J(x)'*y| = 2.53752e-16
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.449448 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicppclean: line 240: 24973 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

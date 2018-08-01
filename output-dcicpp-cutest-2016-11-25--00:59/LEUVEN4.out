@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  LEUVEN4
+
+ Problem name: LEUVEN4
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 29 linear equality constraints
+ There are 2944 linear inequality constraints
+ 
+ There are 204 variables bounded only from above 
+ There are 996 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

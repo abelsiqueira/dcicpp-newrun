@@ -1,0 +1,64 @@
+sifdecoder -A pc64.lnx.gfo  C-RELOAD
+
+ Problem name: C-RELOAD
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 26 linear equality constraints
+ There are 174 nonlinear equality constraints
+ There are 84 nonlinear inequality constraints
+ 
+ There are 84 variables bounded only from below 
+ There are 258 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: C-RELOAD
+
+Number of Variables: 342
+Number of Constraints: 284
+             Equality: 200
+           has_inequality: 84
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -1.00888
+|c(x)| = 5.39245e-09
+|g(x) + J(x)'*y| = 9.26296e-07
+|J(x)'c(x)| = 0.00012565
+y offset = 3.34309e-06
+Number of Iterations = 9
+Elapsed Time = 0.199118 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     120 (91, 29)
+  Gradient     (*ofg):           20
+  Constraints  (cfn, ccfsg):    814 (91, 723)
+  Jacobian     (ccfsg):         151
+  Hessian prod (*hprod):         81
+
+Normal iterations = 10
+Average number of normal iterations = 1.11111
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 8
+Iterations with 2+ normal iterations = 1
+Restorations = 572
+Average number of restorations per normal iteration = 57
+**********************************************************
+Done
+Setup time: 0.016665
+Execution time: 0.443334

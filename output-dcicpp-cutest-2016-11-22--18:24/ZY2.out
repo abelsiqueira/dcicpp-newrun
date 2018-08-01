@@ -1,0 +1,48 @@
+sifdecoder -A pc64.lnx.gfo  ZY2
+
+ Problem name: ZY2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ There is 1 variable bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ZY2     
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 2
+|c(x)| = 3.85018e-09
+|g(x) + J(x)'*y| = 1.29452e-09
+y offset = 0
+Number of Iterations = 10
+Elapsed Time = 0.000476122 s
+Normal iterations = 7
+Average number of normal iterations = 0.7
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 0
+Restorations = 7
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: -5.66244e-13

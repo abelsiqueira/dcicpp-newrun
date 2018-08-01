@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo -st   GRIDNETE
+
+ Problem name: GRIDNETE
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3844 linear equality constraints
+ 
+ There are 7564 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    7.0484609377554602E-002
+ |gp(xk)|/|gp(xck)| =    8.4368530432893177E-002
+ |gp(xk)|/|gp(xck)| =    9.1791367492293149E-002
+ |gp(xk)|/|gp(xck)| =    8.8218534280785202E-002
+ |gp(xk)|/|gp(xck)| =    8.5704520927657693E-002
+ |gp(xk)|/|gp(xck)| =    8.5133984967541737E-002
+ |gp(xk)|/|gp(xck)| =    1.0000000000418627     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            7
+ Steihaug's iter:           61
+ Restorations   :            1
+ Rejected steps :            0
+ Function evals.:            7
+ Constr.  evals.:            8
+ Gradient evals.:            8
+ Jacobian evals.:            8
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    206.48050916152681     
+ ||h(x)||       :    3.8652414602324825E-013
+ ||gp(x)||      :    3.1621992299668555E-007
+ ||At*h||       :    2.6568556727319782E-012
+ Elapsed time   :    8.59375000E-02
+
+ ||xnew - xc||  :    3.7150823014185175E-004
+ rho            :    9.9999999999999995E-007
+ rhomax         :    72.124891681027847     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    206.48050916153099     
+ L(x) - L(xc)   :   -2.6493012228456791E-009
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

@@ -1,0 +1,34 @@
+sifdecoder -A pc64.lnx.gfo  CHARDIS0
+
+ Problem name: CHARDIS0
+
+ Double precision version will be formed
+
+ The objective function uses 499500 nonlinear groups
+ 
+ There are 2000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CHARDIS0
+
+Number of Variables: 2000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 9.06203e-23
+|c(x)| = 0
+|g(x) + J(x)'*y| = 5.71454e-14
+y offset = 0
+Number of Iterations = 4
+Elapsed Time = 0.8121 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 20220 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

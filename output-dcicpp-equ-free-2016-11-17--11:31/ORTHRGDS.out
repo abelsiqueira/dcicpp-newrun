@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  ORTHRGDS
+
+ Problem name: ORTHRGDS
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 2500 nonlinear equality constraints
+ 
+ There are 5003 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-equ-free-2016-11-17--11:31
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ORTHRGDS
+
+Number of Variables: 5003
+Number of Constraints: 2500
+             Equality: 2500
+           has_inequality: 0
+
+EXIT: The problem reached the time limit
+f(x) = 1825.54
+|c(x)| = 2413.4
+|g(x) + J(x)'*y| = 0.199126
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 33.1759 s
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 3
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.323333
+Execution time: 33.1433

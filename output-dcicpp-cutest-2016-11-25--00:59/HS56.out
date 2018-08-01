@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HS56
+
+ Problem name: HS56
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 4 nonlinear equality constraints
+ 
+ There are 7 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS56    
+
+Number of Variables: 7
+Number of Constraints: 4
+             Equality: 4
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -3.456
+|c(x)| = 2.16732e-13
+|g(x) + J(x)'*y| = 4.23104e-08
+|J(x)'c(x)| = 1.14059e-05
+y offset = 0
+Number of Iterations = 6
+Elapsed Time = 0.000683546 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      73 (56, 17)
+  Gradient     (*ofg):           11
+  Constraints  (cfn, ccfsg):    109 (56, 53)
+  Jacobian     (ccfsg):          17
+  Hessian prod (*hprod):         54
+
+Normal iterations = 6
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 1
+Restorations = 36
+Average number of restorations per normal iteration = 6
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

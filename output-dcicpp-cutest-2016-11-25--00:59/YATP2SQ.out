@@ -1,0 +1,26 @@
+sifdecoder -A pc64.lnx.gfo  YATP2SQ
+
+ Problem name: YATP2SQ
+
+ Double precision version will be formed
+
+ 
+ There are 123200 nonlinear equality constraints
+ 
+ There are 123200 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+problem too large
+Status = -3
+File   = ../Core/cholmod_change_factor.c
+Line   = 536
+invalid xtype
+Status = -4
+File   = ../Cholesky/cholmod_solve.c
+Line   = 1064
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 23667 Segmentation fault      (core dumped) ${EXEC}/run_${PACKAGE}

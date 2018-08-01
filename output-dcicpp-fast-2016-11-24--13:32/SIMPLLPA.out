@@ -1,0 +1,81 @@
+sifdecoder -A pc64.lnx.gfo  SIMPLLPA
+
+ Problem name: SIMPLLPA
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 linear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.561081
+ekpp/ekp = 1.00006
+ekpp/ek = 1.0002
+ekpp/ekp = 1.00014
+ekpp/ek = 1.0005
+ekpp/ekp = 1.00036
+ekpp/ek = 1.0013
+ekpp/ekp = 1.00094
+ekpp/ek = 1.00355
+ekpp/ekp = 1.0026
+ekpp/ek = 1.0107
+ekpp/ekp = 1.00808
+ekpp/ek = 1.03781
+ekpp/ekp = 1.02949
+ekpp/ek = 1.15511
+ekpp/ekp = 1.12202
+ekpp/ek = 1.34384
+ekpp/ekp = 1.1977
+ekpp/ek = 1.19769
+ekpp/ekp = 0.999994
+ekpp/ek = 0.999994
+ekpp/ekp = 1
+ekpp/ek = 1.05479
+ekpp/ekp = 1.05479
+ekpp/ek = 1.00065
+ekpp/ekp = 0.948673
+ekpp/ek = 0.948058
+ekpp/ekp = 0.999351
+ekpp/ek = 0.999347
+ekpp/ekp = 0.999996
+ekpp/ek = 0.999996
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: SIMPLLPA
+
+Number of Variables: 2
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 0.999999
+|c(x)| = 9.02136e-07
+|g(x) + J(x)'*y| = 4.43786e-12
+y offset = 0
+Number of Iterations = 20
+Elapsed Time = 0.00242519 s
+Normal iterations = 11
+Average number of normal iterations = 0.55
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 2
+Restorations = 293
+Average number of restorations per normal iteration = 26
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

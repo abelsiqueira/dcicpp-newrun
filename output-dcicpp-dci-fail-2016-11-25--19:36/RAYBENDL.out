@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  RAYBENDL
+
+ Problem name: RAYBENDL
+
+ Double precision version will be formed
+
+ The objective function uses 1024 nonlinear groups
+ 
+ There are 2046 free variables
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 4 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: RAYBENDL
+
+Number of Variables: 2046
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: rhomax became too short
+f(x) = 2.08434e+12
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.44207e+17
+|J(x)'c(x)| = 6.95308e-310
+y offset = 0
+Number of Iterations = 44
+Elapsed Time = 2.4206 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     212 (119, 93)
+  Gradient     (*ofg):           49
+  Constraints  (cfn, ccfsg):      0 (0, 0)
+  Jacobian     (ccfsg):           0
+  Hessian prod (*hprod):       4812
+
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 44
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.016666
+Execution time: 2.59333

@@ -1,0 +1,94 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:        0
+Number of nonzeros in inequality constraint Jacobian.:        5
+Number of nonzeros in Lagrangian Hessian.............:       28
+
+Total number of variables............................:        7
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        7
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        0
+Total number of inequality constraints...............:        3
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        3
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0 -8.2754489e+02 0.00e+00 6.67e-01  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1 -8.2914787e+02 0.00e+00 4.52e-01  -1.7 3.80e-02    -  1.00e+00 9.95e-03f  1
+   2 -8.2579785e+02 0.00e+00 2.90e-07  -1.7 1.75e-01    -  1.00e+00 1.00e+00f  1
+   3 -8.2579983e+02 0.00e+00 1.50e-09  -3.8 3.88e-04    -  1.00e+00 1.00e+00f  1
+   4 -8.2580327e+02 0.00e+00 1.84e-11  -5.7 6.10e-04    -  1.00e+00 1.00e+00h  1
+   5 -8.2581787e+02 0.00e+00 1.80e-07  -8.6 9.55e-04    -  9.96e-01 1.00e+00h  1
+   6 -8.2605768e+02 0.00e+00 1.66e-07  -8.6 1.66e-03  -4.0 1.00e+00 1.00e+00h  1
+   7 -8.2660308e+02 0.00e+00 2.02e-07  -8.6 6.05e-03  -4.5 1.00e+00 1.00e+00h  1
+   8 -8.2990644e+02 0.00e+00 6.28e-07  -8.6 4.32e-02  -5.0 1.00e+00 1.00e+00h  1
+   9 -8.5912150e+02 0.00e+00 2.01e+00  -8.6 2.78e-01  -4.5 3.10e-01 7.41e-02f  1
+Reallocating memory for MA57: lfact (256)
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10 -8.6010610e+02 0.00e+00 3.32e+01  -8.6 1.60e-08   9.3 1.00e+00 1.00e+00f  1
+  11 -8.6042312e+02 0.00e+00 6.15e-01  -8.6 8.91e-10   8.8 1.00e+00 1.00e+00h  1
+  12 -8.6120089e+02 0.00e+00 3.08e+00  -8.6 1.67e-09   9.3 1.00e+00 1.00e+00h  1
+  13 -8.6189212e+02 0.00e+00 4.61e+00  -8.6 9.38e-10   9.7 1.00e+00 1.00e+00h  1
+  14 -8.6233439e+02 0.00e+00 6.19e+00  -8.6 4.73e-10  10.1 1.00e+00 1.00e+00h  1
+  15 -8.6250090e+02 0.00e+00 1.77e+01  -8.6 1.25e-08   9.6 1.00e+00 2.42e-01h  3
+  16 -8.6250936e+02 0.00e+00 1.06e+01  -8.6 9.09e-10  10.1 1.00e+00 1.00e+00h  1
+  17 -8.6224172e+02 0.00e+00 8.12e+00  -8.6 2.62e-10  10.5 1.00e+00 1.00e+00h  1
+  18 -8.6224172e+02 0.00e+00 8.09e+00  -8.6 8.40e-10  10.0 1.00e+00 3.81e-06h 19
+  19 -8.6224172e+02 0.00e+00 8.11e+00  -8.6 2.65e-10  10.4 1.00e+00 1.16e-10h 34
+Restoration phase is called at point that is almost feasible,
+  with constraint violation 8.962446e-18. Abort.
+
+Number of Iterations....: 19
+
+                                   (scaled)                 (unscaled)
+Objective...............:  -8.6224171937443385e-06   -8.6224171937443384e+02
+Dual infeasibility......:   8.1131964413369140e+00    8.1131964413369143e+08
+Constraint violation....:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   2.5988480581816904e-09    2.5988480581816903e-01
+Overall NLP error.......:   8.1131964413369140e+00    8.1131964413369143e+08
+
+
+Number of objective function evaluations             = 145
+Number of objective gradient evaluations             = 21
+Number of equality constraint evaluations            = 0
+Number of inequality constraint evaluations          = 145
+Number of equality constraint Jacobian evaluations   = 0
+Number of inequality constraint Jacobian evaluations = 21
+Number of Lagrangian Hessian evaluations             = 20
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.003
+Total CPU secs in NLP function evaluations           =      0.000
+
+EXIT: Restoration Failed!
+
+************************ CUTEst statistics ************************
+
+
+ Package used            :  IPOPT
+ Problem                 :  EQC       
+ # variables             =               9
+ # constraints           =               3
+ # objective functions   =        0.1670000E+03
+ # objective gradients   =        0.2200000E+02
+ # objective Hessians    =        0.2100000E+02
+ # Hessian-vector prdct  =        0.0000000E+00
+ # constraints functions =        0.1680000E+03
+ # constraints gradients =        0.2300000E+02
+ # constraints Hessians  =        0.2100000E+02
+ Exit code               =              -2
+ Final f                 =  -0.8622417E+03
+ Set up time             =            0.00 seconds
+ Solve time              =            0.04 seconds
+
+
+******************************************************************
+
+System Time =       0.0109999999 s.

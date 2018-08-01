@@ -1,0 +1,202 @@
+sifdecoder -A pc64.lnx.gfo  PALMER3A
+
+ Problem name: PALMER3A
+
+ Double precision version will be formed
+
+ The objective function uses 23 nonlinear groups
+ 
+ There are 4 free variables
+ There are 2 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.54321
+ekpp/ekp = 1.33551
+ekpp/ek = 1.35557
+ekpp/ekp = 1.01502
+ekpp/ek = 1.11633
+ekpp/ekp = 1.09981
+ekpp/ek = 1.28207
+ekpp/ekp = 1.16572
+ekpp/ek = 1.16259
+ekpp/ekp = 0.997319
+ekpp/ek = 1.01671
+ekpp/ekp = 1.01945
+ekpp/ek = 1.13378
+ekpp/ekp = 1.11215
+ekpp/ek = 1.34904
+ekpp/ekp = 1.213
+ekpp/ek = 1.98448
+ekpp/ekp = 1.63601
+ekpp/ek = 3.83301
+ekpp/ekp = 2.3429
+ekpp/ek = 5.79875
+ekpp/ekp = 2.47503
+ekpp/ek = 2.47517
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00112
+ekpp/ekp = 1.00106
+ekpp/ek = 1.00548
+ekpp/ekp = 1.00441
+ekpp/ek = 1.01294
+ekpp/ekp = 1.00849
+ekpp/ek = 0.999091
+ekpp/ekp = 0.990675
+ekpp/ek = 0.96388
+ekpp/ekp = 0.972953
+ekpp/ek = 0.941328
+ekpp/ekp = 0.967496
+ekpp/ek = 0.944947
+ekpp/ekp = 0.976694
+ekpp/ek = 0.941112
+ekpp/ekp = 0.963569
+ekpp/ek = 0.947525
+ekpp/ekp = 0.98335
+ekpp/ek = 0.985602
+ekpp/ekp = 1.00229
+ekpp/ek = 0.996891
+ekpp/ekp = 0.994613
+ekpp/ek = 0.956359
+ekpp/ekp = 0.961539
+ekpp/ek = 0.96372
+ekpp/ekp = 1.00227
+ekpp/ek = 0.998072
+ekpp/ekp = 0.995813
+ekpp/ek = 0.959332
+ekpp/ekp = 0.963366
+ekpp/ek = 0.965495
+ekpp/ekp = 1.00221
+ekpp/ek = 0.993993
+ekpp/ekp = 0.991801
+ekpp/ek = 0.958089
+ekpp/ekp = 0.96601
+ekpp/ek = 0.939213
+ekpp/ekp = 0.972261
+ekpp/ek = 0.975676
+ekpp/ekp = 1.00351
+ekpp/ek = 1.00656
+ekpp/ekp = 1.00304
+ekpp/ek = 0.987401
+ekpp/ekp = 0.984412
+ekpp/ek = 0.973991
+ekpp/ekp = 0.989414
+ekpp/ek = 0.969367
+ekpp/ekp = 0.979739
+ekpp/ek = 0.983162
+ekpp/ekp = 1.00349
+ekpp/ek = 1.0113
+ekpp/ekp = 1.00778
+ekpp/ek = 0.990432
+ekpp/ekp = 0.982787
+ekpp/ek = 0.986346
+ekpp/ekp = 1.00362
+ekpp/ek = 1.0108
+ekpp/ekp = 1.00715
+ekpp/ek = 0.994945
+ekpp/ekp = 0.987881
+ekpp/ek = 0.991555
+ekpp/ekp = 1.00372
+ekpp/ek = 1.0101
+ekpp/ekp = 1.00636
+ekpp/ek = 0.999061
+ekpp/ekp = 0.992747
+ekpp/ek = 0.996214
+ekpp/ekp = 1.00349
+ekpp/ek = 1.00878
+ekpp/ekp = 1.00527
+ekpp/ek = 1.0018
+ekpp/ekp = 0.996551
+ekpp/ek = 0.999985
+ekpp/ekp = 1.00345
+ekpp/ek = 1.00774
+ekpp/ekp = 1.00428
+ekpp/ek = 1.00438
+ekpp/ekp = 1.0001
+ekpp/ek = 1.01388
+ekpp/ekp = 1.01378
+ekpp/ek = 1.01847
+ekpp/ekp = 1.00463
+ekpp/ek = 1.01007
+ekpp/ekp = 1.00542
+ekpp/ek = 1.00821
+ekpp/ekp = 1.00278
+ekpp/ek = 1.00517
+ekpp/ekp = 1.00238
+ekpp/ek = 1.00775
+ekpp/ekp = 1.00535
+ekpp/ek = 1.00929
+ekpp/ekp = 1.00392
+ekpp/ek = 1.00617
+ekpp/ekp = 1.00224
+ekpp/ek = 1.00759
+ekpp/ekp = 1.00534
+ekpp/ek = 1.01026
+ekpp/ekp = 1.00489
+ekpp/ek = 1.00711
+ekpp/ekp = 1.00221
+ekpp/ek = 1.0074
+ekpp/ekp = 1.00518
+ekpp/ek = 1.01093
+ekpp/ekp = 1.00572
+ekpp/ek = 1.00789
+ekpp/ekp = 1.00217
+ekpp/ek = 1.00733
+ekpp/ekp = 1.00516
+ekpp/ek = 1.01159
+ekpp/ekp = 1.0064
+ekpp/ek = 1.00852
+ekpp/ekp = 1.00211
+ekpp/ek = 1.00713
+ekpp/ekp = 1.00501
+ekpp/ek = 1.01205
+ekpp/ekp = 1.00701
+ekpp/ek = 1.00909
+ekpp/ekp = 1.00207
+ekpp/ek = 1.00701
+ekpp/ekp = 1.00494
+ekpp/ek = 1.01245
+ekpp/ekp = 1.00748
+ekpp/ek = 1.0095
+ekpp/ekp = 1.002
+ekpp/ek = 1.00681
+ekpp/ekp = 1.0048
+ekpp/ek = 1.01271
+ekpp/ekp = 1.00787
+ekpp/ek = 1.03591
+ekpp/ekp = 1.02782
+ekpp/ek = 1.02792
+ekpp/ekp = 1.00009
+Showing
+**********************************************************
+Problem name: PALMER3A
+
+Number of Variables: 6
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.025947
+|c(x)| = 0
+|g(x) + J(x)'*y| = 5.58608e-07
+y offset = 0
+Number of Iterations = 81
+Elapsed Time = 0.0028739 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 81
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

@@ -1,0 +1,26 @@
+sifdecoder -A pc64.lnx.gfo  A5NSSNSM
+
+ Problem name: A5NSSNSM
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 2004 linear equality constraints
+ 
+ There are 1504 free variables
+ There are 1000 variables bounded only from below 
+ There are 3508 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3508 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719

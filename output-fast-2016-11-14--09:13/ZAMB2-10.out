@@ -1,0 +1,44 @@
+sifdecoder -A pc64.lnx.gfo  ZAMB2-10
+
+ Problem name: ZAMB2-10
+
+ Double precision version will be formed
+
+ The objective function uses 176 nonlinear groups
+ 
+ There are 96 nonlinear equality constraints
+ 
+ There are 264 variables bounded from below and above 
+ There are 6 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: ZAMB2-10
+
+Number of Variables: 264
+Number of Constraints: 96
+             Equality: 96
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -1.5738
+|c(x)| = 9.74709e-07
+|g(x) + J(x)'*y| = 8.37398e-07
+y offset = 0
+Number of Iterations = 335
+Elapsed Time = 0.507688 s
+Normal iterations = 75
+Average number of normal iterations = 0.223881
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 261
+Iterations with 1  normal iteration  = 73
+Iterations with 2+ normal iterations = -259
+Restorations = 3293
+Average number of restorations per normal iteration = 43
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.763333

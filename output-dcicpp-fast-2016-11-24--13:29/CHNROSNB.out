@@ -1,0 +1,166 @@
+sifdecoder -A pc64.lnx.gfo  CHNROSNB
+
+ Problem name: CHNROSNB
+
+ Double precision version will be formed
+
+ The objective function uses 49 linear groups
+ The objective function uses 49 nonlinear groups
+ 
+ There are 50 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.720658
+ekpp/ekp = 0.881051
+ekpp/ek = 0.815869
+ekpp/ekp = 0.926017
+ekpp/ek = 0.886689
+ekpp/ekp = 0.957529
+ekpp/ek = 0.937276
+ekpp/ekp = 0.978849
+ekpp/ek = 0.975017
+ekpp/ekp = 0.996085
+ekpp/ek = 0.98861
+ekpp/ekp = 0.992496
+ekpp/ek = 0.974619
+ekpp/ekp = 0.981988
+ekpp/ek = 0.981233
+ekpp/ekp = 0.999231
+ekpp/ek = 0.992391
+ekpp/ekp = 0.993155
+ekpp/ek = 0.970369
+ekpp/ekp = 0.977057
+ekpp/ek = 0.94728
+ekpp/ekp = 0.969523
+ekpp/ek = 0.947067
+ekpp/ekp = 0.976837
+ekpp/ek = 0.973145
+ekpp/ekp = 0.99622
+ekpp/ek = 0.980497
+ekpp/ekp = 0.984217
+ekpp/ek = 0.983248
+ekpp/ekp = 0.999015
+ekpp/ek = 0.992903
+ekpp/ekp = 0.993881
+ekpp/ek = 0.978267
+ekpp/ekp = 0.98429
+ekpp/ek = 0.94668
+ekpp/ekp = 0.96179
+ekpp/ek = 0.929161
+ekpp/ekp = 0.966074
+ekpp/ek = 0.963938
+ekpp/ekp = 0.997788
+ekpp/ek = 0.984653
+ekpp/ekp = 0.986835
+ekpp/ek = 0.984229
+ekpp/ekp = 0.997359
+ekpp/ek = 0.987345
+ekpp/ekp = 0.98996
+ekpp/ek = 0.970083
+ekpp/ekp = 0.979921
+ekpp/ek = 0.977473
+ekpp/ekp = 0.997502
+ekpp/ek = 0.989655
+ekpp/ekp = 0.992134
+ekpp/ek = 0.973522
+ekpp/ekp = 0.981241
+ekpp/ek = 0.979941
+ekpp/ekp = 0.998675
+ekpp/ek = 0.991064
+ekpp/ekp = 0.992378
+ekpp/ek = 0.964789
+ekpp/ekp = 0.972199
+ekpp/ek = 0.913766
+ekpp/ekp = 0.939896
+ekpp/ek = 0.903415
+ekpp/ekp = 0.961187
+ekpp/ek = 0.953922
+ekpp/ekp = 0.992442
+ekpp/ek = 0.959595
+ekpp/ekp = 0.966903
+ekpp/ek = 0.965462
+ekpp/ekp = 0.998509
+ekpp/ek = 0.98535
+ekpp/ekp = 0.986822
+ekpp/ek = 0.957111
+ekpp/ekp = 0.969892
+ekpp/ek = 0.916937
+ekpp/ekp = 0.945401
+ekpp/ek = 0.899498
+ekpp/ekp = 0.951446
+ekpp/ek = 0.890701
+ekpp/ekp = 0.936155
+ekpp/ek = 0.910595
+ekpp/ekp = 0.972698
+ekpp/ek = 0.933941
+ekpp/ekp = 0.960155
+ekpp/ek = 0.900886
+ekpp/ekp = 0.938271
+ekpp/ek = 0.884258
+ekpp/ekp = 0.942434
+ekpp/ek = 0.928995
+ekpp/ekp = 0.98574
+ekpp/ek = 0.939161
+ekpp/ekp = 0.952748
+ekpp/ek = 0.949542
+ekpp/ekp = 0.996635
+ekpp/ek = 0.97909
+ekpp/ekp = 0.982395
+ekpp/ek = 0.928458
+ekpp/ekp = 0.945097
+ekpp/ek = 0.827136
+ekpp/ekp = 0.875187
+ekpp/ek = 0.755133
+ekpp/ekp = 0.862824
+ekpp/ek = 0.851214
+ekpp/ekp = 0.986543
+ekpp/ek = 0.88417
+ekpp/ekp = 0.896231
+ekpp/ek = 0.881345
+ekpp/ekp = 0.983392
+ekpp/ek = 0.926317
+ekpp/ekp = 0.941962
+ekpp/ek = 0.782505
+ekpp/ekp = 0.830719
+ekpp/ek = 0.334778
+ekpp/ekp = 0.402998
+ekpp/ek = 0.0822754
+ekpp/ekp = 0.204158
+ekpp/ek = 0.0216528
+ekpp/ekp = 0.106059
+ekpp/ek = 0.00622601
+ekpp/ekp = 0.0587033
+Showing
+**********************************************************
+Problem name: CHNROSNB
+
+Number of Variables: 50
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.39328e-07
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.29831e-07
+y offset = 0
+Number of Iterations = 63
+Elapsed Time = 0.008322 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 63
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.033332

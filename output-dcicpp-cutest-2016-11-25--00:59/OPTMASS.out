@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo  OPTMASS
+
+ Problem name: OPTMASS
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 20004 linear equality constraints
+ There are 5001 nonlinear inequality constraints
+ 
+ There are 30006 free variables
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 4 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: OPTMASS 
+
+Number of Variables: 30006
+Number of Constraints: 25005
+             Equality: 20004
+           has_inequality: 5001
+
+EXIT: The Algorithm has Converged
+f(x) = -0.120416
+|c(x)| = 1.33322e-07
+|g(x) + J(x)'*y| = 9.99537e-07
+|J(x)'c(x)| = 1.83996e-06
+y offset = 0
+Number of Iterations = 1178
+Elapsed Time = 67.746 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    8890 (6170, 2720)
+  Gradient     (*ofg):         1542
+  Constraints  (cfn, ccfsg):   8075 (6170, 1905)
+  Jacobian     (ccfsg):        1541
+  Hessian prod (*hprod):       4990
+
+Normal iterations = 363
+Average number of normal iterations = 0.308149
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 815
+Iterations with 1  normal iteration  = 363
+Iterations with 2+ normal iterations = 0
+Restorations = 364
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.333333
+Execution time: 67.7033

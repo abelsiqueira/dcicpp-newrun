@@ -1,0 +1,72 @@
+sifdecoder -A pc64.lnx.gfo -st   ORTHRGDS
+
+ Problem name: ORTHRGDS
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 2500 nonlinear equality constraints
+ 
+ There are 5003 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    33.999633762438656     
+ |gp(xk)|/|gp(xck)| =    27.752112647203628     
+ |gp(xk)|/|gp(xck)| =    13.042878137915528     
+ |gp(xk)|/|gp(xck)| =    89.647552603747187     
+ |gp(xk)|/|gp(xck)| =    42.256743748198382     
+ |gp(xk)|/|gp(xck)| =    4.0875812767867066     
+ |gp(xk)|/|gp(xck)| =    1.3526093187845807     
+ |gp(xk)|/|gp(xck)| =    12.922124009191105     
+ |gp(xk)|/|gp(xck)| =    1.1327097289227290     
+ |gp(xk)|/|gp(xck)| =    6.3457766193599836     
+ |gp(xk)|/|gp(xck)| =    1.0665443369781926     
+ |gp(xk)|/|gp(xck)| =    5.0001070174560187     
+ |gp(xk)|/|gp(xck)| =    20.308348442414143     
+ |gp(xk)|/|gp(xck)| =    1.0004661658032319     
+ |gp(xk)|/|gp(xck)| =    1.0005288317623320     
+ |gp(xk)|/|gp(xck)| =    10.172183685027512     
+ |gp(xk)|/|gp(xck)| =    25.031624042424273     
+ |gp(xk)|/|gp(xck)| =    1.0002377132655558     
+ |gp(xk)|/|gp(xck)| =    1.0002666617399749     
+ |gp(xk)|/|gp(xck)| =    1.5470116379839935     
+ |gp(xk)|/|gp(xck)| =    12.526953893515937     
+ |gp(xk)|/|gp(xck)| =    1.0047264481700893     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           22
+ Steihaug's iter:          119
+ Restorations   :           38
+ Rejected steps :            8
+ Function evals.:           30
+ Constr.  evals.:           74
+ Gradient evals.:           29
+ Jacobian evals.:           34
+ 2nd order Corr.:            2
+ BFGS iterations:            0
+ f(x)           :    1245.3111015857685     
+ ||h(x)||       :    5.9663992030606432E-008
+ ||gp(x)||      :    2.1706665798149061E-008
+ ||At*h||       :    1.6061018215497515E-004
+ Elapsed time   :    67.1132812    
+
+ ||xnew - xc||  :    5.5413576742972878E-006
+ rho            :    9.9999999999999995E-007
+ rhomax         :    242.98146482365991     
+ vdelta         :    32.011072370903513     
+ hdelta         :    23.841857910156250     
+ L(x)           :    1245.3192913303753     
+ L(x) - L(xc)   :   -1.9326762412674725E-011
+ L(xc)-L(x(k-1)):   -9.4632923719473183E-010
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

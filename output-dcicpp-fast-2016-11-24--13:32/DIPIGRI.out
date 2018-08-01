@@ -1,0 +1,103 @@
+sifdecoder -A pc64.lnx.gfo  DIPIGRI
+
+ Problem name: DIPIGRI
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 4 nonlinear inequality constraints
+ 
+ There are 7 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.06659
+ekpp/ekp = 1.01615
+ekpp/ek = 1.0613
+ekpp/ekp = 1.04443
+ekpp/ek = 1.05777
+ekpp/ekp = 1.01277
+ekpp/ek = 1.04947
+ekpp/ekp = 1.03624
+ekpp/ek = 1.04806
+ekpp/ekp = 1.01141
+ekpp/ek = 1.0322
+ekpp/ekp = 1.02056
+ekpp/ek = 1.01882
+ekpp/ekp = 0.998299
+ekpp/ek = 1.01317
+ekpp/ekp = 1.0149
+ekpp/ek = 1.02739
+ekpp/ekp = 1.01231
+ekpp/ek = 1.00542
+ekpp/ekp = 0.993199
+ekpp/ek = 1.00791
+ekpp/ekp = 1.01481
+ekpp/ek = 1.01117
+ekpp/ekp = 0.996413
+ekpp/ek = 0.994489
+ekpp/ekp = 0.998069
+ekpp/ek = 0.998048
+ekpp/ekp = 0.999979
+ekpp/ek = 0.999959
+ekpp/ekp = 0.999979
+ekpp/ek = 0.999897
+ekpp/ekp = 0.999917
+ekpp/ek = 0.999717
+ekpp/ekp = 0.9998
+ekpp/ek = 0.999356
+ekpp/ekp = 0.999556
+ekpp/ek = 0.998822
+ekpp/ekp = 0.999266
+ekpp/ek = 0.999834
+ekpp/ekp = 1.00057
+ekpp/ek = 0.99703
+ekpp/ekp = 0.996464
+ekpp/ek = 0.996091
+ekpp/ekp = 0.999626
+ekpp/ek = 1.0012
+ekpp/ekp = 1.00158
+ekpp/ek = 1.00153
+ekpp/ekp = 0.999957
+ekpp/ek = 1.00124
+ekpp/ekp = 1.00128
+ekpp/ek = 1.00308
+ekpp/ekp = 1.0018
+ekpp/ek = 1.00137
+ekpp/ekp = 0.999572
+ekpp/ek = 0.999568
+ekpp/ekp = 0.999997
+Showing
+**********************************************************
+Problem name: DIPIGRI 
+
+Number of Variables: 7
+Number of Constraints: 4
+             Equality: 0
+           has_inequality: 4
+
+EXIT: The Algorithm has Converged
+f(x) = 680.63
+|c(x)| = 3.64524e-09
+|g(x) + J(x)'*y| = 9.9365e-08
+y offset = 6.68449e-12
+Number of Iterations = 31
+Elapsed Time = 0.00395107 s
+Normal iterations = 20
+Average number of normal iterations = 0.645161
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 20
+Iterations with 2+ normal iterations = 0
+Restorations = 216
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0.013333
+Execution time: 0.013333

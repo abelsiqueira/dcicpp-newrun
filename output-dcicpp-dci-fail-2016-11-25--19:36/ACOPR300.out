@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  ACOPR300
+
+ Problem name: ACOPR300
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 600 nonlinear equality constraints
+ There are 1122 nonlinear inequality constraints
+ 
+ There are 600 free variables
+ There are 138 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ACOPR300
+
+Number of Variables: 738
+Number of Constraints: 1722
+             Equality: 600
+           has_inequality: 1122
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 719837
+|c(x)| = 0.0536059
+|g(x) + J(x)'*y| = 0.00510727
+|J(x)'c(x)| = 0.376621
+y offset = 0.047306
+Number of Iterations = 254
+Elapsed Time = 28.4904 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2572 (2062, 510)
+  Gradient     (*ofg):          256
+  Constraints  (cfn, ccfsg):  22061 (2062, 19999)
+  Jacobian     (ccfsg):        6095
+  Hessian prod (*hprod):       3620
+
+Normal iterations = 207
+Average number of normal iterations = 0.814961
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 47
+Iterations with 1  normal iteration  = 207
+Iterations with 2+ normal iterations = 0
+Restorations = 13904
+Average number of restorations per normal iteration = 67
+**********************************************************
+Done
+Setup time: 0.156666
+Execution time: 28.5667

@@ -1,0 +1,64 @@
+sifdecoder -A pc64.lnx.gfo  TWIRIBG1
+
+ Problem name: TWIRIBG1
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 292 linear equality constraints
+ There are 5 linear inequality constraints
+ There are 630 nonlinear equality constraints
+ There are 312 nonlinear inequality constraints
+ 
+ There are 3127 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Solving
+Showing
+**********************************************************
+Problem name: TWIRIBG1
+
+Number of Variables: 3127
+Number of Constraints: 1239
+             Equality: 922
+           has_inequality: 317
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -1.01107
+|c(x)| = 8.05965e-07
+|g(x) + J(x)'*y| = 1.11982e-07
+|J(x)'c(x)| = 4.56769e-05
+y offset = 1.32766e-06
+Number of Iterations = 13
+Elapsed Time = 4.08624 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     116 (86, 30)
+  Gradient     (*ofg):           17
+  Constraints  (cfn, ccfsg):    247 (86, 161)
+  Jacobian     (ccfsg):          44
+  Hessian prod (*hprod):         79
+
+Normal iterations = 3
+Average number of normal iterations = 0.230769
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 117
+Average number of restorations per normal iteration = 39
+**********************************************************
+Done
+Setup time: 0.836667
+Execution time: 4.09

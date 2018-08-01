@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo  OSCIPANE
+
+ Problem name: OSCIPANE
+
+ Double precision version will be formed
+
+ 
+ There is 1 linear equality constraint
+ There are 9 nonlinear equality constraints
+ 
+ There are 10 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-equ-free-2016-11-17--11:31
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Showing
+**********************************************************
+Problem name: OSCIPANE
+
+Number of Variables: 10
+Number of Constraints: 10
+             Equality: 10
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 0
+|c(x)| = 1.00514
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.0598876 s
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 5001
+Average number of restorations per normal iteration = 5001
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.183332

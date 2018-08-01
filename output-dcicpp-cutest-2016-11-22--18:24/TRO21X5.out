@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  TRO21X5
+
+ Problem name: TRO21X5
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There are 200 nonlinear equality constraints
+ 
+ There are 200 free variables
+ There are 340 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: TRO21X5 
+
+Number of Variables: 540
+Number of Constraints: 201
+             Equality: 200
+           has_inequality: 1
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 4035.81
+|c(x)| = 0.000267719
+|g(x) + J(x)'*y| = 0.000189005
+y offset = 0
+Number of Iterations = 3081
+Elapsed Time = 13.0371 s
+Normal iterations = 1547
+Average number of normal iterations = 0.50211
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1536
+Iterations with 1  normal iteration  = 1543
+Iterations with 2+ normal iterations = 2
+Restorations = 10001
+Average number of restorations per normal iteration = 6
+**********************************************************
+Done
+Setup time: 0.023332
+Execution time: 13.2767

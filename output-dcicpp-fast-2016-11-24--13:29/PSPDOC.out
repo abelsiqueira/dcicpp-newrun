@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  PSPDOC
+
+ Problem name: PSPDOC
+
+ Double precision version will be formed
+
+ The objective function uses 2 nonlinear groups
+ 
+ There are 3 free variables
+ There is 1 variable bounded only from above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.631319
+ekpp/ekp = 0.588118
+ekpp/ek = 0.871671
+ekpp/ekp = 1.48214
+ekpp/ek = 1.14695
+ekpp/ekp = 0.773848
+ekpp/ek = 0.832593
+ekpp/ekp = 1.07591
+ekpp/ek = 1.07145
+ekpp/ekp = 0.995851
+Showing
+**********************************************************
+Problem name: PSPDOC  
+
+Number of Variables: 4
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.41421
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.89211e-07
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.000277996 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 8
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

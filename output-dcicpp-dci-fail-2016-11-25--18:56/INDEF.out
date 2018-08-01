@@ -1,0 +1,18 @@
+sifdecoder -A pc64.lnx.gfo  INDEF
+
+ Problem name: INDEF
+
+ Double precision version will be formed
+
+ The objective function uses 5000 linear groups
+ The objective function uses 4998 nonlinear groups
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

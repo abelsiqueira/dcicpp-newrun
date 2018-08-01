@@ -1,0 +1,45 @@
+sifdecoder -A pc64.lnx.gfo  ARGLINC
+
+ Problem name: ARGLINC
+
+ Double precision version will be formed
+
+ The objective function uses 400 linear groups
+ 
+ There are 200 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ARGLINC 
+
+Number of Variables: 200
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 101.125
+|c(x)| = 0
+|g(x) + J(x)'*y| = 3.64665e-07
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.00257683 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.123332
+Execution time: 0.01

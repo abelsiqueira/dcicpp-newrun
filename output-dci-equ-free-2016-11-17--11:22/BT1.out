@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo -st   BT1
+
+ Problem name: BT1
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ |gp(xk)|/|gp(xck)| =    3.1234752377724015E-004
+ |gp(xk)|/|gp(xck)| =                        NaN
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            2
+ Steihaug's iter:            1
+ Restorations   :           11
+ Rejected steps :            0
+ Function evals.:            2
+ Constr.  evals.:           18
+ Gradient evals.:            4
+ Jacobian evals.:            6
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :   -1.0000000000000000     
+ ||h(x)||       :    0.0000000000000000     
+ ||gp(x)||      :    0.0000000000000000     
+ ||At*h||       :    0.0000000000000000     
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    9.6046863561492724E-002
+ rho            :    0.0000000000000000     
+ rhomax         :    47.525900446698564     
+ vdelta         :   0.78123046874999935     
+ hdelta         :    1000000.0000000000     
+ L(x)           :   -100.00250000000000     
+ L(x) - L(xc)   :  -0.92249999999999943     
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

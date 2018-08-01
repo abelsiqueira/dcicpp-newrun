@@ -1,0 +1,36 @@
+sifdecoder -A pc64.lnx.gfo  LIPPERT2
+
+ Problem name: LIPPERT2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 10000 linear equality constraints
+ There are 40000 nonlinear inequality constraints
+ 
+ There are 20200 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+   Current memory used:  6402502844 bytes
+   Maximum memory used:  6402502844 bytes
+***Memory allocation failed for SetupCoarseGraph: adjncy. Requested size: 6400952000 bytes
+all methods failed
+Status = -4
+File   = ../Cholesky/cholmod_analyze.c
+Line   = 829
+ERROR: cannot factorize. base_sparse must be analyzed first
+Status = -10
+File   = base_factor.cpp
+Line   = 62
+ERROR: base_factor uninitialized
+Status = -10
+File   = base_dense.cpp
+Line   = 94
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240:  1369 Segmentation fault      (core dumped) ${EXEC}/run_${PACKAGE}

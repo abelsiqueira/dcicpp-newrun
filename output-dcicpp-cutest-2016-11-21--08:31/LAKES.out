@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  LAKES
+
+ Problem name: LAKES
+
+ Double precision version will be formed
+
+ The objective function uses 60 nonlinear groups
+ 
+ There are 60 linear equality constraints
+ There are 18 nonlinear equality constraints
+ 
+ There are 72 free variables
+ There are 18 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LAKES   
+
+Number of Variables: 90
+Number of Constraints: 78
+             Equality: 78
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 350525
+|c(x)| = 1.46856e-08
+|g(x) + J(x)'*y| = 2.48332e-07
+y offset = 0
+Number of Iterations = 4
+Elapsed Time = 0.00187635 s
+Normal iterations = 3
+Average number of normal iterations = 0.75
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 12
+Average number of restorations per normal iteration = 4
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

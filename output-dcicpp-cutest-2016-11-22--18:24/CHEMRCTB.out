@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo  CHEMRCTB
+
+ Problem name: CHEMRCTB
+
+ Double precision version will be formed
+
+ 
+ There are 2 linear equality constraints
+ There are 4998 nonlinear equality constraints
+ 
+ There are 5000 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: CHEMRCTB
+
+Number of Variables: 5000
+Number of Constraints: 5000
+             Equality: 5000
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 0
+|c(x)| = 1.27919
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 45.5436 s
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.113333
+Execution time: 45.7067

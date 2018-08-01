@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  MATRIX2
+
+ Problem name: MATRIX2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 2 free variables
+ There are 2 variables bounded only from above 
+ There are 2 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:51
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: MATRIX2 
+
+Number of Variables: 6
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 2.63683e-06
+|c(x)| = 9.66541e-07
+|g(x) + J(x)'*y| = 3.62451e-07
+y offset = 0
+Number of Iterations = 14
+Elapsed Time = 0.00111485 s
+Normal iterations = 11
+Average number of normal iterations = 0.785714
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 11
+Iterations with 2+ normal iterations = 0
+Restorations = 48
+Average number of restorations per normal iteration = 4
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

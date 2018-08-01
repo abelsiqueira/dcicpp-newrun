@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  ALLINQP
+
+ Problem name: ALLINQP
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 6250 linear equality constraints
+ There are 18750 linear inequality constraints
+ 
+ There are 7142 free variables
+ There are 14284 variables bounded only from above 
+ There are 14284 variables bounded only from below 
+ There are 7142 variables bounded from below and above 
+ There are 7148 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 7148 variables
+NOPE preprocessing removed 1 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ALLINQP 
+
+Number of Variables: 42852
+Number of Constraints: 24999
+             Equality: 6250
+           has_inequality: 18749
+
+EXIT: The Algorithm has Converged
+f(x) = -5480.26
+|c(x)| = 9.91125e-07
+|g(x) + J(x)'*y| = 9.56507e-07
+y offset = 1.90846e-05
+Number of Iterations = 80
+Elapsed Time = 254.223 s
+Normal iterations = 3
+Average number of normal iterations = 0.0375
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 78
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 181
+Average number of restorations per normal iteration = 60
+**********************************************************
+Done
+Setup time: 0.37
+Execution time: 254.223

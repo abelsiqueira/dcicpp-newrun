@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  HS14
+
+ Problem name: HS14
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There is 1 nonlinear inequality constraint
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS14    
+
+Number of Variables: 2
+Number of Constraints: 2
+             Equality: 1
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = 1.39347
+|c(x)| = 1.67945e-09
+|g(x) + J(x)'*y| = 1.36443e-07
+|J(x)'c(x)| = 0.000143769
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.000301361 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      19 (9, 10)
+  Gradient     (*ofg):            7
+  Constraints  (cfn, ccfsg):     25 (9, 16)
+  Jacobian     (ccfsg):           6
+  Hessian prod (*hprod):          5
+
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 10
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

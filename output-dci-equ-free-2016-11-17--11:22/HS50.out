@@ -1,0 +1,62 @@
+sifdecoder -A pc64.lnx.gfo -st   HS50
+
+ Problem name: HS50
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 linear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.15570768909950750     
+ |gp(xk)|/|gp(xck)| =    7.7862871173984521E-002
+ |gp(xk)|/|gp(xck)| =   0.53929596279977743     
+ |gp(xk)|/|gp(xck)| =   0.48892021380208939     
+ |gp(xk)|/|gp(xck)| =   0.49984140646452002     
+ |gp(xk)|/|gp(xck)| =   0.30221670735387723     
+ |gp(xk)|/|gp(xck)| =   0.33498798612577696     
+ |gp(xk)|/|gp(xck)| =   0.30625921406582224     
+ |gp(xk)|/|gp(xck)| =   0.18975506525905431     
+ |gp(xk)|/|gp(xck)| =    1.5160431787190421E-002
+ |gp(xk)|/|gp(xck)| =    3.6504424598879990E-006
+ |gp(xk)|/|gp(xck)| =   0.99999997627811110     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           12
+ Steihaug's iter:           28
+ Restorations   :            1
+ Rejected steps :            2
+ Function evals.:           14
+ Constr.  evals.:           16
+ Gradient evals.:           13
+ Jacobian evals.:           13
+ 2nd order Corr.:            1
+ BFGS iterations:            0
+ f(x)           :    4.2507205689322520E-017
+ ||h(x)||       :    1.3322676295501878E-015
+ ||gp(x)||      :    8.2662602581122385E-009
+ ||At*h||       :    8.2126492313014627E-015
+ Elapsed time   :    0.00000000    
+
+ ||xnew - xc||  :    1.8537719342137525E-003
+ rho            :    9.9999999999999995E-007
+ rhomax         :    49.961402443407337     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    3.1502583974266205     
+ L(x)           :    4.2908901922864380E-017
+ L(x) - L(xc)   :   -3.1898505227111888E-006
+ L(xc)-L(x(k-1)):   -1.6643773897073375E-017
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

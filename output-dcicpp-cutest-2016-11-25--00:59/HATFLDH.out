@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HATFLDH
+
+ Problem name: HATFLDH
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 7 linear inequality constraints
+ 
+ There are 4 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HATFLDH 
+
+Number of Variables: 4
+Number of Constraints: 7
+             Equality: 0
+           has_inequality: 7
+
+EXIT: The Algorithm has Converged
+f(x) = -24.5
+|c(x)| = 9.60186e-07
+|g(x) + J(x)'*y| = 7.79331e-09
+|J(x)'c(x)| = 4.8628e-07
+y offset = 0.701403
+Number of Iterations = 14
+Elapsed Time = 0.00305939 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     106 (72, 34)
+  Gradient     (*ofg):           20
+  Constraints  (cfn, ccfsg):    520 (72, 448)
+  Jacobian     (ccfsg):          78
+  Hessian prod (*hprod):         75
+
+Normal iterations = 11
+Average number of normal iterations = 0.785714
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 1
+Restorations = 370
+Average number of restorations per normal iteration = 33
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.013333

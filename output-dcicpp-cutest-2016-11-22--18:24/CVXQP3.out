@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo  CVXQP3
+
+ Problem name: CVXQP3
+
+ Double precision version will be formed
+
+ The objective function uses 10000 nonlinear groups
+ 
+ There are 7500 linear equality constraints
+ 
+ There are 10000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: CVXQP3  
+
+Number of Variables: 10000
+Number of Constraints: 7500
+             Equality: 7500
+           has_inequality: 0
+
+EXIT: rhomax became too short
+Cholesky failed
+f(x) = 1.15711e+08
+|c(x)| = 9.96141e-07
+|g(x) + J(x)'*y| = 1.95124e-06
+y offset = 0
+Number of Iterations = 143
+Elapsed Time = 142.383 s
+Normal iterations = 42
+Average number of normal iterations = 0.293706
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 101
+Iterations with 1  normal iteration  = 42
+Iterations with 2+ normal iterations = 0
+Restorations = 2770
+Average number of restorations per normal iteration = 65
+**********************************************************
+Done
+Setup time: 0.25
+Execution time: 142.43

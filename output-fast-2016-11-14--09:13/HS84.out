@@ -1,0 +1,33 @@
+sifdecoder -A pc64.lnx.gfo  HS84
+
+ Problem name: HS84
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 5 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: HS84    
+
+Number of Variables: 5
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: rhomax became too short
+f(x) = -2.35124e+06
+|c(x)| = 3.53381e-08
+|g(x) + J(x)'*y| = 0.12429
+y offset = 4.01445e-06
+Number of Iterations = 33
+Elapsed Time = 0.000776291 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 31012 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

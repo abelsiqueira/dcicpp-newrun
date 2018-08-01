@@ -1,0 +1,43 @@
+sifdecoder -A pc64.lnx.gfo  EXPFITC
+
+ Problem name: EXPFITC
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 502 linear inequality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: EXPFITC 
+
+Number of Variables: 5
+Number of Constraints: 501
+             Equality: 0
+           has_inequality: 501
+
+EXIT: The Algorithm has Converged
+f(x) = 0.525445
+|c(x)| = 2.78056e-08
+|g(x) + J(x)'*y| = 2.07443e-09
+y offset = 0.00109194
+Number of Iterations = 39
+Elapsed Time = 1.84754 s
+Normal iterations = 3
+Average number of normal iterations = 0.0769231
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 36
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = -36
+Restorations = 34
+Average number of restorations per normal iteration = 11
+**********************************************************
+Setup time: 0.009999
+Execution time: 2.09667

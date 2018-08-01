@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  LUKVLE15
+
+ Problem name: LUKVLE15
+
+ Double precision version will be formed
+
+ The objective function uses 9996 nonlinear groups
+ 
+ There are 7497 nonlinear equality constraints
+ 
+ There are 9997 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LUKVLE15
+
+Number of Variables: 9997
+Number of Constraints: 7497
+             Equality: 7497
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 3.15607e+19
+|c(x)| = 1189.43
+|g(x) + J(x)'*y| = 1.98315e+09
+|J(x)'c(x)| = 232880
+y offset = 0
+Number of Iterations = 18
+Elapsed Time = 32.9435 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    1741 (1701, 40)
+  Gradient     (*ofg):           22
+  Constraints  (cfn, ccfsg):  16882 (1701, 15181)
+  Jacobian     (ccfsg):        5064
+  Hessian prod (*hprod):        105
+
+Normal iterations = 4
+Average number of normal iterations = 0.222222
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 14
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 0
+Restorations = 10117
+Average number of restorations per normal iteration = 2529
+**********************************************************
+Done
+Setup time: 0.173333
+Execution time: 32.9667

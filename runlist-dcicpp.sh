@@ -2,7 +2,7 @@
 
 [ -z "$1" ] && echo "Needs lists" && exit 1
 
-timelimit="300s"
+timelimit="30s"
 olddir=$(pwd)
 list=$olddir/$1
 

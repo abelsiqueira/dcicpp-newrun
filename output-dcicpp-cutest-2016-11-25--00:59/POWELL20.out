@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  POWELL20
+
+ Problem name: POWELL20
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5000 linear inequality constraints
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: POWELL20
+
+Number of Variables: 5000
+Number of Constraints: 5000
+             Equality: 0
+           has_inequality: 5000
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 5.69238e+09
+|c(x)| = 40.8654
+|g(x) + J(x)'*y| = 0.00470411
+|J(x)'c(x)| = 4.50807
+y offset = 1.61796
+Number of Iterations = 10
+Elapsed Time = 44.3402 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2520 (2493, 27)
+  Gradient     (*ofg):           17
+  Constraints  (cfn, ccfsg):  24148 (2493, 21655)
+  Jacobian     (ccfsg):        7216
+  Hessian prod (*hprod):        105
+
+Normal iterations = 5
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 2
+Restorations = 14439
+Average number of restorations per normal iteration = 2887
+**********************************************************
+Done
+Setup time: 0.093334
+Execution time: 44.4967

@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  ANTWERP
+
+ Problem name: ANTWERP
+
+ Double precision version will be formed
+
+ The objective function uses 19 nonlinear groups
+ 
+ There are 8 linear equality constraints
+ There are 2 linear inequality constraints
+ 
+ There are 3 variables bounded only from below 
+ There are 24 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ANTWERP 
+
+Number of Variables: 27
+Number of Constraints: 10
+             Equality: 8
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 4735.63
+|c(x)| = 9.37545e-09
+|g(x) + J(x)'*y| = 9.99157e-07
+y offset = 0
+Number of Iterations = 6593
+Elapsed Time = 0.391298 s
+Normal iterations = 1
+Average number of normal iterations = 0.000151676
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 6592
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.649999

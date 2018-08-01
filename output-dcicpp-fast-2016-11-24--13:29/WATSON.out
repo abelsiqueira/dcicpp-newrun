@@ -1,0 +1,82 @@
+sifdecoder -A pc64.lnx.gfo  WATSON
+
+ Problem name: WATSON
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 30 nonlinear groups
+ 
+ There are 12 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.998185
+ekpp/ekp = 0.998522
+ekpp/ek = 0.99496
+ekpp/ekp = 0.996433
+ekpp/ek = 0.964439
+ekpp/ekp = 0.967891
+ekpp/ek = 0.958223
+ekpp/ekp = 0.990011
+ekpp/ek = 0.965946
+ekpp/ekp = 0.975693
+ekpp/ek = 0.962141
+ekpp/ekp = 0.986111
+ekpp/ek = 0.966955
+ekpp/ekp = 0.980574
+ekpp/ek = 0.866054
+ekpp/ekp = 0.883211
+ekpp/ek = 0.884881
+ekpp/ekp = 1.00189
+ekpp/ek = 1.00053
+ekpp/ekp = 0.998639
+ekpp/ek = 0.998516
+ekpp/ekp = 0.999877
+ekpp/ek = 0.999685
+ekpp/ekp = 0.999808
+ekpp/ek = 0.999663
+ekpp/ekp = 0.999855
+ekpp/ek = 0.99755
+ekpp/ekp = 0.997695
+ekpp/ek = 0.997623
+ekpp/ekp = 0.999928
+ekpp/ek = 0.926725
+ekpp/ekp = 0.926792
+ekpp/ek = 0.917816
+ekpp/ekp = 0.990315
+ekpp/ek = 0.990166
+ekpp/ekp = 0.99985
+Showing
+**********************************************************
+Problem name: WATSON  
+
+Number of Variables: 12
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 8.41148e-06
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.95171e-08
+y offset = 0
+Number of Iterations = 21
+Elapsed Time = 0.00351191 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 21
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.013332

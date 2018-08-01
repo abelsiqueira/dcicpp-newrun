@@ -1,0 +1,18 @@
+sifdecoder -A pc64.lnx.gfo  BIGGS6
+
+ Problem name: BIGGS6
+
+ Double precision version will be formed
+
+ The objective function uses 13 nonlinear groups
+ 
+ There are 6 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: f is nan

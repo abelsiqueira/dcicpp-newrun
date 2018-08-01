@@ -1,0 +1,32 @@
+sifdecoder -A pc64.lnx.gfo  BQP1VAR
+
+ Problem name: BQP1VAR
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 variable bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: BQP1VAR 
+
+Number of Variables: 1
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.5e-07
+|c(x)| = 0
+|g(x) + J(x)'*y| = 1.66667e-07
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.000175714 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 15722 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

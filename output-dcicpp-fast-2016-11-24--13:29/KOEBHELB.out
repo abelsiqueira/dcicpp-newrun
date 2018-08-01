@@ -1,0 +1,262 @@
+sifdecoder -A pc64.lnx.gfo  KOEBHELB
+
+ Problem name: KOEBHELB
+
+ Double precision version will be formed
+
+ The objective function uses 156 nonlinear groups
+ 
+ There is 1 free variable 
+ There are 2 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.970406
+ekpp/ekp = 0.970786
+ekpp/ek = 0.965074
+ekpp/ekp = 0.994116
+ekpp/ek = 0.988721
+ekpp/ekp = 0.994572
+ekpp/ek = 0.931905
+ekpp/ekp = 0.936991
+ekpp/ek = 0.932769
+ekpp/ekp = 0.995495
+ekpp/ek = 0.988291
+ekpp/ekp = 0.992764
+ekpp/ek = 0.968219
+ekpp/ekp = 0.975277
+ekpp/ek = 0.914891
+ekpp/ekp = 0.938084
+ekpp/ek = 0.880988
+ekpp/ekp = 0.939136
+ekpp/ek = 0.865011
+ekpp/ekp = 0.921071
+ekpp/ek = 0.872614
+ekpp/ekp = 0.947391
+ekpp/ek = 0.89077
+ekpp/ekp = 0.940235
+ekpp/ek = 0.862371
+ekpp/ekp = 0.917186
+ekpp/ek = 0.860383
+ekpp/ekp = 0.938067
+ekpp/ek = 0.832834
+ekpp/ekp = 0.887819
+ekpp/ek = 0.882575
+ekpp/ekp = 0.994094
+ekpp/ek = 0.988819
+ekpp/ekp = 0.994694
+ekpp/ek = 0.981521
+ekpp/ekp = 0.986757
+ekpp/ek = 0.954192
+ekpp/ekp = 0.966998
+ekpp/ek = 0.887628
+ekpp/ekp = 0.917921
+ekpp/ek = 0.864944
+ekpp/ekp = 0.942286
+ekpp/ek = 0.904224
+ekpp/ekp = 0.959607
+ekpp/ek = 0.864403
+ekpp/ekp = 0.900789
+ekpp/ek = 0.8613
+ekpp/ekp = 0.956161
+ekpp/ek = 0.931869
+ekpp/ekp = 0.974594
+ekpp/ek = 0.914426
+ekpp/ekp = 0.938263
+ekpp/ek = 0.843254
+ekpp/ekp = 0.898739
+ekpp/ek = 0.894118
+ekpp/ekp = 0.994859
+ekpp/ek = 0.991719
+ekpp/ekp = 0.996844
+ekpp/ek = 0.989031
+ekpp/ekp = 0.992162
+ekpp/ek = 0.973005
+ekpp/ekp = 0.980692
+ekpp/ek = 0.934706
+ekpp/ekp = 0.953109
+ekpp/ek = 0.946258
+ekpp/ekp = 0.992812
+ekpp/ek = 0.975194
+ekpp/ekp = 0.982255
+ekpp/ek = 0.940073
+ekpp/ekp = 0.957057
+ekpp/ek = 0.950821
+ekpp/ekp = 0.993484
+ekpp/ek = 0.977509
+ekpp/ekp = 0.98392
+ekpp/ek = 0.945804
+ekpp/ekp = 0.961262
+ekpp/ek = 0.955666
+ekpp/ekp = 0.994179
+ekpp/ek = 0.979916
+ekpp/ekp = 0.985653
+ekpp/ek = 0.95178
+ekpp/ekp = 0.965634
+ekpp/ek = 0.960694
+ekpp/ekp = 0.994884
+ekpp/ek = 0.982364
+ekpp/ekp = 0.987415
+ekpp/ek = 0.957852
+ekpp/ekp = 0.97006
+ekpp/ek = 0.965777
+ekpp/ekp = 0.995585
+ekpp/ek = 0.984797
+ekpp/ekp = 0.989164
+ekpp/ek = 0.96386
+ekpp/ekp = 0.974419
+ekpp/ek = 0.92152
+ekpp/ekp = 0.945712
+ekpp/ek = 0.932636
+ekpp/ekp = 0.986173
+ekpp/ek = 0.982788
+ekpp/ekp = 0.996567
+ekpp/ek = 0.988538
+ekpp/ekp = 0.991943
+ekpp/ek = 0.974809
+ekpp/ekp = 0.982727
+ekpp/ek = 0.980446
+ekpp/ekp = 0.99768
+ekpp/ek = 0.992177
+ekpp/ekp = 0.994485
+ekpp/ek = 0.982935
+ekpp/ekp = 0.988387
+ekpp/ek = 0.986927
+ekpp/ekp = 0.998523
+ekpp/ek = 0.995043
+ekpp/ekp = 0.996515
+ekpp/ek = 0.98958
+ekpp/ekp = 0.993042
+ekpp/ek = 0.992231
+ekpp/ekp = 0.999184
+ekpp/ek = 0.997298
+ekpp/ekp = 0.998112
+ekpp/ek = 0.994805
+ekpp/ekp = 0.996687
+ekpp/ek = 0.996381
+ekpp/ekp = 0.999693
+ekpp/ek = 0.999027
+ekpp/ekp = 0.999334
+ekpp/ek = 0.99877
+ekpp/ekp = 0.999436
+ekpp/ek = 0.999506
+ekpp/ekp = 1.00007
+ekpp/ek = 1.00031
+ekpp/ekp = 1.00024
+ekpp/ek = 1.00167
+ekpp/ekp = 1.00143
+ekpp/ek = 1.00177
+ekpp/ekp = 1.00034
+ekpp/ek = 1.00122
+ekpp/ekp = 1.00088
+ekpp/ek = 1.00371
+ekpp/ekp = 1.00283
+ekpp/ek = 1.00336
+ekpp/ekp = 1.00052
+ekpp/ek = 1.00184
+ekpp/ekp = 1.00131
+ekpp/ek = 1.00508
+ekpp/ekp = 1.00376
+ekpp/ek = 1.01561
+ekpp/ekp = 1.0118
+ekpp/ek = 1.01727
+ekpp/ekp = 1.0054
+ekpp/ek = 1.00609
+ekpp/ekp = 1.00069
+ekpp/ek = 1.00244
+ekpp/ekp = 1.00176
+ekpp/ek = 1.00652
+ekpp/ekp = 1.00476
+ekpp/ek = 1.01806
+ekpp/ekp = 1.01324
+ekpp/ek = 1.01997
+ekpp/ekp = 1.00665
+ekpp/ek = 1.00733
+ekpp/ekp = 1.00068
+ekpp/ek = 1.00235
+ekpp/ekp = 1.00167
+ekpp/ek = 1.00597
+ekpp/ekp = 1.00429
+ekpp/ek = 1.005
+ekpp/ekp = 1.00071
+ekpp/ek = 1.00233
+ekpp/ekp = 1.00162
+ekpp/ek = 1.00568
+ekpp/ekp = 1.00405
+ekpp/ek = 1.01307
+ekpp/ekp = 1.00898
+ekpp/ek = 1.01526
+ekpp/ekp = 1.00622
+ekpp/ek = 1.00655
+ekpp/ekp = 1.00033
+ekpp/ek = 1.0009
+ekpp/ekp = 1.00057
+ekpp/ek = 1.00134
+ekpp/ekp = 1.00077
+ekpp/ek = 0.999366
+ekpp/ekp = 0.998594
+ekpp/ek = 0.983757
+ekpp/ekp = 0.985142
+ekpp/ek = 0.918514
+ekpp/ekp = 0.932367
+ekpp/ek = 0.939807
+ekpp/ekp = 1.00798
+ekpp/ek = 1.00489
+ekpp/ekp = 0.996932
+ekpp/ek = 0.983344
+ekpp/ekp = 0.98637
+ekpp/ek = 0.958501
+ekpp/ekp = 0.971746
+ekpp/ek = 0.871775
+ekpp/ekp = 0.897122
+ekpp/ek = 0.75833
+ekpp/ekp = 0.845292
+ekpp/ek = 0.797325
+ekpp/ekp = 0.943254
+ekpp/ek = 0.944315
+ekpp/ekp = 1.00113
+ekpp/ek = 0.991068
+ekpp/ekp = 0.989954
+ekpp/ek = 1.00152
+ekpp/ekp = 1.01168
+ekpp/ek = 1.03922
+ekpp/ekp = 1.02722
+ekpp/ek = 1.04524
+ekpp/ekp = 1.01754
+ekpp/ek = 1.02199
+ekpp/ekp = 1.00438
+ekpp/ek = 1.00455
+ekpp/ekp = 1.00017
+Showing
+**********************************************************
+Problem name: KOEBHELB
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 77.5163
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.0773e-08
+y offset = 0
+Number of Iterations = 111
+Elapsed Time = 0.0251286 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 111
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.096666

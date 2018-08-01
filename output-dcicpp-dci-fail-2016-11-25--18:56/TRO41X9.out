@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  TRO41X9
+
+ Problem name: TRO41X9
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There are 720 nonlinear equality constraints
+ 
+ There are 720 free variables
+ There are 1320 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

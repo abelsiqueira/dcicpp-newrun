@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  ALLINITC
+
+ Problem name: ALLINITC
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ The objective function uses 10 nonlinear groups
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There is 1 free variable 
+ There is 1 variable bounded only from below 
+ There is 1 variable bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ALLINITC
+
+Number of Variables: 3
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 30.4743
+|c(x)| = 6.38417e-07
+|g(x) + J(x)'*y| = 3.66407e-07
+|J(x)'c(x)| = 4.83652e-09
+y offset = 0
+Number of Iterations = 13
+Elapsed Time = 0.000664234 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      52 (21, 31)
+  Gradient     (*ofg):           18
+  Constraints  (cfn, ccfsg):     91 (21, 70)
+  Jacobian     (ccfsg):          22
+  Hessian prod (*hprod):         28
+
+Normal iterations = 6
+Average number of normal iterations = 0.461538
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 6
+Iterations with 2+ normal iterations = 0
+Restorations = 48
+Average number of restorations per normal iteration = 8
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.003333

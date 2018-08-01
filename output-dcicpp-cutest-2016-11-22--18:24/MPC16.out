@@ -1,0 +1,29 @@
+sifdecoder -A pc64.lnx.gfo  MPC16
+
+ Problem name: MPC16
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 1065 linear equality constraints
+ There are 1286 linear inequality constraints
+ 
+ There are 920 free variables
+ There are 595 variables bounded from below and above 
+ There are 15 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 44 variables
+NOPE preprocessing removed 51 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Exception: f is nan

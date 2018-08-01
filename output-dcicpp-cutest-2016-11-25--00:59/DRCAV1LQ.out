@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  DRCAV1LQ
+
+ Problem name: DRCAV1LQ
+
+ Double precision version will be formed
+
+ The objective function uses 3969 nonlinear groups
+ 
+ There are 3969 free variables
+ There are 520 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 520 variables
+Starting
+Solving

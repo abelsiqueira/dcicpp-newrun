@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo -st   10FOLDTR
+
+ Problem name: 10FOLDTR
+
+ Double precision version will be formed
+
+ 
+ There are 998 linear equality constraints
+ There are 2 nonlinear equality constraints
+ 
+ There are 1000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    2.4610185125014893E-014
+ AAt is almost singular.

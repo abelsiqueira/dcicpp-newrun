@@ -1,0 +1,26 @@
+sifdecoder -A pc64.lnx.gfo  ALLINQP
+
+ Problem name: ALLINQP
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 6250 linear equality constraints
+ There are 18750 linear inequality constraints
+ 
+ There are 7142 free variables
+ There are 14284 variables bounded only from above 
+ There are 14284 variables bounded only from below 
+ There are 7142 variables bounded from below and above 
+ There are 7148 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 7148 variables
+NOPE preprocessing removed 1 contraints
+Starting
+Solving

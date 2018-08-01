@@ -1,0 +1,33 @@
+sifdecoder -A pc64.lnx.gfo  TFI2
+
+ Problem name: TFI2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 101 linear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: TFI2    
+
+Number of Variables: 2
+Number of Constraints: 100
+             Equality: 0
+           has_inequality: 100
+
+EXIT: The problem is unlimited
+f(x) = 5e+19
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.00925e-07
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.000613928 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 11291 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

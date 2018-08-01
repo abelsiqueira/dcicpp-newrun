@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  TRUSPYR2
+
+ Problem name: TRUSPYR2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 8 linear inequality constraints
+ There are 3 nonlinear equality constraints
+ 
+ There are 3 free variables
+ There are 8 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:39
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: TRUSPYR2
+
+Number of Variables: 11
+Number of Constraints: 11
+             Equality: 3
+           has_inequality: 8
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 11.2287
+|c(x)| = 8.66518e-09
+|g(x) + J(x)'*y| = 4.10976e-08
+y offset = 0
+Number of Iterations = 7
+Elapsed Time = 0.0143597 s
+Normal iterations = 5
+Average number of normal iterations = 0.714286
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = 0
+Restorations = 676
+Average number of restorations per normal iteration = 135
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.056666

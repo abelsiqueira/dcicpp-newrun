@@ -1,0 +1,79 @@
+sifdecoder -A pc64.lnx.gfo  BIGGS5
+
+ Problem name: BIGGS5
+
+ Double precision version will be formed
+
+ The objective function uses 13 nonlinear groups
+ 
+ There are 5 free variables
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+ekpp/ek = 1.00444
+ekpp/ekp = 0.992164
+ekpp/ek = 0.958183
+ekpp/ekp = 0.96575
+ekpp/ek = 1.02197
+ekpp/ekp = 1.05821
+ekpp/ek = 1.7315
+ekpp/ekp = 1.63625
+ekpp/ek = 1.7408
+ekpp/ekp = 1.0639
+ekpp/ek = 1.23394
+ekpp/ekp = 1.15983
+ekpp/ek = 1.52093
+ekpp/ekp = 1.31134
+ekpp/ek = 1.36443
+ekpp/ekp = 1.04048
+ekpp/ek = 1.14123
+ekpp/ekp = 1.09683
+ekpp/ek = 1.13827
+ekpp/ekp = 1.03779
+ekpp/ek = 1.04317
+ekpp/ekp = 1.00519
+ekpp/ek = 1.00957
+ekpp/ekp = 1.00436
+ekpp/ek = 1.00746
+ekpp/ekp = 1.00308
+ekpp/ek = 1.00404
+ekpp/ekp = 1.00095
+ekpp/ek = 1.00083
+ekpp/ekp = 0.999878
+ekpp/ek = 0.999878
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: BIGGS5  
+
+Number of Variables: 5
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 5.5606e-12
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.62252e-08
+y offset = 0
+Number of Iterations = 19
+Elapsed Time = 0.00163054 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 19
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.006666

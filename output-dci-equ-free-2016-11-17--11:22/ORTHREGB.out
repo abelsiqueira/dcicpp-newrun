@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo -st   ORTHREGB
+
+ Problem name: ORTHREGB
+
+ Double precision version will be formed
+
+ The objective function uses 18 nonlinear groups
+ 
+ There are 6 nonlinear equality constraints
+ 
+ There are 27 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.16946519249537215     
+ |gp(xk)|/|gp(xck)| =   0.39820394852717417     
+ |gp(xk)|/|gp(xck)| =   0.99999999996119082     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            3
+ Steihaug's iter:            2
+ Restorations   :            3
+ Rejected steps :            0
+ Function evals.:            3
+ Constr.  evals.:            6
+ Gradient evals.:            6
+ Jacobian evals.:            6
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    7.3303871772575930E-015
+ ||h(x)||       :    1.6417700532400659E-012
+ ||gp(x)||      :    1.2140147950643153E-007
+ ||At*h||       :    5.8162125014065633E-011
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    5.2876222811662303E-004
+ rho            :    2.2790956153094841E-004
+ rhomax         :    1331.1036637880611     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    3.4591095261612980E-011
+ L(x) - L(xc)   :   -2.7957737040752974E-007
+ L(xc)-L(x(k-1)):   -2.5071913575897020E-004
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

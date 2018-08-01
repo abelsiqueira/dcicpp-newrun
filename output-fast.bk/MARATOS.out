@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  MARATOS
+
+ Problem name: MARATOS
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: MARATOS 
+
+Number of Variables: 2
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -1
+|c(x)| = 2.24482e-09
+|g(x) + J(x)'*y| = 7.97275e-08
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.000218391 s
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 3
+Iterations with <= 1 normal iterations = 3
+**********************************************************
+Setup time: 0
+Execution time: 0.003333

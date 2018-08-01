@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo  TFI2
+
+ Problem name: TFI2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 101 linear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 contraints
+Starting
+Solving
+ekpp/ek = 0.287727
+ekpp/ekp = 0.431993
+ekpp/ek = 0.421327
+ekpp/ekp = 0.975309
+Showing
+**********************************************************
+Problem name: TFI2    
+
+Number of Variables: 3
+Number of Constraints: 100
+             Equality: 0
+           has_inequality: 100
+
+EXIT: The Algorithm has Converged
+f(x) = 0.649037
+|c(x)| = 2.42491e-12
+|g(x) + J(x)'*y| = 1.51307e-08
+y offset = 1.76756e-05
+Number of Iterations = 5
+Elapsed Time = 0.00469422 s
+Normal iterations = 1
+Average number of normal iterations = 0.2
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.016666

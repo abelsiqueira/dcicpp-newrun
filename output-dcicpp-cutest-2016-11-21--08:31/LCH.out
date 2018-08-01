@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  LCH
+
+ Problem name: LCH
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There are 3000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LCH     
+
+Number of Variables: 3000
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -3.91137
+|c(x)| = 4.1812e-08
+|g(x) + J(x)'*y| = 8.65073e-07
+y offset = 0
+Number of Iterations = 919
+Elapsed Time = 41.2369 s
+Normal iterations = 372
+Average number of normal iterations = 0.404788
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 547
+Iterations with 1  normal iteration  = 372
+Iterations with 2+ normal iterations = 0
+Restorations = 372
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.043332
+Execution time: 41.46

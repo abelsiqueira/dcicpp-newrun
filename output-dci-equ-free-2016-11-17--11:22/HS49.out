@@ -1,0 +1,67 @@
+sifdecoder -A pc64.lnx.gfo -st   HS49
+
+ Problem name: HS49
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.34027994663041933     
+ |gp(xk)|/|gp(xck)| =   0.29482860501956398     
+ |gp(xk)|/|gp(xck)| =   0.28721814630167319     
+ |gp(xk)|/|gp(xck)| =   0.33005047639039070     
+ |gp(xk)|/|gp(xck)| =   0.29648125062700281     
+ |gp(xk)|/|gp(xck)| =   0.29629629629629689     
+ |gp(xk)|/|gp(xck)| =   0.29629629629629606     
+ |gp(xk)|/|gp(xck)| =   0.29629629629629783     
+ |gp(xk)|/|gp(xck)| =   0.29629629629629090     
+ |gp(xk)|/|gp(xck)| =   0.29629629629627657     
+ |gp(xk)|/|gp(xck)| =   0.29629629629628096     
+ |gp(xk)|/|gp(xck)| =   0.29629629629619109     
+ |gp(xk)|/|gp(xck)| =   0.29629629629616888     
+ |gp(xk)|/|gp(xck)| =   0.29629629629940479     
+ |gp(xk)|/|gp(xck)| =   0.29629629630087234     
+ |gp(xk)|/|gp(xck)| =   0.29629629626757004     
+ |gp(xk)|/|gp(xck)| =   0.99999999990304900     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           17
+ Steihaug's iter:           31
+ Restorations   :            0
+ Rejected steps :            0
+ Function evals.:           17
+ Constr.  evals.:           18
+ Gradient evals.:           17
+ Jacobian evals.:           17
+ 2nd order Corr.:            1
+ BFGS iterations:            0
+ f(x)           :    6.2862481659179755E-009
+ ||h(x)||       :    1.6875389974302379E-014
+ ||gp(x)||      :    5.9571708097606718E-007
+ ||At*h||       :    7.3558119530823514E-014
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    1.3356391469536807E-002
+ rho            :    9.9999999999999995E-007
+ rhomax         :    49.805559742662631     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    6.2862481658840471E-009
+ L(x) - L(xc)   :   -2.5537883174042675E-008
+ L(xc)-L(x(k-1)):    7.8463044184329993E-020
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

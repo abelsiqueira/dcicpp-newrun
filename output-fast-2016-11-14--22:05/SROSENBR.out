@@ -1,0 +1,34 @@
+sifdecoder -A pc64.lnx.gfo  SROSENBR
+
+ Problem name: SROSENBR
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SROSENBR
+
+Number of Variables: 5000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.50334e-05
+|c(x)| = 0
+|g(x) + J(x)'*y| = 7.14604e-08
+y offset = 0
+Number of Iterations = 9
+Elapsed Time = 0.0242627 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 12693 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

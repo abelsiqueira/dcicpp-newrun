@@ -1,0 +1,42 @@
+sifdecoder -A pc64.lnx.gfo  HS21MOD
+
+ Problem name: HS21MOD
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear inequality constraint
+ 
+ There is 1 free variable 
+ There are 2 variables bounded only from above 
+ There are 2 variables bounded only from below 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: HS21MOD 
+
+Number of Variables: 7
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = -95.96
+|c(x)| = 1.43219e-14
+|g(x) + J(x)'*y| = 3.25072e-08
+y offset = 0
+Number of Iterations = 5
+Elapsed Time = 0.000250816 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 5
+**********************************************************
+Setup time: 0
+Execution time: 0.003333

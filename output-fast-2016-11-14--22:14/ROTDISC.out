@@ -1,0 +1,26 @@
+sifdecoder -A pc64.lnx.gfo  ROTDISC
+
+ Problem name: ROTDISC
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 360 linear equality constraints
+ There are 361 linear inequality constraints
+ There are 360 nonlinear equality constraints
+ 
+ There are 180 free variables
+ There is 1 variable bounded only from above 
+ There are 180 variables bounded only from below 
+ There are 531 variables bounded from below and above 
+ There are 13 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

@@ -1,0 +1,50 @@
+sifdecoder -A pc64.lnx.gfo  READING7
+
+ Problem name: READING7
+
+ Double precision version will be formed
+
+ The objective function uses 500 nonlinear groups
+ 
+ There are 500 nonlinear equality constraints
+ 
+ There are 500 free variables
+ There are 501 variables bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: READING7
+
+Number of Variables: 1001
+Number of Constraints: 500
+             Equality: 500
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -1211.53
+|c(x)| = 9.42814e-07
+|g(x) + J(x)'*y| = 8.0996e-07
+y offset = 0
+Number of Iterations = 139
+Elapsed Time = 254.18 s
+Normal iterations = 52
+Average number of normal iterations = 0.374101
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 87
+Iterations with 1  normal iteration  = 52
+Iterations with 2+ normal iterations = 0
+Restorations = 2291
+Average number of restorations per normal iteration = 44
+**********************************************************
+Done
+Setup time: 0.253332
+Execution time: 254.24

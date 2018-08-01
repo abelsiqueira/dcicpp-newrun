@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  CBS
+
+ Problem name: CBS
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 244 linear equality constraints
+ 
+ There are 8212 variables bounded only from above 
+ There are 2951 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

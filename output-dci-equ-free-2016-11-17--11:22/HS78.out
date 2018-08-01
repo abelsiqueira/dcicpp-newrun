@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo -st   HS78
+
+ Problem name: HS78
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.98891228802202558     
+ |gp(xk)|/|gp(xck)| =   0.42577436464692531     
+ |gp(xk)|/|gp(xck)| =   0.11435242419175549     
+ |gp(xk)|/|gp(xck)| =   0.12862345025214922     
+ |gp(xk)|/|gp(xck)| =   0.12872750640818059     
+ |gp(xk)|/|gp(xck)| =   0.99944723047475525     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            6
+ Steihaug's iter:           14
+ Restorations   :            8
+ Rejected steps :            9
+ Function evals.:           15
+ Constr.  evals.:           24
+ Gradient evals.:           10
+ Jacobian evals.:           10
+ 2nd order Corr.:            1
+ BFGS iterations:            0
+ f(x)           :   -2.9197004090900096     
+ ||h(x)||       :    1.6026113769385120E-010
+ ||gp(x)||      :    2.1005419625907962E-013
+ ||At*h||       :    1.8697377413418442E-009
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    1.4975551667590032E-006
+ rho            :    9.9999999999999995E-007
+ rhomax         :    22.786754728336430     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    9.5367431640625000     
+ L(x)           :   -2.9197004089636795     
+ L(x) - L(xc)   :   -3.4101610424386308E-012
+ L(xc)-L(x(k-1)):   -2.3423178951986756E-009
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

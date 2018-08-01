@@ -1,0 +1,48 @@
+sifdecoder -A pc64.lnx.gfo  HS268
+
+ Problem name: HS268
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 linear inequality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:39
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS268   
+
+Number of Variables: 5
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: The Algorithm has Converged
+f(x) = 3.14781
+|c(x)| = 3.01915e-13
+|g(x) + J(x)'*y| = 2.22389e-07
+y offset = 3.95002e-05
+Number of Iterations = 15
+Elapsed Time = 0.000674009 s
+Normal iterations = 1
+Average number of normal iterations = 0.0666667
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 14
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

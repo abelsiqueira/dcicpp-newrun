@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  BRATU2D
+
+ Problem name: BRATU2D
+
+ Double precision version will be formed
+
+ 
+ There are 4900 nonlinear equality constraints
+ 
+ There are 4900 free variables
+ There are 284 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 284 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: BRATU2D 
+
+Number of Variables: 4900
+Number of Constraints: 4900
+             Equality: 4900
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 2.61149e-08
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 3.74133e-08
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.125519 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):       8 (3, 5)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):      9 (3, 6)
+  Jacobian     (ccfsg):           3
+  Hessian prod (*hprod):          0
+
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 3
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.11
+Execution time: 0.293334

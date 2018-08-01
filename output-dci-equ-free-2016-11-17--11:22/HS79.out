@@ -1,0 +1,60 @@
+sifdecoder -A pc64.lnx.gfo -st   HS79
+
+ Problem name: HS79
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.65393537308711047     
+ |gp(xk)|/|gp(xck)| =   0.21796105792736867     
+ |gp(xk)|/|gp(xck)| =   0.18196015736375010     
+ |gp(xk)|/|gp(xck)| =   0.23537132845920933     
+ |gp(xk)|/|gp(xck)| =   0.22304056496712990     
+ |gp(xk)|/|gp(xck)| =   0.43377856103256490     
+ |gp(xk)|/|gp(xck)| =   0.29347052420317360     
+ |gp(xk)|/|gp(xck)| =   0.98694119232800603     
+ |gp(xk)|/|gp(xck)| =   0.36496506244582866     
+ |gp(xk)|/|gp(xck)| =   0.99999999989890676     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           10
+ Steihaug's iter:           15
+ Restorations   :            4
+ Rejected steps :            0
+ Function evals.:           10
+ Constr.  evals.:           14
+ Gradient evals.:           14
+ Jacobian evals.:           14
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    7.8776821192357488E-002
+ ||h(x)||       :    5.6911275692073104E-009
+ ||gp(x)||      :    9.9251711981399038E-007
+ ||At*h||       :    4.2896047656357844E-008
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    3.0251458853958673E-005
+ rho            :    9.9999999999999995E-007
+ rhomax         :    41.074133201596894     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    7.8776820988445989E-002
+ L(x) - L(xc)   :   -9.2768877302251695E-010
+ L(xc)-L(x(k-1)):    2.9159627074060168E-009
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

@@ -1,0 +1,118 @@
+sifdecoder -A pc64.lnx.gfo  PRIMALC5
+
+ Problem name: PRIMALC5
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 8 linear inequality constraints
+ 
+ There are 9 free variables
+ There are 278 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.27229
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 0.999999
+ekpp/ekp = 1
+ekpp/ek = 0.999998
+ekpp/ekp = 0.999999
+ekpp/ek = 0.999996
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999989
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999974
+ekpp/ekp = 0.999981
+ekpp/ek = 0.999934
+ekpp/ekp = 0.999953
+ekpp/ek = 0.999835
+ekpp/ekp = 0.999882
+ekpp/ek = 0.999588
+ekpp/ekp = 0.999705
+ekpp/ek = 0.99897
+ekpp/ekp = 0.999265
+ekpp/ek = 0.997436
+ekpp/ekp = 0.99817
+ekpp/ek = 0.993648
+ekpp/ekp = 0.99547
+ekpp/ek = 0.98445
+ekpp/ekp = 0.98893
+ekpp/ek = 0.96289
+ekpp/ekp = 0.973668
+ekpp/ek = 0.917209
+ekpp/ekp = 0.942014
+ekpp/ek = 0.864989
+ekpp/ekp = 0.918234
+ekpp/ek = 0.897815
+ekpp/ekp = 0.977763
+ekpp/ek = 0.976906
+ekpp/ekp = 0.999124
+ekpp/ek = 0.994013
+ekpp/ekp = 0.994885
+ekpp/ek = 1.01701
+ekpp/ekp = 1.02224
+ekpp/ek = 11.9486
+ekpp/ekp = 11.6887
+ekpp/ek = 18.1267
+ekpp/ekp = 1.55079
+ekpp/ek = 1.78248
+ekpp/ekp = 1.14941
+ekpp/ek = 1.23244
+ekpp/ekp = 1.07224
+ekpp/ek = 1.1619
+ekpp/ekp = 1.08362
+ekpp/ek = 1.15552
+ekpp/ekp = 1.06635
+ekpp/ek = 1.07248
+ekpp/ekp = 1.00574
+ekpp/ek = 1.01348
+ekpp/ekp = 1.00769
+ekpp/ek = 1.00957
+ekpp/ekp = 1.00186
+ekpp/ek = 1.00129
+ekpp/ekp = 0.999429
+ekpp/ek = 1.00084
+ekpp/ekp = 1.00142
+ekpp/ek = 1.00048
+ekpp/ekp = 0.999062
+ekpp/ek = 0.999148
+ekpp/ekp = 1.00009
+ekpp/ek = 1.00003
+ekpp/ekp = 0.999939
+Showing
+**********************************************************
+Problem name: PRIMALC5
+
+Number of Variables: 287
+Number of Constraints: 8
+             Equality: 0
+           has_inequality: 8
+
+EXIT: The Algorithm has Converged
+f(x) = -427.232
+|c(x)| = 1.03718e-08
+|g(x) + J(x)'*y| = 3.83984e-08
+y offset = 5.66057e-13
+Number of Iterations = 38
+Elapsed Time = 0.0364685 s
+Normal iterations = 1
+Average number of normal iterations = 0.0263158
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 37
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 40
+Average number of restorations per normal iteration = 40
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 0.106666

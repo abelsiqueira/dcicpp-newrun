@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo -st   SPINOP
+
+ Problem name: SPINOP
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 1325 nonlinear equality constraints
+ 
+ There are 1327 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO
+ |gp(xk)|/|gp(xck)| =                        NaN
+ |gp(xk)|/|gp(xck)| =                        NaN
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            2
+ Steihaug's iter:            1
+ Restorations   :            0
+ Rejected steps :            0
+ Function evals.:            2
+ Constr.  evals.:            2
+ Gradient evals.:            1
+ Jacobian evals.:            1
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    0.0000000000000000     
+ ||h(x)||       :                        NaN
+ ||gp(x)||      :                        NaN
+ ||At*h||       :                        NaN
+ Elapsed time   :   0.125000000    
+
+ ||xnew - xc||  :    35.000000000000000     
+ rho            :    1399.2653037592220     
+ rhomax         :    1865.6870716789626     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :                        NaN
+ L(x) - L(xc)   :                        NaN
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

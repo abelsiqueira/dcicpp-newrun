@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo  PORTFL3
+
+ Problem name: PORTFL3
+
+ Double precision version will be formed
+
+ The objective function uses 62 nonlinear groups
+ 
+ There is 1 linear equality constraint
+ 
+ There are 12 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00771
+ekpp/ekp = 1.00277
+ekpp/ek = 1.00477
+ekpp/ekp = 1.00199
+ekpp/ek = 1.0007
+ekpp/ekp = 0.998713
+Showing
+**********************************************************
+Problem name: PORTFL3 
+
+Number of Variables: 12
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0327506
+|c(x)| = 3.99952e-10
+|g(x) + J(x)'*y| = 3.02227e-07
+y offset = 0
+Number of Iterations = 6
+Elapsed Time = 0.000552654 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.003333

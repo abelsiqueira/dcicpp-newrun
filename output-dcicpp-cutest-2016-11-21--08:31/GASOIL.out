@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  GASOIL
+
+ Problem name: GASOIL
+
+ Double precision version will be formed
+
+ The objective function uses 42 nonlinear groups
+ 
+ There are 7198 linear equality constraints
+ There are 3200 nonlinear equality constraints
+ 
+ There are 10398 free variables
+ There are 3 variables bounded only from below 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving

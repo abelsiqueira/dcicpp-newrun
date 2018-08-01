@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo  OET2
+
+ Problem name: OET2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1002 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: OET2    
+
+Number of Variables: 3
+Number of Constraints: 1002
+             Equality: 0
+           has_inequality: 1002
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0.694174
+|c(x)| = 6.23946e-07
+|g(x) + J(x)'*y| = 1.07924e-07
+y offset = 0.00640542
+Number of Iterations = 3
+Elapsed Time = 37.2918 s
+Normal iterations = 4
+Average number of normal iterations = 1.33333
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 165
+Average number of restorations per normal iteration = 41
+**********************************************************
+Done
+Setup time: 0.029999
+Execution time: 37.5067

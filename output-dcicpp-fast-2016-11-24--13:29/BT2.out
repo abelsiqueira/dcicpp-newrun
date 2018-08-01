@@ -1,0 +1,95 @@
+sifdecoder -A pc64.lnx.gfo  BT2
+
+ Problem name: BT2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear equality constraint
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.882301
+ekpp/ekp = 0.934899
+ekpp/ek = 0.916299
+ekpp/ekp = 0.980105
+ekpp/ek = 0.930257
+ekpp/ekp = 0.949141
+ekpp/ek = 0.739641
+ekpp/ekp = 0.779275
+ekpp/ek = 0.76727
+ekpp/ekp = 0.984596
+ekpp/ek = 0.946087
+ekpp/ekp = 0.960889
+ekpp/ek = 0.877018
+ekpp/ekp = 0.912715
+ekpp/ek = 0.421732
+ekpp/ekp = 0.462064
+ekpp/ek = 0.413099
+ekpp/ekp = 0.894031
+ekpp/ek = 0.813111
+ekpp/ekp = 0.909488
+ekpp/ek = 0.804796
+ekpp/ekp = 0.884889
+ekpp/ek = 0.844164
+ekpp/ekp = 0.953978
+ekpp/ek = 0.844154
+ekpp/ekp = 0.884878
+ekpp/ek = 0.895839
+ekpp/ekp = 1.01239
+ekpp/ek = 0.707608
+ekpp/ekp = 0.69895
+ekpp/ek = 0.641129
+ekpp/ekp = 0.917274
+ekpp/ek = 0.90206
+ekpp/ekp = 0.983414
+ekpp/ek = 0.556878
+ekpp/ekp = 0.56627
+ekpp/ek = 0.530238
+ekpp/ekp = 0.936369
+ekpp/ek = 0.94994
+ekpp/ekp = 1.01449
+ekpp/ek = 1.01726
+ekpp/ekp = 1.00272
+ekpp/ek = 0.947059
+ekpp/ekp = 0.944488
+ekpp/ek = 0.944596
+ekpp/ekp = 1.00011
+ekpp/ek = 0.998303
+ekpp/ekp = 0.998189
+Showing
+**********************************************************
+Problem name: BT2     
+
+Number of Variables: 3
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0325682
+|c(x)| = 3.65678e-07
+|g(x) + J(x)'*y| = 1.16226e-08
+y offset = 0
+Number of Iterations = 27
+Elapsed Time = 0.000876188 s
+Normal iterations = 7
+Average number of normal iterations = 0.259259
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 20
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 0
+Restorations = 12
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

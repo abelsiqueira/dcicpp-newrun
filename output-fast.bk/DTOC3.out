@@ -1,0 +1,40 @@
+sifdecoder -A pc64.lnx.gfo  DTOC3
+
+ Problem name: DTOC3
+
+ Double precision version will be formed
+
+ The objective function uses 1499 nonlinear groups
+ 
+ There are 2998 linear equality constraints
+ 
+ There are 4497 free variables
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: DTOC3   
+
+Number of Variables: 4496
+Number of Constraints: 2997
+             Equality: 2997
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 235.216
+|c(x)| = 8.4763e-09
+|g(x) + J(x)'*y| = 1.36377e-08
+y offset = 0
+Number of Iterations = 4
+Elapsed Time = 0.021282 s
+Normal iterations = 1
+Average number of normal iterations = 0.25
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 1
+Iterations with <= 1 normal iterations = 4
+**********************************************************
+Setup time: 0.073333
+Execution time: 0.086667

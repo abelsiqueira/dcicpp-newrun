@@ -1,0 +1,82 @@
+sifdecoder -A pc64.lnx.gfo  MADSEN
+
+ Problem name: MADSEN
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 6 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.621479
+ekpp/ekp = 0.693661
+ekpp/ek = 1.06165
+ekpp/ekp = 1.5305
+ekpp/ek = 1.24822
+ekpp/ekp = 0.81556
+ekpp/ek = 0.761839
+ekpp/ekp = 0.93413
+ekpp/ek = 0.932213
+ekpp/ekp = 0.997948
+ekpp/ek = 0.989075
+ekpp/ekp = 0.991109
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 1.18478
+ekpp/ekp = 1.19541
+ekpp/ek = 1.00168
+ekpp/ekp = 0.83794
+ekpp/ek = 0.836658
+ekpp/ekp = 0.998471
+ekpp/ek = 0.996888
+ekpp/ekp = 0.998415
+ekpp/ek = 1.19541
+ekpp/ekp = 1.19731
+ekpp/ek = 0.994348
+ekpp/ekp = 0.830487
+ekpp/ek = 0.836842
+ekpp/ekp = 1.00765
+ekpp/ek = 1.00578
+ekpp/ekp = 0.998139
+ekpp/ek = 0.998206
+ekpp/ekp = 1.00007
+Showing
+**********************************************************
+Problem name: MADSEN  
+
+Number of Variables: 3
+Number of Constraints: 6
+             Equality: 0
+           has_inequality: 6
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0.616432
+|c(x)| = 9.64844e-07
+|g(x) + J(x)'*y| = 8.15534e-10
+y offset = 4.2462e-09
+Number of Iterations = 18
+Elapsed Time = 0.00749278 s
+Normal iterations = 16
+Average number of normal iterations = 0.888889
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 12
+Iterations with 2+ normal iterations = 2
+Restorations = 691
+Average number of restorations per normal iteration = 43
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.029999

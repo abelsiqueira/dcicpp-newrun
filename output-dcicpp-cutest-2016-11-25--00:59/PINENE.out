@@ -1,0 +1,60 @@
+sifdecoder -A pc64.lnx.gfo  PINENE
+
+ Problem name: PINENE
+
+ Double precision version will be formed
+
+ The objective function uses 40 nonlinear groups
+ 
+ There are 5795 linear equality constraints
+ There are 3000 nonlinear equality constraints
+ 
+ There are 8795 free variables
+ There are 5 variables bounded only from below 
+ There are 5 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 5 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: PINENE  
+
+Number of Variables: 8800
+Number of Constraints: 8795
+             Equality: 8795
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 19.8722
+|c(x)| = 1.55386e-09
+|g(x) + J(x)'*y| = 1.50672e-07
+|J(x)'c(x)| = 0.000485794
+y offset = 0
+Number of Iterations = 4
+Elapsed Time = 24.9393 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      19 (7, 12)
+  Gradient     (*ofg):            8
+  Constraints  (cfn, ccfsg):     42 (7, 35)
+  Jacobian     (ccfsg):          11
+  Hessian prod (*hprod):         14
+
+Normal iterations = 3
+Average number of normal iterations = 0.75
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 24
+Average number of restorations per normal iteration = 8
+**********************************************************
+Done
+Setup time: 0.236668
+Execution time: 24.9933

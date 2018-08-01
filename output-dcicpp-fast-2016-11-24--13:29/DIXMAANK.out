@@ -1,0 +1,79 @@
+sifdecoder -A pc64.lnx.gfo  DIXMAANK
+
+ Problem name: DIXMAANK
+
+ Double precision version will be formed
+
+ The objective function uses 4 nonlinear groups
+ 
+ There are 3000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.331883
+ekpp/ekp = 0.866169
+ekpp/ek = 0.438605
+ekpp/ekp = 0.506373
+ekpp/ek = 1.47669
+ekpp/ekp = 2.9162
+ekpp/ek = 2.98051
+ekpp/ekp = 1.02205
+ekpp/ek = 1.14708
+ekpp/ekp = 1.12233
+ekpp/ek = 2.01369
+ekpp/ekp = 1.79421
+ekpp/ek = 1.81671
+ekpp/ekp = 1.01255
+ekpp/ek = 1.32395
+ekpp/ekp = 1.30755
+ekpp/ek = 1.31103
+ekpp/ekp = 1.00266
+ekpp/ek = 1.02312
+ekpp/ekp = 1.0204
+ekpp/ek = 1.21277
+ekpp/ekp = 1.18851
+ekpp/ek = 1.18845
+ekpp/ekp = 0.999947
+ekpp/ek = 1.05197
+ekpp/ekp = 1.05202
+ekpp/ek = 1.0558
+ekpp/ekp = 1.00359
+ekpp/ek = 1.03627
+ekpp/ekp = 1.03256
+ekpp/ek = 1.03599
+ekpp/ekp = 1.00332
+ekpp/ek = 1.01662
+ekpp/ekp = 1.01325
+Showing
+**********************************************************
+Problem name: DIXMAANK
+
+Number of Variables: 3000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.01534
+|c(x)| = 0
+|g(x) + J(x)'*y| = 3.5469e-07
+y offset = 0
+Number of Iterations = 20
+Elapsed Time = 0.0908139 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 20
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.053333
+Execution time: 0.303333

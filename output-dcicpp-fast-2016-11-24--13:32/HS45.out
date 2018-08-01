@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  HS45
+
+ Problem name: HS45
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.11804
+ekpp/ekp = 1.08168
+ekpp/ek = 1.2722
+ekpp/ekp = 1.17613
+ekpp/ek = 1.59776
+ekpp/ekp = 1.35849
+ekpp/ek = 2.05999
+ekpp/ekp = 1.51638
+ekpp/ek = 1.53134
+ekpp/ekp = 1.00987
+ekpp/ek = 1.0114
+ekpp/ekp = 1.00152
+ekpp/ek = 1.00232
+ekpp/ekp = 1.0008
+ekpp/ek = 1.00086
+ekpp/ekp = 1.00005
+Showing
+**********************************************************
+Problem name: HS45    
+
+Number of Variables: 5
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1
+|c(x)| = 0
+|g(x) + J(x)'*y| = 5.57475e-08
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.000304222 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

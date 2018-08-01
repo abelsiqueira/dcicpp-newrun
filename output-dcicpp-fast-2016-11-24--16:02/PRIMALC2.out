@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  PRIMALC2
+
+ Problem name: PRIMALC2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 7 linear inequality constraints
+ 
+ There are 2 free variables
+ There are 229 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: PRIMALC2
+
+Number of Variables: 231
+Number of Constraints: 7
+             Equality: 0
+           has_inequality: 7
+
+EXIT: The Algorithm has Converged
+f(x) = -3551.3
+|c(x)| = 4.08229e-07
+|g(x) + J(x)'*y| = 3.39124e-07
+|J(x)'c(x)| = 0
+y offset = 3.19118e-12
+Number of Iterations = 16
+Elapsed Time = 0.0309353 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     123 (85, 38)
+  Gradient     (*ofg):           22
+  Constraints  (cfn, ccfsg):    468 (85, 383)
+  Jacobian     (ccfsg):          97
+  Hessian prod (*hprod):         74
+
+Normal iterations = 5
+Average number of normal iterations = 0.3125
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 13
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 1
+Restorations = 287
+Average number of restorations per normal iteration = 57
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 0.119999

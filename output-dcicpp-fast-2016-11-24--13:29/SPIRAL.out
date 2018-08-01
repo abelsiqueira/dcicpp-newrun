@@ -1,0 +1,245 @@
+sifdecoder -A pc64.lnx.gfo  SPIRAL
+
+ Problem name: SPIRAL
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.984461
+ekpp/ekp = 0.978817
+ekpp/ek = 1.00435
+ekpp/ekp = 1.02609
+ekpp/ek = 1.02962
+ekpp/ekp = 1.00345
+ekpp/ek = 0.982036
+ekpp/ekp = 0.978663
+ekpp/ek = 0.983685
+ekpp/ekp = 1.00513
+ekpp/ek = 1.01807
+ekpp/ekp = 1.01288
+ekpp/ek = 1.01681
+ekpp/ekp = 1.00388
+ekpp/ek = 0.995607
+ekpp/ekp = 0.991756
+ekpp/ek = 1.00224
+ekpp/ekp = 1.01057
+ekpp/ek = 0.997663
+ekpp/ekp = 0.987231
+ekpp/ek = 0.988921
+ekpp/ekp = 1.00171
+ekpp/ek = 1.00633
+ekpp/ekp = 1.00461
+ekpp/ek = 1.00559
+ekpp/ekp = 1.00098
+ekpp/ek = 1.00584
+ekpp/ekp = 1.00486
+ekpp/ek = 1.0008
+ekpp/ekp = 0.995957
+ekpp/ek = 0.995488
+ekpp/ekp = 0.999529
+ekpp/ek = 0.994944
+ekpp/ekp = 0.995412
+ekpp/ek = 0.998689
+ekpp/ekp = 1.00329
+ekpp/ek = 0.998162
+ekpp/ekp = 0.994887
+ekpp/ek = 0.989949
+ekpp/ekp = 0.995036
+ekpp/ek = 0.991188
+ekpp/ekp = 0.996133
+ekpp/ek = 0.994809
+ekpp/ekp = 0.998671
+ekpp/ek = 0.995846
+ekpp/ekp = 0.997171
+ekpp/ek = 0.995821
+ekpp/ekp = 0.998646
+ekpp/ek = 0.997321
+ekpp/ekp = 0.998674
+ekpp/ek = 0.988803
+ekpp/ekp = 0.990116
+ekpp/ek = 0.986268
+ekpp/ekp = 0.996114
+ekpp/ek = 0.991038
+ekpp/ekp = 0.994905
+ekpp/ek = 0.986457
+ekpp/ekp = 0.991509
+ekpp/ek = 0.964709
+ekpp/ekp = 0.972971
+ekpp/ek = 0.967808
+ekpp/ekp = 0.994694
+ekpp/ek = 0.98299
+ekpp/ekp = 0.988233
+ekpp/ek = 0.974956
+ekpp/ekp = 0.986564
+ekpp/ek = 0.977202
+ekpp/ekp = 0.99051
+ekpp/ek = 0.995211
+ekpp/ekp = 1.00475
+ekpp/ek = 1.00052
+ekpp/ekp = 0.995791
+ekpp/ek = 0.981434
+ekpp/ekp = 0.985582
+ekpp/ek = 0.980244
+ekpp/ekp = 0.994584
+ekpp/ek = 0.982474
+ekpp/ekp = 0.987825
+ekpp/ek = 0.974741
+ekpp/ekp = 0.986755
+ekpp/ek = 0.962198
+ekpp/ekp = 0.975114
+ekpp/ek = 0.969083
+ekpp/ekp = 0.993815
+ekpp/ek = 0.978484
+ekpp/ekp = 0.984573
+ekpp/ek = 0.974789
+ekpp/ekp = 0.990062
+ekpp/ek = 0.961045
+ekpp/ekp = 0.970692
+ekpp/ek = 0.966271
+ekpp/ekp = 0.995445
+ekpp/ek = 0.984065
+ekpp/ekp = 0.988567
+ekpp/ek = 0.9751
+ekpp/ekp = 0.986377
+ekpp/ek = 0.967621
+ekpp/ekp = 0.980985
+ekpp/ek = 0.968011
+ekpp/ekp = 0.986775
+ekpp/ek = 0.967663
+ekpp/ekp = 0.980633
+ekpp/ek = 0.964355
+ekpp/ekp = 0.983401
+ekpp/ek = 0.934662
+ekpp/ekp = 0.950438
+ekpp/ek = 0.94236
+ekpp/ekp = 0.991501
+ekpp/ek = 0.969487
+ekpp/ekp = 0.977798
+ekpp/ek = 0.974117
+ekpp/ekp = 0.996236
+ekpp/ek = 0.986769
+ekpp/ekp = 0.990497
+ekpp/ek = 0.966397
+ekpp/ekp = 0.975669
+ekpp/ek = 0.954945
+ekpp/ekp = 0.97876
+ekpp/ek = 0.927163
+ekpp/ekp = 0.947284
+ekpp/ek = 0.900237
+ekpp/ekp = 0.950336
+ekpp/ek = 0.930999
+ekpp/ekp = 0.979653
+ekpp/ek = 0.953342
+ekpp/ekp = 0.973143
+ekpp/ek = 0.963451
+ekpp/ekp = 0.99004
+ekpp/ek = 0.980544
+ekpp/ekp = 0.990408
+ekpp/ek = 0.982087
+ekpp/ekp = 0.991598
+ekpp/ek = 0.984861
+ekpp/ekp = 0.993206
+ekpp/ek = 0.988008
+ekpp/ekp = 0.994767
+ekpp/ek = 0.990837
+ekpp/ekp = 0.99605
+ekpp/ek = 0.993086
+ekpp/ekp = 0.997025
+ekpp/ek = 0.994775
+ekpp/ekp = 0.997744
+ekpp/ek = 0.996018
+ekpp/ekp = 0.99827
+ekpp/ek = 0.996934
+ekpp/ekp = 0.998661
+ekpp/ek = 0.998818
+ekpp/ekp = 1.00016
+ekpp/ek = 1.00004
+ekpp/ekp = 0.999882
+ekpp/ek = 0.999295
+ekpp/ekp = 0.999413
+ekpp/ek = 0.999043
+ekpp/ekp = 0.99963
+ekpp/ek = 0.999298
+ekpp/ekp = 0.999668
+ekpp/ek = 0.999368
+ekpp/ekp = 0.9997
+ekpp/ek = 0.999428
+ekpp/ekp = 0.999728
+ekpp/ek = 0.999481
+ekpp/ekp = 0.999753
+ekpp/ek = 0.999527
+ekpp/ekp = 0.999774
+ekpp/ek = 0.999568
+ekpp/ekp = 0.999794
+ekpp/ek = 0.999605
+ekpp/ekp = 0.999811
+ekpp/ek = 0.99963
+ekpp/ekp = 0.999819
+ekpp/ek = 0.999649
+ekpp/ekp = 0.999829
+ekpp/ek = 0.999685
+ekpp/ekp = 0.999856
+ekpp/ek = 0.999723
+ekpp/ekp = 0.999867
+ekpp/ek = 0.999743
+ekpp/ekp = 0.999876
+ekpp/ek = 0.999762
+ekpp/ekp = 0.999885
+ekpp/ek = 0.999779
+ekpp/ekp = 0.999894
+ekpp/ek = 0.999795
+ekpp/ekp = 0.999901
+ekpp/ek = 0.999809
+ekpp/ekp = 0.999908
+ekpp/ek = 0.99983
+ekpp/ekp = 0.999922
+ekpp/ek = 0.999853
+ekpp/ekp = 0.999931
+ekpp/ek = 0.999855
+ekpp/ekp = 0.999924
+ekpp/ek = 0.999845
+ekpp/ekp = 0.999921
+ekpp/ek = 0.999852
+ekpp/ekp = 0.999931
+ekpp/ek = 0.99988
+ekpp/ekp = 0.999949
+Showing
+**********************************************************
+Problem name: SPIRAL  
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: rhomax became too short
+f(x) = 0.0277963
+|c(x)| = 8.52394e-08
+|g(x) + J(x)'*y| = 0.00508262
+y offset = 5.27112e-52
+Number of Iterations = 102
+Elapsed Time = 0.0048945 s
+Normal iterations = 34
+Average number of normal iterations = 0.333333
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 72
+Iterations with 1  normal iteration  = 26
+Iterations with 2+ normal iterations = 4
+Restorations = 296
+Average number of restorations per normal iteration = 8
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.019998

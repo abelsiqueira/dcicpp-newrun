@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  CATENA
+
+ Problem name: CATENA
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1000 nonlinear equality constraints
+ 
+ There are 2999 free variables
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 4 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CATENA  
+
+Number of Variables: 2999
+Number of Constraints: 1000
+             Equality: 1000
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+f(x) = -1.79535e+06
+|c(x)| = 0.000717674
+|g(x) + J(x)'*y| = 0.000113004
+|J(x)'c(x)| = 0.000533653
+y offset = 0
+Number of Iterations = 8707
+Elapsed Time = 57.5772 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):   69333 (43620, 25713)
+  Gradient     (*ofg):        17006
+  Constraints  (cfn, ccfsg):  71213 (43620, 27593)
+  Jacobian     (ccfsg):       17592
+  Hessian prod (*hprod):      54621
+
+Normal iterations = 8338
+Average number of normal iterations = 0.95762
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 369
+Iterations with 1  normal iteration  = 8338
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.033332
+Execution time: 57.7733

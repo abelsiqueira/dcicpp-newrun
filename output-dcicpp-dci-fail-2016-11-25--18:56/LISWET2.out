@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  LISWET2
+
+ Problem name: LISWET2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2000 linear inequality constraints
+ 
+ There are 2002 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LISWET2 
+
+Number of Variables: 2002
+Number of Constraints: 2000
+             Equality: 0
+           has_inequality: 2000
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 24867.7
+|c(x)| = 0.000636708
+|g(x) + J(x)'*y| = 0.829515
+|J(x)'c(x)| = 0.000397807
+y offset = 0
+Number of Iterations = 5
+Elapsed Time = 9.69356 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     300 (285, 15)
+  Gradient     (*ofg):           10
+  Constraints  (cfn, ccfsg):  12480 (285, 12195)
+  Jacobian     (ccfsg):        2151
+  Hessian prod (*hprod):         48
+
+Normal iterations = 4
+Average number of normal iterations = 0.8
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 0
+Restorations = 10044
+Average number of restorations per normal iteration = 2511
+**********************************************************
+Done
+Setup time: 0.036665
+Execution time: 9.79333

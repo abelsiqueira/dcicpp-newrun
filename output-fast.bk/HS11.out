@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  HS11
+
+ Problem name: HS11
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: HS11    
+
+Number of Variables: 2
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = -8.49854
+|c(x)| = 9.94908e-07
+|g(x) + J(x)'*y| = 1.6174e-09
+y offset = 0
+Number of Iterations = 7
+Elapsed Time = 0.00118279 s
+Normal iterations = 9
+Average number of normal iterations = 1.28571
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 3
+Iterations with <= 1 normal iterations = 4
+**********************************************************
+Setup time: 0
+Execution time: 0.006666

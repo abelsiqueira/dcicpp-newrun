@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  AVGASA
+
+ Problem name: AVGASA
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 10 linear inequality constraints
+ 
+ There are 8 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.27641
+ekpp/ekp = 1.05177
+ekpp/ek = 1.07002
+ekpp/ekp = 1.01735
+ekpp/ek = 1.0143
+ekpp/ekp = 0.997003
+ekpp/ek = 0.997785
+ekpp/ekp = 1.00078
+ekpp/ek = 1.00072
+ekpp/ekp = 0.999938
+Showing
+**********************************************************
+Problem name: AVGASA  
+
+Number of Variables: 8
+Number of Constraints: 10
+             Equality: 0
+           has_inequality: 10
+
+EXIT: The Algorithm has Converged
+f(x) = -4.63193
+|c(x)| = 9.63706e-07
+|g(x) + J(x)'*y| = 2.72615e-09
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.00564075 s
+Normal iterations = 2
+Average number of normal iterations = 0.25
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 372
+Average number of restorations per normal iteration = 186
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.019999

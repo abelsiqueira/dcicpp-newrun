@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  LUKVLE18
+
+ Problem name: LUKVLE18
+
+ Double precision version will be formed
+
+ The objective function uses 9996 nonlinear groups
+ 
+ There are 7497 nonlinear equality constraints
+ 
+ There are 9997 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: LUKVLE18
+
+Number of Variables: 9997
+Number of Constraints: 7497
+             Equality: 7497
+           has_inequality: 0
+
+EXIT: rhomax became too short
+Cholesky failed
+f(x) = 11198.1
+|c(x)| = 9.814e-07
+|g(x) + J(x)'*y| = 0.00899008
+|J(x)'c(x)| = 2.16515e-06
+y offset = 0
+Number of Iterations = 54
+Elapsed Time = 9.63214 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     727 (587, 140)
+  Gradient     (*ofg):           86
+  Constraints  (cfn, ccfsg):   4776 (587, 4189)
+  Jacobian     (ccfsg):        1374
+  Hessian prod (*hprod):        301
+
+Normal iterations = 52
+Average number of normal iterations = 0.962963
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 5
+Iterations with 1  normal iteration  = 46
+Iterations with 2+ normal iterations = 3
+Restorations = 2815
+Average number of restorations per normal iteration = 54
+**********************************************************
+Done
+Setup time: 0.226667
+Execution time: 9.68667

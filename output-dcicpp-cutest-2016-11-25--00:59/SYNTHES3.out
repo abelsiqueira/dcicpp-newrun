@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  SYNTHES3
+
+ Problem name: SYNTHES3
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear equality constraints
+ There are 17 linear inequality constraints
+ There are 4 nonlinear inequality constraints
+ 
+ There are 17 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SYNTHES3
+
+Number of Variables: 17
+Number of Constraints: 23
+             Equality: 2
+           has_inequality: 21
+
+EXIT: The Algorithm has Converged
+f(x) = 15.0823
+|c(x)| = 3.72732e-07
+|g(x) + J(x)'*y| = 5.18813e-07
+|J(x)'c(x)| = 1.5008e-16
+y offset = 3.61432e-07
+Number of Iterations = 28
+Elapsed Time = 0.0112052 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     184 (119, 65)
+  Gradient     (*ofg):           37
+  Constraints  (cfn, ccfsg):    775 (119, 656)
+  Jacobian     (ccfsg):         169
+  Hessian prod (*hprod):        145
+
+Normal iterations = 16
+Average number of normal iterations = 0.571429
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 15
+Iterations with 1  normal iteration  = 11
+Iterations with 2+ normal iterations = 2
+Restorations = 487
+Average number of restorations per normal iteration = 30
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.043332

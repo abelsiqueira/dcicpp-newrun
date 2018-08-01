@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  GMNCASE2
+
+ Problem name: GMNCASE2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 1050 linear inequality constraints
+ 
+ There are 175 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: GMNCASE2
+
+Number of Variables: 175
+Number of Constraints: 1050
+             Equality: 0
+           has_inequality: 1050
+
+EXIT: The Algorithm has Converged
+f(x) = -0.994441
+|c(x)| = 4.95229e-12
+|g(x) + J(x)'*y| = 9.60382e-08
+y offset = 3.05679e-06
+Number of Iterations = 16
+Elapsed Time = 1.33612 s
+Normal iterations = 1
+Average number of normal iterations = 0.0625
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 15
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 7
+Average number of restorations per normal iteration = 7
+**********************************************************
+Done
+Setup time: 0.103333
+Execution time: 1.42667

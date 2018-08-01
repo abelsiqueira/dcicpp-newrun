@@ -1,0 +1,83 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:      226
+Number of nonzeros in inequality constraint Jacobian.:      160
+Number of nonzeros in Lagrangian Hessian.............:      127
+
+Total number of variables............................:       38
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:       24
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:       28
+Total number of inequality constraints...............:       40
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:       40
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  8.2920320e+03 2.01e-01 3.32e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  8.1543310e+03 3.80e-02 1.84e+01  -1.0 8.76e-01    -  1.95e-01 8.79e-01f  1
+   2  8.0739684e+03 3.02e-02 9.63e-01  -1.0 2.52e+00    -  9.90e-01 9.46e-01f  1
+   3  8.0965493e+03 8.91e-04 3.28e-02  -1.0 3.20e-02  -4.0 9.91e-01 1.00e+00f  1
+   4  8.0883902e+03 4.37e-04 1.92e-02  -1.7 3.55e-02    -  9.94e-01 1.00e+00f  1
+   5  8.0848837e+03 2.66e-04 1.59e+00  -2.5 4.25e-02    -  8.38e-01 5.76e-01f  1
+   6  8.0817583e+03 4.53e-04 1.23e-01  -2.5 4.40e-02  -4.5 1.00e+00 9.67e-01f  1
+   7  8.0821416e+03 1.62e-05 6.78e-04  -2.5 1.25e-02  -5.0 1.00e+00 1.00e+00f  1
+   8  8.0815699e+03 2.20e-05 1.04e-03  -3.8 1.07e-02    -  9.42e-01 9.40e-01h  1
+   9  8.0815272e+03 2.94e-07 1.59e-03  -5.7 2.35e-03    -  1.00e+00 9.90e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  8.0815267e+03 2.48e-10 1.08e-08  -5.7 7.37e-05  -5.4 1.00e+00 1.00e+00f  1
+  11  8.0815263e+03 6.49e-12 4.13e-10  -8.6 7.88e-06  -5.9 1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 11
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.0203806327241176e+02    8.0815262968859697e+03
+Dual infeasibility......:   4.1321635002589119e-10    1.6528661703388411e-08
+Constraint violation....:   6.4934724264276156e-12    6.4934724264276156e-12
+Complementarity.........:   2.6690780838343484e-09    1.0676317310498942e-07
+Overall NLP error.......:   2.6690780838343484e-09    1.0676317310498942e-07
+
+
+Number of objective function evaluations             = 12
+Number of objective gradient evaluations             = 12
+Number of equality constraint evaluations            = 12
+Number of inequality constraint evaluations          = 12
+Number of equality constraint Jacobian evaluations   = 12
+Number of inequality constraint Jacobian evaluations = 12
+Number of Lagrangian Hessian evaluations             = 11
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.003
+Total CPU secs in NLP function evaluations           =      0.003
+
+EXIT: Optimal Solution Found.
+
+************************ CUTEst statistics ************************
+
+
+ Package used            :  IPOPT
+ Problem                 :  ACOPP14   
+ # variables             =              38
+ # constraints           =              68
+ # objective functions   =        0.2500000E+02
+ # objective gradients   =        0.1300000E+02
+ # objective Hessians    =        0.1200000E+02
+ # Hessian-vector prdct  =        0.0000000E+00
+ # constraints functions =        0.2600000E+02
+ # constraints gradients =        0.1400000E+02
+ # constraints Hessians  =        0.1200000E+02
+ Exit code               =               0
+ Final f                 =   0.8081526E+04
+ Set up time             =            0.00 seconds
+ Solve time              =            0.04 seconds
+
+
+******************************************************************
+
+System Time =       0.0089999996 s.

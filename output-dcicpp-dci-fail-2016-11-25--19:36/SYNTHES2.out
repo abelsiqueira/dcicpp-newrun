@@ -1,0 +1,60 @@
+sifdecoder -A pc64.lnx.gfo  SYNTHES2
+
+ Problem name: SYNTHES2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There are 10 linear inequality constraints
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ There are 9 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+NormalFlag = 2
+Showing
+**********************************************************
+Problem name: SYNTHES2
+
+Number of Variables: 11
+Number of Constraints: 14
+             Equality: 1
+           has_inequality: 13
+
+EXIT: Stopped at a stationary for the infeasibility
+f(x) = -0.535558
+|c(x)| = 0.000367874
+|g(x) + J(x)'*y| = 6.29775e-05
+|J(x)'c(x)| = 0
+y offset = 1.1701e-06
+Number of Iterations = 12
+Elapsed Time = 0.00550914 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      53 (27, 26)
+  Gradient     (*ofg):           14
+  Constraints  (cfn, ccfsg):    605 (27, 578)
+  Jacobian     (ccfsg):         128
+  Hessian prod (*hprod):         15
+
+Normal iterations = 9
+Average number of normal iterations = 0.75
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 0
+Restorations = 454
+Average number of restorations per normal iteration = 50
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.019999

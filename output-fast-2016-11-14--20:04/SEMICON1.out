@@ -1,0 +1,48 @@
+sifdecoder -A pc64.lnx.gfo  SEMICON1
+
+ Problem name: SEMICON1
+
+ Double precision version will be formed
+
+ 
+ There are 5000 nonlinear equality constraints
+ 
+ There are 5000 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SEMICON1
+
+Number of Variables: 5000
+Number of Constraints: 5000
+             Equality: 5000
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 4.1068e-10
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.854976 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 146
+Average number of restorations per normal iteration = 73
+**********************************************************
+Done
+Setup time: 0.183333
+Execution time: 0.873333

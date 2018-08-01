@@ -1,0 +1,31 @@
+sifdecoder -A pc64.lnx.gfo  DIXMAANL
+
+ Problem name: DIXMAANL
+
+ Double precision version will be formed
+
+ The objective function uses 4 nonlinear groups
+ 
+ There are 3000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: DIXMAANL
+
+Number of Variables: 3000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.00367
+|c(x)| = 0
+|g(x) + J(x)'*y| = 3.9486e-07
+y offset = 0
+Number of Iterations = 23
+Elapsed Time = 0.117151 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 20164 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

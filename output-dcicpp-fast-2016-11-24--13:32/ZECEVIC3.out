@@ -1,0 +1,81 @@
+sifdecoder -A pc64.lnx.gfo  ZECEVIC3
+
+ Problem name: ZECEVIC3
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.45144
+ekpp/ekp = 0.931304
+ekpp/ek = 0.930505
+ekpp/ekp = 0.999142
+ekpp/ek = 0.997005
+ekpp/ekp = 0.997861
+ekpp/ek = 0.992557
+ekpp/ekp = 0.994685
+ekpp/ek = 0.981683
+ekpp/ekp = 0.986929
+ekpp/ek = 0.953575
+ekpp/ekp = 0.966204
+ekpp/ek = 0.885873
+ekpp/ekp = 0.91686
+ekpp/ek = 0.913097
+ekpp/ekp = 0.995896
+ekpp/ek = 0.995659
+ekpp/ekp = 0.999763
+ekpp/ek = 0.99966
+ekpp/ekp = 0.999897
+ekpp/ek = 0.999847
+ekpp/ekp = 0.99995
+ekpp/ek = 0.999826
+ekpp/ekp = 0.999876
+ekpp/ek = 0.999566
+ekpp/ekp = 0.99969
+ekpp/ek = 0.998882
+ekpp/ekp = 0.999191
+ekpp/ek = 0.99756
+ekpp/ekp = 0.998367
+ekpp/ek = 0.99828
+ekpp/ekp = 0.999912
+ekpp/ek = 0.999907
+ekpp/ekp = 0.999995
+Showing
+**********************************************************
+Problem name: ZECEVIC3
+
+Number of Variables: 2
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 97.3094
+|c(x)| = 9.93973e-07
+|g(x) + J(x)'*y| = 3.97212e-08
+y offset = 0
+Number of Iterations = 20
+Elapsed Time = 0.00227642 s
+Normal iterations = 14
+Average number of normal iterations = 0.7
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 9
+Iterations with 1  normal iteration  = 8
+Iterations with 2+ normal iterations = 3
+Restorations = 262
+Average number of restorations per normal iteration = 18
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

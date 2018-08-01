@@ -1,0 +1,37 @@
+sifdecoder -A pc64.lnx.gfo  SSCOSINE
+
+ Problem name: SSCOSINE
+
+ Double precision version will be formed
+
+ The objective function uses 4999 nonlinear groups
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: SSCOSINE
+
+Number of Variables: 5000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The problem reached the time limit
+f(x) = -2049.97
+|c(x)| = 0
+|g(x) + J(x)'*y| = 0.443332
+y offset = 0
+Number of Iterations = 741
+Elapsed Time = 30.0023 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 741
+**********************************************************
+Setup time: 0.113333
+Execution time: 30.1967

@@ -1,0 +1,26 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELBA
+
+ Problem name: HIMMELBA
+
+ Double precision version will be formed
+
+ 
+ There are 2 linear equality constraints
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+NOPE preprocessing removed 2 contraints
+x[1] = 5.000000
+x[2] = 6.000000
+EXIT: After the preprocessing, there no variables
+f(x) = 0
+Elapsed Time = 0.0
+WARNING: Time of the preprocessing not included
+Setup time: 0
+Execution time: 0.003333

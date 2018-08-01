@@ -1,0 +1,85 @@
+sifdecoder -A pc64.lnx.gfo  ROSENMMX
+
+ Problem name: ROSENMMX
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4 nonlinear inequality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 2.34901
+ekpp/ekp = 2.00303
+ekpp/ek = 4.50736
+ekpp/ekp = 2.25027
+ekpp/ek = 2.67975
+ekpp/ekp = 1.19085
+ekpp/ek = 1.46699
+ekpp/ekp = 1.23188
+ekpp/ek = 1.38022
+ekpp/ekp = 1.12042
+ekpp/ek = 1.23453
+ekpp/ekp = 1.10185
+ekpp/ek = 1.20973
+ekpp/ekp = 1.09791
+ekpp/ek = 1.17564
+ekpp/ekp = 1.0708
+ekpp/ek = 1.12948
+ekpp/ekp = 1.0548
+ekpp/ek = 1.13103
+ekpp/ekp = 1.07227
+ekpp/ek = 1.11517
+ekpp/ekp = 1.04001
+ekpp/ek = 1.05861
+ekpp/ekp = 1.01789
+ekpp/ek = 1.03553
+ekpp/ekp = 1.01733
+ekpp/ek = 1.04877
+ekpp/ekp = 1.03091
+ekpp/ek = 1.03988
+ekpp/ekp = 1.0087
+ekpp/ek = 1.02577
+ekpp/ekp = 1.01693
+ekpp/ek = 1.01701
+ekpp/ekp = 1.00008
+ekpp/ek = 0.999925
+ekpp/ekp = 0.999845
+ekpp/ek = 0.999845
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: ROSENMMX
+
+Number of Variables: 5
+Number of Constraints: 4
+             Equality: 0
+           has_inequality: 4
+
+EXIT: The Algorithm has Converged
+f(x) = -44
+|c(x)| = 8.04063e-07
+|g(x) + J(x)'*y| = 2.53153e-09
+y offset = 0
+Number of Iterations = 22
+Elapsed Time = 0.00257969 s
+Normal iterations = 18
+Average number of normal iterations = 0.818182
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 18
+Iterations with 2+ normal iterations = 0
+Restorations = 175
+Average number of restorations per normal iteration = 9
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HET-Z
+
+ Problem name: HET-Z
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1002 nonlinear inequality constraints
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HET-Z   
+
+Number of Variables: 2
+Number of Constraints: 1002
+             Equality: 0
+           has_inequality: 1002
+
+EXIT: The Algorithm has Converged
+f(x) = 1.00002
+|c(x)| = 3.59534e-15
+|g(x) + J(x)'*y| = 8.27468e-08
+|J(x)'c(x)| = 19.987
+y offset = 0.00126376
+Number of Iterations = 2
+Elapsed Time = 1.32247 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      12 (5, 7)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):     34 (5, 29)
+  Jacobian     (ccfsg):           8
+  Hessian prod (*hprod):          1
+
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 21
+Average number of restorations per normal iteration = 21
+**********************************************************
+Done
+Setup time: 0.019999
+Execution time: 1.56667

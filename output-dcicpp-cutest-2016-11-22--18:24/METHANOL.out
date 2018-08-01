@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  METHANOL
+
+ Problem name: METHANOL
+
+ Double precision version will be formed
+
+ The objective function uses 51 nonlinear groups
+ 
+ There are 8397 linear equality constraints
+ There are 3600 nonlinear equality constraints
+ 
+ There are 11997 free variables
+ There are 5 variables bounded only from below 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 variables
+Starting
+Solving

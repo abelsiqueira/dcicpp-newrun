@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  DTOC6
+
+ Problem name: DTOC6
+
+ Double precision version will be formed
+
+ The objective function uses 10000 nonlinear groups
+ 
+ There are 5000 nonlinear equality constraints
+ 
+ There are 10000 free variables
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: DTOC6   
+
+Number of Variables: 10000
+Number of Constraints: 5000
+             Equality: 5000
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 134850
+|c(x)| = 9.15664e-07
+|g(x) + J(x)'*y| = 2.34432e-07
+y offset = 0
+Number of Iterations = 9
+Elapsed Time = 0.260356 s
+Normal iterations = 6
+Average number of normal iterations = 0.666667
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 1
+Restorations = 11
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.15
+Execution time: 0.316667

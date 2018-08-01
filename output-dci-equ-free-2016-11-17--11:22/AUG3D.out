@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo -st   AUG3D
+
+ Problem name: AUG3D
+
+ Double precision version will be formed
+
+ The objective function uses 22743 nonlinear groups
+ 
+ There are 8000 linear equality constraints
+ 
+ There are 27543 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    1.1669765211426752E-015
+ |gp(xk)|/|gp(xck)| =    3.1195967905498945E-002
+ |gp(xk)|/|gp(xck)| =    3.1218501924722766E-002
+ |gp(xk)|/|gp(xck)| =    5.7611758673686377E-002
+ |gp(xk)|/|gp(xck)| =    7.9920393457389965E-002
+ |gp(xk)|/|gp(xck)| =    9.4580957494346321E-002
+ |gp(xk)|/|gp(xck)| =    1.0000000000019735     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            7
+ Steihaug's iter:           15
+ Restorations   :            1
+ Rejected steps :            0
+ Function evals.:            7
+ Constr.  evals.:            8
+ Gradient evals.:            8
+ Jacobian evals.:            8
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    24561.485969892259     
+ ||h(x)||       :    3.5074165793957945E-012
+ ||gp(x)||      :    4.4514536845507990E-007
+ ||At*h||       :    6.3588151349066828E-011
+ Elapsed time   :    1.41406250    
+
+ ||xnew - xc||  :    2.1413526469137785E-004
+ rho            :    9.9999999999999995E-007
+ rhomax         :    228.07893370497854     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    24561.485969889723     
+ L(x) - L(xc)   :   -7.9562596511095762E-009
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

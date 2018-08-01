@@ -1,0 +1,90 @@
+sifdecoder -A pc64.lnx.gfo  DEMBO7
+
+ Problem name: DEMBO7
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 20 nonlinear inequality constraints
+ 
+ There are 16 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.902245
+ekpp/ekp = 0.99999
+ekpp/ek = 0.999971
+ekpp/ekp = 0.999981
+ekpp/ek = 0.99995
+ekpp/ekp = 0.999969
+ekpp/ek = 0.999888
+ekpp/ekp = 0.999919
+ekpp/ek = 0.99971
+ekpp/ekp = 0.999791
+ekpp/ek = 0.998688
+ekpp/ekp = 0.998896
+ekpp/ek = 0.995954
+ekpp/ekp = 0.997054
+ekpp/ek = 0.988774
+ekpp/ekp = 0.991696
+ekpp/ek = 0.970922
+ekpp/ekp = 0.979053
+ekpp/ek = 0.967428
+ekpp/ekp = 0.988127
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 0.982299
+ekpp/ekp = 0.994102
+ekpp/ek = 0.993733
+ekpp/ekp = 0.999629
+ekpp/ek = 0.998483
+ekpp/ekp = 0.998853
+ekpp/ek = 1.00041
+ekpp/ekp = 1.00156
+ekpp/ek = 1.00132
+ekpp/ekp = 0.999765
+ekpp/ek = 1.00045
+ekpp/ekp = 1.00068
+ekpp/ek = 1.00154
+ekpp/ekp = 1.00086
+ekpp/ek = 1.0006
+ekpp/ekp = 0.999743
+ekpp/ek = 0.99985
+ekpp/ekp = 1.00011
+Showing
+**********************************************************
+Problem name: DEMBO7  
+
+Number of Variables: 16
+Number of Constraints: 20
+             Equality: 0
+           has_inequality: 20
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 174.787
+|c(x)| = 3.6204e-07
+|g(x) + J(x)'*y| = 8.92283e-07
+y offset = 0.00603222
+Number of Iterations = 22
+Elapsed Time = 0.0152788 s
+Normal iterations = 16
+Average number of normal iterations = 0.727273
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 14
+Iterations with 2+ normal iterations = 1
+Restorations = 526
+Average number of restorations per normal iteration = 32
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.059999

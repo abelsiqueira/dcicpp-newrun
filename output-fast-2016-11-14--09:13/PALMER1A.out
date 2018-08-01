@@ -1,0 +1,32 @@
+sifdecoder -A pc64.lnx.gfo  PALMER1A
+
+ Problem name: PALMER1A
+
+ Double precision version will be formed
+
+ The objective function uses 35 nonlinear groups
+ 
+ There are 4 free variables
+ There are 2 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: PALMER1A
+
+Number of Variables: 6
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.101595
+|c(x)| = 0
+|g(x) + J(x)'*y| = 5.87588e-07
+y offset = 0
+Number of Iterations = 53
+Elapsed Time = 0.00241423 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240:  4100 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

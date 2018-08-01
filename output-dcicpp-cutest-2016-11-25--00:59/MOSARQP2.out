@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  MOSARQP2
+
+ Problem name: MOSARQP2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 700 linear inequality constraints
+ 
+ There are 2500 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: MOSARQP2
+
+Number of Variables: 2500
+Number of Constraints: 700
+             Equality: 0
+           has_inequality: 700
+
+EXIT: The Algorithm has Converged
+f(x) = -5052.59
+|c(x)| = 9.39945e-12
+|g(x) + J(x)'*y| = 9.33493e-08
+|J(x)'c(x)| = 0.101489
+y offset = 7.54657e-05
+Number of Iterations = 19
+Elapsed Time = 0.986845 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      60 (21, 39)
+  Gradient     (*ofg):           20
+  Constraints  (cfn, ccfsg):     44 (21, 23)
+  Jacobian     (ccfsg):          20
+  Hessian prod (*hprod):       2862
+
+Normal iterations = 1
+Average number of normal iterations = 0.0526316
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 18
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 3
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0.033333
+Execution time: 1.21667

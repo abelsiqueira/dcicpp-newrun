@@ -1,0 +1,42 @@
+sifdecoder -A pc64.lnx.gfo  SWOPF
+
+ Problem name: SWOPF
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 43 linear equality constraints
+ There are 35 nonlinear equality constraints
+ There are 14 nonlinear inequality constraints
+ 
+ There are 73 free variables
+ There are 10 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: SWOPF   
+
+Number of Variables: 82
+Number of Constraints: 91
+             Equality: 77
+           has_inequality: 14
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0678603
+|c(x)| = 2.33001e-07
+|g(x) + J(x)'*y| = 1.42469e-07
+y offset = 0
+Number of Iterations = 23
+Elapsed Time = 0.0115244 s
+Normal iterations = 8
+Average number of normal iterations = 0.347826
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 6
+Iterations with <= 1 normal iterations = 22
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.043332

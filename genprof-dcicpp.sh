@@ -23,7 +23,7 @@ do
   else
     if [ -z "$(grep 'After the preprocessing, there no variables' $dir/$f.out)" ]; then
       sed 's/-nan/1e20/g' $dir/$f.out | sed 's/nan/1e20/g' | awk -v name=$f \
-        '/f\(x/ {f = $3}; /c\(x/ {h = $3 }; /g\(x/ {gp = $5}; /Elapsed Time/ {t = $4};
+        '/f\(x/ {f = $3}; /\|c\(x/ {h = $3 }; /g\(x/ {gp = $5}; /Elapsed Time/ {t = $4};
         END{ if (h > 1e-6 || gp > 1e-6) conv="d"; else conv="c";
           print name, conv, t, f, h, gp }'
     else

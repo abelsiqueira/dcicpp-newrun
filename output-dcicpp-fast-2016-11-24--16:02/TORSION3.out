@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  TORSION3
+
+ Problem name: TORSION3
+
+ Double precision version will be formed
+
+ The objective function uses 5184 nonlinear groups
+ 
+ There are 5184 variables bounded from below and above 
+ There are 292 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 292 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: TORSION3
+
+Number of Variables: 5184
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -1.16589
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.84795e-08
+|J(x)'c(x)| = 6.95326e-310
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.52853 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     138 (132, 6)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):      0 (0, 0)
+  Jacobian     (ccfsg):           0
+  Hessian prod (*hprod):        129
+
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.16
+Execution time: 0.64

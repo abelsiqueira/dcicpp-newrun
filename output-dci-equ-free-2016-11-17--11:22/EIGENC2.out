@@ -1,0 +1,73 @@
+sifdecoder -A pc64.lnx.gfo -st   EIGENC2
+
+ Problem name: EIGENC2
+
+ Double precision version will be formed
+
+ The objective function uses 2601 nonlinear groups
+ 
+ There are 1326 nonlinear equality constraints
+ 
+ There are 2652 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    2.6969702416329792E-002
+ |gp(xk)|/|gp(xck)| =   0.84732548390722506     
+ |gp(xk)|/|gp(xck)| =    4.7877016301944737     
+ |gp(xk)|/|gp(xck)| =    5.2804018340086740     
+ |gp(xk)|/|gp(xck)| =    2.4327723759071143     
+ |gp(xk)|/|gp(xck)| =    1.9294401122927123     
+ |gp(xk)|/|gp(xck)| =    2.0190968970621244     
+ |gp(xk)|/|gp(xck)| =    1.3603788499423743     
+ |gp(xk)|/|gp(xck)| =   0.60355497717627249     
+ |gp(xk)|/|gp(xck)| =   0.87102001722381839     
+ |gp(xk)|/|gp(xck)| =    1.1641600546640716     
+ |gp(xk)|/|gp(xck)| =   0.40320231025458242     
+ |gp(xk)|/|gp(xck)| =   0.52104860156954480     
+ |gp(xk)|/|gp(xck)| =    1.4978664213721471     
+ |gp(xk)|/|gp(xck)| =   0.42032607889817858     
+ |gp(xk)|/|gp(xck)| =   0.50924305128943237     
+ |gp(xk)|/|gp(xck)| =   0.47477474016773935     
+ |gp(xk)|/|gp(xck)| =   0.49581987065984190     
+ |gp(xk)|/|gp(xck)| =   0.35367479762409748     
+ |gp(xk)|/|gp(xck)| =   0.18809692419653076     
+ |gp(xk)|/|gp(xck)| =   0.34120517197471401     
+ |gp(xk)|/|gp(xck)| =   0.23152016437518255     
+ |gp(xk)|/|gp(xck)| =    1.0000000001217724     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           23
+ Steihaug's iter:          908
+ Restorations   :           10
+ Rejected steps :           12
+ Function evals.:           35
+ Constr.  evals.:           55
+ Gradient evals.:           27
+ Jacobian evals.:           27
+ 2nd order Corr.:            9
+ BFGS iterations:            0
+ f(x)           :    1.5264810432757504E-014
+ ||h(x)||       :    1.4392444213414540E-012
+ ||gp(x)||      :    3.6279764876293521E-007
+ ||At*h||       :    3.0305257190486334E-012
+ Elapsed time   :    4.83984375    
+
+ ||xnew - xc||  :    7.3523429444154860E-007
+ rho            :    1.9222371119672778E-006
+ rhomax         :   0.78106611817045013     
+ vdelta         :    6.4805354349027322     
+ hdelta         :    2.1684043449710089     
+ L(x)           :   -6.1728117443943586E-012
+ L(x) - L(xc)   :   -1.8094474873194390E-012
+ L(xc)-L(x(k-1)):    2.7630707573159560E-016
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  CHARDIS1
+
+ Problem name: CHARDIS1
+
+ Double precision version will be formed
+
+ The objective function uses 499500 nonlinear groups
+ 
+ There are 999 nonlinear inequality constraints
+ 
+ There are 1998 free variables
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CHARDIS1
+
+Number of Variables: 1998
+Number of Constraints: 999
+             Equality: 0
+           has_inequality: 999
+
+EXIT: The Algorithm has Converged
+f(x) = 4.38939
+|c(x)| = 4.34046e-08
+|g(x) + J(x)'*y| = 9.7155e-07
+|J(x)'c(x)| = 2.30765e-06
+y offset = 0
+Number of Iterations = 112
+Elapsed Time = 92.6118 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     879 (625, 254)
+  Gradient     (*ofg):          142
+  Constraints  (cfn, ccfsg):    825 (625, 200)
+  Jacobian     (ccfsg):         141
+  Hessian prod (*hprod):       1486
+
+Normal iterations = 58
+Average number of normal iterations = 0.517857
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 54
+Iterations with 1  normal iteration  = 58
+Iterations with 2+ normal iterations = 0
+Restorations = 59
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 10.1433
+Execution time: 92.55

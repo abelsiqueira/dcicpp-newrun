@@ -1,0 +1,76 @@
+sifdecoder -A pc64.lnx.gfo  TABLE8
+
+ Problem name: TABLE8
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 72 linear equality constraints
+ 
+ There are 1271 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 1.11755
+ekpp/ekp = 0.992171
+ekpp/ek = 0.974803
+ekpp/ekp = 0.982495
+ekpp/ek = 0.951409
+ekpp/ekp = 0.96836
+ekpp/ek = 0.938664
+ekpp/ekp = 0.969334
+ekpp/ek = 0.969325
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999945
+ekpp/ekp = 0.999954
+ekpp/ek = 0.999955
+ekpp/ekp = 1
+ekpp/ek = 0.999909
+ekpp/ekp = 0.999908
+ekpp/ek = 1.00021
+ekpp/ekp = 1.0003
+ekpp/ek = 0.999839
+ekpp/ekp = 0.999542
+ekpp/ek = 0.999754
+ekpp/ekp = 1.00021
+ekpp/ek = 1.00023
+ekpp/ekp = 1.00002
+Showing
+**********************************************************
+Problem name: TABLE8  
+
+Number of Variables: 1271
+Number of Constraints: 72
+             Equality: 72
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 1.89576
+|c(x)| = 2.54258e-10
+|g(x) + J(x)'*y| = 9.2916e-08
+y offset = 0
+Number of Iterations = 15
+Elapsed Time = 0.105883 s
+Normal iterations = 1
+Average number of normal iterations = 0.0666667
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 14
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 70
+Average number of restorations per normal iteration = 70
+**********************************************************
+Done
+Setup time: 0.013332
+Execution time: 0.346667

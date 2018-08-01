@@ -1,0 +1,244 @@
+sifdecoder -A pc64.lnx.gfo  TENBARS4
+
+ Problem name: TENBARS4
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There are 8 nonlinear equality constraints
+ 
+ There are 8 free variables
+ There are 10 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 contraints
+Starting
+Solving
+ekpp/ek = 1.04623
+ekpp/ekp = 1.02045
+ekpp/ek = 1.07838
+ekpp/ekp = 1.05676
+ekpp/ek = 1.05778
+ekpp/ekp = 1.00096
+ekpp/ek = 1.00662
+ekpp/ekp = 1.00566
+ekpp/ek = 1.03436
+ekpp/ekp = 1.02854
+ekpp/ek = 1.10451
+ekpp/ekp = 1.07386
+ekpp/ek = 1.08194
+ekpp/ekp = 1.00752
+ekpp/ek = 1.01031
+ekpp/ekp = 1.00276
+ekpp/ek = 1.04912
+ekpp/ekp = 1.04623
+ekpp/ek = 1.04622
+ekpp/ekp = 0.999985
+ekpp/ek = 0.999985
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00004
+ekpp/ekp = 1.00003
+ekpp/ek = 1.00009
+ekpp/ekp = 1.00006
+ekpp/ek = 1.00023
+ekpp/ekp = 1.00016
+ekpp/ek = 1.00059
+ekpp/ekp = 1.00043
+ekpp/ek = 1.00168
+ekpp/ekp = 1.00125
+ekpp/ek = 1.00611
+ekpp/ekp = 1.00485
+ekpp/ek = 1.02308
+ekpp/ekp = 1.01815
+ekpp/ek = 1.06518
+ekpp/ekp = 1.04619
+ekpp/ek = 1.16808
+ekpp/ekp = 1.11651
+ekpp/ek = 1.12547
+ekpp/ekp = 1.00803
+ekpp/ek = 1.01211
+ekpp/ekp = 1.00405
+ekpp/ek = 1.03315
+ekpp/ekp = 1.02898
+ekpp/ek = 1.10339
+ekpp/ekp = 1.07231
+ekpp/ek = 1.07422
+ekpp/ekp = 1.00178
+ekpp/ek = 1.06119
+ekpp/ekp = 1.0593
+ekpp/ek = 1.12153
+ekpp/ekp = 1.05874
+ekpp/ek = 1.05993
+ekpp/ekp = 1.00113
+ekpp/ek = 1.00432
+ekpp/ekp = 1.00319
+ekpp/ek = 1.04337
+ekpp/ekp = 1.04005
+ekpp/ek = 1.04929
+ekpp/ekp = 1.00888
+ekpp/ek = 1.00984
+ekpp/ekp = 1.00095
+ekpp/ek = 1.01136
+ekpp/ekp = 1.0104
+ekpp/ek = 1.0928
+ekpp/ekp = 1.08156
+ekpp/ek = 1.08426
+ekpp/ekp = 1.00251
+ekpp/ek = 1.00689
+ekpp/ekp = 1.00437
+ekpp/ek = 1.0872
+ekpp/ekp = 1.08247
+ekpp/ek = 1.08367
+ekpp/ekp = 1.00111
+ekpp/ek = 1.05075
+ekpp/ekp = 1.04958
+ekpp/ek = 1.06602
+ekpp/ekp = 1.01566
+ekpp/ek = 1.0187
+ekpp/ekp = 1.00299
+ekpp/ek = 1.02579
+ekpp/ekp = 1.02273
+ekpp/ek = 1.03012
+ekpp/ekp = 1.00722
+ekpp/ek = 1.02661
+ekpp/ekp = 1.01925
+ekpp/ek = 1.02965
+ekpp/ekp = 1.01021
+ekpp/ek = 1.05639
+ekpp/ekp = 1.04572
+ekpp/ek = 1.04909
+ekpp/ekp = 1.00322
+ekpp/ek = 1.00577
+ekpp/ekp = 1.00254
+ekpp/ek = 1.01707
+ekpp/ekp = 1.01449
+ekpp/ek = 1.11553
+ekpp/ekp = 1.09959
+ekpp/ek = 1.10381
+ekpp/ekp = 1.00384
+ekpp/ek = 1.01262
+ekpp/ekp = 1.00875
+ekpp/ek = 1.09209
+ekpp/ekp = 1.08262
+ekpp/ek = 1.08492
+ekpp/ekp = 1.00212
+ekpp/ek = 1.01167
+ekpp/ekp = 1.00953
+ekpp/ek = 1.04795
+ekpp/ekp = 1.03805
+ekpp/ek = 1.04108
+ekpp/ekp = 1.00292
+ekpp/ek = 1.01797
+ekpp/ekp = 1.01501
+ekpp/ek = 1.03415
+ekpp/ekp = 1.01886
+ekpp/ek = 1.02031
+ekpp/ekp = 1.00142
+ekpp/ek = 1.00968
+ekpp/ekp = 1.00825
+ekpp/ek = 1.01628
+ekpp/ekp = 1.00797
+ekpp/ek = 1.02582
+ekpp/ekp = 1.01771
+ekpp/ek = 1.01787
+ekpp/ekp = 1.00016
+ekpp/ek = 1.00115
+ekpp/ekp = 1.00099
+ekpp/ek = 1.00929
+ekpp/ekp = 1.00829
+ekpp/ek = 1.01314
+ekpp/ekp = 1.00481
+ekpp/ek = 1.0243
+ekpp/ekp = 1.0194
+ekpp/ek = 1.04189
+ekpp/ekp = 1.02206
+ekpp/ek = 1.02683
+ekpp/ekp = 1.00467
+ekpp/ek = 1.01107
+ekpp/ekp = 1.00637
+ekpp/ek = 1.00652
+ekpp/ekp = 1.00015
+ekpp/ek = 1.0012
+ekpp/ekp = 1.00104
+ekpp/ek = 1.01807
+ekpp/ekp = 1.01701
+ekpp/ek = 1.02259
+ekpp/ekp = 1.00549
+ekpp/ek = 1.03431
+ekpp/ekp = 1.02866
+ekpp/ek = 1.02979
+ekpp/ekp = 1.0011
+ekpp/ek = 1.00132
+ekpp/ekp = 1.00023
+ekpp/ek = 1.00208
+ekpp/ekp = 1.00185
+ekpp/ek = 1.01258
+ekpp/ekp = 1.0107
+ekpp/ek = 1.06935
+ekpp/ekp = 1.05803
+ekpp/ek = 1.05854
+ekpp/ekp = 1.00048
+ekpp/ek = 1.0056
+ekpp/ekp = 1.00511
+ekpp/ek = 1.03303
+ekpp/ekp = 1.02778
+ekpp/ek = 1.03053
+ekpp/ekp = 1.00268
+ekpp/ek = 1.01422
+ekpp/ekp = 1.01151
+ekpp/ek = 1.03955
+ekpp/ekp = 1.02772
+ekpp/ek = 1.02814
+ekpp/ekp = 1.00041
+ekpp/ek = 1.01569
+ekpp/ekp = 1.01528
+ekpp/ek = 1.01538
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00055
+ekpp/ekp = 1.00045
+ekpp/ek = 1.00034
+ekpp/ekp = 0.999894
+Showing
+**********************************************************
+Problem name: TENBARS4
+
+Number of Variables: 18
+Number of Constraints: 8
+             Equality: 8
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 368.493
+|c(x)| = 9.75835e-07
+|g(x) + J(x)'*y| = 8.95726e-08
+y offset = 0
+Number of Iterations = 100
+Elapsed Time = 0.0629463 s
+Normal iterations = 72
+Average number of normal iterations = 0.72
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 28
+Iterations with 1  normal iteration  = 72
+Iterations with 2+ normal iterations = 0
+Restorations = 3402
+Average number of restorations per normal iteration = 47
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.239999

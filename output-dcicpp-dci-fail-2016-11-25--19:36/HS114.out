@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo  HS114
+
+ Problem name: HS114
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There are 4 linear inequality constraints
+ There are 2 nonlinear equality constraints
+ There are 4 nonlinear inequality constraints
+ 
+ There are 10 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS114   
+
+Number of Variables: 10
+Number of Constraints: 11
+             Equality: 3
+           has_inequality: 8
+
+EXIT: The maximum number of restorarions was reached
+f(x) = -1768.16
+|c(x)| = 0.000849963
+|g(x) + J(x)'*y| = 0.000342553
+|J(x)'c(x)| = 0.00480717
+y offset = 2.16772e-08
+Number of Iterations = 75
+Elapsed Time = 0.114352 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2211 (2054, 157)
+  Gradient     (*ofg):           82
+  Constraints  (cfn, ccfsg):  17368 (2054, 15314)
+  Jacobian     (ccfsg):        5122
+  Hessian prod (*hprod):        412
+
+Normal iterations = 33
+Average number of normal iterations = 0.44
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 42
+Iterations with 1  normal iteration  = 33
+Iterations with 2+ normal iterations = 0
+Restorations = 10192
+Average number of restorations per normal iteration = 308
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.276666

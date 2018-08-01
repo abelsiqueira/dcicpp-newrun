@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  MINSURFO
+
+ Problem name: MINSURFO
+
+ Double precision version will be formed
+
+ The objective function uses 10302 nonlinear groups
+ 
+ There are 5002 variables bounded only from below 
+ There are 304 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 304 variables
+Starting
+Solving

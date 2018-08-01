@@ -1,0 +1,100 @@
+sifdecoder -A pc64.lnx.gfo  TENBARS3
+
+ Problem name: TENBARS3
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 8 nonlinear equality constraints
+ 
+ There are 6 free variables
+ There are 12 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.978553
+ekpp/ekp = 0.985887
+ekpp/ek = 0.96881
+ekpp/ekp = 0.982678
+ekpp/ek = 0.979805
+ekpp/ekp = 0.997077
+ekpp/ek = 0.989914
+ekpp/ekp = 0.992816
+ekpp/ek = 0.978805
+ekpp/ekp = 0.985887
+ekpp/ek = 0.985315
+ekpp/ekp = 0.999419
+ekpp/ek = 0.999409
+ekpp/ekp = 0.999989
+ekpp/ek = 0.999987
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999991
+ekpp/ekp = 0.999994
+ekpp/ek = 0.999978
+ekpp/ekp = 0.999984
+ekpp/ek = 0.999945
+ekpp/ekp = 0.999961
+ekpp/ek = 0.999864
+ekpp/ekp = 0.999903
+ekpp/ek = 0.999664
+ekpp/ekp = 0.999761
+ekpp/ek = 0.999178
+ekpp/ekp = 0.999417
+ekpp/ek = 0.998101
+ekpp/ekp = 0.998684
+ekpp/ek = 0.996106
+ekpp/ekp = 0.997418
+ekpp/ek = 0.994808
+ekpp/ekp = 0.997382
+ekpp/ek = 0.997695
+ekpp/ekp = 1.00031
+ekpp/ek = 1.01301
+ekpp/ekp = 1.01269
+ekpp/ek = 1.02649
+ekpp/ekp = 1.01362
+ekpp/ek = 1.01117
+ekpp/ekp = 0.997576
+ekpp/ek = 0.999117
+ekpp/ekp = 1.00154
+ekpp/ek = 1.0018
+ekpp/ekp = 1.00026
+ekpp/ek = 1.00023
+ekpp/ekp = 0.999976
+ekpp/ek = 0.999993
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00002
+ekpp/ekp = 0.999999
+Showing
+**********************************************************
+Problem name: TENBARS3
+
+Number of Variables: 18
+Number of Constraints: 8
+             Equality: 8
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2247.13
+|c(x)| = 1.62024e-09
+|g(x) + J(x)'*y| = 8.78334e-07
+y offset = 0
+Number of Iterations = 29
+Elapsed Time = 0.00790334 s
+Normal iterations = 14
+Average number of normal iterations = 0.482759
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 15
+Iterations with 1  normal iteration  = 14
+Iterations with 2+ normal iterations = 0
+Restorations = 361
+Average number of restorations per normal iteration = 25
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.029999

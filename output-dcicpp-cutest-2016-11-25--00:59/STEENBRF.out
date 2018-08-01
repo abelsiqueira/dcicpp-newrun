@@ -1,0 +1,73 @@
+sifdecoder -A pc64.lnx.gfo  STEENBRF
+
+ Problem name: STEENBRF
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 108 linear equality constraints
+ 
+ There are 468 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: STEENBRF
+
+Number of Variables: 468
+Number of Constraints: 108
+             Equality: 108
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 9039.71
+|c(x)| = 9.9676e-07
+|g(x) + J(x)'*y| = 6.9566e-07
+|J(x)'c(x)| = 1.66794e-06
+y offset = 0
+Number of Iterations = 100
+Elapsed Time = 0.159584 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     431 (228, 203)
+  Gradient     (*ofg):          103
+  Constraints  (cfn, ccfsg):   1056 (228, 828)
+  Jacobian     (ccfsg):         293
+  Hessian prod (*hprod):        804
+
+Normal iterations = 10
+Average number of normal iterations = 0.1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 90
+Iterations with 1  normal iteration  = 10
+Iterations with 2+ normal iterations = 0
+Restorations = 535
+Average number of restorations per normal iteration = 53
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 0.413333

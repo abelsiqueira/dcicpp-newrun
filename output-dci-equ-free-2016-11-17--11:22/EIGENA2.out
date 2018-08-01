@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo -st   EIGENA2
+
+ Problem name: EIGENA2
+
+ Double precision version will be formed
+
+ The objective function uses 2500 nonlinear groups
+ 
+ There are 1275 nonlinear equality constraints
+ 
+ There are 2550 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ |gp(xk)|/|gp(xck)| =    1.3920162438638950E-002
+ |gp(xk)|/|gp(xck)| =    4.9012288829211034E-002
+ |gp(xk)|/|gp(xck)| =    2.2086903261480797E-002
+ |gp(xk)|/|gp(xck)| =    2.6106514445365023E-002
+ |gp(xk)|/|gp(xck)| =    2.8485007179093167E-002
+ |gp(xk)|/|gp(xck)| =    1.0402381695996871E-003
+ |gp(xk)|/|gp(xck)| =    0.0000000000000000     
+ |gp(xk)|/|gp(xck)| =                        NaN
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            8
+ Steihaug's iter:            7
+ Restorations   :            8
+ Rejected steps :            0
+ Function evals.:            8
+ Constr.  evals.:           21
+ Gradient evals.:           12
+ Jacobian evals.:           12
+ 2nd order Corr.:            1
+ BFGS iterations:            0
+ f(x)           :    0.0000000000000000     
+ ||h(x)||       :    3.7218706783193056E-008
+ ||gp(x)||      :    0.0000000000000000     
+ ||At*h||       :    7.4437414951618236E-008
+ Elapsed time   :   0.355468750    
+
+ ||xnew - xc||  :    8.3928084261280750E-007
+ rho            :    9.9999999999999995E-007
+ rhomax         :    24.998379011149289     
+ vdelta         :   0.19719939660893876     
+ hdelta         :    1000000.0000000000     
+ L(x)           :   -2.5558761932366050E-020
+ L(x) - L(xc)   :   -7.0439235833562619E-013
+ L(xc)-L(x(k-1)):    1.1476428016302510E-010
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

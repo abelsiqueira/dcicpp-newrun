@@ -1,0 +1,39 @@
+sifdecoder -A pc64.lnx.gfo  BDVALUE
+
+ Problem name: BDVALUE
+
+ Double precision version will be formed
+
+ 
+ There are 5000 nonlinear equality constraints
+ 
+ There are 5000 free variables
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: BDVALUE 
+
+Number of Variables: 5000
+Number of Constraints: 5000
+             Equality: 5000
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 2.56755e-08
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.00985742 s
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 1
+Iterations with <= 1 normal iterations = 1
+**********************************************************
+Setup time: 0.103333
+Execution time: 0.040001

@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  HS59
+
+ Problem name: HS59
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.869769
+ekpp/ekp = 0.903241
+ekpp/ek = 0.884178
+ekpp/ekp = 0.978896
+ekpp/ek = 1.00933
+ekpp/ekp = 1.03109
+ekpp/ek = 1.00264
+ekpp/ekp = 0.972406
+ekpp/ek = 0.9733
+ekpp/ekp = 1.00092
+ekpp/ek = 1.00061
+ekpp/ekp = 0.999688
+ekpp/ek = 0.999686
+ekpp/ekp = 0.999997
+Showing
+**********************************************************
+Problem name: HS59    
+
+Number of Variables: 2
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = -6.7495
+|c(x)| = 2.78064e-07
+|g(x) + J(x)'*y| = 1.11992e-10
+y offset = 0
+Number of Iterations = 10
+Elapsed Time = 0.00108767 s
+Normal iterations = 9
+Average number of normal iterations = 0.9
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 0
+Restorations = 26
+Average number of restorations per normal iteration = 2
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

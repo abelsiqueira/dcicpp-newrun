@@ -1,0 +1,62 @@
+sifdecoder -A pc64.lnx.gfo  HS74
+
+ Problem name: HS74
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear inequality constraints
+ There are 3 nonlinear equality constraints
+ 
+ There are 4 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00046
+ekpp/ekp = 1.00039
+ekpp/ek = 1.00266
+ekpp/ekp = 1.00227
+ekpp/ek = 1.01579
+ekpp/ekp = 1.01349
+ekpp/ek = 1.01932
+ekpp/ekp = 1.00575
+ekpp/ek = 1.00805
+ekpp/ekp = 1.00229
+ekpp/ek = 1.00231
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00002
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: HS74    
+
+Number of Variables: 4
+Number of Constraints: 5
+             Equality: 3
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 5126.5
+|c(x)| = 7.51343e-10
+|g(x) + J(x)'*y| = 8.83173e-13
+y offset = 0
+Number of Iterations = 10
+Elapsed Time = 0.000533581 s
+Normal iterations = 3
+Average number of normal iterations = 0.3
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 0
+Restorations = 4
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

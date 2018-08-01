@@ -1,0 +1,48 @@
+sifdecoder -A pc64.lnx.gfo  CSFI2
+
+ Problem name: CSFI2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear equality constraints
+ There are 2 nonlinear inequality constraints
+ 
+ There are 5 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CSFI2   
+
+Number of Variables: 5
+Number of Constraints: 4
+             Equality: 2
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 55.0176
+|c(x)| = 7.72172e-09
+|g(x) + J(x)'*y| = 1.20335e-08
+y offset = 2.48932e-11
+Number of Iterations = 173
+Elapsed Time = 0.00423026 s
+Normal iterations = 16
+Average number of normal iterations = 0.0924855
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 158
+Iterations with 1  normal iteration  = 14
+Iterations with 2+ normal iterations = 1
+Restorations = 180
+Average number of restorations per normal iteration = 11
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.016666

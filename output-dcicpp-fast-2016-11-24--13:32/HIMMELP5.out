@@ -1,0 +1,87 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELP5
+
+ Problem name: HIMMELP5
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.04439
+ekpp/ekp = 0.979856
+ekpp/ek = 0.944171
+ekpp/ekp = 0.963581
+ekpp/ek = 0.942641
+ekpp/ekp = 0.978268
+ekpp/ek = 0.961132
+ekpp/ekp = 0.982483
+ekpp/ek = 0.970864
+ekpp/ekp = 0.988173
+ekpp/ek = 0.982834
+ekpp/ekp = 0.994597
+ekpp/ek = 0.995656
+ekpp/ekp = 1.00107
+ekpp/ek = 1.00342
+ekpp/ekp = 1.00236
+ekpp/ek = 1.01138
+ekpp/ekp = 1.009
+ekpp/ek = 1.03249
+ekpp/ekp = 1.02328
+ekpp/ek = 1.05822
+ekpp/ekp = 1.03415
+ekpp/ek = 1.10185
+ekpp/ekp = 1.06547
+ekpp/ek = 1.14775
+ekpp/ekp = 1.07722
+ekpp/ek = 1.15927
+ekpp/ekp = 1.07616
+ekpp/ek = 1.07853
+ekpp/ekp = 1.0022
+ekpp/ek = 1.01082
+ekpp/ekp = 1.0086
+ekpp/ek = 1.02707
+ekpp/ekp = 1.01832
+ekpp/ek = 1.01998
+ekpp/ekp = 1.00164
+ekpp/ek = 1.00187
+ekpp/ekp = 1.00024
+ekpp/ek = 1.00025
+ekpp/ekp = 1.00001
+Showing
+**********************************************************
+Problem name: HIMMELP5
+
+Number of Variables: 2
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = -59.0132
+|c(x)| = 1.80853e-12
+|g(x) + J(x)'*y| = 3.64548e-11
+y offset = 0
+Number of Iterations = 23
+Elapsed Time = 0.00152302 s
+Normal iterations = 22
+Average number of normal iterations = 0.956522
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 22
+Iterations with 2+ normal iterations = 0
+Restorations = 90
+Average number of restorations per normal iteration = 4
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

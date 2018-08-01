@@ -1,0 +1,136 @@
+sifdecoder -A pc64.lnx.gfo -st   EIGENB2
+
+ Problem name: EIGENB2
+
+ Double precision version will be formed
+
+ The objective function uses 2500 nonlinear groups
+ 
+ There are 1275 nonlinear equality constraints
+ 
+ There are 2550 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    2.3722354631127141E-002
+ |gp(xk)|/|gp(xck)| =    5.9303342226712745     
+ |gp(xk)|/|gp(xck)| =   0.81697997661912958     
+ |gp(xk)|/|gp(xck)| =   0.71322292716675184     
+ |gp(xk)|/|gp(xck)| =    2.5213048167611398     
+ |gp(xk)|/|gp(xck)| =    1.8494982032337157     
+ |gp(xk)|/|gp(xck)| =    5.1396538908058602     
+ |gp(xk)|/|gp(xck)| =    1.3402795870512556     
+ |gp(xk)|/|gp(xck)| =    3.2370064476739806     
+ |gp(xk)|/|gp(xck)| =   0.96096309280635461     
+ |gp(xk)|/|gp(xck)| =    1.6209191391424735     
+ |gp(xk)|/|gp(xck)| =    1.2210072455359551     
+ |gp(xk)|/|gp(xck)| =   0.95965160460703747     
+ |gp(xk)|/|gp(xck)| =    1.9546861631364045     
+ |gp(xk)|/|gp(xck)| =   0.77766050997011615     
+ |gp(xk)|/|gp(xck)| =   0.67580334719367097     
+ |gp(xk)|/|gp(xck)| =    1.2442065203188966     
+ |gp(xk)|/|gp(xck)| =    2.5817657318578182     
+ |gp(xk)|/|gp(xck)| =   0.55065372160395154     
+ |gp(xk)|/|gp(xck)| =    2.9277674783569845     
+ |gp(xk)|/|gp(xck)| =   0.97877865811728881     
+ |gp(xk)|/|gp(xck)| =    1.4066767871672690     
+ |gp(xk)|/|gp(xck)| =    2.0884008443385187     
+ |gp(xk)|/|gp(xck)| =    13.018002956372477     
+ |gp(xk)|/|gp(xck)| =    11.919320740600480     
+ |gp(xk)|/|gp(xck)| =    5.1222034730144523     
+ |gp(xk)|/|gp(xck)| =    15.701322017569295     
+ |gp(xk)|/|gp(xck)| =    16.314570141219338     
+ |gp(xk)|/|gp(xck)| =    9.0490746334413892     
+ |gp(xk)|/|gp(xck)| =    52.234535340788767     
+ |gp(xk)|/|gp(xck)| =    65.206090451706601     
+ |gp(xk)|/|gp(xck)| =    291.52964292724732     
+ |gp(xk)|/|gp(xck)| =    89.962193018540816     
+ |gp(xk)|/|gp(xck)| =    193.07511345777826     
+ |gp(xk)|/|gp(xck)| =   0.35087749049122868     
+ |gp(xk)|/|gp(xck)| =    59.178301418750117     
+ |gp(xk)|/|gp(xck)| =    35.589258887087091     
+ |gp(xk)|/|gp(xck)| =    40.649918632860036     
+ |gp(xk)|/|gp(xck)| =    22.216251183939583     
+ |gp(xk)|/|gp(xck)| =    11.738251198599290     
+ |gp(xk)|/|gp(xck)| =    6.6856703006242642     
+ |gp(xk)|/|gp(xck)| =    27.260727696920654     
+ |gp(xk)|/|gp(xck)| =    12.349932590782540     
+ |gp(xk)|/|gp(xck)| =    10.849717199112391     
+ |gp(xk)|/|gp(xck)| =    27.251274301957338     
+ |gp(xk)|/|gp(xck)| =    10.193215738237170     
+ |gp(xk)|/|gp(xck)| =    6.4800811845107322     
+ |gp(xk)|/|gp(xck)| =    7.5780232409226391     
+ |gp(xk)|/|gp(xck)| =    52.296236773496084     
+ |gp(xk)|/|gp(xck)| =    14.648243581700566     
+ |gp(xk)|/|gp(xck)| =    6.2026296568096813     
+ |gp(xk)|/|gp(xck)| =    117.58767549091554     
+ |gp(xk)|/|gp(xck)| =    106.81048269435817     
+ |gp(xk)|/|gp(xck)| =    68.385176342795745     
+ |gp(xk)|/|gp(xck)| =    4.8034127208258450     
+ |gp(xk)|/|gp(xck)| =    98.540444096146970     
+ |gp(xk)|/|gp(xck)| =    26.420960839614832     
+ |gp(xk)|/|gp(xck)| =    7.0456474542277245     
+ |gp(xk)|/|gp(xck)| =    85.386159533376627     
+ |gp(xk)|/|gp(xck)| =    165.85578790978929     
+ |gp(xk)|/|gp(xck)| =    63.530662886600737     
+ |gp(xk)|/|gp(xck)| =    12.895272945463182     
+ |gp(xk)|/|gp(xck)| =    372.00642524837031     
+ |gp(xk)|/|gp(xck)| =    196.51361648759615     
+ |gp(xk)|/|gp(xck)| =    54.747770123827856     
+ |gp(xk)|/|gp(xck)| =    257.63285031653743     
+ |gp(xk)|/|gp(xck)| =   0.17953661294123321     
+ |gp(xk)|/|gp(xck)| =    1019.6572240327653     
+ |gp(xk)|/|gp(xck)| =    81.920445401093630     
+ |gp(xk)|/|gp(xck)| =    52.396207947578056     
+ |gp(xk)|/|gp(xck)| =    689.71225302993264     
+ |gp(xk)|/|gp(xck)| =    769.15858521329790     
+ |gp(xk)|/|gp(xck)| =    141.89645365898329     
+ |gp(xk)|/|gp(xck)| =    838.37088260465418     
+ |gp(xk)|/|gp(xck)| =    24.330927724548150     
+ |gp(xk)|/|gp(xck)| =    197.24470121367554     
+ |gp(xk)|/|gp(xck)| =    4102.1837380714132     
+ |gp(xk)|/|gp(xck)| =    4709.9178781535111     
+ |gp(xk)|/|gp(xck)| =    4137.4634315197154     
+ |gp(xk)|/|gp(xck)| =    5149.7293694163745     
+ |gp(xk)|/|gp(xck)| =    1607.2672077692384     
+ |gp(xk)|/|gp(xck)| =    352.62629124304243     
+ |gp(xk)|/|gp(xck)| =    6012.7314955240054     
+ |gp(xk)|/|gp(xck)| =   0.23354904829732337     
+ |gp(xk)|/|gp(xck)| =    6998.7073600577733     
+ |gp(xk)|/|gp(xck)| =   0.99999999975473708     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           86
+ Steihaug's iter:         5590
+ Restorations   :           51
+ Rejected steps :           33
+ Function evals.:          119
+ Constr.  evals.:          232
+ Gradient evals.:           89
+ Jacobian evals.:           89
+ 2nd order Corr.:           59
+ BFGS iterations:            0
+ f(x)           :    1.1837241034492435E-011
+ ||h(x)||       :    1.4582419299857818E-010
+ ||gp(x)||      :    9.1897974297375247E-007
+ ||At*h||       :    3.0805067467459504E-009
+ Elapsed time   :    19.9609375    
+
+ ||xnew - xc||  :    9.9772854823747866E-003
+ rho            :    9.3639986890632863E-006
+ rhomax         :    3.0758230127489390     
+ vdelta         :    7.1990261675354494     
+ hdelta         :    1.4360596071479439     
+ L(x)           :    1.0874464873353187E-011
+ L(x) - L(xc)   :   -2.1488859875180163E-008
+ L(xc)-L(x(k-1)):    2.4126654051195390E-012
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

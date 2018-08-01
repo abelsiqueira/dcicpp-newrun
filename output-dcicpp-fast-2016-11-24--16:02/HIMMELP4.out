@@ -1,0 +1,25 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELP4
+
+ Problem name: HIMMELP4
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ERROR
+assert failed
+Status = -1
+File   = assert
+Line   = -1
+Exception: assert failed

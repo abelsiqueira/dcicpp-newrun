@@ -1,0 +1,100 @@
+sifdecoder -A pc64.lnx.gfo  MSS1
+
+ Problem name: MSS1
+
+ Double precision version will be formed
+
+ The objective function uses 2 nonlinear groups
+ 
+ There are 73 nonlinear equality constraints
+ 
+ There are 90 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 1.00861
+ekpp/ekp = 1.00294
+ekpp/ek = 1.00458
+ekpp/ekp = 1.00164
+ekpp/ek = 0.989543
+ekpp/ekp = 0.987925
+ekpp/ek = 0.985314
+ekpp/ekp = 0.997357
+ekpp/ek = 0.996441
+ekpp/ekp = 0.999082
+ekpp/ek = 0.99514
+ekpp/ekp = 0.996054
+ekpp/ek = 0.98601
+ekpp/ekp = 0.989916
+ekpp/ek = 0.988538
+ekpp/ekp = 0.998607
+ekpp/ek = 0.995754
+ekpp/ekp = 0.997143
+ekpp/ek = 0.993856
+ekpp/ekp = 0.996703
+ekpp/ek = 0.993337
+ekpp/ekp = 0.996622
+ekpp/ek = 0.996922
+ekpp/ekp = 1.0003
+ekpp/ek = 0.999366
+ekpp/ekp = 0.999066
+ekpp/ek = 0.998017
+ekpp/ekp = 0.998949
+ekpp/ek = 0.998947
+ekpp/ekp = 0.999998
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 0.999923
+ekpp/ekp = 0.999918
+ekpp/ek = 0.999972
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00005
+ekpp/ekp = 0.999999
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: MSS1    
+
+Number of Variables: 90
+Number of Constraints: 73
+             Equality: 73
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -16
+|c(x)| = 4.92618e-07
+|g(x) + J(x)'*y| = 3.84283e-07
+y offset = 0
+Number of Iterations = 25
+Elapsed Time = 0.013984 s
+Normal iterations = 15
+Average number of normal iterations = 0.6
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 13
+Iterations with 2+ normal iterations = 1
+Restorations = 45
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.033332

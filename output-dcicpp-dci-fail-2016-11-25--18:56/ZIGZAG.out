@@ -1,0 +1,65 @@
+sifdecoder -A pc64.lnx.gfo  ZIGZAG
+
+ Problem name: ZIGZAG
+
+ Double precision version will be formed
+
+ The objective function uses 500 nonlinear groups
+ 
+ There are 2000 linear equality constraints
+ There are 500 nonlinear inequality constraints
+ 
+ There are 1498 free variables
+ There are 1500 variables bounded from below and above 
+ There are 6 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 6 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: ZIGZAG  
+
+Number of Variables: 2998
+Number of Constraints: 2500
+             Equality: 2000
+           has_inequality: 500
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 18.6525
+|c(x)| = 14.1499
+|g(x) + J(x)'*y| = 4.53424e-06
+|J(x)'c(x)| = 884.451
+y offset = 2.06617
+Number of Iterations = 2
+Elapsed Time = 15.5004 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    1598 (1591, 7)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):  16493 (1591, 14902)
+  Jacobian     (ccfsg):        4901
+  Hessian prod (*hprod):         41
+
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.049999
+Execution time: 15.7033

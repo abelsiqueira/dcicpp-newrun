@@ -1,0 +1,42 @@
+sifdecoder -A pc64.lnx.gfo  MANNE
+
+ Problem name: MANNE
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2000 linear inequality constraints
+ There are 2000 nonlinear inequality constraints
+ 
+ There are 4749 variables bounded only from below 
+ There are 1250 variables bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: MANNE   
+
+Number of Variables: 5999
+Number of Constraints: 4000
+             Equality: 0
+           has_inequality: 4000
+
+EXIT: The problem is unlimited
+f(x) = -0.778107
+|c(x)| = 6.39601e-07
+|g(x) + J(x)'*y| = 16.5259
+y offset = 1102.52
+Number of Iterations = 1
+Elapsed Time = 0.102 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 0
+**********************************************************
+Setup time: 0.089999
+Execution time: 0.286666

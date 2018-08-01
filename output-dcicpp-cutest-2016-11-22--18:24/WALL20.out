@@ -1,0 +1,18 @@
+sifdecoder -A pc64.lnx.gfo  WALL20
+
+ Problem name: WALL20
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 4189 free variables
+ There are 1735 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

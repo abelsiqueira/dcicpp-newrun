@@ -1,0 +1,71 @@
+sifdecoder -A pc64.lnx.gfo  DIXMAANG
+
+ Problem name: DIXMAANG
+
+ Double precision version will be formed
+
+ The objective function uses 4 nonlinear groups
+ 
+ There are 3000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.312832
+ekpp/ekp = 0.850835
+ekpp/ek = 0.400031
+ekpp/ekp = 0.470162
+ekpp/ek = 1.63084
+ekpp/ekp = 3.46867
+ekpp/ek = 6.86148
+ekpp/ekp = 1.97813
+ekpp/ek = 2.90026
+ekpp/ekp = 1.46616
+ekpp/ek = 1.48233
+ekpp/ekp = 1.01103
+ekpp/ek = 1.05843
+ekpp/ekp = 1.04688
+ekpp/ek = 1.17083
+ekpp/ekp = 1.11839
+ekpp/ek = 1.11849
+ekpp/ekp = 1.00009
+ekpp/ek = 1.00149
+ekpp/ekp = 1.0014
+ekpp/ek = 1.00213
+ekpp/ekp = 1.00073
+ekpp/ek = 1.02556
+ekpp/ekp = 1.02481
+ekpp/ek = 1.03073
+ekpp/ekp = 1.00577
+Showing
+**********************************************************
+Problem name: DIXMAANG
+
+Number of Variables: 3000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.03595
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.90637e-07
+y offset = 0
+Number of Iterations = 16
+Elapsed Time = 0.0732808 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 16
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.053333
+Execution time: 0.243333

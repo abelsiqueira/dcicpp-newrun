@@ -1,0 +1,64 @@
+sifdecoder -A pc64.lnx.gfo  LOBSTERZ
+
+ Problem name: LOBSTERZ
+
+ Double precision version will be formed
+
+ The objective function uses 3248 nonlinear groups
+ 
+ There is 1 linear equality constraint
+ There are 16242 nonlinear equality constraints
+ 
+ There are 16240 variables bounded from below and above 
+ There are 23 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 23 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: LOBSTERZ
+
+Number of Variables: 16240
+Number of Constraints: 16243
+             Equality: 16243
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 2769.52
+|c(x)| = 4.00016e-07
+|g(x) + J(x)'*y| = 7.40968e-07
+|J(x)'c(x)| = 0.137863
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.744951 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      31 (22, 9)
+  Gradient     (*ofg):            7
+  Constraints  (cfn, ccfsg):     49 (22, 27)
+  Jacobian     (ccfsg):           8
+  Hessian prod (*hprod):         18
+
+Normal iterations = 3
+Average number of normal iterations = 1.5
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 19
+Average number of restorations per normal iteration = 6
+**********************************************************
+Done
+Setup time: 2.02667
+Execution time: 0.756667

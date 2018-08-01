@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  HS66
+
+ Problem name: HS66
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 3 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.01747
+ekpp/ekp = 1.01665
+ekpp/ek = 1.06053
+ekpp/ekp = 1.04316
+ekpp/ek = 1.16218
+ekpp/ekp = 1.1141
+ekpp/ek = 1.16048
+ekpp/ekp = 1.04164
+ekpp/ek = 1.05303
+ekpp/ekp = 1.01094
+Showing
+**********************************************************
+Problem name: HS66    
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 0.518163
+|c(x)| = 1.98033e-12
+|g(x) + J(x)'*y| = 2.98039e-07
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.00120568 s
+Normal iterations = 5
+Average number of normal iterations = 0.625
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 1
+Restorations = 115
+Average number of restorations per normal iteration = 23
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

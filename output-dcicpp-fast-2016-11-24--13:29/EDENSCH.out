@@ -1,0 +1,62 @@
+sifdecoder -A pc64.lnx.gfo  EDENSCH
+
+ Problem name: EDENSCH
+
+ Double precision version will be formed
+
+ The objective function uses 1999 linear groups
+ The objective function uses 3999 nonlinear groups
+ 
+ There are 2000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.487043
+ekpp/ekp = 0.700981
+ekpp/ek = 0.489224
+ekpp/ekp = 0.697913
+ekpp/ek = 0.463187
+ekpp/ekp = 0.663675
+ekpp/ek = 0.316212
+ekpp/ekp = 0.476456
+ekpp/ek = 0.231977
+ekpp/ekp = 0.48688
+ekpp/ek = 0.133576
+ekpp/ekp = 0.274351
+ekpp/ek = 0.157848
+ekpp/ekp = 0.575349
+ekpp/ek = 0.57336
+ekpp/ekp = 0.996543
+Showing
+**********************************************************
+Problem name: EDENSCH 
+
+Number of Variables: 2000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 12003.3
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.43123e-08
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.023618 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.066666
+Execution time: 0.096668

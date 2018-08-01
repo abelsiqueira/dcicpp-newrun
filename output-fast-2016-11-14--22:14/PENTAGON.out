@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  PENTAGON
+
+ Problem name: PENTAGON
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 15 linear inequality constraints
+ 
+ There are 6 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: PENTAGON
+
+Number of Variables: 6
+Number of Constraints: 15
+             Equality: 0
+           has_inequality: 15
+
+EXIT: The Algorithm has Converged
+f(x) = 0.000136584
+|c(x)| = 9.58288e-07
+|g(x) + J(x)'*y| = 3.37597e-07
+y offset = 2.76823e-07
+Number of Iterations = 16
+Elapsed Time = 0.00317574 s
+Normal iterations = 14
+Average number of normal iterations = 0.875
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 5
+Iterations with 1  normal iteration  = 8
+Iterations with 2+ normal iterations = 3
+Restorations = 145
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.013333

@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  OET5
+
+ Problem name: OET5
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 1002 nonlinear inequality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: OET5    
+
+Number of Variables: 5
+Number of Constraints: 1002
+             Equality: 0
+           has_inequality: 1002
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0.0240621
+|c(x)| = 3.96139e-08
+|g(x) + J(x)'*y| = 4.95005e-07
+|J(x)'c(x)| = 0.0510076
+y offset = 0.00166476
+Number of Iterations = 3
+Elapsed Time = 123.031 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      94 (83, 11)
+  Gradient     (*ofg):            8
+  Constraints  (cfn, ccfsg):   3796 (83, 3713)
+  Jacobian     (ccfsg):         734
+  Hessian prod (*hprod):         77
+
+Normal iterations = 5
+Average number of normal iterations = 1.66667
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 2
+Restorations = 2979
+Average number of restorations per normal iteration = 595
+**********************************************************
+Done
+Setup time: 0.043333
+Execution time: 123.18

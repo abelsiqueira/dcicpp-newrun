@@ -1,0 +1,83 @@
+sifdecoder -A pc64.lnx.gfo  HS10
+
+ Problem name: HS10
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.447004
+ekpp/ekp = 0.66325
+ekpp/ek = 0.49105
+ekpp/ekp = 0.740368
+ekpp/ek = 0.651957
+ekpp/ekp = 0.880584
+ekpp/ek = 0.62929
+ekpp/ekp = 0.714628
+ekpp/ek = 0.628482
+ekpp/ekp = 0.879454
+ekpp/ek = 0.78716
+ekpp/ekp = 0.895055
+ekpp/ek = 0.873538
+ekpp/ekp = 0.97596
+ekpp/ek = 0.899912
+ekpp/ekp = 0.922079
+ekpp/ek = 0.912719
+ekpp/ekp = 0.989849
+ekpp/ek = 1.03907
+ekpp/ekp = 1.04973
+ekpp/ek = 1.01053
+ekpp/ekp = 0.962658
+ekpp/ek = 0.999864
+ekpp/ekp = 1.03865
+ekpp/ek = 0.996776
+ekpp/ekp = 0.959685
+ekpp/ek = 0.958853
+ekpp/ekp = 0.999133
+ekpp/ek = 1.05843
+ekpp/ekp = 1.05935
+ekpp/ek = 1.00007
+ekpp/ekp = 0.944037
+ekpp/ek = 0.944049
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00002
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: HS10    
+
+Number of Variables: 2
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = -1
+|c(x)| = 9.15703e-07
+|g(x) + J(x)'*y| = 4.62665e-07
+y offset = 0
+Number of Iterations = 21
+Elapsed Time = 0.00207663 s
+Normal iterations = 26
+Average number of normal iterations = 1.2381
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 16
+Iterations with 2+ normal iterations = 5
+Restorations = 260
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

@@ -1,0 +1,62 @@
+sifdecoder -A pc64.lnx.gfo  GRIDNETC
+
+ Problem name: GRIDNETC
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3844 linear equality constraints
+ 
+ There are 5043 free variables
+ There are 2521 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: GRIDNETC
+
+Number of Variables: 7564
+Number of Constraints: 3844
+             Equality: 3844
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 162.344
+|c(x)| = 4.21336e-07
+|g(x) + J(x)'*y| = 7.48825e-07
+|J(x)'c(x)| = 0.565237
+y offset = 0
+Number of Iterations = 46
+Elapsed Time = 3.43501 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     158 (64, 94)
+  Gradient     (*ofg):           48
+  Constraints  (cfn, ccfsg):    254 (64, 190)
+  Jacobian     (ccfsg):          82
+  Hessian prod (*hprod):       2857
+
+Normal iterations = 1
+Average number of normal iterations = 0.0217391
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 45
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 108
+Average number of restorations per normal iteration = 108
+**********************************************************
+Done
+Setup time: 0.113334
+Execution time: 3.6

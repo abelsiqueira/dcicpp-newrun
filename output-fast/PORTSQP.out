@@ -1,0 +1,40 @@
+sifdecoder -A pc64.lnx.gfo  PORTSQP
+
+ Problem name: PORTSQP
+
+ Double precision version will be formed
+
+ The objective function uses 100000 nonlinear groups
+ 
+ There is 1 linear equality constraint
+ 
+ There are 100000 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: PORTSQP 
+
+Number of Variables: 100000
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 33333.3
+|c(x)| = 7.62148e-13
+|g(x) + J(x)'*y| = 6.25979e-08
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.093339 s
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 1
+Iterations with <= 1 normal iterations = 1
+**********************************************************
+Setup time: 0.453334
+Execution time: 0.106666

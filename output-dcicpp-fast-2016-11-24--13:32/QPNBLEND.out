@@ -1,0 +1,196 @@
+sifdecoder -A pc64.lnx.gfo  QPNBLEND
+
+ Problem name: QPNBLEND
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 43 linear equality constraints
+ There are 31 linear inequality constraints
+ 
+ There are 83 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 contraints
+Starting
+Solving
+ekpp/ek = 0.995239
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999986
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999986
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999982
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999982
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999982
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999917
+ekpp/ekp = 0.999926
+ekpp/ek = 0.999917
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999981
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999981
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999981
+ekpp/ekp = 0.99999
+ekpp/ek = 0.999767
+ekpp/ekp = 0.999777
+ekpp/ek = 0.997138
+ekpp/ekp = 0.99736
+ekpp/ek = 1.00544
+ekpp/ekp = 1.0081
+ekpp/ek = 1.00811
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00002
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00003
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00003
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00004
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00005
+ekpp/ekp = 1.00003
+ekpp/ek = 1.00008
+ekpp/ekp = 1.00005
+ekpp/ek = 1.00013
+ekpp/ekp = 1.00008
+ekpp/ek = 1.00018
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00023
+ekpp/ekp = 1.00012
+ekpp/ek = 1.00025
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00027
+ekpp/ekp = 1.00014
+ekpp/ek = 1.00028
+ekpp/ekp = 1.00015
+ekpp/ek = 1.0003
+ekpp/ekp = 1.00015
+ekpp/ek = 1.00031
+ekpp/ekp = 1.00016
+ekpp/ek = 1.00033
+ekpp/ekp = 1.00017
+ekpp/ek = 1.00035
+ekpp/ekp = 1.00018
+ekpp/ek = 1.00037
+ekpp/ekp = 1.00019
+ekpp/ek = 1.00039
+ekpp/ekp = 1.0002
+ekpp/ek = 1.00041
+ekpp/ekp = 1.00021
+ekpp/ek = 1.00043
+ekpp/ekp = 1.00022
+ekpp/ek = 1.00045
+ekpp/ekp = 1.00023
+ekpp/ek = 1.00047
+ekpp/ekp = 1.00024
+ekpp/ek = 1.0005
+ekpp/ekp = 1.00026
+ekpp/ek = 1.00053
+ekpp/ekp = 1.00027
+ekpp/ek = 1.00056
+ekpp/ekp = 1.00029
+ekpp/ek = 1.00059
+ekpp/ekp = 1.00031
+ekpp/ek = 1.0002
+ekpp/ekp = 0.999894
+ekpp/ek = 1.00021
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00065
+ekpp/ekp = 1.00034
+ekpp/ek = 1.00069
+ekpp/ekp = 1.00036
+ekpp/ek = 1.00074
+ekpp/ekp = 1.00038
+ekpp/ek = 1.0008
+ekpp/ekp = 1.00041
+ekpp/ek = 1.00086
+ekpp/ekp = 1.00045
+ekpp/ek = 1.00094
+ekpp/ekp = 1.00049
+ekpp/ek = 1.00103
+ekpp/ekp = 1.00054
+ekpp/ek = 1.00114
+ekpp/ekp = 1.0006
+ekpp/ek = 1.00125
+ekpp/ekp = 1.00065
+ekpp/ek = 1.00128
+ekpp/ekp = 1.00062
+ekpp/ek = 1.00096
+ekpp/ekp = 1.00034
+ekpp/ek = 0.999875
+ekpp/ekp = 0.999534
+ekpp/ek = 0.999794
+ekpp/ekp = 1.00026
+ekpp/ek = 1.00015
+ekpp/ekp = 0.99989
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 0.999936
+ekpp/ekp = 1.00005
+Showing
+**********************************************************
+Problem name: QPNBLEND
+
+Number of Variables: 83
+Number of Constraints: 72
+             Equality: 43
+           has_inequality: 29
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -0.00910023
+|c(x)| = 4.48418e-14
+|g(x) + J(x)'*y| = 2.69934e-07
+y offset = 0.00063824
+Number of Iterations = 74
+Elapsed Time = 0.0626929 s
+Normal iterations = 9
+Average number of normal iterations = 0.121622
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 66
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 1
+Restorations = 93
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.116665

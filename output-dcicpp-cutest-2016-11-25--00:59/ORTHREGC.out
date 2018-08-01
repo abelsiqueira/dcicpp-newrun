@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  ORTHREGC
+
+ Problem name: ORTHREGC
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 2500 nonlinear equality constraints
+ 
+ There are 5005 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ORTHREGC
+
+Number of Variables: 5005
+Number of Constraints: 2500
+             Equality: 2500
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 337.501
+|c(x)| = 4.47262e-07
+|g(x) + J(x)'*y| = 8.47896e-08
+|J(x)'c(x)| = 0.00440361
+y offset = 0
+Number of Iterations = 28
+Elapsed Time = 150.055 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     193 (120, 73)
+  Gradient     (*ofg):           45
+  Constraints  (cfn, ccfsg):    213 (120, 93)
+  Jacobian     (ccfsg):          51
+  Hessian prod (*hprod):        237
+
+Normal iterations = 18
+Average number of normal iterations = 0.642857
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 10
+Iterations with 1  normal iteration  = 18
+Iterations with 2+ normal iterations = 0
+Restorations = 42
+Average number of restorations per normal iteration = 2
+**********************************************************
+Done
+Setup time: 0.35
+Execution time: 149.957

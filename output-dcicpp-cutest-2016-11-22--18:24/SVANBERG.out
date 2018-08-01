@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  SVANBERG
+
+ Problem name: SVANBERG
+
+ Double precision version will be formed
+
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 5000 nonlinear inequality constraints
+ 
+ There are 5000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SVANBERG
+
+Number of Variables: 5000
+Number of Constraints: 5000
+             Equality: 0
+           has_inequality: 5000
+
+EXIT: The Algorithm has Converged
+f(x) = 8362.27
+|c(x)| = 2.04866e-08
+|g(x) + J(x)'*y| = 9.88816e-07
+y offset = 0
+Number of Iterations = 1565
+Elapsed Time = 63.3446 s
+Normal iterations = 920
+Average number of normal iterations = 0.587859
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 645
+Iterations with 1  normal iteration  = 920
+Iterations with 2+ normal iterations = 0
+Restorations = 920
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.190001
+Execution time: 63.4433

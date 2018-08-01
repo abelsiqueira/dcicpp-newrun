@@ -1,0 +1,63 @@
+sifdecoder -A pc64.lnx.gfo  QPNBLEND
+
+ Problem name: QPNBLEND
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 43 linear equality constraints
+ There are 31 linear inequality constraints
+ 
+ There are 83 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: QPNBLEND
+
+Number of Variables: 83
+Number of Constraints: 72
+             Equality: 43
+           has_inequality: 29
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -0.00890713
+|c(x)| = 7.02414e-07
+|g(x) + J(x)'*y| = 3.25934e-07
+|J(x)'c(x)| = 6.91242e-07
+y offset = 0.00131727
+Number of Iterations = 56
+Elapsed Time = 0.0237563 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     190 (68, 122)
+  Gradient     (*ofg):           66
+  Constraints  (cfn, ccfsg):    344 (68, 276)
+  Jacobian     (ccfsg):         115
+  Hessian prod (*hprod):         57
+
+Normal iterations = 10
+Average number of normal iterations = 0.178571
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 48
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 1
+Restorations = 161
+Average number of restorations per normal iteration = 16
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.096666

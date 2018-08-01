@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  LEUVEN7
+
+ Problem name: LEUVEN7
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 946 linear inequality constraints
+ 
+ There is 1 free variable 
+ There are 59 variables bounded only from above 
+ There are 300 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: LEUVEN7 
+
+Number of Variables: 360
+Number of Constraints: 946
+             Equality: 0
+           has_inequality: 946
+
+EXIT: The Algorithm has Converged
+f(x) = 1861.15
+|c(x)| = 2.53749e-07
+|g(x) + J(x)'*y| = 4.4207e-07
+y offset = 0.00883565
+Number of Iterations = 80
+Elapsed Time = 27.5142 s
+Normal iterations = 7
+Average number of normal iterations = 0.0875
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 73
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 0
+Restorations = 66
+Average number of restorations per normal iteration = 9
+**********************************************************
+Done
+Setup time: 0.169999
+Execution time: 27.6233

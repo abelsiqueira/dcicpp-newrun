@@ -1,0 +1,72 @@
+sifdecoder -A pc64.lnx.gfo  TFI3
+
+ Problem name: TFI3
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 101 linear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 contraints
+Starting
+Solving
+ekpp/ek = 1.00026
+ekpp/ekp = 1.00019
+ekpp/ek = 1.00066
+ekpp/ekp = 1.00047
+ekpp/ek = 1.00164
+ekpp/ekp = 1.00117
+ekpp/ek = 1.00409
+ekpp/ekp = 1.00291
+ekpp/ek = 1.01018
+ekpp/ekp = 1.00724
+ekpp/ek = 1.02518
+ekpp/ekp = 1.01781
+ekpp/ek = 1.06128
+ekpp/ekp = 1.0427
+ekpp/ek = 1.14206
+ekpp/ekp = 1.09529
+ekpp/ek = 1.29668
+ekpp/ekp = 1.18388
+ekpp/ek = 1.38589
+ekpp/ekp = 1.17064
+ekpp/ek = 1.14434
+ekpp/ekp = 0.977536
+ekpp/ek = 0.977458
+ekpp/ekp = 0.99992
+Showing
+**********************************************************
+Problem name: TFI3    
+
+Number of Variables: 3
+Number of Constraints: 100
+             Equality: 0
+           has_inequality: 100
+
+EXIT: The Algorithm has Converged
+f(x) = 4.3141
+|c(x)| = 1.81657e-11
+|g(x) + J(x)'*y| = 6.23785e-08
+y offset = 3.36452e-05
+Number of Iterations = 15
+Elapsed Time = 0.00739384 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 15
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.029999

@@ -1,0 +1,63 @@
+sifdecoder -A pc64.lnx.gfo  CAMSHAPE
+
+ Problem name: CAMSHAPE
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 802 linear inequality constraints
+ There are 801 nonlinear inequality constraints
+ 
+ There are 800 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: CAMSHAPE
+
+Number of Variables: 800
+Number of Constraints: 1600
+             Equality: 0
+           has_inequality: 1600
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = -4.22326
+|c(x)| = 4.07117e-06
+|g(x) + J(x)'*y| = 2.1887e-05
+|J(x)'c(x)| = 3.09266e-06
+y offset = 2.15667
+Number of Iterations = 17
+Elapsed Time = 13.1489 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2027 (1985, 42)
+  Gradient     (*ofg):           25
+  Constraints  (cfn, ccfsg):  21048 (1985, 19063)
+  Jacobian     (ccfsg):        5868
+  Hessian prod (*hprod):        120
+
+Normal iterations = 14
+Average number of normal iterations = 0.823529
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 2
+Restorations = 13195
+Average number of restorations per normal iteration = 942
+**********************************************************
+Done
+Setup time: 0.026666
+Execution time: 13.3767

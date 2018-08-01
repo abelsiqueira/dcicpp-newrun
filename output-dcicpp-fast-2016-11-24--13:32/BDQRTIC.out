@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  BDQRTIC
+
+ Problem name: BDQRTIC
+
+ Double precision version will be formed
+
+ The objective function uses 4996 linear groups
+ The objective function uses 4996 nonlinear groups
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.92408
+ekpp/ekp = 1.1899
+ekpp/ek = 1.24206
+ekpp/ekp = 1.04384
+ekpp/ek = 1.05748
+ekpp/ekp = 1.01307
+ekpp/ek = 1.01725
+ekpp/ekp = 1.00413
+ekpp/ek = 1.00427
+ekpp/ekp = 1.00015
+Showing
+**********************************************************
+Problem name: BDQRTIC 
+
+Number of Variables: 5000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 20006.3
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.28262e-07
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.039686 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 8
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.33
+Execution time: 0.04

@@ -1,0 +1,183 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELBI
+
+ Problem name: HIMMELBI
+
+ Double precision version will be formed
+
+ The objective function uses 20 nonlinear groups
+ 
+ There are 12 linear inequality constraints
+ 
+ There are 100 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.28526
+ekpp/ekp = 1.19191
+ekpp/ek = 1.40335
+ekpp/ekp = 1.1774
+ekpp/ek = 1.24738
+ekpp/ekp = 1.05944
+ekpp/ek = 1.0743
+ekpp/ekp = 1.01403
+ekpp/ek = 1.08011
+ekpp/ekp = 1.06517
+ekpp/ek = 1.10955
+ekpp/ekp = 1.04167
+ekpp/ek = 1.0373
+ekpp/ekp = 0.995802
+ekpp/ek = 1.0242
+ekpp/ekp = 1.02852
+ekpp/ek = 1.05245
+ekpp/ekp = 1.02327
+ekpp/ek = 1.02877
+ekpp/ekp = 1.00537
+ekpp/ek = 1.03042
+ekpp/ekp = 1.02491
+ekpp/ek = 1.05507
+ekpp/ekp = 1.02942
+ekpp/ek = 1.07541
+ekpp/ekp = 1.04468
+ekpp/ek = 1.09024
+ekpp/ekp = 1.04361
+ekpp/ek = 1.02137
+ekpp/ekp = 0.978684
+ekpp/ek = 1.09469
+ekpp/ekp = 1.11853
+ekpp/ek = 1.35306
+ekpp/ekp = 1.20968
+ekpp/ek = 1.34231
+ekpp/ekp = 1.10964
+ekpp/ek = 1.1742
+ekpp/ekp = 1.05818
+ekpp/ek = 1.10115
+ekpp/ekp = 1.0406
+ekpp/ek = 1.06906
+ekpp/ekp = 1.02734
+ekpp/ek = 1.11953
+ekpp/ekp = 1.08973
+ekpp/ek = 1.07356
+ekpp/ekp = 0.98516
+ekpp/ek = 0.946581
+ekpp/ekp = 0.960839
+ekpp/ek = 0.959649
+ekpp/ekp = 0.998762
+ekpp/ek = 0.988085
+ekpp/ekp = 0.98931
+ekpp/ek = 0.970496
+ekpp/ekp = 0.980983
+ekpp/ek = 0.974639
+ekpp/ekp = 0.993533
+ekpp/ek = 0.993705
+ekpp/ekp = 1.00017
+ekpp/ek = 1.01697
+ekpp/ekp = 1.01679
+ekpp/ek = 0.998205
+ekpp/ekp = 0.981722
+ekpp/ek = 0.972175
+ekpp/ekp = 0.990275
+ekpp/ek = 0.972567
+ekpp/ekp = 0.982118
+ekpp/ek = 0.976931
+ekpp/ekp = 0.994718
+ekpp/ek = 0.989691
+ekpp/ekp = 0.994946
+ekpp/ek = 1.00461
+ekpp/ekp = 1.00971
+ekpp/ek = 1.05925
+ekpp/ekp = 1.04906
+ekpp/ek = 1.04098
+ekpp/ekp = 0.9923
+ekpp/ek = 0.993033
+ekpp/ekp = 1.00074
+ekpp/ek = 0.995551
+ekpp/ekp = 0.994816
+ekpp/ek = 0.983989
+ekpp/ekp = 0.989116
+ekpp/ek = 0.987428
+ekpp/ekp = 0.998293
+ekpp/ek = 1.01317
+ekpp/ekp = 1.0149
+ekpp/ek = 1.02227
+ekpp/ekp = 1.00727
+ekpp/ek = 1.01136
+ekpp/ekp = 1.00407
+ekpp/ek = 0.994811
+ekpp/ekp = 0.990783
+ekpp/ek = 0.9787
+ekpp/ekp = 0.987805
+ekpp/ek = 0.988693
+ekpp/ekp = 1.0009
+ekpp/ek = 1.00092
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00001
+ekpp/ekp = 0.999986
+ekpp/ek = 0.999859
+ekpp/ekp = 0.999873
+ekpp/ek = 0.985467
+ekpp/ekp = 0.985592
+ekpp/ek = 1.01834
+ekpp/ekp = 1.03323
+ekpp/ek = 1.03523
+ekpp/ekp = 1.00194
+ekpp/ek = 1.01165
+ekpp/ekp = 1.00969
+ekpp/ek = 0.996274
+ekpp/ekp = 0.986711
+ekpp/ek = 0.9854
+ekpp/ekp = 0.998671
+ekpp/ek = 0.998689
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00001
+ekpp/ekp = 0.999993
+ekpp/ek = 1
+ekpp/ekp = 1.00001
+ekpp/ek = 0.999511
+ekpp/ekp = 0.999504
+ekpp/ek = 1.0119
+ekpp/ekp = 1.01241
+ekpp/ek = 1.02448
+ekpp/ekp = 1.01192
+ekpp/ek = 0.995043
+ekpp/ekp = 0.983318
+ekpp/ek = 0.979804
+ekpp/ekp = 0.996426
+ekpp/ek = 0.999175
+ekpp/ekp = 1.00276
+ekpp/ek = 1.00386
+ekpp/ekp = 1.0011
+ekpp/ek = 1.00117
+ekpp/ekp = 1.00007
+Showing
+**********************************************************
+Problem name: HIMMELBI
+
+Number of Variables: 100
+Number of Constraints: 12
+             Equality: 0
+           has_inequality: 12
+
+EXIT: The Algorithm has Converged
+f(x) = -1730.8
+|c(x)| = 5.42002e-09
+|g(x) + J(x)'*y| = 4.56922e-07
+y offset = 0.00045771
+Number of Iterations = 71
+Elapsed Time = 0.027575 s
+Normal iterations = 1
+Average number of normal iterations = 0.0140845
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 70
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 19
+Average number of restorations per normal iteration = 19
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.106666

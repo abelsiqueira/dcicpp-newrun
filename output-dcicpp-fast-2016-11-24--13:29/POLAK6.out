@@ -1,0 +1,83 @@
+sifdecoder -A pc64.lnx.gfo  POLAK6
+
+ Problem name: POLAK6
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4 nonlinear inequality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 2.4083
+ekpp/ekp = 1.79358
+ekpp/ek = 3.53507
+ekpp/ekp = 1.97095
+ekpp/ek = 3.65957
+ekpp/ekp = 1.85675
+ekpp/ek = 2.23942
+ekpp/ekp = 1.20609
+ekpp/ek = 1.33844
+ekpp/ekp = 1.10973
+ekpp/ek = 1.18168
+ekpp/ekp = 1.06483
+ekpp/ek = 1.07565
+ekpp/ekp = 1.01016
+ekpp/ek = 1.01855
+ekpp/ekp = 1.00831
+ekpp/ek = 1.0177
+ekpp/ekp = 1.00932
+ekpp/ek = 1.01531
+ekpp/ekp = 1.00594
+ekpp/ek = 1.0111
+ekpp/ekp = 1.00514
+ekpp/ek = 1.00945
+ekpp/ekp = 1.0043
+ekpp/ek = 1.01568
+ekpp/ekp = 1.01134
+ekpp/ek = 1.0223
+ekpp/ekp = 1.01084
+ekpp/ek = 1.01526
+ekpp/ekp = 1.00437
+ekpp/ek = 1.00151
+ekpp/ekp = 0.997151
+ekpp/ek = 0.996879
+ekpp/ekp = 0.999726
+ekpp/ek = 0.999725
+ekpp/ekp = 0.999999
+Showing
+**********************************************************
+Problem name: POLAK6  
+
+Number of Variables: 5
+Number of Constraints: 4
+             Equality: 0
+           has_inequality: 4
+
+EXIT: The Algorithm has Converged
+f(x) = -44
+|c(x)| = 1.88978e-09
+|g(x) + J(x)'*y| = 6.92679e-09
+y offset = 0
+Number of Iterations = 21
+Elapsed Time = 0.0028677 s
+Normal iterations = 13
+Average number of normal iterations = 0.619048
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 8
+Iterations with 1  normal iteration  = 13
+Iterations with 2+ normal iterations = 0
+Restorations = 185
+Average number of restorations per normal iteration = 14
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.013332

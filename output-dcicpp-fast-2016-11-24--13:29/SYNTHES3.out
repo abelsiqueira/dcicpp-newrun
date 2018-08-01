@@ -1,0 +1,79 @@
+sifdecoder -A pc64.lnx.gfo  SYNTHES3
+
+ Problem name: SYNTHES3
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear equality constraints
+ There are 17 linear inequality constraints
+ There are 4 nonlinear inequality constraints
+ 
+ There are 17 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.932783
+ekpp/ekp = 0.950122
+ekpp/ek = 0.935707
+ekpp/ekp = 0.984828
+ekpp/ek = 0.978445
+ekpp/ekp = 0.993519
+ekpp/ek = 0.978672
+ekpp/ekp = 0.985056
+ekpp/ek = 0.910237
+ekpp/ekp = 0.924046
+ekpp/ek = 0.949125
+ekpp/ekp = 1.02714
+ekpp/ek = 1.03398
+ekpp/ekp = 1.00666
+ekpp/ek = 0.962655
+ekpp/ekp = 0.956291
+ekpp/ek = 0.932287
+ekpp/ekp = 0.974899
+ekpp/ek = 0.996106
+ekpp/ekp = 1.02175
+ekpp/ek = 1.0142
+ekpp/ekp = 0.992608
+ekpp/ek = 0.992689
+ekpp/ekp = 1.00008
+ekpp/ek = 1.0009
+ekpp/ekp = 1.00082
+ekpp/ek = 1.0008
+ekpp/ekp = 0.99998
+ekpp/ek = 1.00002
+ekpp/ekp = 1.00004
+Showing
+**********************************************************
+Problem name: SYNTHES3
+
+Number of Variables: 17
+Number of Constraints: 23
+             Equality: 2
+           has_inequality: 21
+
+EXIT: The Algorithm has Converged
+f(x) = 15.0823
+|c(x)| = 5.07799e-08
+|g(x) + J(x)'*y| = 5.71445e-07
+y offset = 2.12822e-06
+Number of Iterations = 18
+Elapsed Time = 0.00561237 s
+Normal iterations = 11
+Average number of normal iterations = 0.611111
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 8
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 1
+Restorations = 129
+Average number of restorations per normal iteration = 11
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.023332

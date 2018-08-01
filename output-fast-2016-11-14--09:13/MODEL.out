@@ -1,0 +1,45 @@
+sifdecoder -A pc64.lnx.gfo  MODEL
+
+ Problem name: MODEL
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 23 linear equality constraints
+ There are 15 linear inequality constraints
+ 
+ There are 42 variables bounded from below and above 
+ There are 1500 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: MODEL   
+
+Number of Variables: 34
+Number of Constraints: 24
+             Equality: 15
+           has_inequality: 9
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 2.53757e-10
+|g(x) + J(x)'*y| = 1.99996e-14
+y offset = 5.34159e-20
+Number of Iterations = 3
+Elapsed Time = 0.00357628 s
+Normal iterations = 2
+Average number of normal iterations = 0.666667
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = -1
+Restorations = 2
+Average number of restorations per normal iteration = 1
+**********************************************************
+Setup time: 0.009999
+Execution time: 0.013333

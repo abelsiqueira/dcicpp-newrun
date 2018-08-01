@@ -1,0 +1,33 @@
+sifdecoder -A pc64.lnx.gfo  ALLINITA
+
+ Problem name: ALLINITA
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ The objective function uses 10 nonlinear groups
+ 
+ There is 1 linear equality constraint
+ There is 1 linear inequality constraint
+ There is 1 nonlinear equality constraint
+ There is 1 nonlinear inequality constraint
+ 
+ There is 1 free variable 
+ There is 1 variable bounded only from below 
+ There is 1 variable bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+ERROR
+assert failed
+Status = -1
+File   = assert
+Line   = -1
+Exception: assert failed

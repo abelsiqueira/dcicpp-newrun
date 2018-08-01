@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  TFI1
+
+ Problem name: TFI1
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 101 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: TFI1    
+
+Number of Variables: 3
+Number of Constraints: 101
+             Equality: 0
+           has_inequality: 101
+
+EXIT: The Algorithm has Converged
+f(x) = 16.9217
+|c(x)| = 6.21451e-07
+|g(x) + J(x)'*y| = 1.9984e-10
+|J(x)'c(x)| = 5.01982e-06
+y offset = 2.42419e-16
+Number of Iterations = 21
+Elapsed Time = 0.0951166 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     164 (116, 48)
+  Gradient     (*ofg):           27
+  Constraints  (cfn, ccfsg):   1085 (116, 969)
+  Jacobian     (ccfsg):         199
+  Hessian prod (*hprod):        137
+
+Normal iterations = 13
+Average number of normal iterations = 0.619048
+Maximum number of normal iterations during one iteration = 4
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 1
+Restorations = 770
+Average number of restorations per normal iteration = 59
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.353333

@@ -1,0 +1,148 @@
+sifdecoder -A pc64.lnx.gfo  HS113
+
+ Problem name: HS113
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 linear inequality constraints
+ There are 5 nonlinear inequality constraints
+ 
+ There are 10 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.981732
+ekpp/ekp = 0.998984
+ekpp/ek = 0.997821
+ekpp/ekp = 0.998836
+ekpp/ek = 0.997976
+ekpp/ekp = 0.999138
+ekpp/ek = 0.998564
+ekpp/ekp = 0.999425
+ekpp/ek = 0.999126
+ekpp/ekp = 0.999701
+ekpp/ek = 0.999672
+ekpp/ekp = 0.999972
+ekpp/ek = 1.00021
+ekpp/ekp = 1.00024
+ekpp/ek = 1.00076
+ekpp/ekp = 1.00052
+ekpp/ek = 1.00132
+ekpp/ekp = 1.0008
+ekpp/ek = 1.00191
+ekpp/ekp = 1.00111
+ekpp/ek = 1.00253
+ekpp/ekp = 1.00143
+ekpp/ek = 1.0032
+ekpp/ekp = 1.00177
+ekpp/ek = 1.0039
+ekpp/ekp = 1.00213
+ekpp/ek = 1.00464
+ekpp/ekp = 1.00251
+ekpp/ek = 1.00541
+ekpp/ekp = 1.0029
+ekpp/ek = 1.00615
+ekpp/ekp = 1.00324
+ekpp/ek = 1.00681
+ekpp/ekp = 1.00356
+ekpp/ek = 1.00749
+ekpp/ekp = 1.00392
+ekpp/ek = 1.00818
+ekpp/ekp = 1.00424
+ekpp/ek = 1.00872
+ekpp/ekp = 1.00446
+ekpp/ek = 1.00909
+ekpp/ekp = 1.00461
+ekpp/ek = 1.00932
+ekpp/ekp = 1.00469
+ekpp/ek = 1.00942
+ekpp/ekp = 1.00471
+ekpp/ek = 1.00941
+ekpp/ekp = 1.00468
+ekpp/ek = 1.0093
+ekpp/ekp = 1.0046
+ekpp/ek = 1.00909
+ekpp/ekp = 1.00447
+ekpp/ek = 1.00881
+ekpp/ekp = 1.00431
+ekpp/ek = 1.00845
+ekpp/ekp = 1.00412
+ekpp/ek = 1.00803
+ekpp/ekp = 1.0039
+ekpp/ek = 1.00756
+ekpp/ekp = 1.00365
+ekpp/ek = 1.00703
+ekpp/ekp = 1.00337
+ekpp/ek = 1.00646
+ekpp/ekp = 1.00308
+ekpp/ek = 1.00586
+ekpp/ekp = 1.00277
+ekpp/ek = 1.00524
+ekpp/ekp = 1.00246
+ekpp/ek = 1.00463
+ekpp/ekp = 1.00216
+ekpp/ek = 1.00403
+ekpp/ekp = 1.00187
+ekpp/ek = 1.00382
+ekpp/ekp = 1.00195
+ekpp/ek = 1.00244
+ekpp/ekp = 1.0005
+ekpp/ek = 1.001
+ekpp/ekp = 1.00051
+ekpp/ek = 1.00103
+ekpp/ekp = 1.00053
+ekpp/ek = 1.00109
+ekpp/ekp = 1.00056
+ekpp/ek = 1.00178
+ekpp/ekp = 1.00122
+ekpp/ek = 1.00439
+ekpp/ekp = 1.00317
+ekpp/ek = 1.0037
+ekpp/ekp = 1.00053
+ekpp/ek = 0.999209
+ekpp/ekp = 0.998678
+ekpp/ek = 1.00116
+ekpp/ekp = 1.00249
+ekpp/ek = 1.00104
+ekpp/ekp = 0.998553
+ekpp/ek = 0.998682
+ekpp/ekp = 1.00013
+ekpp/ek = 1.0001
+ekpp/ekp = 0.999973
+ekpp/ek = 0.99998
+ekpp/ekp = 1.00001
+Showing
+**********************************************************
+Problem name: HS113   
+
+Number of Variables: 10
+Number of Constraints: 8
+             Equality: 0
+           has_inequality: 8
+
+EXIT: The Algorithm has Converged
+f(x) = 24.3062
+|c(x)| = 9.96313e-07
+|g(x) + J(x)'*y| = 1.44741e-07
+y offset = 0
+Number of Iterations = 53
+Elapsed Time = 0.00546932 s
+Normal iterations = 49
+Average number of normal iterations = 0.924528
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 49
+Iterations with 2+ normal iterations = 0
+Restorations = 246
+Average number of restorations per normal iteration = 5
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.019999

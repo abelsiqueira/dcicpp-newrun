@@ -1,0 +1,64 @@
+sifdecoder -A pc64.lnx.gfo  TRIMLOSS
+
+ Problem name: TRIMLOSS
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 20 linear equality constraints
+ There are 51 linear inequality constraints
+ There are 4 nonlinear inequality constraints
+ 
+ There are 20 variables bounded only from below 
+ There are 122 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: TRIMLOSS
+
+Number of Variables: 142
+Number of Constraints: 75
+             Equality: 20
+           has_inequality: 55
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 9.9202
+|c(x)| = 20.2697
+|g(x) + J(x)'*y| = 0.00637677
+|J(x)'c(x)| = 23.5857
+y offset = 0.13732
+Number of Iterations = 1
+Elapsed Time = 0.848238 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     269 (263, 6)
+  Gradient     (*ofg):            5
+  Constraints  (cfn, ccfsg):  12351 (263, 12088)
+  Jacobian     (ccfsg):        2087
+  Hessian prod (*hprod):          1
+
+Normal iterations = 3
+Average number of normal iterations = 3
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10001
+Average number of restorations per normal iteration = 3333
+**********************************************************
+Done
+Setup time: 0
+Execution time: 1.10333

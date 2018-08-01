@@ -1,0 +1,141 @@
+sifdecoder -A pc64.lnx.gfo  HS38
+
+ Problem name: HS38
+
+ Double precision version will be formed
+
+ The objective function uses 7 nonlinear groups
+ 
+ There are 4 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.427389
+ekpp/ekp = 0.806012
+ekpp/ek = 0.671925
+ekpp/ekp = 0.833642
+ekpp/ek = 0.767926
+ekpp/ekp = 0.92117
+ekpp/ek = 0.892403
+ekpp/ekp = 0.968771
+ekpp/ek = 0.964034
+ekpp/ekp = 0.99511
+ekpp/ek = 0.996037
+ekpp/ekp = 1.00093
+ekpp/ek = 1.00422
+ekpp/ekp = 1.00328
+ekpp/ek = 1.01328
+ekpp/ekp = 1.00997
+ekpp/ek = 1.00916
+ekpp/ekp = 0.9992
+ekpp/ek = 1.00464
+ekpp/ekp = 1.00545
+ekpp/ek = 1.01546
+ekpp/ekp = 1.00996
+ekpp/ek = 1.00907
+ekpp/ekp = 0.999117
+ekpp/ek = 1.00606
+ekpp/ekp = 1.00695
+ekpp/ek = 1.01349
+ekpp/ekp = 1.00649
+ekpp/ek = 1.00637
+ekpp/ekp = 0.999881
+ekpp/ek = 1.00032
+ekpp/ekp = 1.00044
+ekpp/ek = 1.0071
+ekpp/ekp = 1.00665
+ekpp/ek = 1.00325
+ekpp/ekp = 0.996624
+ekpp/ek = 0.994969
+ekpp/ekp = 0.998339
+ekpp/ek = 0.989787
+ekpp/ekp = 0.991434
+ekpp/ek = 0.962366
+ekpp/ekp = 0.970681
+ekpp/ek = 0.908446
+ekpp/ekp = 0.935886
+ekpp/ek = 0.93025
+ekpp/ekp = 0.993979
+ekpp/ek = 0.981883
+ekpp/ekp = 0.987831
+ekpp/ek = 0.931313
+ekpp/ekp = 0.942786
+ekpp/ek = 0.81981
+ekpp/ekp = 0.869561
+ekpp/ek = 0.806191
+ekpp/ekp = 0.927124
+ekpp/ek = 0.89072
+ekpp/ekp = 0.960735
+ekpp/ek = 0.946715
+ekpp/ekp = 0.985407
+ekpp/ek = 0.966969
+ekpp/ekp = 0.981289
+ekpp/ek = 1.00859
+ekpp/ekp = 1.02783
+ekpp/ek = 1.01695
+ekpp/ekp = 0.989418
+ekpp/ek = 0.975808
+ekpp/ekp = 0.986244
+ekpp/ek = 0.990264
+ekpp/ekp = 1.00408
+ekpp/ek = 0.984803
+ekpp/ekp = 0.980806
+ekpp/ek = 0.908749
+ekpp/ekp = 0.926532
+ekpp/ek = 0.906274
+ekpp/ekp = 0.978136
+ekpp/ek = 0.93892
+ekpp/ekp = 0.959908
+ekpp/ek = 0.785061
+ekpp/ekp = 0.81785
+ekpp/ek = 0.673433
+ekpp/ekp = 0.823418
+ekpp/ek = 0.761019
+ekpp/ekp = 0.92422
+ekpp/ek = 0.675678
+ekpp/ekp = 0.731079
+ekpp/ek = 0.361787
+ekpp/ekp = 0.494867
+ekpp/ek = 0.296358
+ekpp/ekp = 0.598865
+ekpp/ek = 0.0811516
+ekpp/ekp = 0.135509
+ekpp/ek = 0.0337774
+ekpp/ekp = 0.249263
+ekpp/ek = 0.00122292
+ekpp/ekp = 0.00490613
+ekpp/ek = 0.00488123
+ekpp/ekp = 0.994925
+Showing
+**********************************************************
+Problem name: HS38    
+
+Number of Variables: 4
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 5.08468e-10
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.12202e-08
+y offset = 0
+Number of Iterations = 51
+Elapsed Time = 0.000841618 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 51
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

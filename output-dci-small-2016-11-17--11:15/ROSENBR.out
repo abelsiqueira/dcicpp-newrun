@@ -1,0 +1,52 @@
+sifdecoder -A pc64.lnx.gfo -st   ROSENBR
+
+ Problem name: ROSENBR
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-small-2016-11-17--11:15
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+
+ ** SUBROUTINE CUTEST_csetup: Warning. The problem has no general constraints. 
+ ** Other tools may be preferable ** 
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           27
+ Steihaug's iter:           60
+ Restorations   :            0
+ Rejected steps :            8
+ Function evals.:           35
+ Constr.  evals.:           34
+ Gradient evals.:           27
+ Jacobian evals.:            0
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    6.0049411063082433E-018
+ ||h(x)||       :    0.0000000000000000     
+ ||gp(x)||      :    9.7316918060476965E-008
+ ||At*h||       :    0.0000000000000000     
+ Elapsed time   :    0.00000000    
+
+ ||xnew - xc||  :    3.5003269946712963E-005
+ rho            :    9.9999999999999995E-007
+ rhomax         :    49.786203898109491     
+ vdelta         :    100000.00000000000     
+ hdelta         :   0.41430504720791822     
+ L(x)           :    6.0049411063082433E-018
+ L(x) - L(xc)   :   -2.4466639162719893E-010
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

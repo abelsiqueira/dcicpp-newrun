@@ -1,0 +1,185 @@
+sifdecoder -A pc64.lnx.gfo  QPCBLEND
+
+ Problem name: QPCBLEND
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 43 linear equality constraints
+ There are 31 linear inequality constraints
+ 
+ There are 83 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 contraints
+Starting
+Solving
+ekpp/ek = 0.99524
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999986
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999986
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999986
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999985
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999984
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999983
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999982
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999982
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999918
+ekpp/ekp = 0.999926
+ekpp/ek = 0.999917
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999982
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999981
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999768
+ekpp/ekp = 0.999778
+ekpp/ek = 0.997121
+ekpp/ekp = 0.997343
+ekpp/ek = 1.00551
+ekpp/ekp = 1.00819
+ekpp/ek = 1.00819
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00002
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00003
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00004
+ekpp/ekp = 1.00002
+ekpp/ek = 1.00005
+ekpp/ekp = 1.00003
+ekpp/ek = 1.00007
+ekpp/ekp = 1.00004
+ekpp/ek = 1.00011
+ekpp/ekp = 1.00007
+ekpp/ek = 1.00017
+ekpp/ekp = 1.0001
+ekpp/ek = 1.00022
+ekpp/ekp = 1.00012
+ekpp/ek = 1.00025
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00026
+ekpp/ekp = 1.00014
+ekpp/ek = 1.00028
+ekpp/ekp = 1.00014
+ekpp/ek = 1.00029
+ekpp/ekp = 1.00015
+ekpp/ek = 1.00031
+ekpp/ekp = 1.00016
+ekpp/ek = 1.00032
+ekpp/ekp = 1.00017
+ekpp/ek = 1.00034
+ekpp/ekp = 1.00017
+ekpp/ek = 1.00036
+ekpp/ekp = 1.00018
+ekpp/ek = 1.00037
+ekpp/ekp = 1.00019
+ekpp/ek = 1.00039
+ekpp/ekp = 1.0002
+ekpp/ek = 1.00041
+ekpp/ekp = 1.00021
+ekpp/ek = 1.00043
+ekpp/ekp = 1.00022
+ekpp/ek = 1.00046
+ekpp/ekp = 1.00023
+ekpp/ek = 1.00048
+ekpp/ekp = 1.00025
+ekpp/ek = 1.00051
+ekpp/ekp = 1.00026
+ekpp/ek = 1.00053
+ekpp/ekp = 1.00027
+ekpp/ek = 1.00056
+ekpp/ekp = 1.00029
+ekpp/ek = 1.00059
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00063
+ekpp/ekp = 1.00032
+ekpp/ek = 1.00067
+ekpp/ekp = 1.00035
+ekpp/ek = 1.00035
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00037
+ekpp/ekp = 1.00037
+ekpp/ek = 1.00076
+ekpp/ekp = 1.00039
+ekpp/ek = 1.00082
+ekpp/ekp = 1.00042
+ekpp/ek = 1.00089
+ekpp/ekp = 1.00046
+ekpp/ek = 1.00097
+ekpp/ekp = 1.00051
+ekpp/ek = 1.00106
+ekpp/ekp = 1.00056
+ekpp/ek = 1.00118
+ekpp/ekp = 1.00062
+ekpp/ek = 1.00129
+ekpp/ekp = 1.00067
+ekpp/ek = 1.00133
+ekpp/ekp = 1.00067
+ekpp/ek = 1.00065
+ekpp/ekp = 0.999982
+ekpp/ek = 0.999869
+ekpp/ekp = 0.999886
+ekpp/ek = 0.999966
+ekpp/ekp = 1.00008
+Showing
+**********************************************************
+Problem name: QPCBLEND
+
+Number of Variables: 83
+Number of Constraints: 72
+             Equality: 43
+           has_inequality: 29
+
+EXIT: The Algorithm has Converged
+f(x) = -0.00773503
+|c(x)| = 1.39754e-14
+|g(x) + J(x)'*y| = 4.99624e-07
+y offset = 0.000916699
+Number of Iterations = 71
+Elapsed Time = 0.0615494 s
+Normal iterations = 9
+Average number of normal iterations = 0.126761
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 63
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 1
+Restorations = 96
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.183333

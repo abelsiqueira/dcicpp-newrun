@@ -1,0 +1,69 @@
+sifdecoder -A pc64.lnx.gfo -st   LUKVLE13
+
+ Problem name: LUKVLE13
+
+ Double precision version will be formed
+
+ The objective function uses 9996 nonlinear groups
+ 
+ There are 6664 nonlinear equality constraints
+ 
+ There are 9998 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.16218387191276576     
+ |gp(xk)|/|gp(xck)| =   0.21539362951959620     
+ |gp(xk)|/|gp(xck)| =   0.27583094232245792     
+ |gp(xk)|/|gp(xck)| =   0.23745939122646814     
+ |gp(xk)|/|gp(xck)| =   0.47621146134759412     
+ |gp(xk)|/|gp(xck)| =   0.24634967501860819     
+ |gp(xk)|/|gp(xck)| =   0.44514069266943268     
+ |gp(xk)|/|gp(xck)| =    8.7124998570183354E-002
+ |gp(xk)|/|gp(xck)| =   0.18581456306522981     
+ |gp(xk)|/|gp(xck)| =   0.36339317913911240     
+ |gp(xk)|/|gp(xck)| =   0.34820589243722339     
+ |gp(xk)|/|gp(xck)| =   0.57233596126453601     
+ |gp(xk)|/|gp(xck)| =   0.29716714371748376     
+ |gp(xk)|/|gp(xck)| =   0.36493252861772318     
+ |gp(xk)|/|gp(xck)| =   0.30069669241894731     
+ |gp(xk)|/|gp(xck)| =   0.29631391173586386     
+ |gp(xk)|/|gp(xck)| =   0.29648929780960920     
+ |gp(xk)|/|gp(xck)| =   0.29635005698996580     
+ |gp(xk)|/|gp(xck)| =   0.99999999999455247     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           19
+ Steihaug's iter:           79
+ Restorations   :           10
+ Rejected steps :            0
+ Function evals.:           19
+ Constr.  evals.:           30
+ Gradient evals.:           26
+ Jacobian evals.:           26
+ 2nd order Corr.:            1
+ BFGS iterations:            0
+ f(x)           :    91371.993960052088     
+ ||h(x)||       :    4.4426848866407909E-009
+ ||gp(x)||      :    3.6991315918720083E-007
+ ||At*h||       :    4.0965997655411152E-008
+ Elapsed time   :   0.152343750    
+
+ ||xnew - xc||  :   0.10653127695126063     
+ rho            :    9.9999999999999995E-007
+ rhomax         :    4405.8421521883874     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :    91371.993960082502     
+ L(x) - L(xc)   :   -1.8736755009740591E-006
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

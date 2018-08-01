@@ -1,0 +1,43 @@
+sifdecoder -A pc64.lnx.gfo  WOMFLET
+
+ Problem name: WOMFLET
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: WOMFLET 
+
+Number of Variables: 3
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = 1.09542e-05
+|c(x)| = 1.76884e-12
+|g(x) + J(x)'*y| = 9.88108e-07
+y offset = 0
+Number of Iterations = 98
+Elapsed Time = 0.00455904 s
+Normal iterations = 92
+Average number of normal iterations = 0.938776
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 92
+Iterations with 2+ normal iterations = -6
+Restorations = 228
+Average number of restorations per normal iteration = 2
+**********************************************************
+Setup time: 0
+Execution time: 0.019998

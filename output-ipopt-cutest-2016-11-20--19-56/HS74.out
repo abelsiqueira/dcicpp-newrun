@@ -1,0 +1,80 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:        8
+Number of nonzeros in inequality constraint Jacobian.:        4
+Number of nonzeros in Lagrangian Hessian.............:        5
+
+Total number of variables............................:        4
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        4
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        3
+Total number of inequality constraints...............:        2
+        inequality constraints with only lower bounds:        2
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  4.9999950e-02 8.00e+02 5.00e-01  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  4.8532277e+03 6.41e+01 3.18e+07  -1.0 8.00e+02    -  1.24e-05 1.00e+00h  1
+   2  5.2702290e+03 1.03e+00 2.85e+06  -1.0 4.97e+01    -  9.43e-01 1.00e+00h  1
+   3  5.2648108e+03 2.88e-03 3.24e+03  -1.0 6.35e+00    -  9.77e-01 1.00e+00f  1
+   4  5.1056654e+03 1.98e+00 5.68e+01  -1.0 1.61e+02    -  7.67e-01 1.00e+00f  1
+   5  5.1264613e+03 4.48e-03 2.93e-01  -1.0 8.57e+00    -  1.00e+00 1.00e+00h  1
+   6  5.1264981e+03 7.29e-07 5.55e-05  -1.7 1.01e-01    -  1.00e+00 1.00e+00h  1
+   7  5.1264981e+03 5.68e-08 4.13e-06  -3.8 2.79e-02    -  1.00e+00 1.00e+00h  1
+   8  5.1264981e+03 3.41e-12 2.44e-10  -5.7 2.17e-04    -  1.00e+00 1.00e+00h  1
+   9  5.1264981e+03 1.14e-13 1.97e-12  -8.6 2.58e-06    -  1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 9
+
+                                   (scaled)                 (unscaled)
+Objective...............:   5.1264981099553570e+03    5.1264981099553570e+03
+Dual infeasibility......:   1.9734450423968181e-12    1.9734450423968181e-12
+Constraint violation....:   5.8667241318311521e-15    1.1368683772161603e-13
+Complementarity.........:   2.5059512902323693e-09    2.5059512902323693e-09
+Overall NLP error.......:   2.5059512902323693e-09    2.5059512902323693e-09
+
+
+Number of objective function evaluations             = 10
+Number of objective gradient evaluations             = 10
+Number of equality constraint evaluations            = 10
+Number of inequality constraint evaluations          = 10
+Number of equality constraint Jacobian evaluations   = 10
+Number of inequality constraint Jacobian evaluations = 10
+Number of Lagrangian Hessian evaluations             = 9
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.000
+Total CPU secs in NLP function evaluations           =      0.000
+
+EXIT: Optimal Solution Found.
+
+************************ CUTEst statistics ************************
+
+
+ Package used            :  IPOPT
+ Problem                 :  HS74      
+ # variables             =               4
+ # constraints           =               5
+ # objective functions   =        0.2100000E+02
+ # objective gradients   =        0.1100000E+02
+ # objective Hessians    =        0.1000000E+02
+ # Hessian-vector prdct  =        0.0000000E+00
+ # constraints functions =        0.2200000E+02
+ # constraints gradients =        0.1200000E+02
+ # constraints Hessians  =        0.1000000E+02
+ Exit code               =               0
+ Final f                 =   0.5126498E+04
+ Set up time             =            0.00 seconds
+ Solve time              =            0.02 seconds
+
+
+******************************************************************
+
+System Time =       0.0040000002 s.

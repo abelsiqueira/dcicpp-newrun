@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELBI
+
+ Problem name: HIMMELBI
+
+ Double precision version will be formed
+
+ The objective function uses 20 nonlinear groups
+ 
+ There are 12 linear inequality constraints
+ 
+ There are 100 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:43
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HIMMELBI
+
+Number of Variables: 100
+Number of Constraints: 12
+             Equality: 0
+           has_inequality: 12
+
+EXIT: The Algorithm has Converged
+f(x) = -1730.83
+|c(x)| = 6.29369e-09
+|g(x) + J(x)'*y| = 8.87714e-08
+y offset = 0.00045767
+Number of Iterations = 71
+Elapsed Time = 0.0259843 s
+Normal iterations = 1
+Average number of normal iterations = 0.0140845
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 70
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 19
+Average number of restorations per normal iteration = 19
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.103332

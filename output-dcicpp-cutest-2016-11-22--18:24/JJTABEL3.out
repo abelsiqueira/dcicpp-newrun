@@ -1,0 +1,34 @@
+sifdecoder -A pc64.lnx.gfo  JJTABEL3
+
+ Problem name: JJTABEL3
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 1650 linear equality constraints
+ 
+ There are 1012 variables bounded only from above 
+ There are 2013 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+ERROR
+assert failed
+Status = -1
+File   = assert
+Line   = -1
+Exception: assert failed

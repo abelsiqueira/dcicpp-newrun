@@ -1,0 +1,104 @@
+sifdecoder -A pc64.lnx.gfo -st   EIGENCCO
+
+ Problem name: EIGENCCO
+
+ Double precision version will be formed
+
+ The objective function uses 1326 nonlinear groups
+ 
+ There are 1326 nonlinear equality constraints
+ 
+ There are 2652 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    2.2780792351607841     
+ |gp(xk)|/|gp(xck)| =   0.72551528975650359     
+ |gp(xk)|/|gp(xck)| =    1.0512885441231197     
+ |gp(xk)|/|gp(xck)| =   0.92704614749836201     
+ |gp(xk)|/|gp(xck)| =    1.3312691546375461     
+ |gp(xk)|/|gp(xck)| =    1.5382971656626649     
+ |gp(xk)|/|gp(xck)| =    3.1218391533223748     
+ |gp(xk)|/|gp(xck)| =    1.6076323895328475     
+ |gp(xk)|/|gp(xck)| =    3.0800335091117370     
+ |gp(xk)|/|gp(xck)| =   0.95308287767032129     
+ |gp(xk)|/|gp(xck)| =    1.7073512373697501     
+ |gp(xk)|/|gp(xck)| =    2.8967212138255238     
+ |gp(xk)|/|gp(xck)| =   0.75687465348468774     
+ |gp(xk)|/|gp(xck)| =    1.4000475624762636     
+ |gp(xk)|/|gp(xck)| =    1.6009162384786291     
+ |gp(xk)|/|gp(xck)| =   0.41133725474527211     
+ |gp(xk)|/|gp(xck)| =    2.3645522961762397     
+ |gp(xk)|/|gp(xck)| =    1.6767206462220929     
+ |gp(xk)|/|gp(xck)| =    1.0787786386736207     
+ |gp(xk)|/|gp(xck)| =    1.4438712617175096     
+ |gp(xk)|/|gp(xck)| =    2.0298611236670223     
+ |gp(xk)|/|gp(xck)| =   0.52859623252190779     
+ |gp(xk)|/|gp(xck)| =   0.73033519483650178     
+ |gp(xk)|/|gp(xck)| =    2.3350711786102956     
+ |gp(xk)|/|gp(xck)| =   0.33431915552968311     
+ |gp(xk)|/|gp(xck)| =    1.5069706656137156     
+ |gp(xk)|/|gp(xck)| =   0.62943241919417370     
+ |gp(xk)|/|gp(xck)| =    2.3000481550292484     
+ |gp(xk)|/|gp(xck)| =    1.3309102750418735     
+ |gp(xk)|/|gp(xck)| =    1.3096986215156516     
+ |gp(xk)|/|gp(xck)| =    1.0620189369875781     
+ |gp(xk)|/|gp(xck)| =    1.5973426067231768     
+ |gp(xk)|/|gp(xck)| =    1.8572085382329939     
+ |gp(xk)|/|gp(xck)| =    1.0663229520127147     
+ |gp(xk)|/|gp(xck)| =    4.1030716288044857     
+ |gp(xk)|/|gp(xck)| =   0.84666615061933004     
+ |gp(xk)|/|gp(xck)| =   0.69376800257133608     
+ |gp(xk)|/|gp(xck)| =    1.1448344189831277     
+ |gp(xk)|/|gp(xck)| =    2.1537222173413686     
+ |gp(xk)|/|gp(xck)| =   0.84045105734025560     
+ |gp(xk)|/|gp(xck)| =   0.68478013163754425     
+ |gp(xk)|/|gp(xck)| =    1.0749341325190438     
+ |gp(xk)|/|gp(xck)| =   0.49989102885569536     
+ |gp(xk)|/|gp(xck)| =   0.58338922571931884     
+ |gp(xk)|/|gp(xck)| =   0.93193707288060768     
+ |gp(xk)|/|gp(xck)| =   0.49994431051446647     
+ |gp(xk)|/|gp(xck)| =   0.60393768076353249     
+ |gp(xk)|/|gp(xck)| =   0.53594947651033265     
+ |gp(xk)|/|gp(xck)| =   0.19278947237443367     
+ |gp(xk)|/|gp(xck)| =   0.38141833821969934     
+ |gp(xk)|/|gp(xck)| =   0.18276399023237266     
+ |gp(xk)|/|gp(xck)| =   0.30902800253321316     
+ |gp(xk)|/|gp(xck)| =   0.20579539353346352     
+ |gp(xk)|/|gp(xck)| =   0.99999999989394750     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           54
+ Steihaug's iter:         2100
+ Restorations   :           15
+ Rejected steps :           22
+ Function evals.:           76
+ Constr.  evals.:          108
+ Gradient evals.:           63
+ Jacobian evals.:           64
+ 2nd order Corr.:           15
+ BFGS iterations:            0
+ f(x)           :    5.7665245293490752E-014
+ ||h(x)||       :    2.9203787086455303E-009
+ ||gp(x)||      :    5.2397308888517980E-007
+ ||At*h||       :    1.6111238006415309E-008
+ Elapsed time   :    17.4765625    
+
+ ||xnew - xc||  :    1.3450213220991574E-006
+ rho            :    9.9999999999999995E-007
+ rhomax         :   0.19489924013669319     
+ vdelta         :    7.9121994942724010     
+ hdelta         :    1.6654137578743438     
+ L(x)           :    7.1066541186127633E-014
+ L(x) - L(xc)   :   -2.8312557919888149E-012
+ L(xc)-L(x(k-1)):    2.7505013066385166E-013
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

@@ -1,0 +1,53 @@
+sifdecoder -A pc64.lnx.gfo -st   BYRDSPHR
+
+ Problem name: BYRDSPHR
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    6.3765655649315223     
+ |gp(xk)|/|gp(xck)| =    7.3666333289467092     
+ |gp(xk)|/|gp(xck)| =    2.9907264074877271     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            3
+ Steihaug's iter:           11
+ Restorations   :           21
+ Rejected steps :            9
+ Function evals.:           12
+ Constr.  evals.:           45
+ Gradient evals.:            6
+ Jacobian evals.:           10
+ 2nd order Corr.:            1
+ BFGS iterations:            0
+ f(x)           :   -4.6833001326703787     
+ ||h(x)||       :    1.7763568394002505E-015
+ ||gp(x)||      :    8.8817841970012523E-016
+ ||At*h||       :    2.1018137570293104E-014
+ Elapsed time   :    0.00000000    
+
+ ||xnew - xc||  :    1.3430936371084504E-004
+ rho            :    1.5355989524799401E-014
+ rhomax         :    44.533835518426891     
+ vdelta         :   0.23952033181477209     
+ hdelta         :    9.5367431640625000     
+ L(x)           :   -4.6833001327030432     
+ L(x) - L(xc)   :   -4.3121302084614399E-009
+ L(xc)-L(x(k-1)):    6.9239493511656551     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

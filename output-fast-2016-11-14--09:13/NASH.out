@@ -1,0 +1,50 @@
+sifdecoder -A pc64.lnx.gfo  NASH
+
+ Problem name: NASH
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 24 linear equality constraints
+ 
+ There are 15 free variables
+ There are 3 variables bounded from below and above 
+ There are 54 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+**********************************************************
+Problem name: NASH    
+
+Number of Variables: 7
+Number of Constraints: 6
+             Equality: 6
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 0
+|c(x)| = 4.34308e-11
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.000760078 s
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 2
+Restorations = 23
+Average number of restorations per normal iteration = 11
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.003333

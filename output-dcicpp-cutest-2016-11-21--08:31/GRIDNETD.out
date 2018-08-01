@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  GRIDNETD
+
+ Problem name: GRIDNETD
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3844 linear equality constraints
+ 
+ There are 4899 free variables
+ There are 241 variables bounded only from below 
+ There are 4 variables bounded from below and above 
+ There are 2420 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2420 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Solving
+Showing
+**********************************************************
+Problem name: GRIDNETD
+
+Number of Variables: 5144
+Number of Constraints: 3844
+             Equality: 3844
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 570.736
+|c(x)| = 2.29929e-07
+|g(x) + J(x)'*y| = 9.98492e-08
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 12.4482 s
+Normal iterations = 1
+Average number of normal iterations = 0.125
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 126
+Average number of restorations per normal iteration = 126
+**********************************************************
+Done
+Setup time: 0.139999
+Execution time: 12.59

@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  BIGGSC4
+
+ Problem name: BIGGSC4
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 7 linear inequality constraints
+ 
+ There are 4 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: BIGGSC4 
+
+Number of Variables: 4
+Number of Constraints: 7
+             Equality: 0
+           has_inequality: 7
+
+EXIT: The Algorithm has Converged
+f(x) = -3.24996
+|c(x)| = 9.78517e-07
+|g(x) + J(x)'*y| = 6.99075e-07
+|J(x)'c(x)| = 6.64062e-07
+y offset = 0.0110485
+Number of Iterations = 7
+Elapsed Time = 0.00156379 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      28 (9, 19)
+  Gradient     (*ofg):           12
+  Constraints  (cfn, ccfsg):    233 (9, 224)
+  Jacobian     (ccfsg):          36
+  Hessian prod (*hprod):         12
+
+Normal iterations = 7
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = 1
+Restorations = 188
+Average number of restorations per normal iteration = 26
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.009999

@@ -1,0 +1,94 @@
+sifdecoder -A pc64.lnx.gfo  DECONVB
+
+ Problem name: DECONVB
+
+ Double precision version will be formed
+
+ The objective function uses 40 nonlinear groups
+ 
+ There are 40 variables bounded only from below 
+ There are 11 variables bounded from below and above 
+ There are 12 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 12 variables
+Starting
+Solving
+ekpp/ek = 1.05009
+ekpp/ekp = 0.990314
+ekpp/ek = 0.993834
+ekpp/ekp = 1.00355
+ekpp/ek = 1.00161
+ekpp/ekp = 0.998062
+ekpp/ek = 0.994442
+ekpp/ekp = 0.996373
+ekpp/ek = 0.996585
+ekpp/ekp = 1.00021
+ekpp/ek = 1.00083
+ekpp/ekp = 1.00062
+ekpp/ek = 0.999592
+ekpp/ekp = 0.998973
+ekpp/ek = 0.991112
+ekpp/ekp = 0.992131
+ekpp/ek = 0.978058
+ekpp/ekp = 0.985815
+ekpp/ek = 0.983999
+ekpp/ekp = 0.998157
+ekpp/ek = 0.997005
+ekpp/ekp = 0.998845
+ekpp/ek = 0.998191
+ekpp/ekp = 0.999346
+ekpp/ek = 0.996344
+ekpp/ekp = 0.996996
+ekpp/ek = 0.970891
+ekpp/ekp = 0.973816
+ekpp/ek = 0.977586
+ekpp/ekp = 1.00387
+ekpp/ek = 1.0014
+ekpp/ekp = 0.997534
+ekpp/ek = 0.995623
+ekpp/ekp = 0.998084
+ekpp/ek = 0.998003
+ekpp/ekp = 0.999919
+ekpp/ek = 0.999728
+ekpp/ekp = 0.999809
+ekpp/ek = 0.999786
+ekpp/ekp = 0.999977
+ekpp/ek = 0.999523
+ekpp/ekp = 0.999547
+ekpp/ek = 0.997582
+ekpp/ekp = 0.998035
+ekpp/ek = 0.998069
+ekpp/ekp = 1.00003
+Showing
+**********************************************************
+Problem name: DECONVB 
+
+Number of Variables: 51
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 6.73354
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.20607e-07
+y offset = 0
+Number of Iterations = 26
+Elapsed Time = 0.0070188 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 26
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.029999

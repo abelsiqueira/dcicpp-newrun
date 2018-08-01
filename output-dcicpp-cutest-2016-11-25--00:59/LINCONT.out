@@ -1,0 +1,71 @@
+sifdecoder -A pc64.lnx.gfo  LINCONT
+
+ Problem name: LINCONT
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 419 linear equality constraints
+ 
+ There are 249 free variables
+ There are 1008 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1008 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: LINCONT 
+
+Number of Variables: 249
+Number of Constraints: 419
+             Equality: 419
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 0
+|c(x)| = 1261.26
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 4.46265e+06
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 166.639 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     313 (309, 4)
+  Gradient     (*ofg):            3
+  Constraints  (cfn, ccfsg):  12961 (309, 12652)
+  Jacobian     (ccfsg):        2651
+  Hessian prod (*hprod):          0
+
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.053333
+Execution time: 166.767

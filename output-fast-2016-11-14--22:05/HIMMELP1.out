@@ -1,0 +1,34 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELP1
+
+ Problem name: HIMMELP1
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HIMMELP1
+
+Number of Variables: 2
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -62.0539
+|c(x)| = 0
+|g(x) + J(x)'*y| = 7.93153e-09
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.000217676 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 28236 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

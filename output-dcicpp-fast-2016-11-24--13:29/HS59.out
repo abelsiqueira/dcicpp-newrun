@@ -1,0 +1,147 @@
+sifdecoder -A pc64.lnx.gfo  HS59
+
+ Problem name: HS59
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.951435
+ekpp/ekp = 0.991735
+ekpp/ek = 0.983189
+ekpp/ekp = 0.991383
+ekpp/ek = 0.98238
+ekpp/ekp = 0.990919
+ekpp/ek = 0.981693
+ekpp/ekp = 0.990689
+ekpp/ek = 0.981055
+ekpp/ekp = 0.990275
+ekpp/ek = 0.979565
+ekpp/ekp = 0.989185
+ekpp/ek = 0.925076
+ekpp/ekp = 0.935191
+ekpp/ek = 0.944826
+ekpp/ekp = 1.0103
+ekpp/ek = 1.01093
+ekpp/ekp = 1.00062
+ekpp/ek = 1.00105
+ekpp/ekp = 1.00043
+ekpp/ek = 1.00086
+ekpp/ekp = 1.00043
+ekpp/ek = 1.00085
+ekpp/ekp = 1.00042
+ekpp/ek = 1.00084
+ekpp/ekp = 1.00042
+ekpp/ek = 1.00084
+ekpp/ekp = 1.00042
+ekpp/ek = 1.00083
+ekpp/ekp = 1.00041
+ekpp/ek = 1.00082
+ekpp/ekp = 1.00041
+ekpp/ek = 1.00082
+ekpp/ekp = 1.00041
+ekpp/ek = 1.00081
+ekpp/ekp = 1.0004
+ekpp/ek = 1.0008
+ekpp/ekp = 1.0004
+ekpp/ek = 1.00079
+ekpp/ekp = 1.00039
+ekpp/ek = 1.00079
+ekpp/ekp = 1.00039
+ekpp/ek = 1.00078
+ekpp/ekp = 1.00039
+ekpp/ek = 1.00077
+ekpp/ekp = 1.00038
+ekpp/ek = 1.00077
+ekpp/ekp = 1.00038
+ekpp/ek = 1.00076
+ekpp/ekp = 1.00038
+ekpp/ek = 1.00075
+ekpp/ekp = 1.00037
+ekpp/ek = 1.00074
+ekpp/ekp = 1.00037
+ekpp/ek = 1.00073
+ekpp/ekp = 1.00036
+ekpp/ek = 1.00071
+ekpp/ekp = 1.00035
+ekpp/ek = 1.0007
+ekpp/ekp = 1.00035
+ekpp/ek = 1.00069
+ekpp/ekp = 1.00034
+ekpp/ek = 1.00068
+ekpp/ekp = 1.00034
+ekpp/ek = 1.00067
+ekpp/ekp = 1.00033
+ekpp/ek = 1.00066
+ekpp/ekp = 1.00033
+ekpp/ek = 1.00065
+ekpp/ekp = 1.00032
+ekpp/ek = 1.00064
+ekpp/ekp = 1.00032
+ekpp/ek = 1.00063
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00061
+ekpp/ekp = 1.0003
+ekpp/ek = 1.00059
+ekpp/ekp = 1.00029
+ekpp/ek = 1.0006
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00062
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00062
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00063
+ekpp/ekp = 1.00031
+ekpp/ek = 1.00063
+ekpp/ekp = 1.00032
+ekpp/ek = 1.00064
+ekpp/ekp = 1.00032
+ekpp/ek = 1.00067
+ekpp/ekp = 1.00035
+ekpp/ek = 0.989902
+ekpp/ekp = 0.98956
+ekpp/ek = 0.983596
+ekpp/ekp = 0.993973
+ekpp/ek = 0.993231
+ekpp/ekp = 0.999253
+ekpp/ek = 0.999248
+ekpp/ekp = 0.999995
+Showing
+**********************************************************
+Problem name: HS59    
+
+Number of Variables: 2
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = -6.7495
+|c(x)| = 8.3822e-09
+|g(x) + J(x)'*y| = 9.78024e-11
+y offset = 0
+Number of Iterations = 53
+Elapsed Time = 0.00273871 s
+Normal iterations = 52
+Average number of normal iterations = 0.981132
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 52
+Iterations with 2+ normal iterations = 0
+Restorations = 78
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.009999

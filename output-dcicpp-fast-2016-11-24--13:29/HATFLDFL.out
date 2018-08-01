@@ -1,0 +1,147 @@
+sifdecoder -A pc64.lnx.gfo  HATFLDFL
+
+ Problem name: HATFLDFL
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.07124
+ekpp/ekp = 1.00025
+ekpp/ek = 1.00465
+ekpp/ekp = 1.0044
+ekpp/ek = 1.01543
+ekpp/ekp = 1.01098
+ekpp/ek = 1.03871
+ekpp/ekp = 1.02743
+ekpp/ek = 1.05954
+ekpp/ekp = 1.03125
+ekpp/ek = 1.03125
+ekpp/ekp = 0.999996
+ekpp/ek = 1.00477
+ekpp/ekp = 1.00477
+ekpp/ek = 1.01673
+ekpp/ekp = 1.0119
+ekpp/ek = 1.04192
+ekpp/ekp = 1.02966
+ekpp/ek = 1.02966
+ekpp/ekp = 1
+ekpp/ek = 1.00452
+ekpp/ekp = 1.00452
+ekpp/ek = 1.01588
+ekpp/ekp = 1.01131
+ekpp/ek = 1.03976
+ekpp/ekp = 1.02814
+ekpp/ek = 1.02814
+ekpp/ekp = 1
+ekpp/ek = 1.0043
+ekpp/ekp = 1.0043
+ekpp/ek = 1.01507
+ekpp/ekp = 1.01073
+ekpp/ek = 1.0377
+ekpp/ekp = 1.02668
+ekpp/ek = 1.02668
+ekpp/ekp = 1
+ekpp/ek = 1.00408
+ekpp/ekp = 1.00408
+ekpp/ek = 1.0143
+ekpp/ekp = 1.01018
+ekpp/ek = 1.03575
+ekpp/ekp = 1.02531
+ekpp/ek = 1.02531
+ekpp/ekp = 1
+ekpp/ek = 1.00387
+ekpp/ekp = 1.00387
+ekpp/ek = 1.01357
+ekpp/ekp = 1.00966
+ekpp/ek = 1.03392
+ekpp/ekp = 1.02402
+ekpp/ek = 1.02402
+ekpp/ekp = 1
+ekpp/ek = 1.00368
+ekpp/ekp = 1.00368
+ekpp/ek = 1.01289
+ekpp/ekp = 1.00918
+ekpp/ek = 1.0322
+ekpp/ekp = 1.02281
+ekpp/ek = 1.02281
+ekpp/ekp = 1
+ekpp/ek = 1.00349
+ekpp/ekp = 1.00349
+ekpp/ek = 1.01222
+ekpp/ekp = 1.0087
+ekpp/ek = 1.03057
+ekpp/ekp = 1.02168
+ekpp/ek = 1.02168
+ekpp/ekp = 1
+ekpp/ek = 1.00332
+ekpp/ekp = 1.00332
+ekpp/ek = 1.01164
+ekpp/ekp = 1.00829
+ekpp/ek = 1.02908
+ekpp/ekp = 1.02062
+ekpp/ek = 1.02062
+ekpp/ekp = 0.999999
+ekpp/ek = 1.00316
+ekpp/ekp = 1.00316
+ekpp/ek = 1.01108
+ekpp/ekp = 1.00789
+ekpp/ek = 1.02767
+ekpp/ekp = 1.01962
+ekpp/ek = 1.01962
+ekpp/ekp = 1
+ekpp/ek = 1.04839
+ekpp/ekp = 1.04839
+ekpp/ek = 1.04839
+ekpp/ekp = 1
+ekpp/ek = 1.04647
+ekpp/ekp = 1.04647
+ekpp/ek = 1.04648
+ekpp/ekp = 1.00001
+ekpp/ek = 1.04472
+ekpp/ekp = 1.04472
+ekpp/ek = 1.04472
+ekpp/ekp = 1
+ekpp/ek = 1.00671
+ekpp/ekp = 1.00671
+ekpp/ek = 1.02351
+ekpp/ekp = 1.01669
+ekpp/ek = 1.01669
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: HATFLDFL
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 6.27158e-05
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.50479e-07
+y offset = 0
+Number of Iterations = 54
+Elapsed Time = 0.000676632 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 54
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

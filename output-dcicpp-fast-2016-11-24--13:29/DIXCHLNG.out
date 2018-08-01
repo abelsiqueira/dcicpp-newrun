@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  DIXCHLNG
+
+ Problem name: DIXCHLNG
+
+ Double precision version will be formed
+
+ The objective function uses 49 nonlinear groups
+ 
+ There are 5 nonlinear equality constraints
+ 
+ There are 10 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.677825
+ekpp/ekp = 0.88012
+ekpp/ek = 0.84736
+ekpp/ekp = 0.962778
+ekpp/ek = 0.974224
+ekpp/ekp = 1.01189
+ekpp/ek = 1.01859
+ekpp/ekp = 1.00663
+ekpp/ek = 1.00868
+ekpp/ekp = 1.00204
+Showing
+**********************************************************
+Problem name: DIXCHLNG
+
+Number of Variables: 10
+Number of Constraints: 5
+             Equality: 5
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2471.9
+|c(x)| = 8.0816e-09
+|g(x) + J(x)'*y| = 8.01947e-07
+y offset = 0
+Number of Iterations = 8
+Elapsed Time = 0.000699282 s
+Normal iterations = 4
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 0
+Restorations = 4
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

@@ -1,0 +1,168 @@
+sifdecoder -A pc64.lnx.gfo  DALLASS
+
+ Problem name: DALLASS
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 31 linear equality constraints
+ 
+ There are 46 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+NOPE preprocessing removed 2 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+ekpp/ek = 0.987871
+ekpp/ekp = 0.993752
+ekpp/ek = 0.993539
+ekpp/ekp = 0.999786
+ekpp/ek = 0.999154
+ekpp/ekp = 0.999368
+ekpp/ek = 0.999241
+ekpp/ekp = 0.999873
+ekpp/ek = 0.999527
+ekpp/ekp = 0.999654
+ekpp/ek = 0.998594
+ekpp/ekp = 0.998939
+ekpp/ek = 0.994785
+ekpp/ekp = 0.995841
+ekpp/ek = 0.971747
+ekpp/ekp = 0.975805
+ekpp/ek = 0.928729
+ekpp/ekp = 0.951757
+ekpp/ek = 0.930269
+ekpp/ekp = 0.977424
+ekpp/ek = 0.977264
+ekpp/ekp = 0.999836
+ekpp/ek = 0.999836
+ekpp/ekp = 1
+ekpp/ek = 0.999998
+ekpp/ekp = 0.999999
+ekpp/ek = 0.999996
+ekpp/ekp = 0.999997
+ekpp/ek = 0.99999
+ekpp/ekp = 0.999993
+ekpp/ek = 0.999977
+ekpp/ekp = 0.999984
+ekpp/ek = 0.999953
+ekpp/ekp = 0.999969
+ekpp/ek = 0.999948
+ekpp/ekp = 0.99998
+ekpp/ek = 1.00032
+ekpp/ekp = 1.00034
+ekpp/ek = 1.00291
+ekpp/ekp = 1.00256
+ekpp/ek = 1.00151
+ekpp/ekp = 0.998948
+ekpp/ek = 0.986139
+ekpp/ekp = 0.987178
+ekpp/ek = 0.968137
+ekpp/ekp = 0.980712
+ekpp/ek = 0.965674
+ekpp/ekp = 0.984665
+ekpp/ek = 0.93482
+ekpp/ekp = 0.949378
+ekpp/ek = 0.934095
+ekpp/ekp = 0.983903
+ekpp/ek = 0.958996
+ekpp/ekp = 0.974685
+ekpp/ek = 0.917837
+ekpp/ekp = 0.941675
+ekpp/ek = 0.954196
+ekpp/ekp = 1.0133
+ekpp/ek = 0.916094
+ekpp/ekp = 0.904074
+ekpp/ek = 0.893877
+ekpp/ekp = 0.98872
+ekpp/ek = 0.98872
+ekpp/ekp = 0.999999
+ekpp/ek = 0.999996
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999988
+ekpp/ekp = 0.999992
+ekpp/ek = 0.999971
+ekpp/ekp = 0.99998
+ekpp/ek = 0.999929
+ekpp/ekp = 0.999949
+ekpp/ek = 0.999826
+ekpp/ekp = 0.999876
+ekpp/ek = 0.99959
+ekpp/ekp = 0.999713
+ekpp/ek = 0.999211
+ekpp/ekp = 0.999498
+ekpp/ek = 1.00067
+ekpp/ekp = 1.00118
+ekpp/ek = 1.00022
+ekpp/ekp = 0.999048
+ekpp/ek = 0.999953
+ekpp/ekp = 1.00091
+ekpp/ek = 0.999467
+ekpp/ekp = 0.998562
+ekpp/ek = 0.99952
+ekpp/ekp = 1.00096
+ekpp/ek = 1.00059
+ekpp/ekp = 0.999629
+ekpp/ek = 0.985342
+ekpp/ekp = 0.985708
+ekpp/ek = 0.92125
+ekpp/ekp = 0.934608
+ekpp/ek = 0.922811
+ekpp/ekp = 0.987378
+ekpp/ek = 0.984335
+ekpp/ekp = 0.996918
+ekpp/ek = 0.996444
+ekpp/ekp = 0.999524
+ekpp/ek = 0.996573
+ekpp/ekp = 0.997048
+ekpp/ek = 0.99488
+ekpp/ekp = 0.997826
+ekpp/ek = 0.997787
+ekpp/ekp = 0.999961
+ekpp/ek = 0.999584
+ekpp/ekp = 0.999623
+ekpp/ek = 0.99956
+ekpp/ekp = 0.999938
+Showing
+**********************************************************
+Problem name: DALLASS 
+
+Number of Variables: 44
+Number of Constraints: 29
+             Equality: 29
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -5536.43
+|c(x)| = 9.93232e-07
+|g(x) + J(x)'*y| = 1.61273e-07
+y offset = 0
+Number of Iterations = 58
+Elapsed Time = 0.0288694 s
+Normal iterations = 11
+Average number of normal iterations = 0.189655
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 47
+Iterations with 1  normal iteration  = 11
+Iterations with 2+ normal iterations = 0
+Restorations = 506
+Average number of restorations per normal iteration = 46
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.113333

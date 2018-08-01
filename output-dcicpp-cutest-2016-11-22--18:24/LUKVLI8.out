@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  LUKVLI8
+
+ Problem name: LUKVLI8
+
+ Double precision version will be formed
+
+ The objective function uses 8000 nonlinear groups
+ 
+ There are 9998 nonlinear inequality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: |gp| is nan

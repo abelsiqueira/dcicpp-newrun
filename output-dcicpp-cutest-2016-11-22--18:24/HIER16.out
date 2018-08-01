@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HIER16
+
+ Problem name: HIER16
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 5484 linear equality constraints
+ 
+ There are 3564 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: HIER16  
+
+Number of Variables: 3564
+Number of Constraints: 5484
+             Equality: 5484
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 1547.38
+|c(x)| = 1.5801e-08
+|g(x) + J(x)'*y| = 6.63889e-06
+y offset = 0
+Number of Iterations = 82
+Elapsed Time = 255.201 s
+Normal iterations = 4
+Average number of normal iterations = 0.0487805
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 78
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 0
+Restorations = 161
+Average number of restorations per normal iteration = 40
+**********************************************************
+Done
+Setup time: 0.093333
+Execution time: 255.377

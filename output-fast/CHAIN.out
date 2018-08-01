@@ -1,0 +1,41 @@
+sifdecoder -A pc64.lnx.gfo  CHAIN
+
+ Problem name: CHAIN
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 400 linear equality constraints
+ There is 1 nonlinear equality constraint
+ 
+ There are 800 free variables
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: CHAIN   
+
+Number of Variables: 800
+Number of Constraints: 401
+             Equality: 401
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 5.06862
+|c(x)| = 8.5664e-10
+|g(x) + J(x)'*y| = 1.0841e-07
+y offset = 0
+Number of Iterations = 11
+Elapsed Time = 0.0663314 s
+Normal iterations = 6
+Average number of normal iterations = 0.545455
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 6
+Iterations with <= 1 normal iterations = 11
+**********************************************************
+Setup time: 0.006666
+Execution time: 0.16

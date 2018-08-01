@@ -1,0 +1,93 @@
+sifdecoder -A pc64.lnx.gfo  HS72
+
+ Problem name: HS72
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 4 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 3.94537e+11
+ekpp/ekp = 0.999996
+ekpp/ek = 0.999987
+ekpp/ekp = 0.999991
+ekpp/ek = 0.999968
+ekpp/ekp = 0.999977
+ekpp/ek = 0.99992
+ekpp/ekp = 0.999942
+ekpp/ek = 0.999795
+ekpp/ekp = 0.999853
+ekpp/ek = 0.999465
+ekpp/ekp = 0.999612
+ekpp/ek = 0.998494
+ekpp/ekp = 0.998881
+ekpp/ek = 0.996296
+ekpp/ekp = 0.997412
+ekpp/ek = 0.991789
+ekpp/ekp = 0.994363
+ekpp/ek = 0.976664
+ekpp/ekp = 0.982201
+ekpp/ek = 0.977142
+ekpp/ekp = 0.994849
+ekpp/ek = 1.07665
+ekpp/ekp = 1.08222
+ekpp/ek = 3.60013
+ekpp/ekp = 3.3266
+ekpp/ek = 3.97237
+ekpp/ekp = 1.19412
+ekpp/ek = 1.30599
+ekpp/ekp = 1.09368
+ekpp/ek = 1.08865
+ekpp/ekp = 0.995399
+ekpp/ek = 0.992957
+ekpp/ekp = 0.997547
+ekpp/ek = 0.997495
+ekpp/ekp = 0.999948
+ekpp/ek = 1.0648
+ekpp/ekp = 1.06486
+ekpp/ek = 1.06471
+ekpp/ekp = 0.999862
+ekpp/ek = 0.999861
+ekpp/ekp = 0.999998
+ekpp/ek = 1.00734
+ekpp/ekp = 1.00734
+ekpp/ek = 1.00737
+ekpp/ekp = 1.00002
+Showing
+**********************************************************
+Problem name: HS72    
+
+Number of Variables: 4
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = 727.637
+|c(x)| = 9.98547e-07
+|g(x) + J(x)'*y| = 4.80111e-08
+y offset = 0
+Number of Iterations = 26
+Elapsed Time = 0.00195503 s
+Normal iterations = 8
+Average number of normal iterations = 0.307692
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 18
+Iterations with 1  normal iteration  = 8
+Iterations with 2+ normal iterations = 0
+Restorations = 167
+Average number of restorations per normal iteration = 20
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

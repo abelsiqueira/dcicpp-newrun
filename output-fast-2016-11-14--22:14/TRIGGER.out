@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  TRIGGER
+
+ Problem name: TRIGGER
+
+ Double precision version will be formed
+
+ 
+ There are 3 linear equality constraints
+ There are 3 nonlinear equality constraints
+ 
+ There are 6 free variables
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

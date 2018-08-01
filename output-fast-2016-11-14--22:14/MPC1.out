@@ -1,0 +1,23 @@
+sifdecoder -A pc64.lnx.gfo  MPC1
+
+ Problem name: MPC1
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 1785 linear equality constraints
+ There are 2048 linear inequality constraints
+ 
+ There are 1540 free variables
+ There are 895 variables bounded from below and above 
+ There are 115 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

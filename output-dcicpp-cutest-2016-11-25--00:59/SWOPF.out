@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  SWOPF
+
+ Problem name: SWOPF
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 43 linear equality constraints
+ There are 35 nonlinear equality constraints
+ There are 14 nonlinear inequality constraints
+ 
+ There are 73 free variables
+ There are 10 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+NOPE preprocessing removed 1 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SWOPF   
+
+Number of Variables: 82
+Number of Constraints: 91
+             Equality: 77
+           has_inequality: 14
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0678611
+|c(x)| = 1.16536e-13
+|g(x) + J(x)'*y| = 1.46481e-07
+|J(x)'c(x)| = 1.53316e-05
+y offset = 3.35579e-09
+Number of Iterations = 131
+Elapsed Time = 0.047992 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     473 (194, 279)
+  Gradient     (*ofg):          148
+  Constraints  (cfn, ccfsg):    816 (194, 622)
+  Jacobian     (ccfsg):         301
+  Hessian prod (*hprod):        295
+
+Normal iterations = 20
+Average number of normal iterations = 0.152672
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 111
+Iterations with 1  normal iteration  = 20
+Iterations with 2+ normal iterations = 0
+Restorations = 321
+Average number of restorations per normal iteration = 16
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.193332

@@ -1,0 +1,26 @@
+sifdecoder -A pc64.lnx.gfo  TENBARS3
+
+ Problem name: TENBARS3
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 8 nonlinear equality constraints
+ 
+ There are 6 free variables
+ There are 12 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ERROR
+assert failed
+Status = -1
+File   = assert
+Line   = -1
+Exception: assert failed

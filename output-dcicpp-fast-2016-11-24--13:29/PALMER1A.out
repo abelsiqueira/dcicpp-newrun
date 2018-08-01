@@ -1,0 +1,74 @@
+sifdecoder -A pc64.lnx.gfo  PALMER1A
+
+ Problem name: PALMER1A
+
+ Double precision version will be formed
+
+ The objective function uses 35 nonlinear groups
+ 
+ There are 4 free variables
+ There are 2 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.40841
+ekpp/ekp = 1.29327
+ekpp/ek = 2.64325
+ekpp/ekp = 2.04385
+ekpp/ek = 3.89383
+ekpp/ekp = 1.90515
+ekpp/ek = 3.48645
+ekpp/ekp = 1.83001
+ekpp/ek = 2.8723
+ekpp/ekp = 1.56955
+ekpp/ek = 3.71549
+ekpp/ekp = 2.36723
+ekpp/ek = 2.4917
+ekpp/ekp = 1.05258
+ekpp/ek = 1.30338
+ekpp/ekp = 1.23827
+ekpp/ek = 1.27585
+ekpp/ekp = 1.03035
+ekpp/ek = 1.04363
+ekpp/ekp = 1.01289
+ekpp/ek = 1.04964
+ekpp/ekp = 1.03628
+ekpp/ek = 1.03788
+ekpp/ekp = 1.00154
+ekpp/ek = 1.01037
+ekpp/ekp = 1.00882
+ekpp/ek = 1.00893
+ekpp/ekp = 1.00012
+Showing
+**********************************************************
+Problem name: PALMER1A
+
+Number of Variables: 6
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.164985
+|c(x)| = 0
+|g(x) + J(x)'*y| = 8.10118e-07
+y offset = 0
+Number of Iterations = 17
+Elapsed Time = 0.000910282 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 17
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.003333

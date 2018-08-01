@@ -1,0 +1,18 @@
+sifdecoder -A pc64.lnx.gfo -st   EIGENB
+
+ Problem name: EIGENB
+
+ Double precision version will be formed
+
+ 
+ There are 2550 nonlinear equality constraints
+ 
+ There are 2550 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ AAt is almost singular.

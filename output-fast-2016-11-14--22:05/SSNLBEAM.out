@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  SSNLBEAM
+
+ Problem name: SSNLBEAM
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 1000 linear equality constraints
+ There are 1000 nonlinear equality constraints
+ 
+ There are 1001 free variables
+ There are 2000 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+Showing
+**********************************************************
+Problem name: SSNLBEAM
+
+Number of Variables: 3001
+Number of Constraints: 2000
+             Equality: 2000
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 340.032
+|c(x)| = 1.31707e-07
+|g(x) + J(x)'*y| = 8.11773e-07
+y offset = 0
+Number of Iterations = 25
+Elapsed Time = 0.298264 s
+Normal iterations = 14
+Average number of normal iterations = 0.56
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 11
+Iterations with 1  normal iteration  = 14
+Iterations with 2+ normal iterations = 0
+Restorations = 46
+Average number of restorations per normal iteration = 3
+**********************************************************
+Done
+Setup time: 0.05
+Execution time: 0.476666

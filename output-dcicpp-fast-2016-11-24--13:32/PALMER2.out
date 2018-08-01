@@ -1,0 +1,88 @@
+sifdecoder -A pc64.lnx.gfo  PALMER2
+
+ Problem name: PALMER2
+
+ Double precision version will be formed
+
+ The objective function uses 23 nonlinear groups
+ 
+ There is 1 free variable 
+ There are 3 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 3.97968
+ekpp/ekp = 1.10335
+ekpp/ek = 1.33825
+ekpp/ekp = 1.21289
+ekpp/ek = 1.24505
+ekpp/ekp = 1.02651
+ekpp/ek = 1.09641
+ekpp/ekp = 1.06809
+ekpp/ek = 1.3014
+ekpp/ekp = 1.21843
+ekpp/ek = 1.30654
+ekpp/ekp = 1.07231
+ekpp/ek = 1.13697
+ekpp/ekp = 1.0603
+ekpp/ek = 1.16104
+ekpp/ekp = 1.09501
+ekpp/ek = 1.11047
+ekpp/ekp = 1.01412
+ekpp/ek = 1.06211
+ekpp/ekp = 1.04732
+ekpp/ek = 1.14422
+ekpp/ekp = 1.09253
+ekpp/ek = 1.35127
+ekpp/ekp = 1.23683
+ekpp/ek = 1.24615
+ekpp/ekp = 1.00753
+ekpp/ek = 1.08143
+ekpp/ekp = 1.07335
+ekpp/ek = 1.0853
+ekpp/ekp = 1.01114
+ekpp/ek = 1.03763
+ekpp/ekp = 1.0262
+ekpp/ek = 1.09296
+ekpp/ekp = 1.06506
+ekpp/ek = 1.07509
+ekpp/ekp = 1.00942
+ekpp/ek = 1.03325
+ekpp/ekp = 1.02361
+ekpp/ek = 1.02461
+ekpp/ekp = 1.00097
+ekpp/ek = 1.00095
+ekpp/ekp = 0.999978
+Showing
+**********************************************************
+Problem name: PALMER2 
+
+Number of Variables: 4
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 3651.1
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.50866e-08
+y offset = 0
+Number of Iterations = 24
+Elapsed Time = 0.000708103 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 24
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: -2.26498e-12

@@ -1,0 +1,87 @@
+sifdecoder -A pc64.lnx.gfo  HS30
+
+ Problem name: HS30
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 3 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.607267
+ekpp/ekp = 0.68306
+ekpp/ek = 0.851104
+ekpp/ekp = 1.24602
+ekpp/ek = 1.13793
+ekpp/ekp = 0.913251
+ekpp/ek = 1.06385
+ekpp/ekp = 1.16491
+ekpp/ek = 1.1648
+ekpp/ekp = 0.999906
+ekpp/ek = 1.01699
+ekpp/ekp = 1.01708
+ekpp/ek = 1.0373
+ekpp/ekp = 1.01987
+ekpp/ek = 1.01866
+ekpp/ekp = 0.998812
+ekpp/ek = 1.04857
+ekpp/ekp = 1.04982
+ekpp/ek = 0.99802
+ekpp/ekp = 0.950657
+ekpp/ek = 0.959095
+ekpp/ekp = 1.00888
+ekpp/ek = 0.99851
+ekpp/ekp = 0.989725
+ekpp/ek = 1.01524
+ekpp/ekp = 1.02578
+ekpp/ek = 1.0153
+ekpp/ekp = 0.989788
+ekpp/ek = 0.986843
+ekpp/ekp = 0.997025
+ekpp/ek = 0.994107
+ekpp/ekp = 0.997073
+ekpp/ek = 0.992368
+ekpp/ekp = 0.995282
+ekpp/ek = 0.995284
+ekpp/ekp = 1
+ekpp/ek = 0.999999
+ekpp/ekp = 0.999997
+ekpp/ek = 0.999991
+ekpp/ekp = 0.999994
+Showing
+**********************************************************
+Problem name: HS30    
+
+Number of Variables: 3
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = 1
+|c(x)| = 2.43447e-09
+|g(x) + J(x)'*y| = 7.76314e-12
+y offset = 0
+Number of Iterations = 23
+Elapsed Time = 0.00232124 s
+Normal iterations = 9
+Average number of normal iterations = 0.391304
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 15
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = 1
+Restorations = 271
+Average number of restorations per normal iteration = 30
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.006666

@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  ERRINBAR
+
+ Problem name: ERRINBAR
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There is 1 linear inequality constraint
+ There are 8 nonlinear equality constraints
+ 
+ There are 4 free variables
+ There are 14 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ERRINBAR
+
+Number of Variables: 18
+Number of Constraints: 9
+             Equality: 8
+           has_inequality: 1
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 40.1934
+|c(x)| = 0.0828073
+|g(x) + J(x)'*y| = 0.00195667
+y offset = 0
+Number of Iterations = 299
+Elapsed Time = 0.171527 s
+Normal iterations = 190
+Average number of normal iterations = 0.635452
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 109
+Iterations with 1  normal iteration  = 190
+Iterations with 2+ normal iterations = 0
+Restorations = 10009
+Average number of restorations per normal iteration = 52
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.429999

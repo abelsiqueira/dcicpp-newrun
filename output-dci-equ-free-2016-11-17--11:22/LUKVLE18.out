@@ -1,0 +1,30 @@
+sifdecoder -A pc64.lnx.gfo -st   LUKVLE18
+
+ Problem name: LUKVLE18
+
+ Double precision version will be formed
+
+ The objective function uses 9996 nonlinear groups
+ 
+ There are 7497 nonlinear equality constraints
+ 
+ There are 9997 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    2.8355026754537417E-002
+ |gp(xk)|/|gp(xck)| =   0.20343060432653154     
+ |gp(xk)|/|gp(xck)| =   0.34277098597131733     
+ |gp(xk)|/|gp(xck)| =   0.31953000565221984     
+ |gp(xk)|/|gp(xck)| =    1.2952396584098018     
+ |gp(xk)|/|gp(xck)| =   0.88187629195648898     
+ |gp(xk)|/|gp(xck)| =   0.67745003307884633     
+ |gp(xk)|/|gp(xck)| =    8.2238359141836290E-002
+ |gp(xk)|/|gp(xck)| =    2.7059350545340326     
+ |gp(xk)|/|gp(xck)| =   0.14943933346859722     
+ |gp(xk)|/|gp(xck)| =    7.5990410935475622E-002
+ AAt is almost singular.

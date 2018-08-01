@@ -1,0 +1,166 @@
+sifdecoder -A pc64.lnx.gfo  OPTPRLOC
+
+ Problem name: OPTPRLOC
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 linear inequality constraints
+ There are 25 nonlinear inequality constraints
+ 
+ There are 30 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.984725
+ekpp/ekp = 0.946927
+ekpp/ek = 0.911123
+ekpp/ekp = 0.962189
+ekpp/ek = 0.943365
+ekpp/ekp = 0.980436
+ekpp/ek = 0.973877
+ekpp/ekp = 0.99331
+ekpp/ek = 0.986658
+ekpp/ekp = 0.993304
+ekpp/ek = 0.989372
+ekpp/ekp = 0.996042
+ekpp/ek = 0.985775
+ekpp/ekp = 0.989693
+ekpp/ek = 0.981343
+ekpp/ekp = 0.991564
+ekpp/ek = 0.973524
+ekpp/ekp = 0.981807
+ekpp/ek = 0.974838
+ekpp/ekp = 0.992902
+ekpp/ek = 0.989393
+ekpp/ekp = 0.996466
+ekpp/ek = 0.972655
+ekpp/ekp = 0.976104
+ekpp/ek = 0.974819
+ekpp/ekp = 0.998683
+ekpp/ek = 0.998658
+ekpp/ekp = 0.999975
+ekpp/ek = 0.999961
+ekpp/ekp = 0.999986
+ekpp/ek = 1.00001
+ekpp/ekp = 1.00003
+ekpp/ek = 1.00108
+ekpp/ekp = 1.00105
+ekpp/ek = 1.00688
+ekpp/ekp = 1.00582
+ekpp/ek = 1.0205
+ekpp/ekp = 1.0146
+ekpp/ek = 1.05239
+ekpp/ekp = 1.03725
+ekpp/ek = 1.09979
+ekpp/ekp = 1.0603
+ekpp/ek = 1.07516
+ekpp/ekp = 1.01402
+ekpp/ek = 1.01557
+ekpp/ekp = 1.00153
+ekpp/ek = 1.00407
+ekpp/ekp = 1.00253
+ekpp/ek = 1.00883
+ekpp/ekp = 1.00628
+ekpp/ek = 1.01291
+ekpp/ekp = 1.00658
+ekpp/ek = 1.01216
+ekpp/ekp = 1.00554
+ekpp/ek = 1.00567
+ekpp/ekp = 1.00013
+ekpp/ek = 1.00064
+ekpp/ekp = 1.00051
+ekpp/ek = 1.00389
+ekpp/ekp = 1.00337
+ekpp/ek = 1.01217
+ekpp/ekp = 1.00877
+ekpp/ek = 1.03024
+ekpp/ekp = 1.02128
+ekpp/ek = 1.04401
+ekpp/ekp = 1.02225
+ekpp/ek = 1.03211
+ekpp/ekp = 1.00964
+ekpp/ek = 1.02268
+ekpp/ekp = 1.01292
+ekpp/ek = 1.04203
+ekpp/ekp = 1.02874
+ekpp/ek = 1.09343
+ekpp/ekp = 1.06287
+ekpp/ek = 1.09978
+ekpp/ekp = 1.03472
+ekpp/ek = 1.0357
+ekpp/ekp = 1.00094
+ekpp/ek = 1.00903
+ekpp/ekp = 1.00808
+ekpp/ek = 1.0206
+ekpp/ekp = 1.01241
+ekpp/ek = 1.01258
+ekpp/ekp = 1.00016
+ekpp/ek = 1.00016
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1
+ekpp/ekp = 1
+ekpp/ek = 1.00001
+ekpp/ekp = 1.00001
+ekpp/ek = 1.00036
+ekpp/ekp = 1.00035
+ekpp/ek = 1.00119
+ekpp/ekp = 1.00085
+ekpp/ek = 1.00295
+ekpp/ekp = 1.0021
+ekpp/ek = 1.00732
+ekpp/ekp = 1.00521
+ekpp/ek = 1.01802
+ekpp/ekp = 1.01274
+ekpp/ek = 1.01839
+ekpp/ekp = 1.00558
+ekpp/ek = 1.01914
+ekpp/ekp = 1.01349
+ekpp/ek = 1.01797
+ekpp/ekp = 1.00442
+ekpp/ek = 1.01526
+ekpp/ekp = 1.01079
+ekpp/ek = 1.02151
+ekpp/ekp = 1.0106
+ekpp/ek = 1.01107
+ekpp/ekp = 1.00046
+ekpp/ek = 1.00038
+ekpp/ekp = 0.999922
+ekpp/ek = 0.99997
+ekpp/ekp = 1.00005
+Showing
+**********************************************************
+Problem name: OPTPRLOC
+
+Number of Variables: 30
+Number of Constraints: 30
+             Equality: 0
+           has_inequality: 30
+
+EXIT: The Algorithm has Converged
+f(x) = -16.4198
+|c(x)| = 6.32604e-09
+|g(x) + J(x)'*y| = 2.6513e-07
+y offset = 2.6506e-08
+Number of Iterations = 62
+Elapsed Time = 0.040302 s
+Normal iterations = 26
+Average number of normal iterations = 0.419355
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 36
+Iterations with 1  normal iteration  = 26
+Iterations with 2+ normal iterations = 0
+Restorations = 469
+Average number of restorations per normal iteration = 18
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.153332

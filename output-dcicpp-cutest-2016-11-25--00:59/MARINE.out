@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  MARINE
+
+ Problem name: MARINE
+
+ Double precision version will be formed
+
+ The objective function uses 168 nonlinear groups
+ 
+ There are 7992 linear equality constraints
+ There are 3200 nonlinear equality constraints
+ 
+ There are 11200 free variables
+ There are 15 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

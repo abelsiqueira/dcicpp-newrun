@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  MOSARQP1
+
+ Problem name: MOSARQP1
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 700 linear inequality constraints
+ 
+ There are 2500 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: f is nan

@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  LEUVEN1
+
+ Problem name: LEUVEN1
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 1196 linear equality constraints
+ There are 1024 linear inequality constraints
+ 
+ There are 1093 free variables
+ There are 30 variables bounded only from above 
+ There are 387 variables bounded from below and above 
+ There are 20 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 49 variables
+NOPE preprocessing removed 29 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: LEUVEN1 
+
+Number of Variables: 1481
+Number of Constraints: 2191
+             Equality: 1167
+           has_inequality: 1024
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = -1.44575e+07
+|c(x)| = 4.72392e-07
+|g(x) + J(x)'*y| = 0.000223667
+y offset = 0.0318331
+Number of Iterations = 1106
+Elapsed Time = 167.511 s
+Normal iterations = 726
+Average number of normal iterations = 0.65642
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 380
+Iterations with 1  normal iteration  = 726
+Iterations with 2+ normal iterations = 0
+Restorations = 10005
+Average number of restorations per normal iteration = 13
+**********************************************************
+Done
+Setup time: 0.05
+Execution time: 167.727

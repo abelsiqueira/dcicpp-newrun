@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo -st   LUKVLE12
+
+ Problem name: LUKVLE12
+
+ Double precision version will be formed
+
+ The objective function uses 9996 nonlinear groups
+ 
+ There are 7497 nonlinear equality constraints
+ 
+ There are 9997 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ |gp(xk)|/|gp(xck)| =   0.16643708464524581     
+ |gp(xk)|/|gp(xck)| =   0.27975407951941400     
+ |gp(xk)|/|gp(xck)| =   0.29321272284380251     
+ |gp(xk)|/|gp(xck)| =   0.31774195818063106     
+ |gp(xk)|/|gp(xck)| =   0.32161600356832049     
+ |gp(xk)|/|gp(xck)| =   0.44333438283282939     
+ |gp(xk)|/|gp(xck)| =   0.37597038171965014     
+ |gp(xk)|/|gp(xck)| =   0.99999999927631689     
+
+ DCI Summary.
+
+ The restoration has failed.
+
+ Iterations     :            8
+ Steihaug's iter:           14
+ Restorations   :           20
+ Rejected steps :            0
+ Function evals.:            8
+ Constr.  evals.:         2957
+ Gradient evals.:           10
+ Jacobian evals.:          712
+ 2nd order Corr.:            0
+ BFGS iterations:          421
+ f(x)           :    51408059952861.781     
+ ||h(x)||       :   0.67324439939270009     
+ ||gp(x)||      :    76795077121.764206     
+ ||At*h||       :    2.9285971952553117E-003
+ Elapsed time   :    49.5468750    
+
+ ||xnew - xc||  :    2.5001076770127768     
+ rho            :    402.49152058226639     
+ rhomax         :    536.65536077635522     
+ vdelta         :    3.7159215505719725E-002
+ hdelta         :    1000000.0000000000     
+ L(x)           :    103861.87378588301     
+ L(x) - L(xc)   :   -234.67057941918029     
+ L(xc)-L(x(k-1)):   -21196.194658333028     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

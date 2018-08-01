@@ -1,0 +1,41 @@
+sifdecoder -A pc64.lnx.gfo  QPCBLEND
+
+ Problem name: QPCBLEND
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 43 linear equality constraints
+ There are 31 linear inequality constraints
+ 
+ There are 83 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: QPCBLEND
+
+Number of Variables: 83
+Number of Constraints: 72
+             Equality: 43
+           has_inequality: 29
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -0.00770829
+|c(x)| = 2.70659e-14
+|g(x) + J(x)'*y| = 1.82905e-07
+y offset = 0.000455576
+Number of Iterations = 77
+Elapsed Time = 0.0335648 s
+Normal iterations = 6
+Average number of normal iterations = 0.0779221
+Maximum number of normal iterations during one iteration = 2
+Iterations with = 1 normal iterations = 4
+Iterations with <= 1 normal iterations = 76
+**********************************************************
+Setup time: 0.003333
+Execution time: 0.099999

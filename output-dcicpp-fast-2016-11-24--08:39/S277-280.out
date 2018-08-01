@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  S277-280
+
+ Problem name: S277-280
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4 linear inequality constraints
+ 
+ There are 4 variables bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--08:39
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: S277-280
+
+Number of Variables: 4
+Number of Constraints: 4
+             Equality: 0
+           has_inequality: 4
+
+EXIT: The Algorithm has Converged
+f(x) = 5.0762
+|c(x)| = 9.48843e-07
+|g(x) + J(x)'*y| = 6.31315e-07
+y offset = 0
+Number of Iterations = 7
+Elapsed Time = 0.00176072 s
+Normal iterations = 5
+Average number of normal iterations = 0.714286
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 3
+Iterations with 1  normal iteration  = 3
+Iterations with 2+ normal iterations = 1
+Restorations = 172
+Average number of restorations per normal iteration = 34
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.006666

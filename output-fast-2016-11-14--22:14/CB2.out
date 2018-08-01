@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  CB2
+
+ Problem name: CB2
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 3 nonlinear inequality constraints
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CB2     
+
+Number of Variables: 3
+Number of Constraints: 3
+             Equality: 0
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = 1.95222
+|c(x)| = 9.06483e-07
+|g(x) + J(x)'*y| = 2.35312e-09
+y offset = 5.97741e-09
+Number of Iterations = 7
+Elapsed Time = 0.0152338 s
+Normal iterations = 5
+Average number of normal iterations = 0.714286
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = 0
+Restorations = 366
+Average number of restorations per normal iteration = 73
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.046665

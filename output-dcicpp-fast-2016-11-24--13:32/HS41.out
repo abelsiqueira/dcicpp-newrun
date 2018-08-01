@@ -1,0 +1,49 @@
+sifdecoder -A pc64.lnx.gfo  HS41
+
+ Problem name: HS41
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ 
+ There are 4 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.41406
+ekpp/ekp = 1.00281
+Showing
+**********************************************************
+Problem name: HS41    
+
+Number of Variables: 4
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1.92593
+|c(x)| = 9.41284e-07
+|g(x) + J(x)'*y| = 9.79215e-08
+y offset = 0
+Number of Iterations = 4
+Elapsed Time = 0.00113416 s
+Normal iterations = 6
+Average number of normal iterations = 1.5
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 3
+Restorations = 142
+Average number of restorations per normal iteration = 23
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

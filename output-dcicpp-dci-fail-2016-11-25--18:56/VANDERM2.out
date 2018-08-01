@@ -1,0 +1,73 @@
+sifdecoder -A pc64.lnx.gfo  VANDERM2
+
+ Problem name: VANDERM2
+
+ Double precision version will be formed
+
+ 
+ There are 99 linear inequality constraints
+ There are 100 nonlinear equality constraints
+ 
+ There are 100 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Showing
+**********************************************************
+Problem name: VANDERM2
+
+Number of Variables: 100
+Number of Constraints: 199
+             Equality: 100
+           has_inequality: 99
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 0
+|c(x)| = 1.87429
+|g(x) + J(x)'*y| = 3.78683e-14
+|J(x)'c(x)| = 1484.17
+y offset = 8.99769e-13
+Number of Iterations = 2
+Elapsed Time = 18.3249 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     262 (252, 10)
+  Gradient     (*ofg):            8
+  Constraints  (cfn, ccfsg):  12904 (252, 12652)
+  Jacobian     (ccfsg):        2637
+  Hessian prod (*hprod):         24
+
+Normal iterations = 4
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 10015
+Average number of restorations per normal iteration = 2503
+**********************************************************
+Done
+Setup time: 0.059999
+Execution time: 18.5233

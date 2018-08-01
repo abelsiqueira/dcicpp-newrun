@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  DUALC1
+
+ Problem name: DUALC1
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There are 214 linear inequality constraints
+ 
+ There are 9 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: DUALC1  
+
+Number of Variables: 9
+Number of Constraints: 215
+             Equality: 1
+           has_inequality: 214
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 43579.9
+|c(x)| = 4.82162
+|g(x) + J(x)'*y| = 0.0122659
+|J(x)'c(x)| = 2.29157
+y offset = 0.0222865
+Number of Iterations = 1
+Elapsed Time = 15.9535 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2083 (2079, 4)
+  Gradient     (*ofg):            3
+  Constraints  (cfn, ccfsg):  18082 (2079, 16003)
+  Jacobian     (ccfsg):        6002
+  Hessian prod (*hprod):         75
+
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 16.1967

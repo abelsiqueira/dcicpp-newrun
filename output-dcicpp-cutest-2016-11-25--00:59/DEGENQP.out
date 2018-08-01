@@ -1,0 +1,29 @@
+sifdecoder -A pc64.lnx.gfo  DEGENQP
+
+ Problem name: DEGENQP
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 25 linear equality constraints
+ There are 125000 linear inequality constraints
+ 
+ There are 50 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2501 contraints
+Starting
+problem too large
+Status = -3
+File   = ../Core/cholmod_change_factor.c
+Line   = 536
+invalid xtype
+Status = -4
+File   = ../Cholesky/cholmod_solve.c
+Line   = 1064
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 15481 Segmentation fault      (core dumped) ${EXEC}/run_${PACKAGE}

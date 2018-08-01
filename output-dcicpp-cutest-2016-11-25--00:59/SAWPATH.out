@@ -1,0 +1,60 @@
+sifdecoder -A pc64.lnx.gfo  SAWPATH
+
+ Problem name: SAWPATH
+
+ Double precision version will be formed
+
+ The objective function uses 196 nonlinear groups
+ 
+ There are 578 linear equality constraints
+ There are 196 nonlinear inequality constraints
+ 
+ There are 581 free variables
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 3 variables
+NOPE preprocessing removed 1 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: SAWPATH 
+
+Number of Variables: 580
+Number of Constraints: 773
+             Equality: 577
+           has_inequality: 196
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 1668.17
+|c(x)| = 42257.2
+|g(x) + J(x)'*y| = 0.23566
+|J(x)'c(x)| = 3.48214e+12
+y offset = 0.0954328
+Number of Iterations = 1
+Elapsed Time = 196.875 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    2061 (2057, 4)
+  Gradient     (*ofg):            3
+  Constraints  (cfn, ccfsg):  17988 (2057, 15931)
+  Jacobian     (ccfsg):        5930
+  Hessian prod (*hprod):         97
+
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.016666
+Execution time: 197.01

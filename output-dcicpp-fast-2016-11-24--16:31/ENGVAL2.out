@@ -1,0 +1,55 @@
+sifdecoder -A pc64.lnx.gfo  ENGVAL2
+
+ Problem name: ENGVAL2
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ The objective function uses 3 nonlinear groups
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: ENGVAL2 
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 2.44766e-10
+|c(x)| = 0
+|g(x) + J(x)'*y| = 2.78161e-08
+|J(x)'c(x)| = 0
+y offset = 0
+Number of Iterations = 17
+Elapsed Time = 0.000272036 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      60 (25, 35)
+  Gradient     (*ofg):           18
+  Constraints  (cfn, ccfsg):      0 (0, 0)
+  Jacobian     (ccfsg):           0
+  Hessian prod (*hprod):         51
+
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 17
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

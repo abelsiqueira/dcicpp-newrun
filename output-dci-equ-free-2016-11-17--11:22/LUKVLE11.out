@@ -1,0 +1,99 @@
+sifdecoder -A pc64.lnx.gfo -st   LUKVLE11
+
+ Problem name: LUKVLE11
+
+ Double precision version will be formed
+
+ The objective function uses 13328 nonlinear groups
+ 
+ There are 6664 nonlinear equality constraints
+ 
+ There are 9998 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ |gp(xk)|/|gp(xck)| =   0.16724768649775534     
+ |gp(xk)|/|gp(xck)| =   0.21761903222548695     
+ |gp(xk)|/|gp(xck)| =   0.99999834596554482     
+ |gp(xk)|/|gp(xck)| =    1.0000951825478468     
+ |gp(xk)|/|gp(xck)| =   0.99870123623378892     
+ |gp(xk)|/|gp(xck)| =   0.73213631270677271     
+ |gp(xk)|/|gp(xck)| =   0.99999997485110514     
+ |gp(xk)|/|gp(xck)| =   0.99999022486126499     
+ |gp(xk)|/|gp(xck)| =   0.99997556268022769     
+ |gp(xk)|/|gp(xck)| =   0.99993890999439561     
+ |gp(xk)|/|gp(xck)| =   0.99984729556726026     
+ |gp(xk)|/|gp(xck)| =   0.99961836747090249     
+ |gp(xk)|/|gp(xck)| =   0.99904672088667545     
+ |gp(xk)|/|gp(xck)| =   0.99762179686050001     
+ |gp(xk)|/|gp(xck)| =   0.99408541961250396     
+ |gp(xk)|/|gp(xck)| =   0.98540265592270859     
+ |gp(xk)|/|gp(xck)| =   0.96463126964067292     
+ |gp(xk)|/|gp(xck)| =   0.91786507638467929     
+ |gp(xk)|/|gp(xck)| =   0.82525231820208489     
+ |gp(xk)|/|gp(xck)| =   0.67043244746594033     
+ |gp(xk)|/|gp(xck)| =   0.94492515776701713     
+ |gp(xk)|/|gp(xck)| =   0.87603265021272092     
+ |gp(xk)|/|gp(xck)| =   0.77726051570044397     
+ |gp(xk)|/|gp(xck)| =   0.75598253191114484     
+ |gp(xk)|/|gp(xck)| =   0.80295435204372101     
+ |gp(xk)|/|gp(xck)| =   0.67132717921305840     
+ |gp(xk)|/|gp(xck)| =   0.77559112249720841     
+ |gp(xk)|/|gp(xck)| =    1.7303347833697948     
+ |gp(xk)|/|gp(xck)| =   0.67023844733979643     
+ |gp(xk)|/|gp(xck)| =   0.95964517551719997     
+ |gp(xk)|/|gp(xck)| =   0.92109009073492876     
+ |gp(xk)|/|gp(xck)| =   0.80804829004736378     
+ |gp(xk)|/|gp(xck)| =   0.55340414953842065     
+ |gp(xk)|/|gp(xck)| =   0.74973643466054829     
+ |gp(xk)|/|gp(xck)| =   0.46719268971677153     
+ |gp(xk)|/|gp(xck)| =   0.48299954327722933     
+ |gp(xk)|/|gp(xck)| =   0.31721061198160999     
+ |gp(xk)|/|gp(xck)| =   0.35770629989171449     
+ |gp(xk)|/|gp(xck)| =   0.29641931427910223     
+ |gp(xk)|/|gp(xck)| =   0.29179428218363007     
+ |gp(xk)|/|gp(xck)| =   0.30219527913608429     
+ |gp(xk)|/|gp(xck)| =   0.29732633793964580     
+ |gp(xk)|/|gp(xck)| =   0.25862157211616926     
+ |gp(xk)|/|gp(xck)| =   0.30279795036326651     
+ |gp(xk)|/|gp(xck)| =   0.29377546318418940     
+ |gp(xk)|/|gp(xck)| =   0.31151068497548284     
+ |gp(xk)|/|gp(xck)| =   0.28742599831331272     
+ |gp(xk)|/|gp(xck)| =   0.99999999999999512     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           48
+ Steihaug's iter:          367
+ Restorations   :           92
+ Rejected steps :          269
+ Function evals.:          317
+ Constr.  evals.:        16516
+ Gradient evals.:           59
+ Jacobian evals.:        11032
+ 2nd order Corr.:           11
+ BFGS iterations:         6877
+ f(x)           :    15966.596476439248     
+ ||h(x)||       :    1.9092345728260324E-008
+ ||gp(x)||      :    3.3697199533922438E-007
+ ||At*h||       :    2.6236687810749935E-008
+ Elapsed time   :    38.1953125    
+
+ ||xnew - xc||  :    6.9741322571298808E-002
+ rho            :    9.9999999999999995E-007
+ rhomax         :    12.688473316541934     
+ vdelta         :   0.36469364393570824     
+ hdelta         :    8.2718061255302757     
+ L(x)           :    15966.596476222452     
+ L(x) - L(xc)   :   -3.4166805562563241E-007
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

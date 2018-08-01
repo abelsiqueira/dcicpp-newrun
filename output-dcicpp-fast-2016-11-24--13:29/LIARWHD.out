@@ -1,0 +1,64 @@
+sifdecoder -A pc64.lnx.gfo  LIARWHD
+
+ Problem name: LIARWHD
+
+ Double precision version will be formed
+
+ The objective function uses 5000 linear groups
+ The objective function uses 5000 nonlinear groups
+ 
+ There are 5000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.580134
+ekpp/ekp = 0.754465
+ekpp/ek = 0.545256
+ekpp/ekp = 0.722705
+ekpp/ek = 0.476362
+ekpp/ekp = 0.659137
+ekpp/ek = 0.385725
+ekpp/ekp = 0.585196
+ekpp/ek = 0.276863
+ekpp/ekp = 0.473111
+ekpp/ek = 0.156374
+ekpp/ekp = 0.330524
+ekpp/ek = 0.0500815
+ekpp/ekp = 0.151522
+ekpp/ek = 0.00460212
+ekpp/ekp = 0.0303727
+ekpp/ek = 0.0303708
+ekpp/ekp = 0.999938
+Showing
+**********************************************************
+Problem name: LIARWHD 
+
+Number of Variables: 5000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.000577787
+|c(x)| = 0
+|g(x) + J(x)'*y| = 4.8154e-08
+y offset = 0
+Number of Iterations = 12
+Elapsed Time = 0.0426674 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 12
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.126666
+Execution time: 0.163334

@@ -1,0 +1,63 @@
+sifdecoder -A pc64.lnx.gfo -st   BT11
+
+ Problem name: BT11
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There are 2 nonlinear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.30938000341332222     
+ |gp(xk)|/|gp(xck)| =    7.4355525544719053E-002
+ |gp(xk)|/|gp(xck)| =   0.13879773609198606     
+ |gp(xk)|/|gp(xck)| =    8.0995401216418308E-002
+ |gp(xk)|/|gp(xck)| =   0.23711808417281380     
+ |gp(xk)|/|gp(xck)| =   0.13657879152037733     
+ |gp(xk)|/|gp(xck)| =   0.20176551053562872     
+ |gp(xk)|/|gp(xck)| =   0.22885698226757362     
+ |gp(xk)|/|gp(xck)| =   0.20946936988608819     
+ |gp(xk)|/|gp(xck)| =   0.20534156266879255     
+ |gp(xk)|/|gp(xck)| =   0.17391530139818867     
+ |gp(xk)|/|gp(xck)| =   0.99999999193799882     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           12
+ Steihaug's iter:           20
+ Restorations   :           10
+ Rejected steps :            0
+ Function evals.:           12
+ Constr.  evals.:           22
+ Gradient evals.:           16
+ Jacobian evals.:           16
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :   0.82489175329105091     
+ ||h(x)||       :    1.8553489779249421E-008
+ ||gp(x)||      :    1.4025263617156725E-008
+ ||At*h||       :    3.5970245885519516E-008
+ Elapsed time   :    0.00000000    
+
+ ||xnew - xc||  :    5.9471735485999903E-005
+ rho            :    9.9999999999999995E-007
+ rhomax         :    30.485224878157467     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    1000000.0000000000     
+ L(x)           :   0.82489177762175225     
+ L(x) - L(xc)   :   -1.0881044731902989E-008
+ L(xc)-L(x(k-1)):    8.1518453876050501E-008
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

@@ -1,0 +1,75 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:   621075
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:     3202
+
+Reallocating memory for MA57: lfact (129140130)
+Total number of variables............................:    68840
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:    68840
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:    67080
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  7.7100086e-02 1.97e+00 9.16e-03  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.5036285e-02 1.30e-02 8.14e+01  -1.0 1.74e+00    -  1.19e-02 9.93e-01f  1
+   2  2.3822745e-02 1.08e-02 9.10e+01  -1.0 3.97e+00    -  2.52e-01 1.70e-01f  1
+   3  2.1893783e-02 8.14e-03 1.34e+02  -1.0 2.70e+00  -4.0 3.07e-01 2.46e-01f  1
+
+Number of Iterations....: 3
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.1893783348740474e-02    2.1893783348740474e-02
+Dual infeasibility......:   1.3418374049177243e+02    1.3418374049177243e+02
+Constraint violation....:   8.1367345328990925e-03    8.1367345328990925e-03
+Complementarity.........:   1.0321893703202676e+00    1.0321893703202676e+00
+Overall NLP error.......:   1.3418374049177243e+02    1.3418374049177243e+02
+
+
+Number of objective function evaluations             = 4
+Number of objective gradient evaluations             = 4
+Number of equality constraint evaluations            = 4
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 4
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 3
+Total CPU secs in IPOPT (w/o function evaluations)   =    471.320
+Total CPU secs in NLP function evaluations           =      0.097
+
+EXIT: Maximum CPU time exceeded.
+
+************************ CUTEst statistics ************************
+
+
+ Package used            :  IPOPT
+ Problem                 :  TWOD      
+ # variables             =           70521
+ # constraints           =           67080
+ # objective functions   =        0.9000000E+01
+ # objective gradients   =        0.5000000E+01
+ # objective Hessians    =        0.4000000E+01
+ # Hessian-vector prdct  =        0.0000000E+00
+ # constraints functions =        0.1000000E+02
+ # constraints gradients =        0.6000000E+01
+ # constraints Hessians  =        0.4000000E+01
+ Exit code               =              -4
+ Final f                 =   0.0000000E+00
+ Set up time             =            0.57 seconds
+ Solve time              =          836.41 seconds
+
+
+******************************************************************
+
+System Time =     228.7030029297 s.

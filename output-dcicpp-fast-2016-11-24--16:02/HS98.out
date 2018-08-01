@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HS98
+
+ Problem name: HS98
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4 nonlinear inequality constraints
+ 
+ There are 6 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS98    
+
+Number of Variables: 6
+Number of Constraints: 4
+             Equality: 0
+           has_inequality: 4
+
+EXIT: The Algorithm has Converged
+f(x) = 4.07127
+|c(x)| = 6.84037e-07
+|g(x) + J(x)'*y| = 2.54412e-07
+|J(x)'c(x)| = 0
+y offset = 1.66355e-11
+Number of Iterations = 7
+Elapsed Time = 0.00128508 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      34 (16, 18)
+  Gradient     (*ofg):           11
+  Constraints  (cfn, ccfsg):    205 (16, 189)
+  Jacobian     (ccfsg):          56
+  Hessian prod (*hprod):          6
+
+Normal iterations = 4
+Average number of normal iterations = 0.571429
+Maximum number of normal iterations during one iteration = 3
+Iterations with 0  normal iterations = 5
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 134
+Average number of restorations per normal iteration = 33
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

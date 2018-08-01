@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS102
+
+ Problem name: HS102
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 5 nonlinear inequality constraints
+ 
+ There are 7 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS102   
+
+Number of Variables: 7
+Number of Constraints: 5
+             Equality: 0
+           has_inequality: 5
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 1020.38
+|c(x)| = 1.07213e-06
+|g(x) + J(x)'*y| = 8.10423e-05
+y offset = 0.001
+Number of Iterations = 840
+Elapsed Time = 0.110245 s
+Normal iterations = 189
+Average number of normal iterations = 0.225
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 652
+Iterations with 1  normal iteration  = 187
+Iterations with 2+ normal iterations = 1
+Restorations = 2026
+Average number of restorations per normal iteration = 10
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.366666

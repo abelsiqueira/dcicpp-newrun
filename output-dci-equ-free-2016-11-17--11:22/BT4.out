@@ -1,0 +1,60 @@
+sifdecoder -A pc64.lnx.gfo -st   BT4
+
+ Problem name: BT4
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 linear equality constraint
+ There is 1 nonlinear equality constraint
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    2.4676025300401982     
+ |gp(xk)|/|gp(xck)| =    1.1302894965058838     
+ |gp(xk)|/|gp(xck)| =   0.38009593549468684     
+ |gp(xk)|/|gp(xck)| =   0.40142701423724775     
+ |gp(xk)|/|gp(xck)| =    1.0544554805318838     
+ |gp(xk)|/|gp(xck)| =   0.69324394706378223     
+ |gp(xk)|/|gp(xck)| =   0.69647716202726062     
+ |gp(xk)|/|gp(xck)| =   0.69693586537996255     
+ |gp(xk)|/|gp(xck)| =    1.0000000028477130     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            9
+ Steihaug's iter:           17
+ Restorations   :            8
+ Rejected steps :            9
+ Function evals.:           18
+ Constr.  evals.:           31
+ Gradient evals.:           13
+ Jacobian evals.:           13
+ 2nd order Corr.:            5
+ BFGS iterations:            0
+ f(x)           :   -45.510550739902797     
+ ||h(x)||       :    3.7063685454086226E-012
+ ||gp(x)||      :    4.4389388698107268E-007
+ ||At*h||       :    3.7063685454088972E-011
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    1.0409804403151500E-004
+ rho            :    4.4856671156175525E-008
+ rhomax         :    3.0051505337431181     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    2.8960281936808836     
+ L(x)           :   -45.510550739810810     
+ L(x) - L(xc)   :   -3.5631920525247551E-008
+ L(xc)-L(x(k-1)):    2.0899501329552095E-005
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

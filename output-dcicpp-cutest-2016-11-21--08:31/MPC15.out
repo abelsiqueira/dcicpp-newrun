@@ -1,0 +1,57 @@
+sifdecoder -A pc64.lnx.gfo  MPC15
+
+ Problem name: MPC15
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 1065 linear equality constraints
+ There are 1286 linear inequality constraints
+ 
+ There are 920 free variables
+ There are 595 variables bounded from below and above 
+ There are 15 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-21--08:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 44 variables
+NOPE preprocessing removed 51 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: MPC15   
+
+Number of Variables: 1486
+Number of Constraints: 2300
+             Equality: 1036
+           has_inequality: 1264
+
+EXIT: rhomax became too short
+Cholesky failed
+f(x) = -1.502e+07
+|c(x)| = 9.48457e-07
+|g(x) + J(x)'*y| = 9.31348e-05
+y offset = 0.0629066
+Number of Iterations = 2192
+Elapsed Time = 119.532 s
+Normal iterations = 601
+Average number of normal iterations = 0.274179
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1591
+Iterations with 1  normal iteration  = 601
+Iterations with 2+ normal iterations = 0
+Restorations = 6888
+Average number of restorations per normal iteration = 11
+**********************************************************
+Done
+Setup time: 0.053333
+Execution time: 119.693

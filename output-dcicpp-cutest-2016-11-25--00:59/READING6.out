@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo  READING6
+
+ Problem name: READING6
+
+ Double precision version will be formed
+
+ The objective function uses 50 nonlinear groups
+ 
+ There are 50 nonlinear equality constraints
+ 
+ There are 50 free variables
+ There are 51 variables bounded from below and above 
+ There is 1 fixed variable
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: READING6
+
+Number of Variables: 101
+Number of Constraints: 50
+             Equality: 50
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -144.659
+|c(x)| = 5.86443e-07
+|g(x) + J(x)'*y| = 3.40925e-07
+|J(x)'c(x)| = 6.03285e-06
+y offset = 0
+Number of Iterations = 62
+Elapsed Time = 0.0802484 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     448 (319, 129)
+  Gradient     (*ofg):           67
+  Constraints  (cfn, ccfsg):   1234 (319, 915)
+  Jacobian     (ccfsg):         155
+  Hessian prod (*hprod):        660
+
+Normal iterations = 51
+Average number of normal iterations = 0.822581
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 12
+Iterations with 1  normal iteration  = 49
+Iterations with 2+ normal iterations = 1
+Restorations = 760
+Average number of restorations per normal iteration = 14
+**********************************************************
+Done
+Setup time: 0.006666
+Execution time: 0.319999

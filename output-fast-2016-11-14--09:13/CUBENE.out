@@ -1,0 +1,33 @@
+sifdecoder -A pc64.lnx.gfo  CUBENE
+
+ Problem name: CUBENE
+
+ Double precision version will be formed
+
+ 
+ There is 1 linear equality constraint
+ There is 1 nonlinear equality constraint
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: CUBENE  
+
+Number of Variables: 1
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 6.66134e-15
+|g(x) + J(x)'*y| = 0
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.000196218 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 18552 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

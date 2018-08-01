@@ -1,0 +1,72 @@
+sifdecoder -A pc64.lnx.gfo  NET1
+
+ Problem name: NET1
+
+ Double precision version will be formed
+
+ The objective function uses 3 nonlinear groups
+ 
+ There are 21 linear equality constraints
+ There are 16 linear inequality constraints
+ There are 17 nonlinear equality constraints
+ There are 3 nonlinear inequality constraints
+ 
+ There are 20 free variables
+ There are 23 variables bounded from below and above 
+ There are 5 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 18 variables
+NOPE preprocessing removed 17 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: NET1    
+
+Number of Variables: 30
+Number of Constraints: 40
+             Equality: 25
+           has_inequality: 15
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 949100
+|c(x)| = 0.122245
+|g(x) + J(x)'*y| = 0.320683
+|J(x)'c(x)| = 0.270118
+y offset = 0.0166893
+Number of Iterations = 1
+Elapsed Time = 0.284149 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     876 (871, 5)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):  14283 (871, 13412)
+  Jacobian     (ccfsg):        3411
+  Hessian prod (*hprod):          1
+
+Normal iterations = 2
+Average number of normal iterations = 2
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 10001
+Average number of restorations per normal iteration = 5000
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.543332

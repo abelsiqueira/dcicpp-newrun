@@ -1,0 +1,77 @@
+sifdecoder -A pc64.lnx.gfo  FLETCHER
+
+ Problem name: FLETCHER
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 linear inequality constraints
+ There is 1 nonlinear equality constraint
+ 
+ There are 3 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 750.572
+ekpp/ekp = 7.71643
+ekpp/ek = 7.71589
+ekpp/ekp = 0.999931
+ekpp/ek = 0.999757
+ekpp/ekp = 0.999827
+ekpp/ek = 0.999393
+ekpp/ekp = 0.999566
+ekpp/ek = 0.998483
+ekpp/ekp = 0.998916
+ekpp/ek = 0.99621
+ekpp/ekp = 0.997291
+ekpp/ek = 0.990537
+ekpp/ekp = 0.993228
+ekpp/ek = 0.976426
+ekpp/ekp = 0.983084
+ekpp/ek = 0.94168
+ekpp/ekp = 0.957884
+ekpp/ek = 0.859769
+ekpp/ekp = 0.897572
+ekpp/ek = 0.886142
+ekpp/ekp = 0.987266
+ekpp/ek = 1.01844
+ekpp/ekp = 1.03158
+ekpp/ek = 1.03187
+ekpp/ekp = 1.00029
+ekpp/ek = 1.00078
+ekpp/ekp = 1.00049
+Showing
+**********************************************************
+Problem name: FLETCHER
+
+Number of Variables: 4
+Number of Constraints: 4
+             Equality: 1
+           has_inequality: 3
+
+EXIT: The Algorithm has Converged
+f(x) = 19.5254
+|c(x)| = 2.91714e-07
+|g(x) + J(x)'*y| = 1.10606e-07
+y offset = 6.51558e-09
+Number of Iterations = 17
+Elapsed Time = 0.00180936 s
+Normal iterations = 4
+Average number of normal iterations = 0.235294
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 13
+Iterations with 1  normal iteration  = 4
+Iterations with 2+ normal iterations = 0
+Restorations = 144
+Average number of restorations per normal iteration = 36
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELP2
+
+ Problem name: HIMMELP2
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 2 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HIMMELP2
+
+Number of Variables: 2
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: The Algorithm has Converged
+f(x) = -59.6189
+|c(x)| = 1.13323e-09
+|g(x) + J(x)'*y| = 4.45025e-08
+|J(x)'c(x)| = 0.0853578
+y offset = 0
+Number of Iterations = 21
+Elapsed Time = 0.00081563 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     161 (117, 44)
+  Gradient     (*ofg):           23
+  Constraints  (cfn, ccfsg):    188 (117, 71)
+  Jacobian     (ccfsg):          29
+  Hessian prod (*hprod):        112
+
+Normal iterations = 2
+Average number of normal iterations = 0.0952381
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 19
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 42
+Average number of restorations per normal iteration = 21
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

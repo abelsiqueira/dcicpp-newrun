@@ -1,0 +1,199 @@
+ Solving problem: HYDCAR20  
+
+ ==============================================================================
+ This is ALGENCAN 3.1.0.
+ ALGENCAN, an Augmented Lagrangian method for nonlinear programming, is part of
+ the TANGO Project: Trustable Algorithms for Nonlinear General Optimization.
+ See http://www.ime.usp.br/~egbirgin/tango/ for details.
+ ==============================================================================
+
+ There are no strings to be processed in the array of parameters.
+
+ The specification file was found.
+
+ Processing specification file:
+
+ FEASIBILITY-TOLERANCE                                           1.00000000D-06
+ OPTIMALITY-TOLERANCE                                            1.00000000D-06
+ SAVE-STATISTICS-TABLE-LINE                   
+ ITERATIONS-OUTPUT-DETAIL                                                    10
+
+ Available HSL subroutines = NONE           
+
+ ALGENCAN PARAMETERS:
+
+ firstde                =                    T
+ seconde                =                    T
+ truehpr                =                    T
+ hptype in TN           =               TRUEHP
+ lsslvr in TR           =            NONE/NONE
+ lsslvr in NW           =            NONE/NONE
+ lsslvr in ACCPROC      =            NONE/NONE
+ innslvr                =                   TN
+ accproc                =                    F
+ rmfixv                 =                    T
+ slacks                 =                    F
+ scale                  =                    T
+ epsfeas                =           1.0000D-06
+ epsopt                 =           1.0000D-06
+ efstain                =           1.0000D-04
+ eostain                =           1.0000D-12
+ efacc                  =           1.0000D-04
+ eoacc                  =           1.0000D-04
+ iprint                 =                   10
+ ncomp                  =                    6
+
+ Specification filename =       'algencan.dat'
+ Output filename        =                   ''
+ Solution filename      =                   ''
+
+ Number of variables               :      99
+ Number of equality constraints    :      99
+ Number of inequality constraints  :       0
+ Number of bound constraints       :       0
+ Number of fixed variables         :       0
+
+ There are no fixed variables to be removed.
+
+ Objective function scale factor   : 1.0D+00
+ Smallest constraints scale factor : 1.4D-02
+
+ Entry to ALGENCAN.
+ Number of variables  :      99
+ Number of constraints:      99
+
+out penalt  objective infeas  scaled    scaled infeas norm   |Grad| inner Newton
+ite         function  ibilty  obj-funct infeas +compl graLag infeas totit forKKT
+  0         0.000D+00 3.D+01  0.000D+00 9.D-01 9.D-01 0.D+00 1.D+00    0   0   0
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :                4
+ Value                 :                 Infinity
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :                5
+ Value                 :                -Infinity
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :               53
+ Value                 :   2.4030670290106600+131
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :               54
+ Value                 :  -2.4030670290106600+131
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :               63
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ Value                 :                 Infinity
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :               72
+ Value                 :   6.7319435709680794+129
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :               83
+ Value                 :                 Infinity
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :               84
+ Value                 :                -Infinity
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :               92
+ Value                 :   7.7521229675301107+131
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :               93
+ Value                 :  -7.7521229675301107+131
+  1 9.D+00  0.000D+00 2.D+00  0.000D+00 6.D-02 6.D-02 1.D+00 1.D-01   10C  0   0
+
+ VEVALFC WARNING: The value of a constraint computed by the user-supplied
+ subroutine EVALFC may be +Inf, -Inf or NaN.
+
+ Dimension of the space:               99
+ Number of constraints :               99
+ Constraint            :               52
+ Value                 :  -3.2631375434072723+247
+
+ *** Error code =  86 detected in subroutine VEVALFC                       ***
+
+ *** Codes meaning:                                                        ***
+
+ ***  80) Non-null flag (or NaN/Inf) in user-supplied evalf subroutine     ***
+ ***  81) Non-null flag (or NaN/Inf) in user-supplied evalg subroutine     ***
+ ***  82) Non-null flag (or NaN/Inf) in user-supplied evalh subroutine     ***
+ ***  83) Non-null flag (or NaN/Inf) in user-supplied evalc subroutine     ***
+ ***  84) Non-null flag (or NaN/Inf) in user-supplied evaljac subroutine   ***
+ ***  85) Non-null flag (or NaN/Inf) in user-supplied evalhc subroutine    ***
+ ***  86) Non-null flag (or NaN/Inf) in user-supplied evalfc subroutine    ***
+ ***  87) Non-null flag (or NaN/Inf) in user-supplied evalgjac subroutine  ***
+ ***  88) Non-null flag (or NaN/Inf) in user-supplied evalgjacp subroutine ***
+ ***  89) Non-null flag (or NaN/Inf) in user-supplied evalhl subroutine    ***
+ ***  90) Non-null flag (or NaN/Inf) in user-supplied evalhlp subroutine   ***
+ *** -91) Mandatory subroutines were not properly provided                 ***
+ *** -92) Lack of memory (increase jcnnzmax or hnnzmax)                    ***
+ *** -93) Memory allocation error                                          ***
+ *** -94) Memory deallocation error                                        ***
+ *** -95) Bound constraints are infeasible                                 ***
+
+ *** Terminating execution. ***
+
+
+ User-provided subroutines calls counters: 
+
+ Subroutine fsub     (coded=F):        0
+ Subroutine gsub     (coded=F):        0
+ Subroutine hsub     (coded=F):        0
+ Subroutine csub     (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine jacsub   (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine hcsub    (coded=F):        0 (       0 calls per constraint in avg)
+ Subroutine fcsub    (coded=T):      143
+ Subroutine gjacsub  (coded=T):       36
+ Subroutine gjacpsub (coded=F):        0
+ Subroutine hlsub    (coded=T):       30
+ Subroutine hlpsub   (coded=F):        0
+
+
+ Total CPU time in seconds =     0.01
+ Elapsed time    1.17187500E-02

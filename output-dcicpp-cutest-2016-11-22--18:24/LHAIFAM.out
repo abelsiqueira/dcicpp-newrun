@@ -1,0 +1,20 @@
+sifdecoder -A pc64.lnx.gfo  LHAIFAM
+
+ Problem name: LHAIFAM
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 150 nonlinear inequality constraints
+ 
+ There are 99 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Exception: |c| is nan

@@ -1,0 +1,35 @@
+sifdecoder -A pc64.lnx.gfo  CHNRSNBM
+
+ Problem name: CHNRSNBM
+
+ Double precision version will be formed
+
+ The objective function uses 49 linear groups
+ The objective function uses 49 nonlinear groups
+ 
+ There are 50 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--20:04
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: CHNRSNBM
+
+Number of Variables: 50
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 9.28665e-09
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.90431e-08
+y offset = 0
+Number of Iterations = 89
+Elapsed Time = 0.0109341 s
+/home/abel/projetos/linux-cutest/cutest/bin/rundcicpp: line 240: 13219 Floating point exception(core dumped) ${EXEC}/run_${PACKAGE}

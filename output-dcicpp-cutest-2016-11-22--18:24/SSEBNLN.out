@@ -1,0 +1,29 @@
+sifdecoder -A pc64.lnx.gfo  SSEBNLN
+
+ Problem name: SSEBNLN
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 48 linear equality constraints
+ There are 24 linear inequality constraints
+ There are 24 nonlinear equality constraints
+ 
+ There are 24 variables bounded only from below 
+ There are 168 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Exception: f is nan

@@ -1,0 +1,38 @@
+sifdecoder -A pc64.lnx.gfo  GENROSE
+
+ Problem name: GENROSE
+
+ Double precision version will be formed
+
+ The objective function uses 500 linear groups
+ The objective function uses 499 nonlinear groups
+ 
+ There are 500 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: GENROSE 
+
+Number of Variables: 500
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 1
+|c(x)| = 0
+|g(x) + J(x)'*y| = 7.92589e-08
+y offset = 0
+Number of Iterations = 669
+Elapsed Time = 0.534802 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 669
+**********************************************************
+Setup time: 0.009999
+Execution time: 0.703334

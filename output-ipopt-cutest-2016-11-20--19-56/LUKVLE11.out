@@ -1,0 +1,38 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:    19992
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:    21105
+
+Total number of variables............................:     9998
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     6664
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  5.0500625e+03 7.48e+00 5.00e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  5.2619515e+04 5.46e+00 3.38e+02  -1.0 1.15e+01    -  1.00e+00 2.50e-01h  3
+   2  4.6659650e+04 1.40e+01 9.52e+04  -1.0 1.21e+02   2.0 1.00e+00 3.12e-02f  6
+   3  1.2535847e+05 7.99e+02 4.76e+07  -1.0 8.47e+01   3.3 1.00e+00 2.50e-01h  3
+   4  1.4601364e+05 7.87e+02 4.04e+07  -1.0 6.33e+02   3.8 1.00e+00 1.56e-02h  7
+   5  2.0104871e+05 7.86e+02 6.28e+09  -1.0 1.05e+04   5.1 1.00e+00 9.77e-04h 11
+   6  1.9384516e+05 7.86e+02 7.17e+09  -1.0 1.03e+06    -  1.00e+00 1.53e-05f 17
+   7  2.0671714e+05 7.85e+02 1.39e+12  -1.0 7.05e+03   7.3 1.00e+00 9.77e-04h 11
+   8  1.7906313e+05 7.85e+02 4.29e+13  -1.0 2.58e+06   8.6 1.00e+00 7.63e-06f 18
+   9  1.8839982e+05 7.85e+02 6.38e+13  -1.0 1.37e+05    -  1.00e+00 1.53e-05h 17
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.6694504e+05 7.85e+02 1.11e+15  -1.0 8.69e+04    -  1.00e+00 1.22e-04f 14
+Reallocating memory for MA57: lfact (240355)
+  11  2.3647333e+21 1.36e+11 4.43e+27  -1.0 6.16e+04  11.8 1.00e+00 1.00e+00w  1

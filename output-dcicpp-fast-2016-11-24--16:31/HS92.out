@@ -1,0 +1,62 @@
+sifdecoder -A pc64.lnx.gfo  HS92
+
+ Problem name: HS92
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There is 1 nonlinear inequality constraint
+ 
+ There are 6 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+NormalFlag = 2
+Showing
+**********************************************************
+Problem name: HS92    
+
+Number of Variables: 6
+Number of Constraints: 1
+             Equality: 0
+           has_inequality: 1
+
+EXIT: Stopped at a stationary for the infeasibility
+Cholesky failed
+f(x) = 1.06214e-21
+|c(x)| = 0.133233
+|g(x) + J(x)'*y| = 2.61516e-11
+|J(x)'c(x)| = 1.20473e-13
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.00746441 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      17 (8, 9)
+  Gradient     (*ofg):            6
+  Constraints  (cfn, ccfsg):     20 (8, 12)
+  Jacobian     (ccfsg):           6
+  Hessian prod (*hprod):         13
+
+Normal iterations = 1
+Average number of normal iterations = 0.333333
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 2
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 6
+Average number of restorations per normal iteration = 6
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.029999

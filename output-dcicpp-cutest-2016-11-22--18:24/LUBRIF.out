@@ -1,0 +1,24 @@
+sifdecoder -A pc64.lnx.gfo  LUBRIF
+
+ Problem name: LUBRIF
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 1251 linear equality constraints
+ There are 1249 nonlinear equality constraints
+ 
+ There are 1251 free variables
+ There are 1249 variables bounded only from below 
+ There are 1249 variables bounded from below and above 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving

@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  ZAMB2-10
+
+ Problem name: ZAMB2-10
+
+ Double precision version will be formed
+
+ The objective function uses 176 nonlinear groups
+ 
+ There are 96 nonlinear equality constraints
+ 
+ There are 264 variables bounded from below and above 
+ There are 6 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

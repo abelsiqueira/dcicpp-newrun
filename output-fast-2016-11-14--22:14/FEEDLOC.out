@@ -1,0 +1,24 @@
+sifdecoder -A pc64.lnx.gfo  FEEDLOC
+
+ Problem name: FEEDLOC
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 4 linear equality constraints
+ There are 166 linear inequality constraints
+ There are 15 nonlinear equality constraints
+ There are 74 nonlinear inequality constraints
+ 
+ There are 87 variables bounded from below and above 
+ There are 3 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Exception: Fixed variables not allowed.
+Use http://github.com/abelsiqueira/nope

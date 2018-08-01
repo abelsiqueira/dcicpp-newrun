@@ -1,0 +1,62 @@
+sifdecoder -A pc64.lnx.gfo -st   LUKVLE1
+
+ Problem name: LUKVLE1
+
+ Double precision version will be formed
+
+ The objective function uses 19998 nonlinear groups
+ 
+ There are 9998 nonlinear equality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-small-2016-11-17--11:16
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ |gp(xk)|/|gp(xck)| =    3.9047494409233242E-003
+ |gp(xk)|/|gp(xck)| =   0.14356049776831459     
+ |gp(xk)|/|gp(xck)| =    1.8623120367217420E-002
+ |gp(xk)|/|gp(xck)| =    6.9846533185748058E-002
+ |gp(xk)|/|gp(xck)| =    6.5520616341434287E-002
+ |gp(xk)|/|gp(xck)| =    8.9718149534907310E-002
+ |gp(xk)|/|gp(xck)| =    3.2576942925007846E-002
+ |gp(xk)|/|gp(xck)| =    8.7960523397024939E-002
+ |gp(xk)|/|gp(xck)| =    3.8001419181610291E-002
+ |gp(xk)|/|gp(xck)| =    3.4863304998461564E-003
+ |gp(xk)|/|gp(xck)| =    1.0005094986731515     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :           11
+ Steihaug's iter:           13
+ Restorations   :            6
+ Rejected steps :            0
+ Function evals.:           11
+ Constr.  evals.:           18
+ Gradient evals.:           15
+ Jacobian evals.:           15
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :    6.2324586281727417     
+ ||h(x)||       :    9.6052352183129130E-010
+ ||gp(x)||      :    8.8774465975298500E-012
+ ||At*h||       :    1.2025132948446154E-007
+ Elapsed time   :   0.304687500    
+
+ ||xnew - xc||  :    6.0763826574795266E-007
+ rho            :    9.9999999999999995E-007
+ rhomax         :    4522.4431561342344     
+ vdelta         :    11.070318861564246     
+ hdelta         :    100000.00000000000     
+ L(x)           :    6.2324586324379929     
+ L(x) - L(xc)   :   -4.8439474653605430E-011
+ L(xc)-L(x(k-1)):   -1.7319479184152442E-013
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

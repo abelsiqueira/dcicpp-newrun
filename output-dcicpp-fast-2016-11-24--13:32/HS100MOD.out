@@ -1,0 +1,93 @@
+sifdecoder -A pc64.lnx.gfo  HS100MOD
+
+ Problem name: HS100MOD
+
+ Double precision version will be formed
+
+ The objective function uses 4 nonlinear groups
+ 
+ There are 4 nonlinear inequality constraints
+ 
+ There are 7 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.09332
+ekpp/ekp = 1.01005
+ekpp/ek = 1.04133
+ekpp/ekp = 1.03096
+ekpp/ek = 1.03986
+ekpp/ekp = 1.00863
+ekpp/ek = 1.03318
+ekpp/ekp = 1.02434
+ekpp/ek = 1.04939
+ekpp/ekp = 1.02446
+ekpp/ek = 1.03615
+ekpp/ekp = 1.01141
+ekpp/ek = 1.01665
+ekpp/ekp = 1.00518
+ekpp/ek = 1.01263
+ekpp/ekp = 1.00741
+ekpp/ek = 1.0213
+ekpp/ekp = 1.01379
+ekpp/ek = 1.01791
+ekpp/ekp = 1.00406
+ekpp/ek = 1.03429
+ekpp/ekp = 1.03011
+ekpp/ek = 1.0323
+ekpp/ekp = 1.00213
+ekpp/ek = 1.01311
+ekpp/ekp = 1.01096
+ekpp/ek = 1.0088
+ekpp/ekp = 0.997868
+ekpp/ek = 0.996277
+ekpp/ekp = 0.998406
+ekpp/ek = 0.990979
+ekpp/ekp = 0.992561
+ekpp/ek = 0.995625
+ekpp/ekp = 1.00309
+ekpp/ek = 1.00904
+ekpp/ekp = 1.00593
+ekpp/ek = 1.00492
+ekpp/ekp = 0.998998
+ekpp/ek = 1.00722
+ekpp/ekp = 1.00823
+ekpp/ek = 0.995349
+ekpp/ekp = 0.98722
+ekpp/ek = 0.992766
+ekpp/ekp = 1.00562
+ekpp/ek = 1.00538
+ekpp/ekp = 0.999765
+Showing
+**********************************************************
+Problem name: HS100MOD
+
+Number of Variables: 7
+Number of Constraints: 4
+             Equality: 0
+           has_inequality: 4
+
+EXIT: The Algorithm has Converged
+f(x) = 678.68
+|c(x)| = 8.61225e-10
+|g(x) + J(x)'*y| = 9.29647e-08
+y offset = 1.86909e-11
+Number of Iterations = 26
+Elapsed Time = 0.00145936 s
+Normal iterations = 22
+Average number of normal iterations = 0.846154
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 4
+Iterations with 1  normal iteration  = 22
+Iterations with 2+ normal iterations = 0
+Restorations = 22
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

@@ -1,0 +1,19 @@
+sifdecoder -A pc64.lnx.gfo  LUKVLI4
+
+ Problem name: LUKVLI4
+
+ Double precision version will be formed
+
+ The objective function uses 24995 nonlinear groups
+ 
+ There are 4999 nonlinear inequality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

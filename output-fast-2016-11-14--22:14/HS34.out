@@ -1,0 +1,47 @@
+sifdecoder -A pc64.lnx.gfo  HS34
+
+ Problem name: HS34
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear inequality constraints
+ 
+ There are 3 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:14
+No tools
+make: *** No rule to make target 'dcicppclean'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS34    
+
+Number of Variables: 3
+Number of Constraints: 2
+             Equality: 0
+           has_inequality: 2
+
+EXIT: The Algorithm has Converged
+f(x) = -6.31847e-47
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.40584e-48
+y offset = 0
+Number of Iterations = 2
+Elapsed Time = 0.00064826 s
+Normal iterations = 2
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 1
+Restorations = 46
+Average number of restorations per normal iteration = 23
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

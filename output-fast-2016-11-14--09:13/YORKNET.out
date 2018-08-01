@@ -1,0 +1,22 @@
+sifdecoder -A pc64.lnx.gfo  YORKNET
+
+ Problem name: YORKNET
+
+ Double precision version will be formed
+
+ The objective function uses 41 linear groups
+ The objective function uses 15 nonlinear groups
+ 
+ There are 136 linear equality constraints
+ There are 120 nonlinear equality constraints
+ 
+ There are 112 free variables
+ There are 112 variables bounded only from below 
+ There are 88 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+f is nan

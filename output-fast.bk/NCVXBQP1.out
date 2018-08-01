@@ -1,0 +1,37 @@
+sifdecoder -A pc64.lnx.gfo  NCVXBQP1
+
+ Problem name: NCVXBQP1
+
+ Double precision version will be formed
+
+ The objective function uses 10000 nonlinear groups
+ 
+ There are 10000 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: NCVXBQP1
+
+Number of Variables: 10000
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -1.98554e+10
+|c(x)| = 0
+|g(x) + J(x)'*y| = 3.51397e-07
+y offset = 0
+Number of Iterations = 54
+Elapsed Time = 0.276951 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with = 1 normal iterations = 0
+Iterations with <= 1 normal iterations = 54
+**********************************************************
+Setup time: 0.166667
+Execution time: 0.396667

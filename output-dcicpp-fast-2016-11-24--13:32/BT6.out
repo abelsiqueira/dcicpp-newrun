@@ -1,0 +1,65 @@
+sifdecoder -A pc64.lnx.gfo  BT6
+
+ Problem name: BT6
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 0.605085
+ekpp/ekp = 0.617769
+ekpp/ek = 0.469351
+ekpp/ekp = 0.759752
+ekpp/ek = 0.693218
+ekpp/ekp = 0.912427
+ekpp/ek = 0.858459
+ekpp/ekp = 0.940852
+ekpp/ek = 0.905383
+ekpp/ekp = 0.962302
+ekpp/ek = 0.945701
+ekpp/ekp = 0.982749
+ekpp/ek = 0.977963
+ekpp/ekp = 0.99513
+ekpp/ek = 0.995052
+ekpp/ekp = 0.999921
+ekpp/ek = 0.999798
+ekpp/ekp = 0.999877
+Showing
+**********************************************************
+Problem name: BT6     
+
+Number of Variables: 5
+Number of Constraints: 2
+             Equality: 2
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.277045
+|c(x)| = 6.78825e-07
+|g(x) + J(x)'*y| = 3.01513e-10
+y offset = 0
+Number of Iterations = 12
+Elapsed Time = 0.000579357 s
+Normal iterations = 5
+Average number of normal iterations = 0.416667
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 7
+Iterations with 1  normal iteration  = 5
+Iterations with 2+ normal iterations = 0
+Restorations = 5
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.003333

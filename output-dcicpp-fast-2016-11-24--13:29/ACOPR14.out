@@ -1,0 +1,61 @@
+sifdecoder -A pc64.lnx.gfo  ACOPR14
+
+ Problem name: ACOPR14
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 28 nonlinear equality constraints
+ There are 54 nonlinear inequality constraints
+ 
+ There are 28 free variables
+ There are 10 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.02575
+ekpp/ekp = 1.00522
+ekpp/ek = 0.994758
+ekpp/ekp = 0.989596
+ekpp/ek = 0.982744
+ekpp/ekp = 0.993076
+ekpp/ek = 0.993857
+ekpp/ekp = 1.00079
+ekpp/ek = 1.00671
+ekpp/ekp = 1.00592
+ekpp/ek = 1.00595
+ekpp/ekp = 1.00002
+Showing
+**********************************************************
+Problem name: ACOPR14 
+
+Number of Variables: 38
+Number of Constraints: 82
+             Equality: 28
+           has_inequality: 54
+
+EXIT: The Algorithm has Converged
+f(x) = 8081.53
+|c(x)| = 1.68854e-07
+|g(x) + J(x)'*y| = 4.28576e-08
+y offset = 0.037436
+Number of Iterations = 9
+Elapsed Time = 0.019402 s
+Normal iterations = 4
+Average number of normal iterations = 0.444444
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 1
+Restorations = 99
+Average number of restorations per normal iteration = 24
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.073333

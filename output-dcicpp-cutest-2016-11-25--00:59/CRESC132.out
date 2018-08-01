@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  CRESC132
+
+ Problem name: CRESC132
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2654 nonlinear inequality constraints
+ 
+ There are 2 free variables
+ There are 3 variables bounded only from below 
+ There is 1 variable bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-25--00:59
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving

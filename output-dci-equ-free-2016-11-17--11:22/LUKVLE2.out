@@ -1,0 +1,182 @@
+sifdecoder -A pc64.lnx.gfo -st   LUKVLE2
+
+ Problem name: LUKVLE2
+
+ Double precision version will be formed
+
+ The objective function uses 29994 nonlinear groups
+ 
+ There are 4999 nonlinear equality constraints
+ 
+ There are 10000 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =   0.13747543624504929     
+ |gp(xk)|/|gp(xck)| =    7.3098873971819536E-002
+ |gp(xk)|/|gp(xck)| =   0.60929827750603716     
+ |gp(xk)|/|gp(xck)| =   0.39614540571408347     
+ |gp(xk)|/|gp(xck)| =    52.904354496503785     
+ |gp(xk)|/|gp(xck)| =    18.706271396463222     
+ |gp(xk)|/|gp(xck)| =    8.5966455902418968     
+ |gp(xk)|/|gp(xck)| =    7.0107959584700748     
+ |gp(xk)|/|gp(xck)| =    6.5322813799623338     
+ |gp(xk)|/|gp(xck)| =    6.3597143882329190     
+ |gp(xk)|/|gp(xck)| =    6.2933930139157086     
+ |gp(xk)|/|gp(xck)| =    6.2672795332939231     
+ |gp(xk)|/|gp(xck)| =    6.2568994593229696     
+ |gp(xk)|/|gp(xck)| =    6.2527578117854352     
+ |gp(xk)|/|gp(xck)| =    6.2511028095056078     
+ |gp(xk)|/|gp(xck)| =    6.2504410733886395     
+ |gp(xk)|/|gp(xck)| =    6.2501764212906163     
+ |gp(xk)|/|gp(xck)| =    6.2500705672259658     
+ |gp(xk)|/|gp(xck)| =    6.2500282266839493     
+ |gp(xk)|/|gp(xck)| =    6.2500112906405514     
+ |gp(xk)|/|gp(xck)| =    6.2500045162509332     
+ |gp(xk)|/|gp(xck)| =    6.2500018064995322     
+ |gp(xk)|/|gp(xck)| =    6.2500007225996761     
+ |gp(xk)|/|gp(xck)| =    6.2500002890398472     
+ |gp(xk)|/|gp(xck)| =    6.2500001156159364     
+ |gp(xk)|/|gp(xck)| =    6.2500000462463738     
+ |gp(xk)|/|gp(xck)| =    6.2500000184985520     
+ |gp(xk)|/|gp(xck)| =    6.2500000073994153     
+ |gp(xk)|/|gp(xck)| =    6.2500000029597675     
+ |gp(xk)|/|gp(xck)| =    6.2500000011839072     
+ |gp(xk)|/|gp(xck)| =    6.2500000004735607     
+ |gp(xk)|/|gp(xck)| =    6.2500000001894298     
+ |gp(xk)|/|gp(xck)| =    6.2500000000757678     
+ |gp(xk)|/|gp(xck)| =    6.2500000000303064     
+ |gp(xk)|/|gp(xck)| =    6.2500000000121263     
+ |gp(xk)|/|gp(xck)| =    6.2500000000048521     
+ |gp(xk)|/|gp(xck)| =    6.2500000000019398     
+ |gp(xk)|/|gp(xck)| =    6.2500000000007709     
+ |gp(xk)|/|gp(xck)| =    6.2500000000003126     
+ |gp(xk)|/|gp(xck)| =    6.2500000000001252     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000471     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000231     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000062     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000036     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000027     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999982     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999982     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_OVERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ |gp(xk)|/|gp(xck)| =    6.2499999999999982     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999982     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000027     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999973     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999964     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000027     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999982     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999982     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999982     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000027     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999982     
+ |gp(xk)|/|gp(xck)| =    6.2499999999999991     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000018     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000000     
+ |gp(xk)|/|gp(xck)| =    6.2500000000000009     
+ |gp(xk)|/|gp(xck)| =                        NaN
+ |gp(xk)|/|gp(xck)| =                        NaN
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :          131
+ Steihaug's iter:          140
+ Restorations   :            2
+ Rejected steps :            1
+ Function evals.:          132
+ Constr.  evals.:          134
+ Gradient evals.:          132
+ Jacobian evals.:          132
+ 2nd order Corr.:            0
+ BFGS iterations:            0
+ f(x)           :                        NaN
+ ||h(x)||       :                        NaN
+ ||gp(x)||      :    0.0000000000000000     
+ ||At*h||       :                        NaN
+ Elapsed time   :    1.71484375    
+
+ ||xnew - xc||  :    2.9518579900323018E+050
+ rho            :    3480.3606478666475     
+ rhomax         :    4640.4808638221966     
+ vdelta         :    1000000.0000000000     
+ hdelta         :    2.9518579900323018E+050
+ L(x)           :                        NaN
+ L(x) - L(xc)   :                        NaN
+ L(xc)-L(x(k-1)):    0.0000000000000000     
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

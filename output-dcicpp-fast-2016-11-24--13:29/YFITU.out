@@ -1,0 +1,121 @@
+sifdecoder -A pc64.lnx.gfo  YFITU
+
+ Problem name: YFITU
+
+ Double precision version will be formed
+
+ The objective function uses 17 nonlinear groups
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:29
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.00354
+ekpp/ekp = 1.00262
+ekpp/ek = 1.05061
+ekpp/ekp = 1.04786
+ekpp/ek = 1.1686
+ekpp/ekp = 1.11522
+ekpp/ek = 1.40399
+ekpp/ekp = 1.25893
+ekpp/ek = 1.59499
+ekpp/ekp = 1.26694
+ekpp/ek = 1.46961
+ekpp/ekp = 1.15997
+ekpp/ek = 1.36587
+ekpp/ekp = 1.17751
+ekpp/ek = 1.28455
+ekpp/ekp = 1.09091
+ekpp/ek = 1.2715
+ekpp/ekp = 1.16554
+ekpp/ek = 1.16555
+ekpp/ekp = 1
+ekpp/ek = 1.0222
+ekpp/ekp = 1.0222
+ekpp/ek = 1.07769
+ekpp/ekp = 1.05429
+ekpp/ek = 1.1823
+ekpp/ekp = 1.12142
+ekpp/ek = 1.12142
+ekpp/ekp = 1
+ekpp/ek = 1.01692
+ekpp/ekp = 1.01692
+ekpp/ek = 1.05922
+ekpp/ekp = 1.04159
+ekpp/ek = 1.14216
+ekpp/ekp = 1.09655
+ekpp/ek = 1.09655
+ekpp/ekp = 1
+ekpp/ek = 1.00916
+ekpp/ekp = 1.00916
+ekpp/ek = 1.03206
+ekpp/ekp = 1.02269
+ekpp/ek = 1.07942
+ekpp/ekp = 1.05547
+ekpp/ek = 1.05547
+ekpp/ekp = 1
+ekpp/ek = 1.00821
+ekpp/ekp = 1.00821
+ekpp/ek = 1.02874
+ekpp/ekp = 1.02036
+ekpp/ek = 1.07127
+ekpp/ekp = 1.04989
+ekpp/ek = 1.04989
+ekpp/ekp = 1
+ekpp/ek = 1.00742
+ekpp/ekp = 1.00742
+ekpp/ek = 1.02599
+ekpp/ekp = 1.01843
+ekpp/ek = 1.06449
+ekpp/ekp = 1.04523
+ekpp/ek = 1.04523
+ekpp/ekp = 1
+ekpp/ek = 1.00676
+ekpp/ekp = 1.00676
+ekpp/ek = 1.02367
+ekpp/ekp = 1.01679
+ekpp/ek = 1.01679
+ekpp/ekp = 1
+ekpp/ek = 1.04128
+ekpp/ekp = 1.04128
+ekpp/ek = 1.04128
+ekpp/ekp = 1
+ekpp/ek = 1.00619
+ekpp/ekp = 1.00619
+ekpp/ek = 1.02168
+ekpp/ekp = 1.01539
+ekpp/ek = 1.01539
+ekpp/ekp = 1
+Showing
+**********************************************************
+Problem name: YFITU   
+
+Number of Variables: 3
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0.0281442
+|c(x)| = 0
+|g(x) + J(x)'*y| = 6.87731e-07
+y offset = 0
+Number of Iterations = 41
+Elapsed Time = 0.00226212 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 41
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.006666

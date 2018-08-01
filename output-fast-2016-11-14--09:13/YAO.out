@@ -1,0 +1,45 @@
+sifdecoder -A pc64.lnx.gfo  YAO
+
+ Problem name: YAO
+
+ Double precision version will be formed
+
+ The objective function uses 2002 nonlinear groups
+ 
+ There are 2000 linear inequality constraints
+ 
+ There are 1999 free variables
+ There is 1 variable bounded only from below 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--09:13
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+**********************************************************
+Problem name: YAO     
+
+Number of Variables: 2000
+Number of Constraints: 1999
+             Equality: 0
+           has_inequality: 1999
+
+EXIT: The Algorithm has Converged
+f(x) = 197.825
+|c(x)| = 4.61456e-07
+|g(x) + J(x)'*y| = 5.46454e-08
+y offset = 0
+Number of Iterations = 39
+Elapsed Time = 0.678911 s
+Normal iterations = 7
+Average number of normal iterations = 0.179487
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 32
+Iterations with 1  normal iteration  = 7
+Iterations with 2+ normal iterations = -32
+Restorations = 215
+Average number of restorations per normal iteration = 30
+**********************************************************
+Setup time: 0.049999
+Execution time: 0.896668

@@ -1,0 +1,65 @@
+sifdecoder -A pc64.lnx.gfo  CORKSCRW
+
+ Problem name: CORKSCRW
+
+ Double precision version will be formed
+
+ The objective function uses 500 nonlinear groups
+ 
+ There are 3000 linear equality constraints
+ There are 500 nonlinear inequality constraints
+ 
+ There are 2497 free variables
+ There are 2000 variables bounded from below and above 
+ There are 9 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--19:36
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 9 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Showing
+**********************************************************
+Problem name: CORKSCRW
+
+Number of Variables: 4497
+Number of Constraints: 3500
+             Equality: 3000
+           has_inequality: 500
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 37.2796
+|c(x)| = 14.5979
+|g(x) + J(x)'*y| = 0.00465956
+|J(x)'c(x)| = 298.078
+y offset = 5.05583e-05
+Number of Iterations = 2
+Elapsed Time = 25.756 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):    1805 (1799, 6)
+  Gradient     (*ofg):            4
+  Constraints  (cfn, ccfsg):  16796 (1799, 14997)
+  Jacobian     (ccfsg):        4996
+  Hessian prod (*hprod):        180
+
+Normal iterations = 1
+Average number of normal iterations = 0.5
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 10001
+Average number of restorations per normal iteration = 10001
+**********************************************************
+Done
+Setup time: 0.056666
+Execution time: 25.8267

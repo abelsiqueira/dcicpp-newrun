@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo -st   BT9
+
+ Problem name: BT9
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 2 nonlinear equality constraints
+ 
+ There are 4 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dci-equ-free-2016-11-17--11:22
+/home/abel/projetos/linux-cutest/cutest/makefiles/pc64.lnx.gfo:74: /home/abel/projetos/linux-cutest/cutest/src/dci/makemaster: No such file or directory
+make: *** No rule to make target '/home/abel/projetos/linux-cutest/cutest/src/dci/makemaster'.  Stop.
+Done
+ |gp(xk)|/|gp(xck)| =    4.1717209806487503     
+ |gp(xk)|/|gp(xck)| =    7.6128861827513470     
+ |gp(xk)|/|gp(xck)| =    8.8037898527607155     
+ |gp(xk)|/|gp(xck)| =    4.5935899344000468     
+ |gp(xk)|/|gp(xck)| =    3.7581433489625740     
+ |gp(xk)|/|gp(xck)| =    4.2830512471660027     
+ |gp(xk)|/|gp(xck)| =    2.2661711245736660     
+ |gp(xk)|/|gp(xck)| =    2.0021351357804917     
+ |gp(xk)|/|gp(xck)| =    1.0000000000000000     
+
+ DCI Summary.
+
+ The algorithm has converged.
+
+ Iterations     :            9
+ Steihaug's iter:           19
+ Restorations   :           17
+ Rejected steps :           10
+ Function evals.:           19
+ Constr.  evals.:           42
+ Gradient evals.:           14
+ Jacobian evals.:           18
+ 2nd order Corr.:            1
+ BFGS iterations:            1
+ f(x)           :   -1.0000000000005216     
+ ||h(x)||       :    8.1601439277984668E-013
+ ||gp(x)||      :    3.0004829979046122E-007
+ ||At*h||       :    3.1835548312173989E-012
+ Elapsed time   :    3.90625000E-03
+
+ ||xnew - xc||  :    1.6782302454206391E-003
+ rho            :    1.2191977811549092E-007
+ rhomax         :   0.81265623497884998     
+ vdelta         :   0.90868902954444719     
+ hdelta         :    3.5106614319825322     
+ L(x)           :   -1.0000005420776088     
+ L(x) - L(xc)   :   -2.8102033540200466E-006
+ L(xc)-L(x(k-1)):    4.9494253710256064E-003
+
+ -------- xxxxxxxxxxxxxxxxxxxxxxx --------       
+ Unable to open output file

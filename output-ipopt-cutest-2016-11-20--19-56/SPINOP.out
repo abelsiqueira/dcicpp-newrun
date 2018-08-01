@@ -1,0 +1,132 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.6, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:    16325
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:     8877
+
+Total number of variables............................:     1327
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     1325
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  1.2250000e+03 5.10e+01 1.79e+01  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  5.4914188e+02 2.39e+01 4.36e+00  -1.0 5.59e+01    -  1.00e+00 1.00e+00f  1
+   2  2.6311304e+02 2.15e+01 4.37e+00  -1.0 8.22e+01    -  1.00e+00 1.00e+00f  1
+   3  1.2800525e+02 2.77e+01 1.69e+01  -1.0 1.60e+02    -  1.00e+00 1.00e+00f  1
+   4  6.1730978e+01 4.01e+01 9.09e+01  -1.0 3.38e+02    -  1.00e+00 1.00e+00f  1
+   5  2.9430786e+01 5.96e+01 6.97e+02  -1.0 7.33e+02    -  1.00e+00 1.00e+00h  1
+   6  1.3940975e+01 8.84e+01 4.95e+03  -1.0 1.59e+03    -  1.00e+00 1.00e+00h  1
+   7  6.5675794e+00 1.31e+02 2.32e+04  -1.0 3.45e+03    -  1.00e+00 1.00e+00h  1
+   8  3.0858737e+00 1.93e+02 7.62e+04  -1.0 7.47e+03    -  1.00e+00 1.00e+00h  1
+   9  1.4457044e+00 2.84e+02 1.90e+05  -1.0 1.61e+04    -  1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  6.7602227e-01 4.16e+02 3.84e+05  -1.0 3.47e+04    -  1.00e+00 1.00e+00h  1
+Reallocating memory for MA57: lfact (185200)
+  11  3.1528589e-01 6.11e+02 6.75e+05  -1.0 7.45e+04    -  1.00e+00 1.00e+00h  1
+Reallocating memory for MA57: lfact (239852)
+  12  1.4674710e-01 8.98e+02 1.09e+06  -1.0 1.60e+05    -  1.00e+00 1.00e+00h  1
+  13  6.8378409e-02 1.31e+03 1.63e+06  -1.0 3.45e+05    -  1.00e+00 1.00e+00h  1
+  14  3.1727467e-02 1.94e+03 2.38e+06  -1.0 7.42e+05    -  1.00e+00 1.00e+00h  1
+  15  1.4740728e-02 2.85e+03 3.36e+06  -1.0 1.60e+06    -  1.00e+00 1.00e+00h  1
+  16  6.8125444e-03 4.23e+03 4.65e+06  -1.0 3.46e+06    -  1.00e+00 1.00e+00h  1
+  17  3.1429236e-03 6.27e+03 6.23e+06  -1.0 7.50e+06    -  1.00e+00 1.00e+00h  1
+  18  1.7546549e-03 3.36e+03 4.52e+06  -1.0 1.64e+07    -  1.00e+00 1.00e+00H  1
+  19  7.7209909e-04 1.08e+03 6.33e+06  -1.0 2.57e+07    -  1.00e+00 1.00e+00H  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  5.9806203e-04 7.36e+02 2.90e+06  -1.0 2.13e+07    -  1.00e+00 1.00e+00H  1
+  21  5.9878032e-04 7.35e+02 2.90e+06  -1.0 3.70e+07    -  1.00e+00 3.91e-03h  9
+  22  5.8857477e-04 7.25e+02 2.81e+06  -1.0 5.68e+07    -  1.00e+00 3.12e-02h  6
+  23  5.7856560e-04 7.15e+02 2.72e+06  -1.0 5.77e+07    -  1.00e+00 3.12e-02h  6
+  24  5.6874498e-04 7.05e+02 2.63e+06  -1.0 5.85e+07    -  1.00e+00 3.12e-02h  6
+  25  5.5910801e-04 6.96e+02 2.55e+06  -1.0 5.94e+07    -  1.00e+00 3.12e-02h  6
+  26  5.4968548e-04 6.87e+02 2.46e+06  -1.0 6.01e+07    -  1.00e+00 3.12e-02h  6
+  27  5.5526503e-04 1.89e+02 5.88e+05  -1.0 1.67e-04  -4.0 1.00e+00 1.00e+00h  1
+  28  5.5557788e-04 1.88e+02 5.97e+05  -1.0 2.59e-03  -4.5 1.00e+00 3.12e-02h  6
+  29  5.5560526e-04 1.88e+02 5.97e+05  -1.0 8.27e-02  -5.0 1.00e+00 2.44e-04h 13
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30r 5.5560526e-04 1.88e+02 9.99e+02   2.3 0.00e+00  -5.4 0.00e+00 4.77e-07R 22
+  31r 5.5509377e-04 4.90e+01 4.61e+00   2.3 1.88e+05    -  1.00e+00 9.90e-04f  1
+  32  4.8787546e-04 9.88e+01 1.77e-03  -1.0 2.25e+08    -  1.00e+00 6.25e-02h  5
+  33  4.2879692e-04 1.35e+02 1.66e-03  -1.0 2.27e+08    -  1.00e+00 6.25e-02h  5
+  34  4.2212325e-04 6.91e+01 1.64e-03  -1.0 1.85e+08    -  1.00e+00 7.81e-03h  8
+  35  4.2129929e-04 5.45e+01 1.64e-03  -1.0 7.54e+09    -  1.00e+00 9.77e-04h 11
+  36  3.2252103e-04 1.86e+02 1.26e-03  -1.0 4.11e-04  -5.9 1.00e+00 2.50e-01h  3
+  37  2.4689163e-04 4.24e+01 9.62e-04  -1.0 3.59e-04  -6.4 1.00e+00 2.50e-01h  3
+  38  6.1722035e-05 6.41e+02 3.46e-04  -1.0 3.14e-04  -6.9 1.00e+00 1.00e+00h  1
+  39  3.4716803e-05 9.45e+01 1.35e-04  -1.0 1.57e-04  -7.3 1.00e+00 5.00e-01h  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  40  1.9528192e-05 7.02e+00 7.62e-05  -1.0 1.18e-04  -7.8 1.00e+00 5.00e-01h  2
+  41  4.8820479e-06 3.03e+01 4.35e-05  -1.0 8.84e-05  -8.3 1.00e+00 1.00e+00h  1
+  42  2.7461519e-06 2.85e-01 1.07e-05  -1.0 4.42e-05  -8.8 1.00e+00 5.00e-01h  2
+  43  6.8653799e-07 1.15e+00 2.68e-06  -1.7 3.31e-05  -9.2 1.00e+00 1.00e+00h  1
+  44  3.8617762e-07 1.51e-03 1.51e-06  -1.7 1.66e-05  -9.7 1.00e+00 5.00e-01h  2
+  45  9.6544404e-08 6.03e-03 3.77e-07  -3.8 1.24e-05 -10.2 1.00e+00 1.00e+00h  1
+  46  2.4136101e-08 2.41e-02 9.41e-08  -3.8 6.21e-06 -10.7 1.00e+00 1.00e+00h  1
+  47  6.0340253e-09 9.65e-02 2.64e-07  -3.8 3.11e-06 -11.2 1.00e+00 1.00e+00h  1
+  48  3.3941392e-09 1.11e-06 1.32e-08  -3.8 1.55e-06 -11.6 1.00e+00 5.00e-01h  2
+  49  8.4853480e-10 4.42e-06 3.31e-09  -8.6 1.17e-06 -12.1 1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  50  2.1213370e-10 1.77e-05 8.27e-10  -8.6 5.83e-07 -12.6 1.00e+00 1.00e+00h  1
+  51  5.3033425e-11 7.07e-05 2.43e-10  -8.6 2.91e-07 -13.1 1.00e+00 1.00e+00h  1
+  52  7.4578254e-12 1.38e-03 2.16e-09  -8.6 1.46e-07 -13.5 1.00e+00 1.00e+00H  1
+  53  4.1950268e-12 2.01e-11 2.73e-11  -8.6 5.46e-08 -14.0 1.00e+00 5.00e-01h  2
+
+Number of Iterations....: 53
+
+                                   (scaled)                 (unscaled)
+Objective...............:   4.1950267941277874e-12    4.1950267941277874e-12
+Dual infeasibility......:   2.7267396474251877e-11    2.7267396474251877e-11
+Constraint violation....:   2.0131721114870091e-11    2.0131721114870091e-11
+Complementarity.........:   0.0000000000000000e+00    0.0000000000000000e+00
+Overall NLP error.......:   2.7267396474251877e-11    2.7267396474251877e-11
+
+
+Number of objective function evaluations             = 172
+Number of objective gradient evaluations             = 54
+Number of equality constraint evaluations            = 191
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 55
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 53
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.340
+Total CPU secs in NLP function evaluations           =      0.223
+
+EXIT: Optimal Solution Found.
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO
+
+************************ CUTEst statistics ************************
+
+
+ Package used            :  IPOPT
+ Problem                 :  SPINOP    
+ # variables             =            1327
+ # constraints           =            1325
+ # objective functions   =        0.2270000E+03
+ # objective gradients   =        0.5500000E+02
+ # objective Hessians    =        0.5300000E+02
+ # Hessian-vector prdct  =        0.0000000E+00
+ # constraints functions =        0.2480000E+03
+ # constraints gradients =        0.5700000E+02
+ # constraints Hessians  =        0.5300000E+02
+ Exit code               =               0
+ Final f                 =   0.4195027E-11
+ Set up time             =            0.07 seconds
+ Solve time              =            0.95 seconds
+
+
+******************************************************************
+
+System Time =       0.4790000021 s.

@@ -1,0 +1,51 @@
+sifdecoder -A pc64.lnx.gfo  AKIVA
+
+ Problem name: AKIVA
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ekpp/ek = 1.11769
+ekpp/ekp = 1.04593
+ekpp/ek = 1.05949
+ekpp/ekp = 1.01297
+ekpp/ek = 1.01368
+ekpp/ekp = 1.0007
+Showing
+**********************************************************
+Problem name: AKIVA   
+
+Number of Variables: 2
+Number of Constraints: 0
+             Equality: 0
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 6.16604
+|c(x)| = 0
+|g(x) + J(x)'*y| = 9.42582e-07
+y offset = 0
+Number of Iterations = 6
+Elapsed Time = 0.000919342 s
+Normal iterations = 0
+Average number of normal iterations = 0
+Maximum number of normal iterations during one iteration = 0
+Iterations with 0  normal iterations = 6
+Iterations with 1  normal iteration  = 0
+Iterations with 2+ normal iterations = 0
+Restorations = 0
+Average number of restorations per normal iteration = NA
+**********************************************************
+Done
+Setup time: 0
+Execution time: 0.006666

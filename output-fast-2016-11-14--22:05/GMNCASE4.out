@@ -1,0 +1,54 @@
+sifdecoder -A pc64.lnx.gfo  GMNCASE4
+
+ Problem name: GMNCASE4
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 350 linear inequality constraints
+ 
+ There are 175 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-fast-2016-11-14--22:05
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1 variables
+NOPE preprocessing removed 2 contraints
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Showing
+**********************************************************
+Problem name: GMNCASE4
+
+Number of Variables: 174
+Number of Constraints: 348
+             Equality: 0
+           has_inequality: 348
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = 16740.5
+|c(x)| = 7.45541e-07
+|g(x) + J(x)'*y| = 1.56191e-07
+y offset = 0.170319
+Number of Iterations = 2
+Elapsed Time = 5.54223 s
+Normal iterations = 6
+Average number of normal iterations = 3
+Maximum number of normal iterations during one iteration = 5
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 262
+Average number of restorations per normal iteration = 43
+**********************************************************
+Done
+Setup time: 0.173333
+Execution time: 5.66

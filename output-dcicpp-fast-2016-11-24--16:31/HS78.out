@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  HS78
+
+ Problem name: HS78
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 3 nonlinear equality constraints
+ 
+ There are 5 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HS78    
+
+Number of Variables: 5
+Number of Constraints: 3
+             Equality: 3
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = -2.9197
+|c(x)| = 4.90327e-12
+|g(x) + J(x)'*y| = 8.23085e-08
+|J(x)'c(x)| = 6.4641e-05
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 0.000289679 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):      16 (5, 11)
+  Gradient     (*ofg):            8
+  Constraints  (cfn, ccfsg):     16 (5, 11)
+  Jacobian     (ccfsg):           7
+  Hessian prod (*hprod):          2
+
+Normal iterations = 4
+Average number of normal iterations = 1.33333
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 1
+Restorations = 4
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: -5.66244e-13

@@ -1,0 +1,59 @@
+sifdecoder -A pc64.lnx.gfo  YAO
+
+ Problem name: YAO
+
+ Double precision version will be formed
+
+ The objective function uses 2002 nonlinear groups
+ 
+ There are 2000 linear inequality constraints
+ 
+ There are 1999 free variables
+ There is 1 variable bounded only from below 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-dci-fail-2016-11-25--18:56
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: YAO     
+
+Number of Variables: 2000
+Number of Constraints: 2000
+             Equality: 0
+           has_inequality: 2000
+
+EXIT: The maximum number of restorarions was reached
+f(x) = 245.053
+|c(x)| = 0.0297186
+|g(x) + J(x)'*y| = 0.0864616
+|J(x)'c(x)| = 0.000113212
+y offset = 8.2465e-06
+Number of Iterations = 31
+Elapsed Time = 10.4306 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):     419 (354, 65)
+  Gradient     (*ofg):           34
+  Constraints  (cfn, ccfsg):  12535 (354, 12181)
+  Jacobian     (ccfsg):        1915
+  Hessian prod (*hprod):        701
+
+Normal iterations = 9
+Average number of normal iterations = 0.290323
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 22
+Iterations with 1  normal iteration  = 9
+Iterations with 2+ normal iterations = 0
+Restorations = 10266
+Average number of restorations per normal iteration = 1140
+**********************************************************
+Done
+Setup time: 0.05
+Execution time: 10.6367

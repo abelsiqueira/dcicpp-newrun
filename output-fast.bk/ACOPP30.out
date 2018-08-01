@@ -1,0 +1,41 @@
+sifdecoder -A pc64.lnx.gfo  ACOPP30
+
+ Problem name: ACOPP30
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 60 nonlinear equality constraints
+ There are 82 nonlinear inequality constraints
+ 
+ There are 30 free variables
+ There are 42 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/projetos/dcicpp-newrun/output
+No tools
+**********************************************************
+Problem name: ACOPP30 
+
+Number of Variables: 72
+Number of Constraints: 142
+             Equality: 60
+           has_inequality: 82
+
+EXIT: The Algorithm has Converged
+f(x) = 576.892
+|c(x)| = 8.13911e-12
+|g(x) + J(x)'*y| = 5.32653e-07
+y offset = 4.26967e-05
+Number of Iterations = 19
+Elapsed Time = 0.123827 s
+Normal iterations = 9
+Average number of normal iterations = 0.473684
+Maximum number of normal iterations during one iteration = 1
+Iterations with = 1 normal iterations = 9
+Iterations with <= 1 normal iterations = 19
+**********************************************************
+Setup time: 0.006666
+Execution time: 0.369999

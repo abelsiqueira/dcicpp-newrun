@@ -1,0 +1,31 @@
+sifdecoder -A pc64.lnx.gfo  HS109
+
+ Problem name: HS109
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 2 linear inequality constraints
+ There are 6 nonlinear equality constraints
+ There are 2 nonlinear inequality constraints
+ 
+ There are 2 variables bounded only from below 
+ There are 7 variables bounded from below and above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-22--17:51
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Exception: f is nan

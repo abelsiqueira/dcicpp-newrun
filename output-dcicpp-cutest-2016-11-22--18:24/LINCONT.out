@@ -1,0 +1,33 @@
+sifdecoder -A pc64.lnx.gfo  LINCONT
+
+ Problem name: LINCONT
+
+ Double precision version will be formed
+
+ The objective function uses 2 linear groups
+ 
+ There are 419 linear equality constraints
+ 
+ There are 249 free variables
+ There are 1008 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 1008 variables
+Starting
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719

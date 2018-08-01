@@ -1,0 +1,58 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELBE
+
+ Problem name: HIMMELBE
+
+ Double precision version will be formed
+
+ 
+ There are 2 linear equality constraints
+ There is 1 nonlinear equality constraint
+ 
+ There are 3 free variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:31
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+NOPE preprocessing removed 2 contraints
+Starting
+Solving
+Showing
+**********************************************************
+Problem name: HIMMELBE
+
+Number of Variables: 1
+Number of Constraints: 1
+             Equality: 1
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+f(x) = 0
+|c(x)| = 0
+|g(x) + J(x)'*y| = 0
+|J(x)'c(x)| = 1
+y offset = 0
+Number of Iterations = 1
+Elapsed Time = 0.00021553 s
+
+Function evaluations:
+  Objective    (*fn, *ofg):       7 (3, 4)
+  Gradient     (*ofg):            3
+  Constraints  (cfn, ccfsg):      6 (3, 3)
+  Jacobian     (ccfsg):           2
+  Hessian prod (*hprod):          0
+
+Normal iterations = 1
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 0
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 0
+Restorations = 1
+Average number of restorations per normal iteration = 1
+**********************************************************
+Done
+Setup time: 0
+Execution time: -5.66244e-13

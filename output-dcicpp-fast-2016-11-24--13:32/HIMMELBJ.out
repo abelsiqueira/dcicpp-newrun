@@ -1,0 +1,102 @@
+sifdecoder -A pc64.lnx.gfo  HIMMELBJ
+
+ Problem name: HIMMELBJ
+
+ Double precision version will be formed
+
+ The objective function uses 1 nonlinear group
+ 
+ There are 14 linear equality constraints
+ 
+ There are 43 variables bounded only from below 
+ There are 2 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--13:32
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 2 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 719
+ekpp/ek = 1.75199
+ekpp/ekp = 1.08453
+ekpp/ek = 1.08925
+ekpp/ekp = 1.00435
+ekpp/ek = 1.02381
+ekpp/ekp = 1.01938
+ekpp/ek = 1.24437
+ekpp/ekp = 1.22071
+ekpp/ek = 1.14728
+ekpp/ekp = 0.939843
+ekpp/ek = 0.983519
+ekpp/ekp = 1.04647
+ekpp/ek = 1.18166
+ekpp/ekp = 1.12919
+ekpp/ek = 1.0804
+ekpp/ekp = 0.956793
+ekpp/ek = 1.00619
+ekpp/ekp = 1.05163
+ekpp/ek = 1.03207
+ekpp/ekp = 0.981399
+ekpp/ek = 0.964126
+ekpp/ekp = 0.9824
+ekpp/ek = 0.975894
+ekpp/ekp = 0.993377
+ekpp/ek = 0.992406
+ekpp/ekp = 0.999022
+ekpp/ek = 0.999335
+ekpp/ekp = 1.00031
+ekpp/ek = 0.998834
+ekpp/ekp = 0.998522
+ekpp/ek = 0.999582
+ekpp/ekp = 1.00106
+ekpp/ek = 0.999869
+ekpp/ekp = 0.998809
+ekpp/ek = 0.983222
+ekpp/ekp = 0.984394
+ekpp/ek = 0.98467
+ekpp/ekp = 1.00028
+ekpp/ek = 0.990716
+ekpp/ekp = 0.990437
+ekpp/ek = 0.993069
+ekpp/ekp = 1.00266
+ekpp/ek = 1.00627
+ekpp/ekp = 1.0036
+ekpp/ek = 1.00321
+ekpp/ekp = 0.999609
+ekpp/ek = 0.9996
+ekpp/ekp = 0.999991
+Showing
+**********************************************************
+Problem name: HIMMELBJ
+
+Number of Variables: 43
+Number of Constraints: 14
+             Equality: 14
+           has_inequality: 0
+
+EXIT: The Algorithm has Converged
+Cholesky failed
+f(x) = -1910.34
+|c(x)| = 2.65699e-07
+|g(x) + J(x)'*y| = 4.74829e-08
+y offset = 0
+Number of Iterations = 27
+Elapsed Time = 0.00984669 s
+Normal iterations = 2
+Average number of normal iterations = 0.0740741
+Maximum number of normal iterations during one iteration = 1
+Iterations with 0  normal iterations = 25
+Iterations with 1  normal iteration  = 2
+Iterations with 2+ normal iterations = 0
+Restorations = 239
+Average number of restorations per normal iteration = 119
+**********************************************************
+Done
+Setup time: 0.003333
+Execution time: 0.039999

@@ -1,0 +1,56 @@
+sifdecoder -A pc64.lnx.gfo  DRUGDISE
+
+ Problem name: DRUGDISE
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 500 nonlinear equality constraints
+ 
+ There are 100 free variables
+ There are 300 variables bounded only from below 
+ There are 199 variables bounded from below and above 
+ There are 4 fixed variables
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+NOPE preprocessing removed 4 variables
+Starting
+Solving
+diagonal below threshold
+Status = 2
+File   = ../Core/cholmod_common.c
+Line   = 707
+Showing
+**********************************************************
+Problem name: DRUGDISE
+
+Number of Variables: 599
+Number of Constraints: 500
+             Equality: 500
+           has_inequality: 0
+
+EXIT: The maximum number of restorarions was reached
+Cholesky failed
+f(x) = 216.998
+|c(x)| = 0.000972027
+|g(x) + J(x)'*y| = 1.87578e-07
+y offset = 0
+Number of Iterations = 3
+Elapsed Time = 29.1036 s
+Normal iterations = 3
+Average number of normal iterations = 1
+Maximum number of normal iterations during one iteration = 2
+Iterations with 0  normal iterations = 1
+Iterations with 1  normal iteration  = 1
+Iterations with 2+ normal iterations = 1
+Restorations = 10613
+Average number of restorations per normal iteration = 3537
+**********************************************************
+Done
+Setup time: 0.013332
+Execution time: 29.35

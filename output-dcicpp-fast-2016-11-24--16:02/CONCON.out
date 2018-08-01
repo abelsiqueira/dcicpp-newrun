@@ -1,0 +1,27 @@
+sifdecoder -A pc64.lnx.gfo  CONCON
+
+ Problem name: CONCON
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 7 linear equality constraints
+ There are 4 nonlinear equality constraints
+ 
+ There are 10 free variables
+ There are 5 variables bounded only from above 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-fast-2016-11-24--16:02
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
+ERROR
+assert failed
+Status = -1
+File   = assert
+Line   = -1
+Exception: assert failed

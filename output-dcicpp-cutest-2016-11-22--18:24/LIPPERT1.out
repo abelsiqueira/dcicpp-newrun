@@ -1,0 +1,21 @@
+sifdecoder -A pc64.lnx.gfo  LIPPERT1
+
+ Problem name: LIPPERT1
+
+ Double precision version will be formed
+
+ The objective function uses 1 linear group
+ 
+ There are 10000 linear equality constraints
+ There are 40000 nonlinear inequality constraints
+ 
+ There are 20200 free variables
+ There is 1 variable bounded only from below 
+ 
+ 
+ File successfully decoded
+/home/abel/documentos/dcicpp-newrun/output-dcicpp-cutest-2016-11-22--18:24
+No tools
+make: *** No rule to make target 'dcicpp'.  Stop.
+Starting
+Solving
